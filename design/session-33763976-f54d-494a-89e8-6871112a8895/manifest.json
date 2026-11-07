@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "ipollowork.deepseek-harness.design",
+  "version": "1.0.0",
+  "kind": "design",
+  "category": "site",
+  "subcategory": "website",
+  "style": "minimal",
+  "tags": [
+    "deepseek-harness",
+    "studio",
+    "english-platform",
+    "home"
+  ],
+  "surface": "design",
+  "title": "English Platform — Home",
+  "description": "Начальная страница English Platform: CEFR-диагностика, три навыка, адаптивный тест и профиль результатов.",
+  "cover": "index.html",
+  "entry": "index.html",
+  "source": {
+    "name": "iPolloWork",
+    "license": "MIT"
+  },
+  "designSystem": {
+    "tokenVersion": 1,
+    "editableGroups": [
+      "theme",
+      "background",
+      "typography",
+      "components"
+    ],
+    "tokens": "design-tokens.css",
+    "variables": []
+  },
+  "applyChecklist": [
+    "Preserve the current document structure and linked design token contract."
+  ],
+  "minimumAppVersion": "0.21.2"
+}

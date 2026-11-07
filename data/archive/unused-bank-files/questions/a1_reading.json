@@ -1,0 +1,38 @@
+[
+  {
+    "id": "reading-a1-0001",
+    "skill": "reading",
+    "cefrLevel": "A1",
+    "difficulty": -1.4,
+    "topic": "daily routines",
+    "format": "mcq-detail",
+    "stem": "Where does Ben meet Anna?",
+    "options": [
+      { "id": "a", "text": "In the park." },
+      { "id": "b", "text": "At the market." },
+      { "id": "c", "text": "At home." },
+      { "id": "d", "text": "Near the sea." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "В тексте сказано: «he meets his friend Anna in the park».",
+    "passageId": "reading-a1-passage-0001"
+  },
+  {
+    "id": "reading-a1-0002",
+    "skill": "reading",
+    "cefrLevel": "A1",
+    "difficulty": -1.1,
+    "topic": "daily routines",
+    "format": "mcq-comprehension",
+    "stem": "What do we know about Ben?",
+    "options": [
+      { "id": "a", "text": "He likes sunny days." },
+      { "id": "b", "text": "He lives in a big city." },
+      { "id": "c", "text": "He has no dog." },
+      { "id": "d", "text": "He reads at the market." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "В тексте: «Ben likes sunny days». Он живёт в маленьком городке, у него есть собака, а читает он дома — остальные варианты неверны.",
+    "passageId": "reading-a1-passage-0001"
+  }
+]

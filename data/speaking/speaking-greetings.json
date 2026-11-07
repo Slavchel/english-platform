@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "language": "en",
+  "sessionIntros": [
+    "Hi! It’s great to meet you. Ready to get started?",
+    "Hello! I’m looking forward to hearing your thoughts today.",
+    "Hey! Let’s have a relaxed conversation and see how it goes.",
+    "Hi there! Take your time and answer in your own words.",
+    "Hello! I’m glad you’re here. Let’s jump into our conversation.",
+    "Hey! I’ve got a few questions for you. Just speak naturally.",
+    "Hi! There are no perfect answers here, so just be yourself.",
+    "Hello! Let’s talk about a few everyday topics. Sound good?",
+    "Hey, welcome! I’m curious to hear what you think.",
+    "Hi there! Let’s make this feel like a friendly chat.",
+    "Hello! Feel free to take a moment to think before you answer.",
+    "Hey! Let’s get started with a few questions."
+  ],
+  "rules": {
+    "purpose": "Opening greetings for the Speaking conversation",
+    "selection": "Choose one greeting randomly at the start of each new conversation",
+    "style": "Friendly, natural, concise, conversational English",
+    "maxSentences": 2,
+    "avoidRepeating": "Avoid using the same greeting in consecutive sessions when practical"
+  }
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "reading-pre-a1-passage-01",
+    "cefrLevel": "PRE-A1",
+    "title": "At Home",
+    "genre": "simple description",
+    "topic": "home and family",
+    "text": "This is Sam. He is six. He lives with his mother and father. They have a small dog. The dog is brown. Sam likes his dog.",
+    "wordCount": 26
+  },
+  {
+    "id": "reading-pre-a1-passage-02",
+    "cefrLevel": "PRE-A1",
+    "title": "My Lunch",
+    "genre": "simple description",
+    "topic": "food",
+    "text": "I am Mia. It is lunch time. I have bread, cheese and an apple. I drink water. My friend has a banana. We eat at school.",
+    "wordCount": 26
+  },
+  {
+    "id": "reading-a1-passage-01",
+    "cefrLevel": "A1",
+    "title": "Ben's Saturday",
+    "genre": "short story",
+    "topic": "daily routines",
+    "text": "Ben is a boy. He lives in a small town near the sea with his family. On Saturdays, he helps his mother at the market in the morning. After lunch, he meets his friend Anna in the park. They play a game or run in the park. Ben likes sunny days. He can go outside and play with his dog. In the evening, he reads a book at home.",
+    "wordCount": 69
+  },
+  {
+    "id": "reading-a1-passage-02",
+    "cefrLevel": "A1",
+    "title": "A New Class",
+    "genre": "short message",
+    "topic": "school",
+    "text": "Hello! My name is Lily. I am in a new English class. There are twelve students. Our teacher is Mr Green. He is friendly and funny. We have lessons on Tuesday and Thursday. I like the class because I can talk to new people.",
+    "wordCount": 44
+  },
+  {
+    "id": "reading-a2-passage-01",
+    "cefrLevel": "A2",
+    "title": "A Weekend by the Lake",
+    "genre": "short narrative",
+    "topic": "travel and leisure",
+    "text": "Last weekend, Daniel and his cousins went to a lake outside the city. They planned to go swimming, but the water was too cold. Instead, they rented bicycles and rode along a path through the forest. They stopped for lunch at a small café. Daniel took several photos of the mountains before they went home in the evening. He said it was one of the most relaxing weekends he had had in months.",
+    "wordCount": 73
+  },
+  {
+    "id": "reading-a2-passage-02",
+    "cefrLevel": "A2",
+    "title": "A Change at the Library",
+    "genre": "informational notice",
+    "topic": "community",
+    "text": "The town library will open later than usual next Monday because workers are repairing the heating system. It will open at 1 p.m. and close at 6 p.m. Visitors can return books using the box beside the main entrance. The children's reading club will meet on Wednesday instead of Monday this week. The library apologises for any inconvenience.",
+    "wordCount": 58
+  },
+  {
+    "id": "reading-b1-passage-01",
+    "cefrLevel": "B1",
+    "title": "Learning to Cook",
+    "genre": "personal blog",
+    "topic": "skills and learning",
+    "text": "When I moved into my first flat, I realised how little I knew about cooking. At first, I depended on takeaway meals, which were expensive and often unhealthy. A colleague suggested that I choose three simple recipes and practise them until I felt confident. I started with soup, pasta and vegetable curry. After a few weeks, I could prepare dinner without checking the instructions every minute. Cooking has not become my favourite hobby, but it has made everyday life easier and helped me save money.",
+    "wordCount": 85
+  },
+  {
+    "id": "reading-b1-passage-02",
+    "cefrLevel": "B1",
+    "title": "The Community Garden",
+    "genre": "local news article",
+    "topic": "environment and community",
+    "text": "A group of residents has transformed an unused piece of land into a community garden. Volunteers meet every Saturday to plant vegetables, remove weeds and repair the paths. The project began when neighbours noticed that the area was often filled with rubbish. The garden now provides fresh produce for local families, and a nearby school uses it for science lessons. Organisers say the greatest achievement is not the vegetables but the stronger relationships between people who previously hardly spoke to one another.",
+    "wordCount": 82
+  },
+  {
+    "id": "reading-b2-passage-01",
+    "cefrLevel": "B2",
+    "title": "The Case for Slower Travel",
+    "genre": "opinion article",
+    "topic": "travel and sustainability",
+    "text": "The popularity of short breaks has made it possible to visit several cities in a single week. Yet this approach can turn travel into a checklist rather than an experience. Spending longer in one place may allow visitors to understand local routines, support independent businesses and reduce the pressure to move constantly. Slower travel is not automatically cheaper or more sustainable; the distance travelled and the transport used still matter. Nevertheless, choosing fewer destinations can encourage a more thoughtful relationship with the places we visit.",
+    "wordCount": 85
+  },
+  {
+    "id": "reading-b2-passage-02",
+    "cefrLevel": "B2",
+    "title": "Remote Work and Belonging",
+    "genre": "feature article",
+    "topic": "work and technology",
+    "text": "Remote work has widened access to jobs for people who live far from major employment centres. It can also give employees greater control over their schedules. However, flexibility does not guarantee a sense of belonging. New staff may find it harder to build informal relationships, while complex discussions can become tiring when every interaction takes place through a screen. Some organisations have responded by arranging purposeful in-person meetings rather than requiring employees to attend an office every day. The challenge is to design communication around the work itself, not simply to reproduce office habits online.",
+    "wordCount": 95
+  },
+  {
+    "id": "reading-c1-passage-01",
+    "cefrLevel": "C1",
+    "title": "The Limits of Measuring Productivity",
+    "genre": "analytical essay",
+    "topic": "work and society",
+    "text": "Organisations increasingly rely on measurable indicators to assess productivity. Such metrics can reveal patterns that would otherwise remain invisible, but they can also distort the behaviour they are intended to evaluate. When employees know that speed is rewarded, for instance, they may prioritise easily counted tasks over less visible work such as mentoring or preventing future problems. The issue is not that measurement is inherently misguided; rather, a metric becomes misleading when treated as a complete representation of a complex activity. Effective evaluation therefore requires a combination of quantitative evidence, professional judgement and regular reconsideration of what an organisation actually values.",
+    "wordCount": 101
+  },
+  {
+    "id": "reading-c1-passage-02",
+    "cefrLevel": "C1",
+    "title": "Preserving Urban Memory",
+    "genre": "cultural commentary",
+    "topic": "culture and urban development",
+    "text": "Debates about urban renewal often frame preservation and development as opposing objectives. This contrast, however, obscures the possibility that a city can adapt without erasing the layers that give it character. Historic buildings need not remain untouched, nor should every familiar structure be protected regardless of its condition or use. The more demanding task is to distinguish between meaningful continuity and mere nostalgia. Public consultation can help, but only if residents are invited to shape proposals early enough to influence them. Otherwise, participation risks becoming a ceremonial exercise that legitimises decisions already made elsewhere.",
+    "wordCount": 94
+  },
+  {
+    "id": "reading-c2-passage-01",
+    "cefrLevel": "C2",
+    "title": "The Seduction of Certainty",
+    "genre": "critical essay",
+    "topic": "knowledge and reasoning",
+    "text": "Public discourse has developed an appetite for conclusions that are both immediate and categorical. Nuance, by contrast, is frequently mistaken for evasion, as though acknowledging uncertainty were equivalent to having nothing substantive to say. Yet intellectual restraint is not a retreat from judgement. It is a recognition that claims derive their force not from their confidence alone but from the quality of the distinctions on which they rest. A provisional conclusion, carefully delimited, may be more robust than an emphatic verdict whose apparent clarity depends on suppressing inconvenient evidence. The difficulty, of course, is that qualification rarely travels as efficiently as certainty.",
+    "wordCount": 102
+  },
+  {
+    "id": "reading-c2-passage-02",
+    "cefrLevel": "C2",
+    "title": "When Institutions Remember",
+    "genre": "reflective essay",
+    "topic": "institutions and history",
+    "text": "Institutions often describe themselves as repositories of collective memory, yet what they preserve is never a neutral record of the past. Archives are shaped by decisions about what merits documentation, whose testimony is considered authoritative and which absences are allowed to remain unexplained. Revisiting an institutional history therefore entails more than adding overlooked names to an established narrative. It may require questioning the categories through which evidence was originally organised. Such work can be unsettling, not least because it reveals that continuity sometimes rests on selective forgetting. A mature institution does not eliminate this tension; it makes the process of remembering open to scrutiny.",
+    "wordCount": 104
+  }
+]

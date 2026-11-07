@@ -1,0 +1,5077 @@
+[
+  {
+    "id": "reading-v2-reading-pre-a1-0001",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-01",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "How old is Sam?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Five"
+      },
+      {
+        "id": "B",
+        "text": "Six"
+      },
+      {
+        "id": "C",
+        "text": "Seven"
+      },
+      {
+        "id": "D",
+        "text": "Eight"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text explicitly states: 'He is six years old.'"
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0002",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-01",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What is the dog's name?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sam"
+      },
+      {
+        "id": "B",
+        "text": "Ben"
+      },
+      {
+        "id": "C",
+        "text": "Max"
+      },
+      {
+        "id": "D",
+        "text": "Tom"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "The text states: 'They have a dog named Max.'"
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0003",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-01",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What color is Max?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Black"
+      },
+      {
+        "id": "B",
+        "text": "Brown"
+      },
+      {
+        "id": "C",
+        "text": "White"
+      },
+      {
+        "id": "D",
+        "text": "Yellow"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text mentions: 'Max is brown and big.'"
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0004",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-01",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Where does Sam play with Max?",
+    "options": [
+      {
+        "id": "A",
+        "text": "In the park"
+      },
+      {
+        "id": "B",
+        "text": "In the garden"
+      },
+      {
+        "id": "C",
+        "text": "At school"
+      },
+      {
+        "id": "D",
+        "text": "In his bedroom"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text states: 'Sam likes to play with Max in the garden.'"
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0005",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-01",
+    "topic": "reference",
+    "format": "mcq-reading",
+    "stem": "What does 'They' refer to in the third sentence?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sam and Max"
+      },
+      {
+        "id": "B",
+        "text": "Sam, his mother, and father"
+      },
+      {
+        "id": "C",
+        "text": "The dogs"
+      },
+      {
+        "id": "D",
+        "text": "Sam's friends"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "'They' refers back to Sam and his mother and father."
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0006",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-02",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What fruit does Mia have?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A banana"
+      },
+      {
+        "id": "B",
+        "text": "An orange"
+      },
+      {
+        "id": "C",
+        "text": "A red apple"
+      },
+      {
+        "id": "D",
+        "text": "A green apple"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Mia says: 'Today I have bread, cheese and a red apple.'"
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0007",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-02",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What does Mia drink?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cold water"
+      },
+      {
+        "id": "B",
+        "text": "Milk"
+      },
+      {
+        "id": "C",
+        "text": "Fruit juice"
+      },
+      {
+        "id": "D",
+        "text": "Hot tea"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Mia states: 'I drink cold water.'"
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0008",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-02",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Who is Tom?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mia's brother"
+      },
+      {
+        "id": "B",
+        "text": "Mia's teacher"
+      },
+      {
+        "id": "C",
+        "text": "Mia's friend"
+      },
+      {
+        "id": "D",
+        "text": "Mia's father"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "The text says: 'My friend Tom has a banana and milk.'"
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0009",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-02",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Where do they eat lunch?",
+    "options": [
+      {
+        "id": "A",
+        "text": "At home"
+      },
+      {
+        "id": "B",
+        "text": "In the park"
+      },
+      {
+        "id": "C",
+        "text": "At school"
+      },
+      {
+        "id": "D",
+        "text": "In a cafe"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Mia states: 'I eat lunch at school with my friends.'"
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0010",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-02",
+    "topic": "main-idea",
+    "format": "mcq-reading",
+    "stem": "What is the text about?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mia's pet"
+      },
+      {
+        "id": "B",
+        "text": "Mia's lunch"
+      },
+      {
+        "id": "C",
+        "text": "Mia's family"
+      },
+      {
+        "id": "D",
+        "text": "Mia's toys"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The passage describes what Mia and her friend eat and drink for lunch."
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0011",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-03",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Who is with Dan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "His mother"
+      },
+      {
+        "id": "B",
+        "text": "His father"
+      },
+      {
+        "id": "C",
+        "text": "His grandfather"
+      },
+      {
+        "id": "D",
+        "text": "His sister"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "The text states: 'Dan is at the toy shop with his grandfather.'"
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0012",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-03",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What color is the fast car?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Red"
+      },
+      {
+        "id": "B",
+        "text": "Blue"
+      },
+      {
+        "id": "C",
+        "text": "Yellow"
+      },
+      {
+        "id": "D",
+        "text": "Green"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text says: 'Look at the blue car! It is fast.'"
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0013",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-03",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What does Dan buy/take home?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A blue car"
+      },
+      {
+        "id": "B",
+        "text": "A red ball"
+      },
+      {
+        "id": "C",
+        "text": "A yellow bus"
+      },
+      {
+        "id": "D",
+        "text": "A book"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text says Dan wants the red ball and goes home happy with his new red ball."
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0014",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-03",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "How is the toy shop described?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Small and old"
+      },
+      {
+        "id": "B",
+        "text": "Big and clean"
+      },
+      {
+        "id": "C",
+        "text": "Dark and cold"
+      },
+      {
+        "id": "D",
+        "text": "Quiet and empty"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text explicitly says: 'The toy shop is big and clean.'"
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0015",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-03",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "How does Dan feel when he leaves the shop?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Happy"
+      },
+      {
+        "id": "B",
+        "text": "Sad"
+      },
+      {
+        "id": "C",
+        "text": "Tired"
+      },
+      {
+        "id": "D",
+        "text": "Angry"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The final sentence states: 'Dan goes home happy...'."
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0016",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-04",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What day of the week is it?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Monday"
+      },
+      {
+        "id": "B",
+        "text": "Friday"
+      },
+      {
+        "id": "C",
+        "text": "Saturday"
+      },
+      {
+        "id": "D",
+        "text": "Sunday"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "The text begins: 'Today is Saturday.'"
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0017",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-04",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What color are the flowers?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Red"
+      },
+      {
+        "id": "B",
+        "text": "Yellow"
+      },
+      {
+        "id": "C",
+        "text": "Blue"
+      },
+      {
+        "id": "D",
+        "text": "White"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text states: 'They see yellow flowers...'"
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0018",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-04",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "How many birds do they see?",
+    "options": [
+      {
+        "id": "A",
+        "text": "One"
+      },
+      {
+        "id": "B",
+        "text": "Two"
+      },
+      {
+        "id": "C",
+        "text": "Three"
+      },
+      {
+        "id": "D",
+        "text": "Four"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "The text says: '...and three green birds.'"
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0019",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-04",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What does Lily wear on her head?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A red hat"
+      },
+      {
+        "id": "B",
+        "text": "A blue hat"
+      },
+      {
+        "id": "C",
+        "text": "A green hat"
+      },
+      {
+        "id": "D",
+        "text": "A yellow coat"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text mentions: 'Lily wears a blue hat.'"
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0020",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-04",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What time do they walk home?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Two o'clock"
+      },
+      {
+        "id": "B",
+        "text": "Three o'clock"
+      },
+      {
+        "id": "C",
+        "text": "Four o'clock"
+      },
+      {
+        "id": "D",
+        "text": "Five o'clock"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "The text explicitly states: 'They walk home at four o'clock.'"
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0021",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-05",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What color is the desk?",
+    "options": [
+      {
+        "id": "A",
+        "text": "White"
+      },
+      {
+        "id": "B",
+        "text": "Red"
+      },
+      {
+        "id": "C",
+        "text": "Yellow"
+      },
+      {
+        "id": "D",
+        "text": "Brown"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The text says: '...a white desk and a red chair.'"
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0022",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-05",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Where does the cat sleep?",
+    "options": [
+      {
+        "id": "A",
+        "text": "On the desk"
+      },
+      {
+        "id": "B",
+        "text": "On the chair"
+      },
+      {
+        "id": "C",
+        "text": "On the bed"
+      },
+      {
+        "id": "D",
+        "text": "Under the table"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "The text says: 'My yellow cat sleeps on the bed.'"
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0023",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-05",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Where are the books kept?",
+    "options": [
+      {
+        "id": "A",
+        "text": "On the bed"
+      },
+      {
+        "id": "B",
+        "text": "On the desk"
+      },
+      {
+        "id": "C",
+        "text": "On the floor"
+      },
+      {
+        "id": "D",
+        "text": "In a bag"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text mentions: 'I keep my books on the desk.'"
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0024",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-05",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What animal is in the room?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A dog"
+      },
+      {
+        "id": "B",
+        "text": "A bird"
+      },
+      {
+        "id": "C",
+        "text": "A cat"
+      },
+      {
+        "id": "D",
+        "text": "A rabbit"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "The text mentions a 'yellow cat'."
+  },
+  {
+    "id": "reading-v2-reading-pre-a1-0025",
+    "skill": "Reading",
+    "cefrLevel": "PRE-A1",
+    "passageId": "reading-v2-reading-pre-a1-passage-05",
+    "topic": "main-idea",
+    "format": "mcq-reading",
+    "stem": "How is the room described at the end?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Quiet"
+      },
+      {
+        "id": "B",
+        "text": "Noisy"
+      },
+      {
+        "id": "C",
+        "text": "Dark"
+      },
+      {
+        "id": "D",
+        "text": "Cold"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The final sentence states: 'My room is quiet.'"
+  },
+  {
+    "id": "reading-v2-reading-a1-0001",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-01",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What does Ben do on Saturday morning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "He plays tennis."
+      },
+      {
+        "id": "B",
+        "text": "He assists his mother at the market."
+      },
+      {
+        "id": "C",
+        "text": "He reads books at home."
+      },
+      {
+        "id": "D",
+        "text": "He swims in the sea."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text states that on Saturdays he wakes up early and helps his mother at the local market."
+  },
+  {
+    "id": "reading-v2-reading-a1-0002",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-01",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Where does Ben meet Anna?",
+    "options": [
+      {
+        "id": "A",
+        "text": "At the market"
+      },
+      {
+        "id": "B",
+        "text": "Near the park"
+      },
+      {
+        "id": "C",
+        "text": "At his home"
+      },
+      {
+        "id": "D",
+        "text": "At school"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text explicitly mentions that he meets Anna near the park after lunch."
+  },
+  {
+    "id": "reading-v2-reading-a1-0003",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-01",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "Why does Ben prefer sunny weather?",
+    "options": [
+      {
+        "id": "A",
+        "text": "He can spend the afternoon outdoors."
+      },
+      {
+        "id": "B",
+        "text": "Market sales are better."
+      },
+      {
+        "id": "C",
+        "text": "He can swim in the sea."
+      },
+      {
+        "id": "D",
+        "text": "He doesn't have homework."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The text notes: 'Ben enjoys sunny days because he can stay outside all afternoon.'"
+  },
+  {
+    "id": "reading-v2-reading-a1-0004",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-01",
+    "topic": "sequence",
+    "format": "mcq-reading",
+    "stem": "What is the last activity Ben does in the evening?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rides a bicycle"
+      },
+      {
+        "id": "B",
+        "text": "Cooks dinner"
+      },
+      {
+        "id": "C",
+        "text": "Reads a book"
+      },
+      {
+        "id": "D",
+        "text": "Walks by the sea"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "The sentence states that he cooks dinner with his family and reads a book before bed."
+  },
+  {
+    "id": "reading-v2-reading-a1-0005",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-01",
+    "topic": "reference",
+    "format": "mcq-reading",
+    "stem": "What does 'They' refer to in the third sentence?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ben and his mother"
+      },
+      {
+        "id": "B",
+        "text": "Ben and Anna"
+      },
+      {
+        "id": "C",
+        "text": "The people at the market"
+      },
+      {
+        "id": "D",
+        "text": "Ben's family members"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "'They' follows the sentence mentioning Ben meeting his classmate Anna."
+  },
+  {
+    "id": "reading-v2-reading-a1-0006",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-02",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "When are the English classes held?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Monday and Wednesday"
+      },
+      {
+        "id": "B",
+        "text": "Tuesday and Thursday"
+      },
+      {
+        "id": "C",
+        "text": "Friday and Saturday"
+      },
+      {
+        "id": "D",
+        "text": "Every day at five o'clock"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text states: 'We meet every Tuesday and Thursday at five o'clock.'"
+  },
+  {
+    "id": "reading-v2-reading-a1-0007",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-02",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Where is Mr Green from?",
+    "options": [
+      {
+        "id": "A",
+        "text": "England"
+      },
+      {
+        "id": "B",
+        "text": "The USA"
+      },
+      {
+        "id": "C",
+        "text": "Canada"
+      },
+      {
+        "id": "D",
+        "text": "Australia"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "The text explicitly states: 'He comes from Canada...'"
+  },
+  {
+    "id": "reading-v2-reading-a1-0008",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-02",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "Why can the students understand Mr Green easily?",
+    "options": [
+      {
+        "id": "A",
+        "text": "He speaks slowly."
+      },
+      {
+        "id": "B",
+        "text": "He speaks their language."
+      },
+      {
+        "id": "C",
+        "text": "The class is very small."
+      },
+      {
+        "id": "D",
+        "text": "He uses pictures."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The text mentions: '...speaks slowly, so we understand everything.'"
+  },
+  {
+    "id": "reading-v2-reading-a1-0009",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-02",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "How many students are in the class?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Five"
+      },
+      {
+        "id": "B",
+        "text": "Ten"
+      },
+      {
+        "id": "C",
+        "text": "Twelve"
+      },
+      {
+        "id": "D",
+        "text": "Fifteen"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text states: 'There are ten students in the room.'"
+  },
+  {
+    "id": "reading-v2-reading-a1-0010",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-02",
+    "topic": "purpose",
+    "format": "mcq-reading",
+    "stem": "What is the writer's main reason for enjoying the course?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It has no homework."
+      },
+      {
+        "id": "B",
+        "text": "She gets to practice speaking."
+      },
+      {
+        "id": "C",
+        "text": "It is near her house."
+      },
+      {
+        "id": "D",
+        "text": "The teacher is quiet."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The final sentence states: 'I like this class because I can practise speaking.'"
+  },
+  {
+    "id": "reading-v2-reading-a1-0011",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-03",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Which animal was Emma's favourite?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Monkeys"
+      },
+      {
+        "id": "B",
+        "text": "Elephants"
+      },
+      {
+        "id": "C",
+        "text": "Lions"
+      },
+      {
+        "id": "D",
+        "text": "Giraffes"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "The text states: 'Emma liked the giraffes best because they were tall and quiet.'"
+  },
+  {
+    "id": "reading-v2-reading-a1-0012",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-03",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What did Emma's brother buy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A toy giraffe"
+      },
+      {
+        "id": "B",
+        "text": "An ice cream"
+      },
+      {
+        "id": "C",
+        "text": "A zoo ticket"
+      },
+      {
+        "id": "D",
+        "text": "Fruit juice"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text mentions: 'Her brother bought a small ice cream near the entrance.'"
+  },
+  {
+    "id": "reading-v2-reading-a1-0013",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-03",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "How did the family travel home?",
+    "options": [
+      {
+        "id": "A",
+        "text": "By train"
+      },
+      {
+        "id": "B",
+        "text": "By car"
+      },
+      {
+        "id": "C",
+        "text": "By bus"
+      },
+      {
+        "id": "D",
+        "text": "On foot"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "The text states: '...and returned home by bus at six o'clock.'"
+  },
+  {
+    "id": "reading-v2-reading-a1-0014",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-03",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Who went to the zoo with Emma?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Her friends and teacher"
+      },
+      {
+        "id": "B",
+        "text": "Her brother and parents"
+      },
+      {
+        "id": "C",
+        "text": "Her grandparents"
+      },
+      {
+        "id": "D",
+        "text": "Her classmates"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The first sentence states she visited the zoo with her brother and parents."
+  },
+  {
+    "id": "reading-v2-reading-a1-0015",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-03",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "Did Emma enjoy the zoo trip?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Yes, she wants to go back next month."
+      },
+      {
+        "id": "B",
+        "text": "No, it was too crowded."
+      },
+      {
+        "id": "C",
+        "text": "No, she was tired of walking."
+      },
+      {
+        "id": "D",
+        "text": "The text does not say."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The final sentence notes she wants to visit the zoo again next month, showing she enjoyed it."
+  },
+  {
+    "id": "reading-v2-reading-a1-0016",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-04",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Where do the grandparents live?",
+    "options": [
+      {
+        "id": "A",
+        "text": "In a big city"
+      },
+      {
+        "id": "B",
+        "text": "On a farm in the countryside"
+      },
+      {
+        "id": "C",
+        "text": "Near a beach resort"
+      },
+      {
+        "id": "D",
+        "text": "Next to a school"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text states: 'My grandparents live on a small farm in the countryside.'"
+  },
+  {
+    "id": "reading-v2-reading-a1-0017",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-04",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What does the grandfather collect every morning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fresh milk"
+      },
+      {
+        "id": "B",
+        "text": "Fresh eggs"
+      },
+      {
+        "id": "C",
+        "text": "Apples"
+      },
+      {
+        "id": "D",
+        "text": "Vegetables"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text explicitly says: '...my grandfather collects fresh eggs for breakfast.'"
+  },
+  {
+    "id": "reading-v2-reading-a1-0018",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-04",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "How long does the writer stay on the farm in summer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Two days"
+      },
+      {
+        "id": "B",
+        "text": "One week"
+      },
+      {
+        "id": "C",
+        "text": "Two weeks"
+      },
+      {
+        "id": "D",
+        "text": "One month"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "The text mentions: 'In the summer, I stay with them for two weeks.'"
+  },
+  {
+    "id": "reading-v2-reading-a1-0019",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-04",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Which animals are NOT mentioned on the farm?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chickens"
+      },
+      {
+        "id": "B",
+        "text": "Horses"
+      },
+      {
+        "id": "C",
+        "text": "Cows"
+      },
+      {
+        "id": "D",
+        "text": "A dog"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "The text lists ten chickens, two horses, and a grey dog; cows are not mentioned."
+  },
+  {
+    "id": "reading-v2-reading-a1-0020",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-04",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What does the writer do to help on the farm?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Feeds animals and waters plants"
+      },
+      {
+        "id": "B",
+        "text": "Bakes bread"
+      },
+      {
+        "id": "C",
+        "text": "Drives a tractor"
+      },
+      {
+        "id": "D",
+        "text": "Sells eggs at the market"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The final sentence states: 'I help feed the animals and water the garden plants.'"
+  },
+  {
+    "id": "reading-v2-reading-a1-0021",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-05",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What type of movie did Peter and his friends watch?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A comedy about animals"
+      },
+      {
+        "id": "B",
+        "text": "A movie about space travellers"
+      },
+      {
+        "id": "C",
+        "text": "A historical drama"
+      },
+      {
+        "id": "D",
+        "text": "A scary ghost story"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text says: 'They watched an exciting film about space travellers.'"
+  },
+  {
+    "id": "reading-v2-reading-a1-0022",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-05",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "Why were the cinema tickets cheap?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because they were students."
+      },
+      {
+        "id": "B",
+        "text": "Because they bought them online."
+      },
+      {
+        "id": "C",
+        "text": "Because the cinema was old."
+      },
+      {
+        "id": "D",
+        "text": "Because it was a Tuesday."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text explains: 'The tickets were cheap because they bought them online.'"
+  },
+  {
+    "id": "reading-v2-reading-a1-0023",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-05",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What food/drink did they consume during the film?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pizza and soda"
+      },
+      {
+        "id": "B",
+        "text": "Popcorn and fruit juice"
+      },
+      {
+        "id": "C",
+        "text": "Ice cream and water"
+      },
+      {
+        "id": "D",
+        "text": "Sandwiches and tea"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text states: 'They shared popcorn and drank fruit juice during the film.'"
+  },
+  {
+    "id": "reading-v2-reading-a1-0024",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-05",
+    "topic": "sequence",
+    "format": "mcq-reading",
+    "stem": "What did they do after the movie finished?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Went straight home"
+      },
+      {
+        "id": "B",
+        "text": "Walked to a pizza restaurant"
+      },
+      {
+        "id": "C",
+        "text": "Took a bus to the park"
+      },
+      {
+        "id": "D",
+        "text": "Bought more cinema tickets"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The final sentence states: 'Afterwards, they walked to a pizza restaurant...'"
+  },
+  {
+    "id": "reading-v2-reading-a1-0025",
+    "skill": "Reading",
+    "cefrLevel": "A1",
+    "passageId": "reading-v2-reading-a1-passage-05",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Where was the cinema located?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Near the beach"
+      },
+      {
+        "id": "B",
+        "text": "In the town centre"
+      },
+      {
+        "id": "C",
+        "text": "Next to Peter's house"
+      },
+      {
+        "id": "D",
+        "text": "Inside a shopping mall"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The first sentence says they went to the cinema 'in the town centre'."
+  },
+  {
+    "id": "reading-v2-reading-a2-0001",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-01",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Why did Daniel and his cousins decide against swimming?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The lake was closed to visitors."
+      },
+      {
+        "id": "B",
+        "text": "It started raining heavily."
+      },
+      {
+        "id": "C",
+        "text": "The water temperature was too cold."
+      },
+      {
+        "id": "D",
+        "text": "They had forgotten to bring towels."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "The text explains: '...they originally planned to swim, but the water was far too cold for May.'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0002",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-01",
+    "topic": "sequence",
+    "format": "mcq-reading",
+    "stem": "What activity did they do instead of swimming?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rented bicycles and rode in the forest"
+      },
+      {
+        "id": "B",
+        "text": "Went shopping in a nearby village"
+      },
+      {
+        "id": "C",
+        "text": "Climbed up the mountains"
+      },
+      {
+        "id": "D",
+        "text": "Visited a local art gallery"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The text states: 'Instead, they rented bicycles... and rode along a scenic path through the forest.'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0003",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-01",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Where did they eat lunch?",
+    "options": [
+      {
+        "id": "A",
+        "text": "At a forest café"
+      },
+      {
+        "id": "B",
+        "text": "At a picnic area near the water"
+      },
+      {
+        "id": "C",
+        "text": "Inside the bike rental shop"
+      },
+      {
+        "id": "D",
+        "text": "At Daniel's home"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text notes they stopped for lunch 'at a picnic area overlooking the water.'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0004",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-01",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What did Daniel do before returning home in the evening?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bought souvenirs"
+      },
+      {
+        "id": "B",
+        "text": "Swam in the lake"
+      },
+      {
+        "id": "C",
+        "text": "Took photographs of the mountains"
+      },
+      {
+        "id": "D",
+        "text": "Repaired his bicycle"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "The passage notes: '...Daniel took several photos of the surrounding mountains.'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0005",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-01",
+    "topic": "vocabulary-in-context",
+    "format": "mcq-reading",
+    "stem": "In the text, what does 'scenic' most likely mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dangerous and narrow"
+      },
+      {
+        "id": "B",
+        "text": "Beautiful and pleasant to view"
+      },
+      {
+        "id": "C",
+        "text": "Very long and boring"
+      },
+      {
+        "id": "D",
+        "text": "Crowded with people"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "In context, a 'scenic path through the forest' describes an attractive, visually pleasant route."
+  },
+  {
+    "id": "reading-v2-reading-a2-0006",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-02",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Why will the library open late next Monday?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Staff training"
+      },
+      {
+        "id": "B",
+        "text": "Heating system maintenance"
+      },
+      {
+        "id": "C",
+        "text": "Cleaning services"
+      },
+      {
+        "id": "D",
+        "text": "A public holiday"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The notice states: '...due to maintenance work on the heating system.'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0007",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-02",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What time will the library open on Monday?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9:00 a.m."
+      },
+      {
+        "id": "B",
+        "text": "11:00 a.m."
+      },
+      {
+        "id": "C",
+        "text": "1:00 p.m."
+      },
+      {
+        "id": "D",
+        "text": "6:00 p.m."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "The notice states: 'Opening hours will be from 1:00 p.m. to 6:00 p.m.'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0008",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-02",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "How can visitors return books while the library is closed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "By post"
+      },
+      {
+        "id": "B",
+        "text": "Using the drop box near the front door"
+      },
+      {
+        "id": "C",
+        "text": "Giving them to security guards"
+      },
+      {
+        "id": "D",
+        "text": "They must wait until Tuesday morning."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text says: 'Visitors can return borrowed books using the drop box next to the front door.'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0009",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-02",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "When will normal operating hours return?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Monday evening"
+      },
+      {
+        "id": "B",
+        "text": "Tuesday morning"
+      },
+      {
+        "id": "C",
+        "text": "Wednesday afternoon"
+      },
+      {
+        "id": "D",
+        "text": "Next week"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The notice explicitly states: 'Regular library hours will resume on Tuesday morning.'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0010",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-02",
+    "topic": "purpose",
+    "format": "mcq-reading",
+    "stem": "What is the primary purpose of this text?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To advertise new library books"
+      },
+      {
+        "id": "B",
+        "text": "To notify the public of temporary schedule changes"
+      },
+      {
+        "id": "C",
+        "text": "To hire maintenance workers"
+      },
+      {
+        "id": "D",
+        "text": "To invite people to a reading event"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The passage is a public notice explaining altered opening times for a specific day."
+  },
+  {
+    "id": "reading-v2-reading-a2-0011",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-03",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What new hobby did Elena start two months ago?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Painting portraits"
+      },
+      {
+        "id": "B",
+        "text": "Digital photography"
+      },
+      {
+        "id": "C",
+        "text": "Video editing"
+      },
+      {
+        "id": "D",
+        "text": "Graphic design"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The first sentence says: '...Elena decided to learn digital photography.'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0012",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-03",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "How did Elena learn the basics of her hobby?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Taking evening classes at a college"
+      },
+      {
+        "id": "B",
+        "text": "Reading library books"
+      },
+      {
+        "id": "C",
+        "text": "Watching free online tutorial videos"
+      },
+      {
+        "id": "D",
+        "text": "Learning from a professional photographer friend"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "The text notes she 'watched free tutorial videos every weekend.'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0013",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-03",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "What was the main problem with Elena's initial photographs?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They were too expensive to print."
+      },
+      {
+        "id": "B",
+        "text": "They were dark or blurry."
+      },
+      {
+        "id": "C",
+        "text": "Her camera was broken."
+      },
+      {
+        "id": "D",
+        "text": "Nobody wanted to pose for her."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text says: 'At first, her photos were often dark or blurry.'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0014",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-03",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Where did Elena practise taking photos every evening?",
+    "options": [
+      {
+        "id": "A",
+        "text": "In the city park"
+      },
+      {
+        "id": "B",
+        "text": "At her school"
+      },
+      {
+        "id": "C",
+        "text": "In a studio"
+      },
+      {
+        "id": "D",
+        "text": "In her garden"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The text mentions: '...after practising in the city park every evening, she improved quickly.'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0015",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-03",
+    "topic": "sequence",
+    "format": "mcq-reading",
+    "stem": "What does Elena plan to do next month?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Buy a brand-new camera"
+      },
+      {
+        "id": "B",
+        "text": "Display her work at a youth centre"
+      },
+      {
+        "id": "C",
+        "text": "Start a paid photography business"
+      },
+      {
+        "id": "D",
+        "text": "Move to another city"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The final sentence states: '...plans to display her work at a local youth centre next month.'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0016",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-04",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "How often is the Riverdale street food festival held?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every month"
+      },
+      {
+        "id": "B",
+        "text": "Once a year in October"
+      },
+      {
+        "id": "C",
+        "text": "Every weekend"
+      },
+      {
+        "id": "D",
+        "text": "Twice every summer"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text opens with: 'Every October, the town of Riverdale hosts an annual street food festival.'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0017",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-04",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Where do vendors set up their stalls?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inside the town hall"
+      },
+      {
+        "id": "B",
+        "text": "Along the main square"
+      },
+      {
+        "id": "C",
+        "text": "In the city park"
+      },
+      {
+        "id": "D",
+        "text": "Next to the river"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text states: 'Local chefs and vendors set up stalls along the main square...'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0018",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-04",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What entertainment is available at the festival?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Outdoor cinema screenings"
+      },
+      {
+        "id": "B",
+        "text": "Live musicians playing traditional songs"
+      },
+      {
+        "id": "C",
+        "text": "Cooking competitions"
+      },
+      {
+        "id": "D",
+        "text": "Dance workshops"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text states: 'Live musicians play traditional songs throughout the evening.'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0019",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-04",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "How much does it cost to enter the festival area?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entry is completely free."
+      },
+      {
+        "id": "B",
+        "text": "Five dollars per person"
+      },
+      {
+        "id": "C",
+        "text": "Visitors buy one ticket for all food."
+      },
+      {
+        "id": "D",
+        "text": "It is free only for children."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The sentence specifies: 'Entry to the festival is free, though visitors must pay for individual food items.'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0020",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-04",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "Which types of food can visitors sample at the stalls?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only local traditional soups"
+      },
+      {
+        "id": "B",
+        "text": "Dishes from various international cuisines"
+      },
+      {
+        "id": "C",
+        "text": "Fast food burger chains only"
+      },
+      {
+        "id": "D",
+        "text": "Vegetable salads exclusively"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text mentions dishes from around the world, such as fresh pasta, spicy curry, and pastries."
+  },
+  {
+    "id": "reading-v2-reading-a2-0021",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-05",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Why are buses and trains often faster than cars during morning peak hours?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They drive at higher speed limits."
+      },
+      {
+        "id": "B",
+        "text": "They bypass traffic congestion."
+      },
+      {
+        "id": "C",
+        "text": "They make fewer stops."
+      },
+      {
+        "id": "D",
+        "text": "Roads are closed to private vehicles."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text notes that public transport options 'are often faster... because they avoid traffic jams.'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0022",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-05",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What is mentioned as a financial advantage of public transport?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A monthly travel pass costs less than petrol and parking fees."
+      },
+      {
+        "id": "B",
+        "text": "Tickets are subsidized for all workers."
+      },
+      {
+        "id": "C",
+        "text": "Drivers get tax discounts."
+      },
+      {
+        "id": "D",
+        "text": "Car repairs become unnecessary."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The text states: '...buying a monthly travel pass is cheaper than paying for petrol and daily parking fees.'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0023",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-05",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What long-term environmental benefit do city officials expect?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Quieter streets at night"
+      },
+      {
+        "id": "B",
+        "text": "Lower air pollution levels"
+      },
+      {
+        "id": "C",
+        "text": "More space for city parks"
+      },
+      {
+        "id": "D",
+        "text": "Lower electricity consumption"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The final sentence states: 'City officials hope this change will also lower air pollution over time.'"
+  },
+  {
+    "id": "reading-v2-reading-a2-0024",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-05",
+    "topic": "vocabulary-in-context",
+    "format": "mcq-reading",
+    "stem": "What does the word 'peak' mean in 'peak morning hours'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Quiet and calm"
+      },
+      {
+        "id": "B",
+        "text": "Busiest and most crowded"
+      },
+      {
+        "id": "C",
+        "text": "Early before sunrise"
+      },
+      {
+        "id": "D",
+        "text": "Late afternoon"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "'Peak hours' refers to the times of day when traffic and travel volume are at their highest."
+  },
+  {
+    "id": "reading-v2-reading-a2-0025",
+    "skill": "Reading",
+    "cefrLevel": "A2",
+    "passageId": "reading-v2-reading-a2-passage-05",
+    "topic": "main-idea",
+    "format": "mcq-reading",
+    "stem": "What is the primary topic of this passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The danger of city driving"
+      },
+      {
+        "id": "B",
+        "text": "Reasons why urban commuters switch to public transport"
+      },
+      {
+        "id": "C",
+        "text": "How to buy monthly train passes"
+      },
+      {
+        "id": "D",
+        "text": "The history of urban buses"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The passage outlines time, financial, and environmental motives for using public transit instead of driving."
+  },
+  {
+    "id": "reading-v2-reading-b1-0001",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-01",
+    "topic": "main-idea",
+    "format": "mcq-reading",
+    "stem": "What is the writer's primary message about learning to cook?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cooking professionally requires years of intensive training."
+      },
+      {
+        "id": "B",
+        "text": "Mastering a small set of basic dishes can improve daily life and finances."
+      },
+      {
+        "id": "C",
+        "text": "Takeaway meals are always superior in nutrition."
+      },
+      {
+        "id": "D",
+        "text": "Vegetable curry is the easiest dish for beginners."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The author explains how focusing on three basic recipes made daily routines easier and saved money."
+  },
+  {
+    "id": "reading-v2-reading-b1-0002",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-01",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "Why did the colleague suggest practicing only three recipes at first?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To keep learning manageable until confidence developed"
+      },
+      {
+        "id": "B",
+        "text": "Because other ingredients were unavailable"
+      },
+      {
+        "id": "C",
+        "text": "To prepare for a professional culinary exam"
+      },
+      {
+        "id": "D",
+        "text": "To avoid using kitchen appliances"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Starting with a small number of dishes allowed the writer to practice repeatedly until comfortable."
+  },
+  {
+    "id": "reading-v2-reading-b1-0003",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-01",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Which dish was NOT included in the writer's initial recipe list?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tomato soup"
+      },
+      {
+        "id": "B",
+        "text": "Pasta"
+      },
+      {
+        "id": "C",
+        "text": "Vegetable curry"
+      },
+      {
+        "id": "D",
+        "text": "Roast chicken"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "The text lists tomato soup, pasta, and vegetable curry; roast chicken is not mentioned."
+  },
+  {
+    "id": "reading-v2-reading-b1-0004",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-01",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What were the main drawbacks of relying on takeaway meals, according to the author?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They took too long to arrive."
+      },
+      {
+        "id": "B",
+        "text": "They were expensive and unhealthy."
+      },
+      {
+        "id": "C",
+        "text": "They lacked variety in flavor."
+      },
+      {
+        "id": "D",
+        "text": "They caused arguments with roommates."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text explicitly states takeaways 'proved to be both expensive and unhealthy over time.'"
+  },
+  {
+    "id": "reading-v2-reading-b1-0005",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-01",
+    "topic": "author-attitude",
+    "format": "mcq-reading",
+    "stem": "How does the writer feel about cooking now?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It has become their favorite passion."
+      },
+      {
+        "id": "B",
+        "text": "They still strongly dislike it."
+      },
+      {
+        "id": "C",
+        "text": "They view it as a practical skill that simplified life."
+      },
+      {
+        "id": "D",
+        "text": "They plan to open a restaurant."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "The author notes that while cooking is not their favorite hobby, it simplified life and saved money."
+  },
+  {
+    "id": "reading-v2-reading-b1-0006",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-02",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "When do volunteers gather at the garden?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every weekday afternoon"
+      },
+      {
+        "id": "B",
+        "text": "Every Saturday morning"
+      },
+      {
+        "id": "C",
+        "text": "Once a month on Sunday"
+      },
+      {
+        "id": "D",
+        "text": "Every Friday evening"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text states: 'Every Saturday morning, volunteers assemble to plant seasonal vegetables...'"
+  },
+  {
+    "id": "reading-v2-reading-b1-0007",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-02",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "What originally motivated residents to start the garden project?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A request from the local town council"
+      },
+      {
+        "id": "B",
+        "text": "Concern over an unused lot being filled with trash"
+      },
+      {
+        "id": "C",
+        "text": "A desire to sell organic produce commercially"
+      },
+      {
+        "id": "D",
+        "text": "A school competition"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text notes the initiative started after neighbours noticed the empty lot became a spot for discarded rubbish."
+  },
+  {
+    "id": "reading-v2-reading-b1-0008",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-02",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "How does a local primary school utilize the garden?",
+    "options": [
+      {
+        "id": "A",
+        "text": "For physical education classes"
+      },
+      {
+        "id": "B",
+        "text": "For practical science lessons"
+      },
+      {
+        "id": "C",
+        "text": "As a playground during recess"
+      },
+      {
+        "id": "D",
+        "text": "To host weekend art fairs"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text specifies: '...a nearby primary school uses the space for practical science lessons.'"
+  },
+  {
+    "id": "reading-v2-reading-b1-0009",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-02",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "What do organisers consider the most meaningful achievement of the project?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The large volume of harvested food"
+      },
+      {
+        "id": "B",
+        "text": "The financial profits from selling vegetables"
+      },
+      {
+        "id": "C",
+        "text": "Stronger relationships among local neighbours"
+      },
+      {
+        "id": "D",
+        "text": "Winning an environmental award"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Organisers explicitly emphasize that 'their greatest success is... the strong social connections forged among neighbours'."
+  },
+  {
+    "id": "reading-v2-reading-b1-0010",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-02",
+    "topic": "vocabulary-in-context",
+    "format": "mcq-reading",
+    "stem": "What does the word 'neglected' mean in this context?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Extremely expensive"
+      },
+      {
+        "id": "B",
+        "text": "Uncared for and ignored"
+      },
+      {
+        "id": "C",
+        "text": "Beautifully landscaped"
+      },
+      {
+        "id": "D",
+        "text": "Densely populated"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "A 'neglected plot of land' refers to space that was unmaintained and abandoned to gather rubbish."
+  },
+  {
+    "id": "reading-v2-reading-b1-0011",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-03",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Why do commuters enjoy listening to audiobooks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are cheaper than print books."
+      },
+      {
+        "id": "B",
+        "text": "They are more convenient during travel than holding paper books."
+      },
+      {
+        "id": "C",
+        "text": "They contain shorter stories."
+      },
+      {
+        "id": "D",
+        "text": "They do not require internet access."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text states commuting listeners find audiobooks far more convenient than holding printed books."
+  },
+  {
+    "id": "reading-v2-reading-b1-0012",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-03",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What advantage do audiobooks offer according to the second sentence of paragraph 1?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They help people fall asleep faster."
+      },
+      {
+        "id": "B",
+        "text": "They allow multi-tasking while performing chores."
+      },
+      {
+        "id": "C",
+        "text": "They improve reading speed."
+      },
+      {
+        "id": "D",
+        "text": "They eliminate the need for headphones."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text notes audiobooks 'enable listeners to enjoy stories while doing household chores or exercising.'"
+  },
+  {
+    "id": "reading-v2-reading-b1-0013",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-03",
+    "topic": "argument-and-evidence",
+    "format": "mcq-reading",
+    "stem": "What argument do traditionalists raise against audiobooks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Audiobooks harm children's hearing."
+      },
+      {
+        "id": "B",
+        "text": "Listening to narration lacks the quiet intimacy of reading paper pages."
+      },
+      {
+        "id": "C",
+        "text": "Actors read books too quickly."
+      },
+      {
+        "id": "D",
+        "text": "Audiobooks are frequently incomplete."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The passage highlights that traditionalists argue listening to an actor lacks the quiet intimacy of turning paper pages."
+  },
+  {
+    "id": "reading-v2-reading-b1-0014",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-03",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What do publishers report regarding audiobook sales?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sales have steadily declined."
+      },
+      {
+        "id": "B",
+        "text": "Digital downloads continue to hit record sales."
+      },
+      {
+        "id": "C",
+        "text": "Print books still sell ten times more than audiobooks."
+      },
+      {
+        "id": "D",
+        "text": "Only fiction audiobooks make a profit."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text concludes that publishers report 'digital audio downloads continue to generate record sales annually.'"
+  },
+  {
+    "id": "reading-v2-reading-b1-0015",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-03",
+    "topic": "author-attitude",
+    "format": "mcq-reading",
+    "stem": "How does the author present the audiobook debate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Strongly taking the side of traditional print readers"
+      },
+      {
+        "id": "B",
+        "text": "Balanced, presenting benefits alongside traditionalist criticisms"
+      },
+      {
+        "id": "C",
+        "text": "Dismissing traditional books as outdated"
+      },
+      {
+        "id": "D",
+        "text": "Focusing exclusively on technical audio quality"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text presents both practical convenience benefits and traditionalist arguments objectively."
+  },
+  {
+    "id": "reading-v2-reading-b1-0016",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-04",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What is one benefit of remote work mentioned in the text?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Higher salaries"
+      },
+      {
+        "id": "B",
+        "text": "Flexibility and avoiding commutes"
+      },
+      {
+        "id": "C",
+        "text": "Free home office equipment"
+      },
+      {
+        "id": "D",
+        "text": "Fewer working hours per day"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text lists 'flexibility of working from home and avoiding lengthy daily commutes' as key benefits."
+  },
+  {
+    "id": "reading-v2-reading-b1-0017",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-04",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "Why might remote workers feel isolated from project goals?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They lack internet connectivity."
+      },
+      {
+        "id": "B",
+        "text": "They miss out on spontaneous office conversations."
+      },
+      {
+        "id": "C",
+        "text": "Their managers never communicate with them."
+      },
+      {
+        "id": "D",
+        "text": "They work different hours than colleagues."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The passage notes that 'without spontaneous office conversations, team members can feel isolated...'"
+  },
+  {
+    "id": "reading-v2-reading-b1-0018",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-04",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "How do companies try to maintain team cohesion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "By forcing employees back to the office full-time"
+      },
+      {
+        "id": "B",
+        "text": "By scheduling informal video calls and quarterly retreats"
+      },
+      {
+        "id": "C",
+        "text": "By eliminating team projects"
+      },
+      {
+        "id": "D",
+        "text": "By monitoring employee screens continuously"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text mentions scheduling 'informal weekly video calls and quarterly in-person retreats'."
+  },
+  {
+    "id": "reading-v2-reading-b1-0019",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-04",
+    "topic": "vocabulary-in-context",
+    "format": "mcq-reading",
+    "stem": "What does the word 'cohesion' mean in this passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unity and connection among members"
+      },
+      {
+        "id": "B",
+        "text": "Competition for promotions"
+      },
+      {
+        "id": "C",
+        "text": "Financial profit margin"
+      },
+      {
+        "id": "D",
+        "text": "Speed of task execution"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "'Team cohesion' refers to how well members stay connected, unified, and collaborative."
+  },
+  {
+    "id": "reading-v2-reading-b1-0020",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-04",
+    "topic": "main-idea",
+    "format": "mcq-reading",
+    "stem": "What is the primary message of this text?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Remote work will soon replace all traditional offices."
+      },
+      {
+        "id": "B",
+        "text": "Remote work offers flexibility but requires deliberate strategies to maintain team connection."
+      },
+      {
+        "id": "C",
+        "text": "Employees dislike working from home due to isolation."
+      },
+      {
+        "id": "D",
+        "text": "Video calls are inefficient for business communication."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The passage balances the advantages of remote work against isolation risks, describing solutions companies employ."
+  },
+  {
+    "id": "reading-v2-reading-b1-0021",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-05",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What is the primary goal of ecotourism?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To offer luxury holidays at low prices"
+      },
+      {
+        "id": "B",
+        "text": "To minimize negative environmental impacts of travel"
+      },
+      {
+        "id": "C",
+        "text": "To build massive resorts in remote locations"
+      },
+      {
+        "id": "D",
+        "text": "To promote international airline transport"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text states ecotourism is 'designed to minimize the negative environmental impacts of conventional travel.'"
+  },
+  {
+    "id": "reading-v2-reading-b1-0022",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-05",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "How do responsible tour operators support local communities?",
+    "options": [
+      {
+        "id": "A",
+        "text": "By employing only foreign workers"
+      },
+      {
+        "id": "B",
+        "text": "By providing direct financial support to indigenous residents"
+      },
+      {
+        "id": "C",
+        "text": "By buying property from locals"
+      },
+      {
+        "id": "D",
+        "text": "By building modern highways"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The passage notes operators focus on 'providing financial support directly to local indigenous communities.'"
+  },
+  {
+    "id": "reading-v2-reading-b1-0023",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-05",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Which practice is encouraged for eco-tourists?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Staying in large luxury chain hotels"
+      },
+      {
+        "id": "B",
+        "text": "Staying in eco-lodges powered by renewable energy"
+      },
+      {
+        "id": "C",
+        "text": "Traveling by private jet"
+      },
+      {
+        "id": "D",
+        "text": "Collecting wild plants as souvenirs"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Tourists are encouraged to 'stay in eco-friendly lodges powered by renewable energy.'"
+  },
+  {
+    "id": "reading-v2-reading-b1-0024",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-05",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "What concern do experts express about the future of ecotourism?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It will become too expensive for most tourists."
+      },
+      {
+        "id": "B",
+        "text": "Overcrowding could damage fragile ecosystems."
+      },
+      {
+        "id": "C",
+        "text": "Local communities will reject tourists."
+      },
+      {
+        "id": "D",
+        "text": "Renewable energy will become unavailable."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The final sentence cautions that 'if ecotourism becomes overcrowded, it risks destroying the fragile ecosystems...'"
+  },
+  {
+    "id": "reading-v2-reading-b1-0025",
+    "skill": "Reading",
+    "cefrLevel": "B1",
+    "passageId": "reading-v2-reading-b1-passage-05",
+    "topic": "author-purpose",
+    "format": "mcq-reading",
+    "stem": "What is the author's purpose in writing this article?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To advertise a specific eco-friendly resort"
+      },
+      {
+        "id": "B",
+        "text": "To explain the principles and potential risks of ecotourism"
+      },
+      {
+        "id": "C",
+        "text": "To discourage people from traveling abroad"
+      },
+      {
+        "id": "D",
+        "text": "To criticize traditional hotel chains"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The author objectively describes ecotourism's positive ideals along with the caution regarding overcrowding."
+  },
+  {
+    "id": "reading-v2-reading-b2-0001",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-01",
+    "topic": "main-argument",
+    "format": "mcq-reading",
+    "stem": "What is the primary argument against rapid weekend getaways?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are prohibitively expensive for most travelers."
+      },
+      {
+        "id": "B",
+        "text": "They reduce travel to a superficial checklist of sights rather than a meaningful experience."
+      },
+      {
+        "id": "C",
+        "text": "They cause major disruptions to international flight schedules."
+      },
+      {
+        "id": "D",
+        "text": "They prevent tourists from spending money at local businesses."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The essay explicitly contends that rapid travel 'reduces travel to a superficial checklist of landmarks rather than an enriching cultural experience.'"
+  },
+  {
+    "id": "reading-v2-reading-b2-0002",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-01",
+    "topic": "qualification",
+    "format": "mcq-reading",
+    "stem": "How does the author qualify the claim that slow travel is environmentally friendly?",
+    "options": [
+      {
+        "id": "A",
+        "text": "By pointing out that transport mode and total distance still impact sustainability."
+      },
+      {
+        "id": "B",
+        "text": "By arguing that slow travelers consume more energy in hotels."
+      },
+      {
+        "id": "C",
+        "text": "By proving that train travel is worse than flying."
+      },
+      {
+        "id": "D",
+        "text": "By asserting that slow travel is only possible in winter."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The text notes slow travel is not automatically sustainable because 'the choice of transport and total distance travelled remain critical environmental factors.'"
+  },
+  {
+    "id": "reading-v2-reading-b2-0003",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-01",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "What benefit does spending longer in one destination offer to local economies?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It lowers the prices of local goods."
+      },
+      {
+        "id": "B",
+        "text": "It enables travelers to support small independent businesses."
+      },
+      {
+        "id": "C",
+        "text": "It forces large international hotel chains to close."
+      },
+      {
+        "id": "D",
+        "text": "It reduces local sales taxes."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text highlights that staying longer allows travelers to 'support independent businesses'."
+  },
+  {
+    "id": "reading-v2-reading-b2-0004",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-01",
+    "topic": "vocabulary-in-context",
+    "format": "mcq-reading",
+    "stem": "What does the word 'ethos' mean in the second sentence?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Financial budget"
+      },
+      {
+        "id": "B",
+        "text": "Guiding belief or philosophy"
+      },
+      {
+        "id": "C",
+        "text": "Physical luggage"
+      },
+      {
+        "id": "D",
+        "text": "Travel schedule"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "In this context, 'ethos' refers to the underlying principle or philosophy guiding the slow travel movement."
+  },
+  {
+    "id": "reading-v2-reading-b2-0005",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-01",
+    "topic": "author-attitude",
+    "format": "mcq-reading",
+    "stem": "What best describes the author's attitude toward 'slow travel'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uncritical advocacy without reservations"
+      },
+      {
+        "id": "B",
+        "text": "Measured endorsement while recognizing practical nuances"
+      },
+      {
+        "id": "C",
+        "text": "Total indifference to travel trends"
+      },
+      {
+        "id": "D",
+        "text": "Outright rejection of modern tourism"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The author promotes slow travel for deeper engagement while realistically acknowledging that transport distance still matters."
+  },
+  {
+    "id": "reading-v2-reading-b2-0006",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-02",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What challenge do recent hires often encounter in hybrid work environments?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inability to access digital tools"
+      },
+      {
+        "id": "B",
+        "text": "Greater difficulty forming informal professional connections"
+      },
+      {
+        "id": "C",
+        "text": "Strict enforcement of uniform dress codes"
+      },
+      {
+        "id": "D",
+        "text": "Lower overall compensation"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The passage notes: 'New hires frequently report greater difficulty establishing informal professional networks...'"
+  },
+  {
+    "id": "reading-v2-reading-b2-0007",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-02",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "Why are progressive companies replacing attendance quotas with intentional workshops?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To reduce heating and electricity bills in office buildings"
+      },
+      {
+        "id": "B",
+        "text": "To ensure in-person time serves purposeful collaborative needs rather than routine presence"
+      },
+      {
+        "id": "C",
+        "text": "To prevent employees from talking to one another"
+      },
+      {
+        "id": "D",
+        "text": "To prepare staff for fully permanent remote work"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text states the objective is to 'align physical presence with genuine operational necessity rather than attempting to replicate legacy office norms'."
+  },
+  {
+    "id": "reading-v2-reading-b2-0008",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-02",
+    "topic": "argument-and-evidence",
+    "format": "mcq-reading",
+    "stem": "According to the passage, what is a major drawback of relying exclusively on digital platforms for complex work?",
+    "options": [
+      {
+        "id": "A",
+        "text": "File sharing is too slow."
+      },
+      {
+        "id": "B",
+        "text": "Complex collaborative discussions become mentally exhausting."
+      },
+      {
+        "id": "C",
+        "text": "Screen time damages eye health."
+      },
+      {
+        "id": "D",
+        "text": "Meetings are frequently canceled."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text highlights that 'complex collaborative sessions can prove exhausting when conducted exclusively through digital platforms.'"
+  },
+  {
+    "id": "reading-v2-reading-b2-0009",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-02",
+    "topic": "vocabulary-in-context",
+    "format": "mcq-reading",
+    "stem": "What does the word 'autonomy' mean in paragraph 1?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Financial dependence"
+      },
+      {
+        "id": "B",
+        "text": "Personal independence and control"
+      },
+      {
+        "id": "C",
+        "text": "Strict supervision"
+      },
+      {
+        "id": "D",
+        "text": "Automated software processing"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "'Autonomy over their schedules' refers to employees having personal control and independence over how they manage time."
+  },
+  {
+    "id": "reading-v2-reading-b2-0010",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-02",
+    "topic": "author-purpose",
+    "format": "mcq-reading",
+    "stem": "What is the author's primary conclusion regarding hybrid workplace design?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Companies should mandate five days a week in the office."
+      },
+      {
+        "id": "B",
+        "text": "Communication strategies should be designed around actual work requirements rather than legacy habits."
+      },
+      {
+        "id": "C",
+        "text": "Remote work should be restricted to senior managers."
+      },
+      {
+        "id": "D",
+        "text": "Physical offices are completely obsolete."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The final sentence concludes that the goal is to design communication around work itself, not legacy habits."
+  },
+  {
+    "id": "reading-v2-reading-b2-0011",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-03",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "How have traditional retail persuasion tactics evolved in online stores?",
+    "options": [
+      {
+        "id": "A",
+        "text": "By offering lower prices across all products"
+      },
+      {
+        "id": "B",
+        "text": "Through algorithms tracking browsing history for real-time targeted ads"
+      },
+      {
+        "id": "C",
+        "text": "By using human sales agents in live video chats"
+      },
+      {
+        "id": "D",
+        "text": "By eliminating promotional offers entirely"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text explains online tactics evolved into 'algorithms that track browsing history and deliver targeted advertisements in real time.'"
+  },
+  {
+    "id": "reading-v2-reading-b2-0012",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-03",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "Why do personalized digital Nudges often succeed in driving impulse sales?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They provide thorough product research to buyers."
+      },
+      {
+        "id": "B",
+        "text": "They exploit cognitive shortcuts that bypass deliberate evaluation."
+      },
+      {
+        "id": "C",
+        "text": "They guarantee money-back returns."
+      },
+      {
+        "id": "D",
+        "text": "They rely on physical scent cues."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The passage notes these nudges 'capitalize on cognitive shortcuts, leading consumers to make impulse purchases...'"
+  },
+  {
+    "id": "reading-v2-reading-b2-0013",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-03",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Which of the following is an example of a physical store tactic mentioned in the text?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Algorithmic recommendations"
+      },
+      {
+        "id": "B",
+        "text": "Strategic layouts and subtle background scents"
+      },
+      {
+        "id": "C",
+        "text": "Pop-up countdown timers"
+      },
+      {
+        "id": "D",
+        "text": "Email newsletters"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text mentions physical stores utilize 'strategic store layouts, subtle scents, and curated background music'."
+  },
+  {
+    "id": "reading-v2-reading-b2-0014",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-03",
+    "topic": "vocabulary-in-context",
+    "format": "mcq-reading",
+    "stem": "What does 'impulse' mean in the phrase 'impulse purchases'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Carefully planned over weeks"
+      },
+      {
+        "id": "B",
+        "text": "Unplanned and made suddenly"
+      },
+      {
+        "id": "C",
+        "text": "Bought at wholesale cost"
+      },
+      {
+        "id": "D",
+        "text": "Essential for survival"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "An 'impulse purchase' refers to buying something on a sudden whim without prior intention."
+  },
+  {
+    "id": "reading-v2-reading-b2-0015",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-03",
+    "topic": "implied-meaning",
+    "format": "mcq-reading",
+    "stem": "What benefit comes from understanding marketing psychology, according to the final sentence?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shoppers can earn higher cash-back rewards."
+      },
+      {
+        "id": "B",
+        "text": "Consumers regain conscious control and resist artificial buying pressure."
+      },
+      {
+        "id": "C",
+        "text": "Shoppers can design their own retail algorithms."
+      },
+      {
+        "id": "D",
+        "text": "Online stores will stop displaying advertisements."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Recognizing persuasion mechanisms allows individuals to 'regain conscious control... and resist artificial urgency.'"
+  },
+  {
+    "id": "reading-v2-reading-b2-0016",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-04",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What is a central feature of 'biophilic design' in architecture?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using fully synthetic building materials"
+      },
+      {
+        "id": "B",
+        "text": "Integrating natural elements like gardens and natural light into structures"
+      },
+      {
+        "id": "C",
+        "text": "Constructing taller skyscrapers to save land"
+      },
+      {
+        "id": "D",
+        "text": "Eliminating windows to reduce heat loss"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The passage defines biophilic design as 'the integration of natural elements such as vertical gardens, natural light, and rainwater collection systems'."
+  },
+  {
+    "id": "reading-v2-reading-b2-0017",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-04",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What positive physical effect does incorporating living flora onto building exteriors produce?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It reduces urban heat island effects."
+      },
+      {
+        "id": "B",
+        "text": "It doubles property size."
+      },
+      {
+        "id": "C",
+        "text": "It completely eliminates noise pollution."
+      },
+      {
+        "id": "D",
+        "text": "It generates solar electricity."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The text highlights that living flora facades 'reduces the urban heat island effect'."
+  },
+  {
+    "id": "reading-v2-reading-b2-0018",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-04",
+    "topic": "qualification",
+    "format": "mcq-reading",
+    "stem": "What warning do urbanists give regarding green infrastructure development?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is too difficult to maintain during winter."
+      },
+      {
+        "id": "B",
+        "text": "Without affordable housing policies, eco-upgrades risk triggering local gentrification."
+      },
+      {
+        "id": "C",
+        "text": "Natural light damages indoor furniture."
+      },
+      {
+        "id": "D",
+        "text": "Rainwater collection causes structural building leaks."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Urbanists emphasize green upgrades must be complemented by affordable housing to prevent 'localized gentrification'."
+  },
+  {
+    "id": "reading-v2-reading-b2-0019",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-04",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "Besides physical climate benefits, what additional impact does biophilic design have on residents?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Measurable improvements in psychological well-being"
+      },
+      {
+        "id": "B",
+        "text": "Faster internet connectivity"
+      },
+      {
+        "id": "C",
+        "text": "Higher income levels"
+      },
+      {
+        "id": "D",
+        "text": "Lower public transport usage"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Research cited in the text indicates it 'measurably improves mental well-being among residents.'"
+  },
+  {
+    "id": "reading-v2-reading-b2-0020",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-04",
+    "topic": "vocabulary-in-context",
+    "format": "mcq-reading",
+    "stem": "What does 'gentrification' mean in the context of urban planning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The rapid decay of public infrastructure"
+      },
+      {
+        "id": "B",
+        "text": "The transformation of an area causing housing cost increases that displace lower-income residents"
+      },
+      {
+        "id": "C",
+        "text": "The expansion of industrial factories into residential zones"
+      },
+      {
+        "id": "D",
+        "text": "The conversion of roads into pedestrian parks"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "In urban planning, gentrification refers to neighborhood upgrades driving up living costs, making housing unaffordable for lower-income residents."
+  },
+  {
+    "id": "reading-v2-reading-b2-0021",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-05",
+    "topic": "argument-and-evidence",
+    "format": "mcq-reading",
+    "stem": "Why do linguistic purists criticize internet slang?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They view it as proof that overall literacy standards are declining."
+      },
+      {
+        "id": "B",
+        "text": "They find digital words impossible to pronounce."
+      },
+      {
+        "id": "C",
+        "text": "They believe slang makes books too long."
+      },
+      {
+        "id": "D",
+        "text": "They think slang slows down communication speed."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The text states purists express alarm 'viewing these shifts as evidence of declining literacy standards.'"
+  },
+  {
+    "id": "reading-v2-reading-b2-0022",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-05",
+    "topic": "main-argument",
+    "format": "mcq-reading",
+    "stem": "How do professional linguists interpret changes in vocabulary?",
+    "options": [
+      {
+        "id": "A",
+        "text": "As temporary mistakes that will soon vanish"
+      },
+      {
+        "id": "B",
+        "text": "As evidence of a healthy, dynamic language adapting to culture"
+      },
+      {
+        "id": "C",
+        "text": "As a threat to foreign language learning"
+      },
+      {
+        "id": "D",
+        "text": "As proof that grammar rules are useless"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Linguists view lexical evolution 'as a sign of a dynamic, healthy language system adapting to new cultural realities.'"
+  },
+  {
+    "id": "reading-v2-reading-b2-0023",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-05",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What historical evidence does the author cite to support the linguists' perspective?",
+    "options": [
+      {
+        "id": "A",
+        "text": "English has always remained completely unchanged."
+      },
+      {
+        "id": "B",
+        "text": "English has continuously absorbed loanwords and simplified grammar over centuries."
+      },
+      {
+        "id": "C",
+        "text": "Old English had more words than modern English."
+      },
+      {
+        "id": "D",
+        "text": "Dictionaries were created to stop language change."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text points out that historical evidence shows English 'has continually absorbed foreign loanwords and simplified grammatical structures...'"
+  },
+  {
+    "id": "reading-v2-reading-b2-0024",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-05",
+    "topic": "vocabulary-in-context",
+    "format": "mcq-reading",
+    "stem": "What does the phrase 'lexical evolution' mean in this text?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The historical development and change of vocabulary"
+      },
+      {
+        "id": "B",
+        "text": "The decline of handwriting quality"
+      },
+      {
+        "id": "C",
+        "text": "The creation of scientific dictionaries"
+      },
+      {
+        "id": "D",
+        "text": "The study of speech organs"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "'Lexical evolution' refers to how words and vocabulary in a language change over time."
+  },
+  {
+    "id": "reading-v2-reading-b2-0025",
+    "skill": "Reading",
+    "cefrLevel": "B2",
+    "passageId": "reading-v2-reading-b2-passage-05",
+    "topic": "author-attitude",
+    "format": "mcq-reading",
+    "stem": "What is the author's overall stance on digital language innovations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dismissive and hostile"
+      },
+      {
+        "id": "B",
+        "text": "Accepting and viewing them as natural human adaptation"
+      },
+      {
+        "id": "C",
+        "text": "Confused and uncertain"
+      },
+      {
+        "id": "D",
+        "text": "Regretful of past language purity"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The final sentence concludes digital innovations 'reflect humanity's innate capacity to adapt language', showing positive acceptance."
+  },
+  {
+    "id": "reading-v2-reading-c1-0001",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-01",
+    "topic": "main-argument",
+    "format": "mcq-reading",
+    "stem": "What is the central problem associated with relying exclusively on productivity metrics?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Metrics are too costly to track continuously."
+      },
+      {
+        "id": "B",
+        "text": "They can incentivize behaviors that distort the essential work being evaluated."
+      },
+      {
+        "id": "C",
+        "text": "Empirical data is inherently inaccurate in business settings."
+      },
+      {
+        "id": "D",
+        "text": "Employees refuse to cooperate with tracking software."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text argues that over-reliance on quantitative metrics 'distorts the very performance it seeks to evaluate' by causing staff to neglect unmeasured quality work."
+  },
+  {
+    "id": "reading-v2-reading-c1-0002",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-01",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "Why might valuable duties like mentoring be overlooked in metric-driven workplaces?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are explicitly forbidden by administrative policies."
+      },
+      {
+        "id": "B",
+        "text": "Their value is qualitative and less easily reduced to numerical counts."
+      },
+      {
+        "id": "C",
+        "text": "Junior employees prefer not to receive advice."
+      },
+      {
+        "id": "D",
+        "text": "Mentoring takes more physical energy than analytical work."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The essay explains that when speed/counts are rewarded, staff reallocate focus away from 'qualitative, less easily measured responsibilities—such as mentoring'."
+  },
+  {
+    "id": "reading-v2-reading-c1-0003",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-01",
+    "topic": "author-purpose",
+    "format": "mcq-reading",
+    "stem": "What solution does the author recommend for fair and effective employee evaluation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abolishing all numerical metrics entirely"
+      },
+      {
+        "id": "B",
+        "text": "Combining empirical quantitative data with nuanced professional judgment"
+      },
+      {
+        "id": "C",
+        "text": "Evaluating employees based solely on tenure and seniority"
+      },
+      {
+        "id": "D",
+        "text": "Allowing employees to write their own performance reviews"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The author explicitly advocates that constructive evaluation requires 'blending empirical data with nuanced professional judgment.'"
+  },
+  {
+    "id": "reading-v2-reading-c1-0004",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-01",
+    "topic": "vocabulary-in-context",
+    "format": "mcq-reading",
+    "stem": "What does the word 'encapsulate' mean in the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To fully represent or summarize"
+      },
+      {
+        "id": "B",
+        "text": "To isolate from external influences"
+      },
+      {
+        "id": "C",
+        "text": "To hide from public view"
+      },
+      {
+        "id": "D",
+        "text": "To speed up artificially"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "In this context, 'encapsulate' means to completely capture, represent, or summarize complex professional performance."
+  },
+  {
+    "id": "reading-v2-reading-c1-0005",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-01",
+    "topic": "qualification",
+    "format": "mcq-reading",
+    "stem": "Which statement would the author most likely agree with regarding workplace metrics?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Quantitative measurement is inherently flawed and useless."
+      },
+      {
+        "id": "B",
+        "text": "Data analytics can reveal systemic issues, but should not be treated as complete truths."
+      },
+      {
+        "id": "C",
+        "text": "Speed is the single most accurate indicator of employee dedication."
+      },
+      {
+        "id": "D",
+        "text": "Subjective supervisor opinion is always superior to data."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text notes data can reveal bottlenecks, but warns against treating metrics as complete representations."
+  },
+  {
+    "id": "reading-v2-reading-c1-0006",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-02",
+    "topic": "nuance",
+    "format": "mcq-reading",
+    "stem": "What distinction does the author highlight regarding urban preservation debate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Between private property ownership and state planning"
+      },
+      {
+        "id": "B",
+        "text": "Between meaningful historical continuity and uncritical architectural nostalgia"
+      },
+      {
+        "id": "C",
+        "text": "Between residential and commercial real estate pricing"
+      },
+      {
+        "id": "D",
+        "text": "Between suburban sprawl and high-density inner cities"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The passage states that the crucial challenge lies in 'distinguishing genuine historical continuity from mere architectural nostalgia.'"
+  },
+  {
+    "id": "reading-v2-reading-c1-0007",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-02",
+    "topic": "implied-meaning",
+    "format": "mcq-reading",
+    "stem": "What is implied by calling late-stage public consultation a 'superficial consultative ritual'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Residents are given decisive authority over architectural blueprints."
+      },
+      {
+        "id": "B",
+        "text": "Consultations are conducted merely for appearance when major decisions have already been finalized."
+      },
+      {
+        "id": "C",
+        "text": "Public forums are too expensive to organize."
+      },
+      {
+        "id": "D",
+        "text": "Urban planners strictly follow public votes."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The term implies that holding consultations late in the planning phase serves only as symbolic public relations without actual influence."
+  },
+  {
+    "id": "reading-v2-reading-c1-0008",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-02",
+    "topic": "main-argument",
+    "format": "mcq-reading",
+    "stem": "What false dichotomy does the author criticize in urban renewal debates?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Framing historical preservation and modern development as mutually exclusive opposites"
+      },
+      {
+        "id": "B",
+        "text": "Viewing public transport and highway construction as equally effective"
+      },
+      {
+        "id": "C",
+        "text": "Contrasting green parks with industrial zones"
+      },
+      {
+        "id": "D",
+        "text": "Comparing European and American architectural designs"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The text begins by asserting that framing preservation and expansion as 'diametrically opposed mandates' obscures how cities can modernize while retaining historical identity."
+  },
+  {
+    "id": "reading-v2-reading-c1-0009",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-02",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "To make public participation meaningful in urban design, when should residents be involved?",
+    "options": [
+      {
+        "id": "A",
+        "text": "After construction has already commenced"
+      },
+      {
+        "id": "B",
+        "text": "Early enough in the planning phase to exert actual leverage on proposals"
+      },
+      {
+        "id": "C",
+        "text": "Only when buildings are designated for demolition"
+      },
+      {
+        "id": "D",
+        "text": "Exclusively during mayoral election cycles"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text states public consultation works 'provided residents are engaged early enough in the planning phase to exert genuine leverage...'"
+  },
+  {
+    "id": "reading-v2-reading-c1-0010",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-02",
+    "topic": "vocabulary-in-context",
+    "format": "mcq-reading",
+    "stem": "What does the word 'strata' refer to in 'historical strata'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Geological rock layers"
+      },
+      {
+        "id": "B",
+        "text": "Accumulated layers of history and culture over time"
+      },
+      {
+        "id": "C",
+        "text": "Modern high-rise residential floors"
+      },
+      {
+        "id": "D",
+        "text": "Strict legal regulations"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "'Historical strata' metaphorically describes the overlapping historical layers and eras that define a city's character."
+  },
+  {
+    "id": "reading-v2-reading-c1-0011",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-03",
+    "topic": "main-argument",
+    "format": "mcq-reading",
+    "stem": "What misconception regarding algorithmic decision-making does the passage address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The belief that algorithms process calculations too slowly"
+      },
+      {
+        "id": "B",
+        "text": "The notion that mathematical models are inherently objective and free from human bias"
+      },
+      {
+        "id": "C",
+        "text": "The idea that algorithms are too costly for judicial systems"
+      },
+      {
+        "id": "D",
+        "text": "The assumption that algorithms cannot analyze historical data"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text challenges the 'narrative of mathematical neutrality', pointing out algorithms reproduce existing societal biases contained in training data."
+  },
+  {
+    "id": "reading-v2-reading-c1-0012",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-03",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "Why do machine learning models often perpetuate historical inequalities?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because computer programmers deliberately write malicious code."
+      },
+      {
+        "id": "B",
+        "text": "Because they are trained on datasets reflecting past societal prejudices."
+      },
+      {
+        "id": "C",
+        "text": "Because algorithms lack sufficient computational power."
+      },
+      {
+        "id": "D",
+        "text": "Because historical data is completely random."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The passage asserts models are 'trained on historical data inherently infused with systemic societal biases', which amplifies past inequality."
+  },
+  {
+    "id": "reading-v2-reading-c1-0013",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-03",
+    "topic": "argument-and-evidence",
+    "format": "mcq-reading",
+    "stem": "What is required to effectively audit automated algorithmic systems?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Simply rewriting software code to run faster"
+      },
+      {
+        "id": "B",
+        "text": "A rigorous socio-technical critique of how data is defined and interpreted"
+      },
+      {
+        "id": "C",
+        "text": "Replacing all computer programmers with judicial judges"
+      },
+      {
+        "id": "D",
+        "text": "Hiding training datasets from the public"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The author explicitly states auditing requires 'a rigorous socio-technical critique of how data points are defined, collected, and interpreted'."
+  },
+  {
+    "id": "reading-v2-reading-c1-0014",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-03",
+    "topic": "vocabulary-in-context",
+    "format": "mcq-reading",
+    "stem": "What does 'arbiter' mean in 'impartial arbiters'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "An independent judge or decision-maker"
+      },
+      {
+        "id": "B",
+        "text": "A complex software language"
+      },
+      {
+        "id": "C",
+        "text": "A financial investor"
+      },
+      {
+        "id": "D",
+        "text": "A statistical error"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "An 'arbiter' is a person or authority given the power to judge or settle disputes."
+  },
+  {
+    "id": "reading-v2-reading-c1-0015",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-03",
+    "topic": "author-attitude",
+    "format": "mcq-reading",
+    "stem": "What is the author's tone concerning claims of algorithmic neutrality?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Enthusiastic and admiring"
+      },
+      {
+        "id": "B",
+        "text": "Skeptical and analytical"
+      },
+      {
+        "id": "C",
+        "text": "Indifferent and passive"
+      },
+      {
+        "id": "D",
+        "text": "Dismissive of technology entirely"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The author analytically scrutinizes tech industry claims, raising reasoned ethical objections to uncritical reliance on data."
+  },
+  {
+    "id": "reading-v2-reading-c1-0016",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-04",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What problem occurs when media outlets oversimplify scientific research?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Articles become too long to read."
+      },
+      {
+        "id": "B",
+        "text": "Tentative statistical correlations are transformed into definitive causal statements."
+      },
+      {
+        "id": "C",
+        "text": "Scientists refuse to publish further papers."
+      },
+      {
+        "id": "D",
+        "text": "Research funding is immediately cut."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text explains media outlets oversimplify findings by 'transforming nuanced statistical correlations into definitive causal claims.'"
+  },
+  {
+    "id": "reading-v2-reading-c1-0017",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-04",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "What downside is associated with hyper-cautious academic writing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It fails to communicate real-world significance to the broader public effectively."
+      },
+      {
+        "id": "B",
+        "text": "It causes scientific errors in lab experiments."
+      },
+      {
+        "id": "C",
+        "text": "It costs more money to publish in journals."
+      },
+      {
+        "id": "D",
+        "text": "It encourages sensationalized news coverage."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The text notes that 'hyper-cautious academic prose often fails to convey the urgent real-world implications of critical scientific data.'"
+  },
+  {
+    "id": "reading-v2-reading-c1-0018",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-04",
+    "topic": "author-purpose",
+    "format": "mcq-reading",
+    "stem": "What balance must responsible scientific communicators maintain?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hiding negative experimental results while emphasizing positive ones"
+      },
+      {
+        "id": "B",
+        "text": "Conveying empirical uncertainty without damaging public confidence in scientific methods"
+      },
+      {
+        "id": "C",
+        "text": "Writing exclusively for specialist academic journals"
+      },
+      {
+        "id": "D",
+        "text": "Allowing journalists to write headline titles without review"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The author asserts communicators must strike a balance: 'conveying empirical uncertainty without inadvertently undermining public trust in scientific methodology.'"
+  },
+  {
+    "id": "reading-v2-reading-c1-0019",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-04",
+    "topic": "argument-and-evidence",
+    "format": "mcq-reading",
+    "stem": "Why does the author urge researchers to actively participate in public discussions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To increase their personal book sales"
+      },
+      {
+        "id": "B",
+        "text": "To prevent their complex findings from being distorted by sensationalist media"
+      },
+      {
+        "id": "C",
+        "text": "To replace journalists in television studios"
+      },
+      {
+        "id": "D",
+        "text": "To lobby governments for higher research salaries"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The final sentence emphasizes scholars must engage publicly 'to prevent their nuanced conclusions from being distorted by sensationalist media agendas.'"
+  },
+  {
+    "id": "reading-v2-reading-c1-0020",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-04",
+    "topic": "vocabulary-in-context",
+    "format": "mcq-reading",
+    "stem": "What does the word 'causal' mean in 'definitive causal claims'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accidental and unproven"
+      },
+      {
+        "id": "B",
+        "text": "Relating to a direct cause-and-effect relationship"
+      },
+      {
+        "id": "C",
+        "text": "Informal and relaxed"
+      },
+      {
+        "id": "D",
+        "text": "Purely theoretical"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "'Causal claims' assert that one specific event directly causes another, beyond mere statistical correlation."
+  },
+  {
+    "id": "reading-v2-reading-c1-0021",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-05",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "What old neurological belief was overturned by modern neuroplasticity research?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The idea that brain structure remains permanently fixed after early adulthood"
+      },
+      {
+        "id": "B",
+        "text": "The belief that language learning occurs in the brain"
+      },
+      {
+        "id": "C",
+        "text": "The concept that sleep improves memory retention"
+      },
+      {
+        "id": "D",
+        "text": "The notion that neurons use electrical signals"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The text notes conventional doctrine claimed the adult brain had a 'fixed structural architecture, incapable of generating new neurons... after early adulthood.'"
+  },
+  {
+    "id": "reading-v2-reading-c1-0022",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-05",
+    "topic": "detail",
+    "format": "mcq-reading",
+    "stem": "Which activities are specifically mentioned as inducing structural remodeling in brain networks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Watching documentary films and solving crosswords"
+      },
+      {
+        "id": "B",
+        "text": "Learning a foreign language or mastering a musical instrument"
+      },
+      {
+        "id": "C",
+        "text": "Physical running and strength training"
+      },
+      {
+        "id": "D",
+        "text": "Meditating and following strict diets"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The passage explicitly names 'acquiring a foreign language or mastering a musical instrument' as examples."
+  },
+  {
+    "id": "reading-v2-reading-c1-0023",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-05",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "What practical application for cognitive health stems from neuroplasticity findings?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intellectual stimulation can help buffer against age-related cognitive decline."
+      },
+      {
+        "id": "B",
+        "text": "Adults no longer require cognitive therapy after brain injuries."
+      },
+      {
+        "id": "C",
+        "text": "Brain aging can be completely eliminated."
+      },
+      {
+        "id": "D",
+        "text": "Language learning becomes effortless for seniors."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The final sentence asserts insights suggest 'intellectual stimulation serves as a vital buffer against age-related cognitive decline.'"
+  },
+  {
+    "id": "reading-v2-reading-c1-0024",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-05",
+    "topic": "vocabulary-in-context",
+    "format": "mcq-reading",
+    "stem": "What does the word 'deterministic' mean in paragraph 1?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Flexible and changing"
+      },
+      {
+        "id": "B",
+        "text": "Pre-determined, fixed, and unchangeable"
+      },
+      {
+        "id": "C",
+        "text": "Highly optimistic"
+      },
+      {
+        "id": "D",
+        "text": "Scientific and proven"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "In this context, 'deterministic view' refers to the outdated belief that brain structure was rigidly fixed and unalterable."
+  },
+  {
+    "id": "reading-v2-reading-c1-0025",
+    "skill": "Reading",
+    "cefrLevel": "C1",
+    "passageId": "reading-v2-reading-c1-passage-05",
+    "topic": "main-idea",
+    "format": "mcq-reading",
+    "stem": "What is the primary focus of this scientific overview?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The history of musical education"
+      },
+      {
+        "id": "B",
+        "text": "The discovery of lifelong adult brain neuroplasticity and its implications"
+      },
+      {
+        "id": "C",
+        "text": "Comparing child and adult learning speeds"
+      },
+      {
+        "id": "D",
+        "text": "Medical treatments for severe memory loss"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text reviews how research overturned old views by demonstrating the adult brain's ongoing structural adaptability."
+  },
+  {
+    "id": "reading-v2-reading-c2-0001",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-01",
+    "topic": "central-claim",
+    "format": "mcq-reading",
+    "stem": "What fundamental premise underpins the author's defense of epistemic modesty?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Valid arguments derive force from precise analytical distinctions rather than assertive confidence."
+      },
+      {
+        "id": "B",
+        "text": "Uncertainty indicates that a speaker lacks adequate factual evidence."
+      },
+      {
+        "id": "C",
+        "text": "Public debate should prioritize emotional appeal over logical rigor."
+      },
+      {
+        "id": "D",
+        "text": "Categorical statements are necessary for efficient political decision-making."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The essay explicitly asserts that intellectual restraint recognizes 'claims derive their validity not from the intensity of conviction, but from the precision of the underlying conceptual distinctions.'"
+  },
+  {
+    "id": "reading-v2-reading-c2-0002",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-01",
+    "topic": "implied-meaning",
+    "format": "mcq-reading",
+    "stem": "Why does the author argue that a 'provisional thesis, meticulously circumscribed' can be more robust than an emphatic verdict?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It avoids taking any identifiable intellectual position."
+      },
+      {
+        "id": "B",
+        "text": "It accommodates complex real-world evidence without relying on the suppression of inconvenient facts."
+      },
+      {
+        "id": "C",
+        "text": "It is easier to communicate to mass media audiences."
+      },
+      {
+        "id": "D",
+        "text": "It guarantees unanimous agreement among scholars."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The essay notes that emphatic clarity often depends on 'suppressing inconvenient evidence', whereas a carefully bounded provisional thesis withstands empirical scrutiny better."
+  },
+  {
+    "id": "reading-v2-reading-c2-0003",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-01",
+    "topic": "vocabulary-in-context",
+    "format": "mcq-reading",
+    "stem": "What does the phrase 'epistemic modesty' signify in the text?",
+    "options": [
+      {
+        "id": "A",
+        "text": "False humility used as a manipulative debating tactic"
+      },
+      {
+        "id": "B",
+        "text": "An intellectual stance recognizing the limits and conditional nature of human knowledge"
+      },
+      {
+        "id": "C",
+        "text": "A total refusal to engage in academic publishing"
+      },
+      {
+        "id": "D",
+        "text": "Ignorance of complex scientific theories"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "'Epistemic modesty' refers to recognizing the boundaries, nuance, and provisional nature of knowledge rather than claiming absolute certainty."
+  },
+  {
+    "id": "reading-v2-reading-c2-0004",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-01",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "What paradoxical difficulty does complex, qualified argumentation face in modern discourse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It requires too much financial capital to publish."
+      },
+      {
+        "id": "B",
+        "text": "Nuanced qualification rarely spreads as rapidly as bold, uncalibrated certainty."
+      },
+      {
+        "id": "C",
+        "text": "Scholars refuse to use precise terminology."
+      },
+      {
+        "id": "D",
+        "text": "It is banned by major media networks."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The closing sentence summarizes the paradox: 'complex qualification rarely travels with the velocity of uncalibrated certainty.'"
+  },
+  {
+    "id": "reading-v2-reading-c2-0005",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-01",
+    "topic": "author-attitude",
+    "format": "mcq-reading",
+    "stem": "How does the author view public discourse's appetite for categorical conclusions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "With philosophical critique, regarding it as a preference for superficial certainty over analytical depth"
+      },
+      {
+        "id": "B",
+        "text": "With enthusiastic approval as a sign of democratic clarity"
+      },
+      {
+        "id": "C",
+        "text": "With complete indifference"
+      },
+      {
+        "id": "D",
+        "text": "With hope that intellectual restraint will soon disappear"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The author critically analyzes how public discourse mistakes nuance for evasion, defending analytical restraint against superficial posturing."
+  },
+  {
+    "id": "reading-v2-reading-c2-0006",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-02",
+    "topic": "main-idea",
+    "format": "mcq-reading",
+    "stem": "What is the essay's core contention regarding institutional archives and historical memory?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Archives provide a purely neutral, objective record of historical events."
+      },
+      {
+        "id": "B",
+        "text": "Institutional memory is an actively constructed product of selective documentation and structural choices."
+      },
+      {
+        "id": "C",
+        "text": "Institutions should digitize all historical papers to eliminate bias."
+      },
+      {
+        "id": "D",
+        "text": "Historical records are mostly fabricated by modern archivists."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The essay argues archival preservation is never neutral; institutional memory is constructed through deliberate choices of inclusion, authority, and omission."
+  },
+  {
+    "id": "reading-v2-reading-c2-0007",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-02",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "What does genuine interrogation of institutional history necessitate according to the text?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Simply adding missing names to existing triumphalist stories"
+      },
+      {
+        "id": "B",
+        "text": "Critiquing the original taxonomies and categories through which evidence was curated"
+      },
+      {
+        "id": "C",
+        "text": "Closing historical archives to public researchers"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all traditional archivists with automated AI algorithms"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text asserts revisiting history requires more than adding names; it demands 'interrogating the structural taxonomies through which evidence was originally classified'."
+  },
+  {
+    "id": "reading-v2-reading-c2-0008",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-02",
+    "topic": "implied-meaning",
+    "format": "mcq-reading",
+    "stem": "What is implied by the phrase 'selective forgetting' in paragraph 1?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Archivists suffering from clinical memory loss"
+      },
+      {
+        "id": "B",
+        "text": "The systemic exclusion or marginalization of specific historical events or voices from official records"
+      },
+      {
+        "id": "C",
+        "text": "The accidental destruction of old paper documents"
+      },
+      {
+        "id": "D",
+        "text": "The public's refusal to read history books"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "'Selective forgetting' implies that institutional continuity often relies on intentionally omitting or ignoring unpalatable aspects of history."
+  },
+  {
+    "id": "reading-v2-reading-c2-0009",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-02",
+    "topic": "argument-and-evidence",
+    "format": "mcq-reading",
+    "stem": "How does a 'mature institution' handle the inherent tension of historical memory?",
+    "options": [
+      {
+        "id": "A",
+        "text": "By presenting a completely flawless, seamless narrative of its past"
+      },
+      {
+        "id": "B",
+        "text": "By subjecting its processes of archival selection and omission to open scrutiny"
+      },
+      {
+        "id": "C",
+        "text": "By destroying controversial historical documents"
+      },
+      {
+        "id": "D",
+        "text": "By ignoring past history and focusing exclusively on future growth"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The final sentence concludes: 'A mature institution does not eliminate this tension; it makes the process of remembering open to scrutiny.'"
+  },
+  {
+    "id": "reading-v2-reading-c2-0010",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-02",
+    "topic": "vocabulary-in-context",
+    "format": "mcq-reading",
+    "stem": "What does the word 'lacunae' mean in this context?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Missing parts, gaps, or absences in a record"
+      },
+      {
+        "id": "B",
+        "text": "Official government decrees"
+      },
+      {
+        "id": "C",
+        "text": "Detailed photographic illustrations"
+      },
+      {
+        "id": "D",
+        "text": "Financial accounting ledgers"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "'Lacunae' (plural of lacuna) refers to gaps, empty spaces, or missing portions in writings or historical records."
+  },
+  {
+    "id": "reading-v2-reading-c2-0011",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-03",
+    "topic": "main-argument",
+    "format": "mcq-reading",
+    "stem": "How has ubiquitous digital reproduction impacted the ontological status of artwork?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It has increased the physical value of original oil paintings."
+      },
+      {
+        "id": "B",
+        "text": "It has dissolved the distinction between original and copy in an ecosystem of infinite replication."
+      },
+      {
+        "id": "C",
+        "text": "It has restored Walter Benjamin's traditional concept of 'aura'."
+      },
+      {
+        "id": "D",
+        "text": "It has forced artists to stop creating digital art."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The passage notes digital reproduction 'disintegrates the boundary between original and copy altogether'."
+  },
+  {
+    "id": "reading-v2-reading-c2-0012",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-03",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "In an ecosystem of endless replication, where does aesthetic value shift?",
+    "options": [
+      {
+        "id": "A",
+        "text": "From physical scarcity toward contextual curation and algorithmic visibility"
+      },
+      {
+        "id": "B",
+        "text": "From digital screens back to physical museum buildings"
+      },
+      {
+        "id": "C",
+        "text": "From artistic skill to high subscription prices"
+      },
+      {
+        "id": "D",
+        "text": "From public galleries to private home collections"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The text states: '...aesthetic value shifts away from physical scarcity toward contextual curation and algorithmic visibility.'"
+  },
+  {
+    "id": "reading-v2-reading-c2-0013",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-03",
+    "topic": "argument-and-evidence",
+    "format": "mcq-reading",
+    "stem": "What hazard does digital saturation present to deep artistic reception?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It makes art software too expensive for young artists."
+      },
+      {
+        "id": "B",
+        "text": "It threatens to flatten engagement into transactional consumption driven by perpetual distraction."
+      },
+      {
+        "id": "C",
+        "text": "It prevents museums from acquiring new collections."
+      },
+      {
+        "id": "D",
+        "text": "It eliminates color spectrums in digital displays."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The final sentence warns digital saturation 'threatens to flatten aesthetic engagement into fleeting transactional consumption... eroded by perpetual cognitive distraction.'"
+  },
+  {
+    "id": "reading-v2-reading-c2-0014",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-03",
+    "topic": "reference",
+    "format": "mcq-reading",
+    "stem": "Who is referenced in connection with the concept of an artwork's 'aura'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The author of the essay"
+      },
+      {
+        "id": "B",
+        "text": "Walter Benjamin"
+      },
+      {
+        "id": "C",
+        "text": "Contemporary digital curators"
+      },
+      {
+        "id": "D",
+        "text": "Linguistic purists"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text explicitly names 'what Walter Benjamin termed the \"aura\" of unique artworks'."
+  },
+  {
+    "id": "reading-v2-reading-c2-0015",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-03",
+    "topic": "vocabulary-in-context",
+    "format": "mcq-reading",
+    "stem": "What does the word 'ontological' mean in this essay?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Relating to the nature of being, existence, or reality"
+      },
+      {
+        "id": "B",
+        "text": "Relating to economic cost structures"
+      },
+      {
+        "id": "C",
+        "text": "Relating to digital coding formats"
+      },
+      {
+        "id": "D",
+        "text": "Relating to ancient history"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "'Ontological' is a philosophical term referring to the nature of existence or fundamental reality of something (here, the status of an artistic work)."
+  },
+  {
+    "id": "reading-v2-reading-c2-0016",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-04",
+    "topic": "main-argument",
+    "format": "mcq-reading",
+    "stem": "What fundamental flaw in meritocratic technocracy does the passage expose?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It fails to encourage individuals to pursue higher education."
+      },
+      {
+        "id": "B",
+        "text": "It disguises inherited structural advantage as personal moral desert and individual talent."
+      },
+      {
+        "id": "C",
+        "text": "It gives too much political power to uneducated populations."
+      },
+      {
+        "id": "D",
+        "text": "It reduces taxes on high earners."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text argues meritocracy 'masks the self-perpetuating nature of elite advantage, converting structural privilege into an aura of personal moral desert.'"
+  },
+  {
+    "id": "reading-v2-reading-c2-0017",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-04",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "How does a meritocratic mindset affect elites' perceptions of the economically disadvantaged?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elites view them as victims of bad economic luck deserving of charity."
+      },
+      {
+        "id": "B",
+        "text": "Elites view them as individuals lacking personal capability or drive."
+      },
+      {
+        "id": "C",
+        "text": "Elites consider them essential political partners."
+      },
+      {
+        "id": "D",
+        "text": "Elites attribute their plight entirely to corporate corruption."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The essay notes elites tend to view the disadvantaged 'not as victims of systemic inequality, but as individuals lacking capability or drive.'"
+  },
+  {
+    "id": "reading-v2-reading-c2-0018",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-04",
+    "topic": "argument-and-evidence",
+    "format": "mcq-reading",
+    "stem": "What societal consequence arises from moralizing economic success in a technocracy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increased social mobility across all economic classes"
+      },
+      {
+        "id": "B",
+        "text": "Deepened polarization, elite hubris, and resentment among the excluded"
+      },
+      {
+        "id": "C",
+        "text": "Elimination of political parties"
+      },
+      {
+        "id": "D",
+        "text": "Rapid economic growth in agricultural sectors"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The final sentence explicitly states this framing 'deepens societal polarization, fostering hubris among elite decision-makers while cultivating resentment...'."
+  },
+  {
+    "id": "reading-v2-reading-c2-0019",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-04",
+    "topic": "vocabulary-in-context",
+    "format": "mcq-reading",
+    "stem": "What does the word 'desert' mean in 'personal moral desert'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A dry, arid sandy landform"
+      },
+      {
+        "id": "B",
+        "text": "That which is deserved or merited through worth or effort"
+      },
+      {
+        "id": "C",
+        "text": "Abandoning one's duty"
+      },
+      {
+        "id": "D",
+        "text": "A sweet food served after meals"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "In philosophical discourse, 'desert' (pronounced /dɪˈzɜːrt/) refers to deserving reward or punishment based on one's actions."
+  },
+  {
+    "id": "reading-v2-reading-c2-0020",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-04",
+    "topic": "author-attitude",
+    "format": "mcq-reading",
+    "stem": "What is the author's stance on technocratic meritocracy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Strongly critical of its hidden ideological biases and divisive social effects"
+      },
+      {
+        "id": "B",
+        "text": "Unconditionally supportive of its fairness"
+      },
+      {
+        "id": "C",
+        "text": "Neutral, describing it purely as an administrative model"
+      },
+      {
+        "id": "D",
+        "text": "Optimistic about its ability to end poverty"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "The author provides a sharp political critique, arguing technocracy justifies systemic privilege while worsening social division."
+  },
+  {
+    "id": "reading-v2-reading-c2-0021",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-05",
+    "topic": "main-argument",
+    "format": "mcq-reading",
+    "stem": "What critique is leveled against the narrative model of personal identity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It relies too heavily on written journals."
+      },
+      {
+        "id": "B",
+        "text": "It imposes an artificial linearity and contrived narrative coherence onto fragmented human experience."
+      },
+      {
+        "id": "C",
+        "text": "It ignores the role of childhood memories."
+      },
+      {
+        "id": "D",
+        "text": "It is applicable only to fiction writers."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Critics argue the narrative model 'imposes an artificial linearity onto human consciousness, misrepresenting lived experience as a unified story'."
+  },
+  {
+    "id": "reading-v2-reading-c2-0022",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-05",
+    "topic": "inference",
+    "format": "mcq-reading",
+    "stem": "According to the passage, what is a characteristic feature of human episodic memory?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It provides a perfectly accurate, chronological video recording of the past."
+      },
+      {
+        "id": "B",
+        "text": "It is inherently fragmental and vulnerable to retroactive fabulation."
+      },
+      {
+        "id": "C",
+        "text": "It becomes fully fixed by age twenty."
+      },
+      {
+        "id": "D",
+        "text": "It operates independently of emotional states."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The text states explicitly: 'Human memory is inherently fragmental and prone to retroactive fabulation...'"
+  },
+  {
+    "id": "reading-v2-reading-c2-0023",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-05",
+    "topic": "author-purpose",
+    "format": "mcq-reading",
+    "stem": "What alternative approach to self-understanding does the author suggest in the final sentence?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Writing a detailed chronological autobiography"
+      },
+      {
+        "id": "B",
+        "text": "Accepting the non-linear, fragmented character of experience without demanding polished narrative resolution"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing painful memories from past experiences"
+      },
+      {
+        "id": "D",
+        "text": "Consulting professional psychoanalysts for story interpretation"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The final sentence posits true self-understanding may require 'accepting the fragmented, non-linear character of subjective experience without demanding a polished narrative resolution.'"
+  },
+  {
+    "id": "reading-v2-reading-c2-0024",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-05",
+    "topic": "vocabulary-in-context",
+    "format": "mcq-reading",
+    "stem": "What does 'teleological' mean in the phrase 'teleological narrative'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Directed toward a ultimate end, purpose, or goal"
+      },
+      {
+        "id": "B",
+        "text": "Transmitted electronically over long distance"
+      },
+      {
+        "id": "C",
+        "text": "Completely random and lacking structure"
+      },
+      {
+        "id": "D",
+        "text": "Based on mathematical equations"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "'Teleological' describes an approach or narrative that interprets things in terms of ultimate purpose, design, or final destination."
+  },
+  {
+    "id": "reading-v2-reading-c2-0025",
+    "skill": "Reading",
+    "cefrLevel": "C2",
+    "passageId": "reading-v2-reading-c2-passage-05",
+    "topic": "implied-meaning",
+    "format": "mcq-reading",
+    "stem": "What is meant by 'retroactive fabulation' in the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The subconscious construction or invention of stories to fit past memories into present self-concepts"
+      },
+      {
+        "id": "B",
+        "text": "Literary writing techniques used in science fiction"
+      },
+      {
+        "id": "C",
+        "text": "Medical memory loss caused by trauma"
+      },
+      {
+        "id": "D",
+        "text": "Accurately translating historical texts into modern prose"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "'Retroactive fabulation' refers to re-interpreting and inventing details about past memories after the fact to fit a neat story."
+  }
+]

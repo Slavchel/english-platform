@@ -1,0 +1,317 @@
+[
+  {
+    "id": "reading-pre-a1-passage-01",
+    "cefrLevel": "PRE-A1",
+    "title": "Sam's Dog",
+    "genre": "simple description",
+    "topic": "home and family",
+    "text": "This is Sam. He is six years old. He lives in a small house with his mother and father. They have a dog named Max. Max is brown and big. Sam likes to play with Max in the garden every afternoon.",
+    "wordCount": 41
+  },
+  {
+    "id": "reading-pre-a1-passage-02",
+    "cefrLevel": "PRE-A1",
+    "title": "Mia's Lunch",
+    "genre": "simple description",
+    "topic": "food",
+    "text": "My name is Mia. I eat lunch at school with my friends. Today I have bread, cheese and a red apple. I drink cold water. My friend Tom has a banana and milk. We like our lunch time.",
+    "wordCount": 38
+  },
+  {
+    "id": "reading-pre-a1-passage-03",
+    "cefrLevel": "PRE-A1",
+    "title": "The Toy Shop",
+    "genre": "simple description",
+    "topic": "shopping",
+    "text": "Dan is at the toy shop with his grandfather. Look at the blue car! It is fast. Dan wants the red ball. The toy shop is big and clean. Dan goes home happy with his new red ball.",
+    "wordCount": 38
+  },
+  {
+    "id": "reading-pre-a1-passage-04",
+    "cefrLevel": "PRE-A1",
+    "title": "A Sunny Day",
+    "genre": "simple description",
+    "topic": "weather and daily life",
+    "text": "Today is Saturday. The sun is in the sky. Lily is in the park with her sister. They see yellow flowers and three green birds. Lily wears a blue hat. They walk home at four o'clock.",
+    "wordCount": 36
+  },
+  {
+    "id": "reading-pre-a1-passage-05",
+    "cefrLevel": "PRE-A1",
+    "title": "My Room",
+    "genre": "simple description",
+    "topic": "home",
+    "text": "This is my room. I have a small bed, a white desk and a red chair. My yellow cat sleeps on the bed. I keep my books on the desk. My room is quiet.",
+    "wordCount": 34
+  },
+  {
+    "id": "reading-a1-passage-01",
+    "cefrLevel": "A1",
+    "title": "Ben's Saturday Routine",
+    "genre": "short story",
+    "topic": "daily routines",
+    "text": "Ben lives in a quiet town near the sea. On Saturdays, he wakes up early and helps his mother at the local market. After lunch, he meets his classmate Anna near the park. They often play tennis or ride their bicycles together. Ben enjoys sunny days because he can stay outside all afternoon. In the evening, he cooks dinner with his family and reads a book before bed.",
+    "wordCount": 68
+  },
+  {
+    "id": "reading-a1-passage-02",
+    "cefrLevel": "A1",
+    "title": "A New English Course",
+    "genre": "short message",
+    "topic": "education",
+    "text": "Hello Sarah! I am writing to tell you about my new English class. We meet every Tuesday and Thursday at five o'clock. There are ten students in the room. Our teacher is Mr Green. He comes from Canada and speaks slowly, so we understand everything. He is friendly and gives us interesting homework. I like this class because I can practise speaking.",
+    "wordCount": 62
+  },
+  {
+    "id": "reading-a1-passage-03",
+    "cefrLevel": "A1",
+    "title": "At the City Zoo",
+    "genre": "short story",
+    "topic": "animals and leisure",
+    "text": "Yesterday, Emma visited the city zoo with her brother and parents. They saw monkeys, elephants and lions. Emma liked the giraffes best because they were tall and quiet. Her brother bought a small ice cream near the entrance. They took many pictures and returned home by bus at six o'clock. Emma wants to visit the zoo again next month.",
+    "wordCount": 59
+  },
+  {
+    "id": "reading-a1-passage-04",
+    "cefrLevel": "A1",
+    "title": "My Grandparent's Farm",
+    "genre": "personal text",
+    "topic": "nature and family",
+    "text": "My grandparents live on a small farm in the countryside. They have ten chickens, two horses and a grey dog. Every morning, my grandfather collects fresh eggs for breakfast. My grandmother bakes warm bread. In the summer, I stay with them for two weeks. I help feed the animals and water the garden plants.",
+    "wordCount": 54
+  },
+  {
+    "id": "reading-a1-passage-05",
+    "cefrLevel": "A1",
+    "title": "An Evening at the Cinema",
+    "genre": "short narrative",
+    "topic": "entertainment",
+    "text": "Last night, Peter and his friends went to the cinema in the town centre. They watched an exciting film about space travellers. The tickets were cheap because they bought them online. They shared popcorn and drank fruit juice during the film. Afterwards, they walked to a pizza restaurant and discussed their favourite characters.",
+    "wordCount": 53
+  },
+  {
+    "id": "reading-a2-passage-01",
+    "cefrLevel": "A2",
+    "title": "A Weekend by the Lake",
+    "genre": "short narrative",
+    "topic": "travel and leisure",
+    "text": "Last weekend, Daniel and his cousins went to a lake outside the city. They originally planned to swim, but the water was far too cold for May. Instead, they rented bicycles from a small rental shop and rode along a scenic path through the forest. They stopped for a packed lunch at a picnic area overlooking the water. Before heading home in the evening, Daniel took several photos of the surrounding mountains.",
+    "wordCount": 72
+  },
+  {
+    "id": "reading-a2-passage-02",
+    "cefrLevel": "A2",
+    "title": "Library Opening Hours Change",
+    "genre": "informational notice",
+    "topic": "community notice",
+    "text": "Please note that the central library will open later than usual next Monday due to maintenance work on the heating system. Opening hours will be from 1:00 p.m. to 6:00 p.m. Visitors can return borrowed books using the drop box next to the front door. Regular library hours will resume on Tuesday morning. We apologise for any inconvenience.",
+    "wordCount": 58
+  },
+  {
+    "id": "reading-a2-passage-03",
+    "cefrLevel": "A2",
+    "title": "Starting a New Hobby",
+    "genre": "personal blog",
+    "topic": "hobbies and skills",
+    "text": "Two months ago, Elena decided to learn digital photography. She bought a second-hand camera online and watched free tutorial videos every weekend. At first, her photos were often dark or blurry. However, after practising in the city park every evening, she improved quickly. Now she takes portraits of her friends and plans to display her work at a local youth centre next month.",
+    "wordCount": 63
+  },
+  {
+    "id": "reading-a2-passage-04",
+    "cefrLevel": "A2",
+    "title": "A Local Food Festival",
+    "genre": "short article",
+    "topic": "culture and food",
+    "text": "Every October, the town of Riverdale hosts an annual street food festival. Local chefs and vendors set up stalls along the main square, offering dishes from around the world. Visitors can try fresh pasta, spicy curry, and homemade pastries. Live musicians play traditional songs throughout the evening. Entry to the festival is free, though visitors must pay for individual food items.",
+    "wordCount": 61
+  },
+  {
+    "id": "reading-a2-passage-05",
+    "cefrLevel": "A2",
+    "title": "Choosing Public Transport",
+    "genre": "short opinion text",
+    "topic": "transportation",
+    "text": "Many people in big cities are choosing to use public transport instead of driving personal cars. Buses and underground trains are often faster during peak morning hours because they avoid traffic jams. Additionally, buying a monthly travel pass is cheaper than paying for petrol and daily parking fees. City officials hope this change will also lower air pollution over time.",
+    "wordCount": 60
+  },
+  {
+    "id": "reading-b1-passage-01",
+    "cefrLevel": "B1",
+    "title": "Learning to Cook at Home",
+    "genre": "personal blog",
+    "topic": "lifestyle and skills",
+    "text": "When I moved into my first independent flat, I quickly realized how limited my culinary skills were. Initially, I relied almost entirely on takeaway meals, which proved to be both expensive and unhealthy over time. A colleague recommended picking just three simple recipes and preparing them repeatedly until I felt comfortable. I started with tomato soup, pasta, and vegetable curry. Within a few weeks, I was able to prepare wholesome dinners without checking the recipe every few seconds. While cooking hasn't transformed into my primary passion, it has certainly simplified my daily routine and significantly reduced my monthly expenses.",
+    "wordCount": 99
+  },
+  {
+    "id": "reading-b1-passage-02",
+    "cefrLevel": "B1",
+    "title": "The Urban Garden Project",
+    "genre": "local news article",
+    "topic": "environment and community",
+    "text": "A dedicated group of local residents has successfully transformed a neglected plot of land into a thriving community garden. Every Saturday morning, volunteers assemble to plant seasonal vegetables, remove invasive weeds, and repair wooden garden beds. The initiative started after neighbours noticed that the empty lot had become a spot for discarded rubbish. Today, the garden produces fresh fruits and vegetables for local families, while a nearby primary school uses the space for practical science lessons. Organisers emphasize that their greatest success is not the harvest itself, but the strong social connections forged among neighbours who previously rarely spoke.",
+    "wordCount": 99
+  },
+  {
+    "id": "reading-b1-passage-03",
+    "cefrLevel": "B1",
+    "title": "The Rise of Audiobooks",
+    "genre": "magazine article",
+    "topic": "technology and culture",
+    "text": "In recent years, audiobooks have experienced a remarkable increase in popularity among readers of all ages. Many commuters find listening to literature during long bus rides or daily drives far more convenient than holding a printed book. Audiobooks also allow multi-tasking, enabling listeners to enjoy stories while doing household chores or exercising. However, traditionalists argue that listening to an actor read a script lacks the quiet intimacy of turning paper pages. Despite this ongoing debate, publishers report that digital audio downloads continue to generate record sales annually.",
+    "wordCount": 87
+  },
+  {
+    "id": "reading-b1-passage-04",
+    "cefrLevel": "B1",
+    "title": "Working in Remote Teams",
+    "genre": "workplace feature",
+    "topic": "work and communication",
+    "text": "Transitioning to a remote working structure presents both distinct opportunities and unforeseen difficulties for modern companies. On one hand, employees appreciate the flexibility of working from home and avoiding lengthy daily commutes. On the other hand, managers report that maintaining team cohesion requires deliberate effort. Without spontaneous office conversations, team members can feel isolated from project goals. To address this, many organizations schedule informal weekly video calls and quarterly in-person retreats, ensuring that digital collaboration does not replace meaningful human connection entirely.",
+    "wordCount": 82
+  },
+  {
+    "id": "reading-b1-passage-05",
+    "cefrLevel": "B1",
+    "title": "The Impact of Ecotourism",
+    "genre": "travel article",
+    "topic": "environment and travel",
+    "text": "Ecotourism has emerged as a promising trend designed to minimize the negative environmental impacts of conventional travel. Responsible tour operators focus on preserving natural wildlife habitats and providing financial support directly to local indigenous communities. Tourists participating in these trips are encouraged to respect local customs, reduce waste, and stay in eco-friendly lodges powered by renewable energy. However, experts caution that if ecotourism becomes overcrowded, it risks destroying the fragile ecosystems it originally set out to protect.",
+    "wordCount": 77
+  },
+  {
+    "id": "reading-b2-passage-01",
+    "cefrLevel": "B2",
+    "title": "The Philosophy of Slow Travel",
+    "genre": "opinion article",
+    "topic": "travel and sustainability",
+    "text": "The modern popularity of low-cost weekend getaways has made it remarkably easy to visit multiple foreign cities within a single month. However, critics argue that this rapid pace reduces travel to a superficial checklist of landmarks rather than an enriching cultural experience. Adopting a 'slow travel' ethos involves spending extended periods in a single destination, allowing travelers to adapt to local rhythms, support independent businesses, and mitigate the mental strain of continuous movement. Naturally, slow travel is not a universal remedy for sustainable tourism; the choice of transport and total distance travelled remain critical environmental factors. Nevertheless, focusing on depth rather than geographical breadth fosters a significantly more mindful engagement with foreign cultures.",
+    "wordCount": 113
+  },
+  {
+    "id": "reading-b2-passage-02",
+    "cefrLevel": "B2",
+    "title": "Navigating Hybrid Work Dynamics",
+    "genre": "business article",
+    "topic": "work and technology",
+    "text": "The widespread adoption of hybrid work models has undeniably broadened employment access for individuals residing far from major economic hubs, granting staff unprecedented autonomy over their schedules. Nevertheless, flexibility alone does not guarantee organizational cohesion or a sense of professional belonging. Recent hires frequently report greater difficulty establishing informal professional networks, while complex collaborative sessions can prove exhausting when conducted exclusively through digital platforms. In response, forward-thinking organizations are structuring in-person office days around intentional collaborative workshops rather than enforcing arbitrary attendance quotas. The overarching objective is to align physical presence with genuine operational necessity rather than attempting to replicate legacy office norms in a digital ecosystem.",
+    "wordCount": 107
+  },
+  {
+    "id": "reading-b2-passage-03",
+    "cefrLevel": "B2",
+    "title": "The Psychology of Consumer Habits",
+    "genre": "popular science",
+    "topic": "psychology and consumerism",
+    "text": "Retailers have long exploited psychological triggers to influence consumer behavior, utilizing strategic store layouts, subtle scents, and curated background music to prolong shopping visits. In the digital age, these tactics have evolved into sophisticated algorithms that track browsing history and deliver targeted advertisements in real time. Behavioral economists note that such personalized nudges capitalize on cognitive shortcuts, leading consumers to make impulse purchases they might otherwise avoid. Recognizing these subtle persuasive mechanisms allows individuals to regain conscious control over their purchasing decisions and resist artificial urgency created by promotional timers.",
+    "wordCount": 90
+  },
+  {
+    "id": "reading-b2-passage-04",
+    "cefrLevel": "B2",
+    "title": "Rethinking Urban Architecture",
+    "genre": "architectural essay",
+    "topic": "urban planning",
+    "text": "Contemporary urban planners face the daunting challenge of designing cities that accommodate growing populations while responding to climate vulnerabilities. Modern architectural frameworks are increasingly prioritizing 'biophilic design'—the integration of natural elements such as vertical gardens, natural light, and rainwater collection systems into urban structures. Research indicates that incorporating living flora into building facades not only reduces the urban heat island effect but also measurably improves mental well-being among residents. However, urbanists emphasize that green infrastructure must be complemented by affordable public housing to prevent ecological enhancements from triggering localized gentrification.",
+    "wordCount": 90
+  },
+  {
+    "id": "reading-b2-passage-05",
+    "cefrLevel": "B2",
+    "title": "The Evolution of Language",
+    "genre": "linguistic commentary",
+    "topic": "linguistics and society",
+    "text": "Linguistic purists often express alarm over the rapid introduction of internet slang and technological jargon into everyday vocabulary, viewing these shifts as evidence of declining literacy standards. Linguists, however, offer a radically different perspective, viewing lexical evolution as a sign of a dynamic, healthy language system adapting to new cultural realities. Historical evidence shows that English has continually absorbed foreign loanwords and simplified grammatical structures over centuries. Rather than degrading communication, digital innovations reflect humanity's innate capacity to adapt language to meet emerging social and technological demands.",
+    "wordCount": 87
+  },
+  {
+    "id": "reading-c1-passage-01",
+    "cefrLevel": "C1",
+    "title": "The Paradox of Productivity Metrics",
+    "genre": "analytical essay",
+    "topic": "work and society",
+    "text": "Modern organizations increasingly rely on quantifiable metrics to monitor employee productivity and streamline operational efficiency. While data-driven analytics can illuminate systemic bottlenecks that would otherwise escape casual observation, over-reliance on quantitative indicators frequently distorts the very performance it seeks to evaluate. When workers realize that speed or task counts are prioritized, they inevitably reallocate attention away from qualitative, less easily measured responsibilities—such as mentoring junior colleagues, fostering creative innovation, or preemptively resolving structural flaws. The underlying flaw resides not in measurement per se, but in the reductionist assumption that a metric can fully encapsulate complex professional output. Constructive evaluation ultimately requires blending empirical data with nuanced professional judgment.",
+    "wordCount": 108
+  },
+  {
+    "id": "reading-c1-passage-02",
+    "cefrLevel": "C1",
+    "title": "Preserving Urban Identity",
+    "genre": "cultural commentary",
+    "topic": "culture and urban development",
+    "text": "Discourses surrounding urban regeneration frequently frame historical preservation and modern architectural expansion as diametrically opposed mandates. This binary framing, however, obscures the subtle reality that metropolitan centers can undergo structural modernization without obliterating the historical strata that constitute their unique character. Demanding that historic structures remain entirely pristine is as impractical as advocating for the uncritical demolition of aging architecture. The crucial challenge lies in distinguishing genuine historical continuity from mere architectural nostalgia. Public consultations can bridge this divide, provided residents are engaged early enough in the planning phase to exert genuine leverage over development proposals, rather than being subjected to superficial consultative rituals.",
+    "wordCount": 104
+  },
+  {
+    "id": "reading-c1-passage-03",
+    "cefrLevel": "C1",
+    "title": "Algorithmic Objectivity and Bias",
+    "genre": "tech critique",
+    "topic": "technology and ethics",
+    "text": "Algorithms deployed in hiring, credit scoring, and judicial sentencing are frequently touted as impartial arbiters free from human prejudice. Yet, this narrative of mathematical neutrality overlooks the reality that machine learning models are trained on historical data inherently infused with systemic societal biases. When an algorithm processes historical data to predict future outcomes, it inevitably codifies and amplifies past inequalities under the guise of objective calculation. Auditing automated systems for algorithmic fairness therefore demands more than technical code optimization; it necessitates a rigorous socio-technical critique of how data points are defined, collected, and interpreted within existing power structures.",
+    "wordCount": 98
+  },
+  {
+    "id": "reading-c1-passage-04",
+    "cefrLevel": "C1",
+    "title": "The Ethics of Scientific Communication",
+    "genre": "academic critique",
+    "topic": "science and communication",
+    "text": "Translating complex scientific consensus into accessible public media presents a persistent ethical dilemma for researchers and journalists alike. In an effort to generate engaging headlines, media outlets frequently oversimplify tentative academic findings, transforming nuanced statistical correlations into definitive causal claims. Conversely, hyper-cautious academic prose often fails to convey the urgent real-world implications of critical scientific data. Responsible communication requires striking a delicate equilibrium: conveying empirical uncertainty without inadvertently undermining public trust in scientific methodology. Scholars must actively participate in public discourse to prevent their nuanced conclusions from being distorted by sensationalist media agendas.",
+    "wordCount": 93
+  },
+  {
+    "id": "reading-c1-passage-05",
+    "cefrLevel": "C1",
+    "title": "Cognitive Plasticity in Adulthood",
+    "genre": "scientific review",
+    "topic": "neuroscience and learning",
+    "text": "For decades, conventional neurological doctrine maintained that the adult human brain possessed a fixed structural architecture, incapable of generating new neurons or forming novel neural pathways after early adulthood. Recent neuroplasticity research has shattered this deterministic view, demonstrating that the brain retains remarkable structural adaptability throughout life. Engaging in intellectually demanding activities, such as acquiring a foreign language or mastering a musical instrument, induces structural remodeling in cortical networks. These neuroscientific insights carry profound implications for cognitive rehabilitation, suggesting that intellectual stimulation serves as a vital buffer against age-related cognitive decline.",
+    "wordCount": 91
+  },
+  {
+    "id": "reading-c2-passage-01",
+    "cefrLevel": "C2",
+    "title": "The Rhetoric of Absolute Certainty",
+    "genre": "philosophical essay",
+    "topic": "epistemology and discourse",
+    "text": "Contemporary public discourse exhibits a pronounced preference for categorical conclusions and polemical posturing, viewing epistemic modesty not as an intellectual virtue, but as a symptom of rhetorical weakness or cognitive evasion. Yet, intellectual restraint is by no means an abdication of analytical rigor; rather, it reflects a disciplined recognition that theoretical assertions derive their validity not from the intensity of conviction, but from the precision of the underlying conceptual distinctions. A provisional thesis, meticulously circumscribed, ultimately offers a far more robust intellectual foundation than an unyielding dogma whose structural coherence depends upon suppressing contradictory empirical evidence. The paradox of modern communication remains that complex qualification rarely travels with the velocity of uncalibrated certainty.",
+    "wordCount": 113
+  },
+  {
+    "id": "reading-c2-passage-02",
+    "cefrLevel": "C2",
+    "title": "Institutional Memory and Historiography",
+    "genre": "reflective essay",
+    "topic": "historiography and institutions",
+    "text": "Institutions customarily project themselves as custodians of objective historical record, yet archival preservation is never a neutral, passive reflection of the past. Rather, institutional memory is fundamentally constructed through deliberate choices regarding which testimonies are granted authority, which documents are preserved, and which historical lacunae are allowed to remain unexamined. Consequently, interrogating institutional legacy demands more than inserting overlooked figures into existing historical narratives; it necessitates interrogating the structural taxonomies through which evidence was originally classified and prioritized. True institutional maturity manifests not in presenting a seamless, triumphalist history, but in opening the archival mechanisms of selection and omission to continuous critical scrutiny.",
+    "wordCount": 103
+  },
+  {
+    "id": "reading-c2-passage-03",
+    "cefrLevel": "C2",
+    "title": "The Aesthetics of Digital Reproducibility",
+    "genre": "critical theory",
+    "topic": "art and technology",
+    "text": "The hyper-proliferation of high-fidelity digital reproduction has irrevocably altered the ontological status of the artistic artifact. Where traditional mechanical reproduction diminished what Walter Benjamin termed the 'aura' of unique artworks, ubiquitous digital dissemination disintegrates the boundary between original and copy altogether. In an ecosystem of infinite perfect replication, aesthetic value shifts away from physical scarcity toward contextual curation and algorithmic visibility. Far from democratizing art unconditionally, digital saturation threatens to flatten aesthetic engagement into fleeting transactional consumption, wherein the contemplative depth required for profound artistic reception is systematically eroded by perpetual cognitive distraction.",
+    "wordCount": 93
+  },
+  {
+    "id": "reading-c2-passage-04",
+    "cefrLevel": "C2",
+    "title": "The Illusion of Meritorious Technocracy",
+    "genre": "political philosophy",
+    "topic": "political theory",
+    "text": "Meritocratic technocracy presents itself as a fair political arrangement wherein social status and political influence mirror individual talent and effort. However, this ideology masks the self-perpetuating nature of elite advantage, converting structural privilege into an aura of personal moral desert. When winners in a technocratic economy attribute their success entirely to personal merit, they tend to view the disadvantaged not as victims of systemic inequality, but as individuals lacking capability or drive. This moralized framing deepens societal polarization, fostering hubris among elite decision-makers while cultivating resentment among those excluded from economic prosperity.",
+    "wordCount": 92
+  },
+  {
+    "id": "reading-c2-passage-05",
+    "cefrLevel": "C2",
+    "title": "The Hermeneutics of Narrative Identity",
+    "genre": "philosophical psychology",
+    "topic": "philosophy of mind",
+    "text": "The psychological narrative model posits that personal identity is constructed through an ongoing interpretive synthesis of past experiences into a coherent internal autobiography. However, critics argue that this narrative paradigm imposes an artificial linearity onto human consciousness, misrepresenting lived experience as a unified story with plot trajectories and moral lessons. Human memory is inherently fragmental and prone to retroactive fabulation; forcing episodic recollections into a teleological narrative risks imposing contrived coherence over authentic ambiguity. True self-understanding may instead require accepting the fragmented, non-linear character of subjective experience without demanding a polished narrative resolution.",
+    "wordCount": 93
+  }
+]

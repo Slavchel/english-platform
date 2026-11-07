@@ -1,0 +1,36 @@
+[
+  {
+    "id": "grammar-a1-0001",
+    "skill": "grammar",
+    "cefrLevel": "A1",
+    "difficulty": -1.4,
+    "topic": "present simple: third person singular",
+    "format": "mcq-gap",
+    "stem": "My sister ___ to school by bus every day.",
+    "options": [
+      { "id": "a", "text": "go" },
+      { "id": "b", "text": "goes" },
+      { "id": "c", "text": "going" },
+      { "id": "d", "text": "went" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "My sister — это she, поэтому в Present Simple глагол получает -s: goes."
+  },
+  {
+    "id": "grammar-a1-0002",
+    "skill": "grammar",
+    "cefrLevel": "A1",
+    "difficulty": -1.2,
+    "topic": "there is / there are",
+    "format": "mcq-sentence-choice",
+    "stem": "Choose the correct sentence.",
+    "options": [
+      { "id": "a", "text": "There is a cat in the park." },
+      { "id": "b", "text": "There are a cat in the park." },
+      { "id": "c", "text": "There have a cat in the park." },
+      { "id": "d", "text": "There be a cat in the park." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "С одним предметом (a cat) нужен There is. There are — для нескольких предметов."
+  }
+]

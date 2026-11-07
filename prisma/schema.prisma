@@ -1,0 +1,67 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          String       @id @default(cuid())
+  email       String       @unique
+  name        String?
+  createdAt   DateTime     @default(now())
+  testResults TestResult[]
+  aiAnalyses  AiAnalysis[]
+}
+
+model TestResult {
+  id               String        @id @default(cuid())
+  userId           String
+  user             User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  level            String?
+  status           String
+  confidence       String
+  score            Int
+  correct          Int
+  answered         Int
+  total            Int
+  completed        Boolean
+  seed             BigInt
+  algorithmVersion String
+  createdAt        DateTime      @default(now())
+  mistakes         UserMistake[]
+
+  @@index([userId, createdAt])
+}
+
+model UserMistake {
+  id            String     @id @default(cuid())
+  resultId      String
+  result        TestResult @relation(fields: [resultId], references: [id], onDelete: Cascade)
+  topic         String
+  skill         String
+  question      String
+  correctAnswer String
+  selectedAnswer String
+  explanation   String?
+  createdAt     DateTime   @default(now())
+
+  @@index([resultId])
+}
+
+model AiAnalysis {
+  id           String   @id @default(cuid())
+  userId       String
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  type         String
+  title        String
+  level        String?
+  score        Int?
+  summary      String
+  fullResponse String
+  createdAt    DateTime @default(now())
+
+  @@index([userId, createdAt])
+}

@@ -1,0 +1,6954 @@
+[
+  {
+    "word": "standing",
+    "translation": "постоянный; стоячий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "echo",
+    "translation": "эхо; отзвук",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "tactic",
+    "translation": "тактика; приём",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "induce",
+    "translation": "побуждать; вызывать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "utilize",
+    "translation": "использовать; применять",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "merit",
+    "translation": "заслуга; достоинство",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "regulatory",
+    "translation": "регулирующий; нормативный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "integration",
+    "translation": "интеграция; объединение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "counsel",
+    "translation": "совет; консультация; советовать",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "parameter",
+    "translation": "параметр",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ore",
+    "translation": "руда",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "scroll",
+    "translation": "прокручивать; свиток",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "cognitive",
+    "translation": "познавательный; когнитивный",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "bout",
+    "translation": "приступ; поединок; период",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "commodity",
+    "translation": "товар; предмет потребления",
+    "part_of_speech": "n",
+    "category": "Work",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hull",
+    "translation": "корпус; обшивка",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "provincial",
+    "translation": "провинциальный; местный",
+    "part_of_speech": "adj",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "diminish",
+    "translation": "уменьшать(ся); ослаблять(ся)",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "rebound",
+    "translation": "отскакивать; восстановление",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "herald",
+    "translation": "предвещать; глашатай",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "practitioner",
+    "translation": "практикующий специалист",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "tactical",
+    "translation": "тактический",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "legion",
+    "translation": "легион; множество",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "subsidy",
+    "translation": "субсидия; дотация",
+    "part_of_speech": "adj",
+    "category": "Work",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hypothesis",
+    "translation": "гипотеза",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "prolong",
+    "translation": "продлевать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "corpse",
+    "translation": "труп",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "rhetoric",
+    "translation": "риторика",
+    "part_of_speech": "n",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "secular",
+    "translation": "светский; нерелигиозный",
+    "part_of_speech": "adj",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "prone",
+    "translation": "склонный; лежащий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "correlation",
+    "translation": "корреляция; взаимосвязь",
+    "part_of_speech": "n",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "proposition",
+    "translation": "предложение; утверждение",
+    "part_of_speech": "n",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "accountability",
+    "translation": "подотчётность; ответственность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "methodology",
+    "translation": "методология",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "artifact",
+    "translation": "артефакт; изделие",
+    "part_of_speech": "adj",
+    "category": "Technology",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "encompass",
+    "translation": "охватывать; включать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "incumbent",
+    "translation": "действующий; занимающий должность",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "adhere",
+    "translation": "придерживаться; прилипать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "synthesis",
+    "translation": "синтез; обобщение",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "autonomous",
+    "translation": "автономный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "annex",
+    "translation": "присоединять; приложение",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "denote",
+    "translation": "обозначать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "wholly",
+    "translation": "полностью; целиком",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "stabilize / stabilise",
+    "translation": "стабилизировать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "mesh",
+    "translation": "сетка; сцепляться",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "denounce",
+    "translation": "осуждать; разоблачать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ironic",
+    "translation": "ироничный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "vicinity",
+    "translation": "окрестности; близость",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "cosmic",
+    "translation": "космический",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "disperse",
+    "translation": "рассеивать(ся); разгонять",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "apostle",
+    "translation": "апостол; последователь",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "spatial",
+    "translation": "пространственный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "embody",
+    "translation": "воплощать",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "moor",
+    "translation": "пришвартовывать; пустошь",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "mediate",
+    "translation": "посредничать; опосредовать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hinder",
+    "translation": "мешать; препятствовать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "helm",
+    "translation": "руль; руководство",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "reconcile",
+    "translation": "примирять; согласовывать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "paramount",
+    "translation": "первостепенный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "solitary",
+    "translation": "одинокий; уединённый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "reconciliation",
+    "translation": "примирение; согласование",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "residue",
+    "translation": "остаток; осадок",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "beneficiary",
+    "translation": "бенефициар; получатель выгоды",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "transmitter",
+    "translation": "передатчик",
+    "part_of_speech": "n",
+    "category": "Technology",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "locomotive",
+    "translation": "локомотив; движущий",
+    "part_of_speech": "adj",
+    "category": "Travel",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "rift",
+    "translation": "разлом; раскол",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "collide",
+    "translation": "сталкиваться",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "gale",
+    "translation": "штормовой ветер",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "mariner",
+    "translation": "моряк",
+    "part_of_speech": "n",
+    "category": "Travel",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hamper",
+    "translation": "затруднять; препятствовать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "fabricate",
+    "translation": "изготавливать; выдумывать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "lament",
+    "translation": "оплакивать; сожалеть",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "malicious",
+    "translation": "злонамеренный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "proprietary",
+    "translation": "собственный; запатентованный",
+    "part_of_speech": "adj",
+    "category": "Work",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "curator",
+    "translation": "куратор; хранитель",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "slab",
+    "translation": "плита; пласт",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "corpus",
+    "translation": "корпус текстов; совокупность",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "vocational",
+    "translation": "профессиональный; профтехнический",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "curate",
+    "translation": "курировать; отбирать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "electrode",
+    "translation": "электрод",
+    "part_of_speech": "adj",
+    "category": "Technology",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "interrogation",
+    "translation": "допрос; опрос",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "clinch",
+    "translation": "закрепить; завершить",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "perch",
+    "translation": "насест; усаживаться",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "blitz",
+    "translation": "молниеносная атака",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hypothetical",
+    "translation": "гипотетический",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "equilibrium",
+    "translation": "равновесие",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "nostalgia",
+    "translation": "ностальгия",
+    "part_of_speech": "adj",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hitch",
+    "translation": "заминка; зацеплять",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "banish",
+    "translation": "изгонять",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "proliferation",
+    "translation": "быстрое распространение; размножение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "turret",
+    "translation": "башенка",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "emulate",
+    "translation": "подражать; воспроизводить",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "authenticity",
+    "translation": "подлинность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "proportional",
+    "translation": "пропорциональный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "scholarly",
+    "translation": "научный; учёный",
+    "part_of_speech": "adv",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "additive",
+    "translation": "добавка; добавочный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "grievance",
+    "translation": "обида; жалоба",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "menace",
+    "translation": "угроза; угрожать",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "maverick",
+    "translation": "нонконформист; независимый человек",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "subsidize",
+    "translation": "субсидировать",
+    "part_of_speech": "v",
+    "category": "Work",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "mercenary",
+    "translation": "наёмник; корыстный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "fluctuation",
+    "translation": "колебание",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "combustion",
+    "translation": "горение",
+    "part_of_speech": "n",
+    "category": "Environment",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "residual",
+    "translation": "остаточный; остаток",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "eminent",
+    "translation": "выдающийся",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "anthology",
+    "translation": "антология",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "homestead",
+    "translation": "усадьба; фермерское хозяйство",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "allude",
+    "translation": "намекать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "physiological",
+    "translation": "физиологический",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "seismic",
+    "translation": "сейсмический",
+    "part_of_speech": "adj",
+    "category": "Environment",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "procedural",
+    "translation": "процедурный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "relegate",
+    "translation": "отодвигать; переводить в низшую категорию",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "succumb",
+    "translation": "поддаваться; погибать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "solicit",
+    "translation": "просить; добиваться",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "fabrication",
+    "translation": "изготовление; выдумка",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "brink",
+    "translation": "край; грань",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "apprehend",
+    "translation": "понимать; арестовывать",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "brood",
+    "translation": "размышлять; выводок",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unravel",
+    "translation": "распутывать; раскрывать",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "splinter",
+    "translation": "осколок; раскалывать",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "vortex",
+    "translation": "водоворот; вихрь",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "angular",
+    "translation": "угловой",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "mediation",
+    "translation": "посредничество",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "informant",
+    "translation": "осведомитель",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "myriad",
+    "translation": "мириады; бесчисленный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "skew",
+    "translation": "искажать; перекос",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "stipulate",
+    "translation": "оговорить; обусловить",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "interrogate",
+    "translation": "допрашивать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "conglomerate",
+    "translation": "конгломерат; объединять",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "correlate",
+    "translation": "соотносить; коррелировать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "retrospective",
+    "translation": "ретроспективный; обзор",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "profitability",
+    "translation": "рентабельность",
+    "part_of_speech": "n",
+    "category": "Work",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "utilization / utilisation",
+    "translation": "использование",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "choreography",
+    "translation": "хореография",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "gravitational",
+    "translation": "гравитационный",
+    "part_of_speech": "adj",
+    "category": "Environment",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "overlay",
+    "translation": "накладывать; покрытие",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hysterical",
+    "translation": "истерический",
+    "part_of_speech": "adj",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "fluctuate",
+    "translation": "колебаться",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hoist",
+    "translation": "поднимать; подъёмник",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "misdemeanor / misdemanour",
+    "translation": "правонарушение; проступок",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "centralized / centralised",
+    "translation": "централизованный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "intrinsic",
+    "translation": "внутренне присущий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "disseminate",
+    "translation": "распространять",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "conjecture",
+    "translation": "предположение; строить догадки",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "diffuse",
+    "translation": "рассеивать; диффузный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "nostalgic",
+    "translation": "ностальгический",
+    "part_of_speech": "adj",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "qualitative",
+    "translation": "качественный",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "wane",
+    "translation": "ослабевать; убывать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "distill",
+    "translation": "дистиллировать; извлекать суть",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "kinetic",
+    "translation": "кинетический",
+    "part_of_speech": "adj",
+    "category": "Technology",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "accrue",
+    "translation": "накапливаться; начисляться",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "bogus",
+    "translation": "поддельный; фиктивный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "contractual",
+    "translation": "договорный",
+    "part_of_speech": "adj",
+    "category": "Work",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "lyrical",
+    "translation": "лирический",
+    "part_of_speech": "adj",
+    "category": "Communication",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "stringent",
+    "translation": "строгий; жёсткий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "solitude",
+    "translation": "одиночество",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "assimilate",
+    "translation": "усваивать; ассимилировать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "agile",
+    "translation": "проворный; гибкий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "austerity",
+    "translation": "строгость; режим экономии",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "constrained",
+    "translation": "ограниченный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "dribble",
+    "translation": "капать; вести мяч",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "redundancy",
+    "translation": "избыточность; сокращение штата",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "allot",
+    "translation": "выделять; распределять",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "cull",
+    "translation": "отбирать; выбраковывать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "pedestal",
+    "translation": "пьедестал",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "condone",
+    "translation": "попустительствовать; оправдывать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "plume",
+    "translation": "перо; шлейф",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "huddle",
+    "translation": "собираться тесной группой",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "palate",
+    "translation": "нёбо; вкус",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "snippet",
+    "translation": "отрывок; фрагмент",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "blight",
+    "translation": "порча; бедствие",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "anonymity",
+    "translation": "анонимность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "melancholy",
+    "translation": "меланхолия; уныние",
+    "part_of_speech": "adv",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "meteorological",
+    "translation": "метеорологический",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "pervasive",
+    "translation": "всепроникающий; широко распространённый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "punitive",
+    "translation": "карательный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "conduit",
+    "translation": "канал; трубопровод",
+    "part_of_speech": "adj",
+    "category": "Technology",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "etch",
+    "translation": "гравировать; вытравливать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "intermediary",
+    "translation": "посредник",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "laud",
+    "translation": "восхвалять",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hysteria",
+    "translation": "истерия",
+    "part_of_speech": "adj",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "rhetorical",
+    "translation": "риторический",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "rebuke",
+    "translation": "упрёк; резко осуждать",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "notoriously",
+    "translation": "печально известным образом",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "opaque",
+    "translation": "непрозрачный; непонятный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "deterrent",
+    "translation": "сдерживающий фактор",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "brim",
+    "translation": "край; наполнять до краёв",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "adept",
+    "translation": "искусный; знаток",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "crippling",
+    "translation": "разрушительный; парализующий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "topple",
+    "translation": "свергать; опрокидывать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ostensibly",
+    "translation": "якобы; по видимости",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "fallacy",
+    "translation": "ошибка; заблуждение",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "philanthropy",
+    "translation": "благотворительность",
+    "part_of_speech": "adj",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hindsight",
+    "translation": "осмысление задним числом",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "malice",
+    "translation": "злоба; злой умысел",
+    "part_of_speech": "adj",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "embodiment",
+    "translation": "воплощение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "agility",
+    "translation": "ловкость; гибкость",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "deficient",
+    "translation": "недостаточный; неполноценный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "uncanny",
+    "translation": "сверхъестественный; жуткий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "calamity",
+    "translation": "бедствие; катастрофа",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "connotation",
+    "translation": "коннотация; дополнительный смысл",
+    "part_of_speech": "n",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "baroque",
+    "translation": "барочный; вычурный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ethos",
+    "translation": "дух; нравственный облик",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "treacherous",
+    "translation": "предательский; коварный",
+    "part_of_speech": "adj",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "shimmer",
+    "translation": "мерцать; мерцание",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "embed",
+    "translation": "встраивать; внедрять",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "materialize / materialise",
+    "translation": "материализоваться; осуществляться",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "knack",
+    "translation": "умение; сноровка",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "depressive",
+    "translation": "депрессивный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "testimonial",
+    "translation": "свидетельство; рекомендация",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "indulgence",
+    "translation": "потворство; снисходительность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "allotment",
+    "translation": "выделенная доля; участок",
+    "part_of_speech": "n",
+    "category": "Work",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "recourse",
+    "translation": "средство; обращение за помощью",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "antidote",
+    "translation": "противоядие; средство от",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "posit",
+    "translation": "постулировать; утверждать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "callous",
+    "translation": "бессердечный; чёрствый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "archival",
+    "translation": "архивный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "topography",
+    "translation": "топография; рельеф",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hermit",
+    "translation": "отшельник",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "spire",
+    "translation": "шпиль",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "reissue",
+    "translation": "переиздавать; повторный выпуск",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "provocation",
+    "translation": "провокация",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "parasitic",
+    "translation": "паразитический",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "etching",
+    "translation": "гравюра; травление",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "angst",
+    "translation": "тревога; экзистенциальное беспокойство",
+    "part_of_speech": "adj",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "dissemination",
+    "translation": "распространение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "philanthropist",
+    "translation": "филантроп; благотворитель",
+    "part_of_speech": "n",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "protrude",
+    "translation": "выступать; выпирать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "armory / armoury",
+    "translation": "оружейная; арсенал",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "shoal",
+    "translation": "мель; косяк рыб",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "extant",
+    "translation": "сохранившийся; существующий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "impeccable",
+    "translation": "безупречный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ebb",
+    "translation": "отлив; спад",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "cordon",
+    "translation": "оцепление; оцеплять",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "axiom",
+    "translation": "аксиома",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "chronology",
+    "translation": "хронология",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "cinematography",
+    "translation": "кинематография; операторское искусство",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "euphoria",
+    "translation": "эйфория",
+    "part_of_speech": "adj",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "jargon",
+    "translation": "жаргон; профессиональный язык",
+    "part_of_speech": "adj",
+    "category": "Communication",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "meticulous",
+    "translation": "тщательный; скрупулёзный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "nigh",
+    "translation": "почти; близко",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "whirlwind",
+    "translation": "вихрь; стремительный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "automate",
+    "translation": "автоматизировать",
+    "part_of_speech": "v",
+    "category": "Technology",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "parable",
+    "translation": "притча",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "aptitude",
+    "translation": "способность; склонность",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "trifle",
+    "translation": "мелочь; пустяк",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "allusion",
+    "translation": "намёк; аллюзия",
+    "part_of_speech": "n",
+    "category": "Communication",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "fruition",
+    "translation": "осуществление; воплощение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "meteorology",
+    "translation": "метеорология",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "dampen",
+    "translation": "смачивать; ослаблять",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "detract",
+    "translation": "умалять; отвлекать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "coax",
+    "translation": "уговаривать; осторожно вытягивать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "scavenger",
+    "translation": "падальщик; сборщик отходов",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "rapture",
+    "translation": "восторг; упоение",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "adhesion",
+    "translation": "прилипание; приверженность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "eminence",
+    "translation": "известность; выдающееся положение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "mercantile",
+    "translation": "торговый",
+    "part_of_speech": "adj",
+    "category": "Work",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "philanthropic",
+    "translation": "благотворительный",
+    "part_of_speech": "adj",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "interlude",
+    "translation": "интерлюдия; промежуток",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "promenade",
+    "translation": "променад; прогулка",
+    "part_of_speech": "adj",
+    "category": "Travel",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "remit",
+    "translation": "перечислять деньги; сфера полномочий",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "oblique",
+    "translation": "косой; непрямой",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "archetype",
+    "translation": "архетип",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "vindicate",
+    "translation": "оправдывать; подтверждать правоту",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "crony",
+    "translation": "приятель; дружок",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "assimilation",
+    "translation": "ассимиляция; усвоение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "imposition",
+    "translation": "навязывание; обременение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "notoriety",
+    "translation": "дурная слава",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ornate",
+    "translation": "украшенный; вычурный",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "perverse",
+    "translation": "извращённый; противоречащий здравому смыслу",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "vandal",
+    "translation": "вандал",
+    "part_of_speech": "n",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "zoology",
+    "translation": "зоология",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "magpie",
+    "translation": "сорока",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "cocoon",
+    "translation": "кокон",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "arduous",
+    "translation": "трудный; изнурительный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "computerize / computerise",
+    "translation": "компьютеризировать",
+    "part_of_speech": "v",
+    "category": "Technology",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "menacing",
+    "translation": "угрожающий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "sulphur",
+    "translation": "сера",
+    "part_of_speech": "adj",
+    "category": "Environment",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "quiver",
+    "translation": "дрожать; колчан",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "proximal",
+    "translation": "ближний; проксимальный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "attrition",
+    "translation": "истощение; убыль",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "autopilot",
+    "translation": "автопилот",
+    "part_of_speech": "adj",
+    "category": "Travel",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "squint",
+    "translation": "щуриться",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "magnate",
+    "translation": "магнат",
+    "part_of_speech": "n",
+    "category": "Work",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "stipulation",
+    "translation": "условие; оговорка",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "exalted",
+    "translation": "возвышенный; высокопоставленный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hitherto",
+    "translation": "до сих пор",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "rife",
+    "translation": "изобилующий; распространённый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "allegory",
+    "translation": "аллегория",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "aberration",
+    "translation": "отклонение; аномалия",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "articulation",
+    "translation": "артикуляция; чёткое выражение",
+    "part_of_speech": "n",
+    "category": "Communication",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "avian",
+    "translation": "птичий",
+    "part_of_speech": "adj",
+    "category": "Environment",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "dispersal",
+    "translation": "рассеивание; распространение",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "instantaneous",
+    "translation": "мгновенный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "substantiate",
+    "translation": "подтверждать; обосновывать",
+    "part_of_speech": "v",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hypothesize",
+    "translation": "выдвигать гипотезу",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "feign",
+    "translation": "притворяться; изображать",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "diligently",
+    "translation": "усердно; старательно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "modernism",
+    "translation": "модернизм",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "proverbial",
+    "translation": "общеизвестный; пресловутый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "treachery",
+    "translation": "предательство; вероломство",
+    "part_of_speech": "n",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "burgeoning",
+    "translation": "бурно растущий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "condensation",
+    "translation": "конденсация; сжатие",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "mediocrity",
+    "translation": "посредственность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "squirm",
+    "translation": "извиваться; ёрзать",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "maggot",
+    "translation": "личинка; опарыш",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "deviant",
+    "translation": "отклоняющийся; девиант",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "babble",
+    "translation": "лепетать; бессвязная речь",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "abundantly",
+    "translation": "в изобилии",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "genomic",
+    "translation": "геномный",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "subsistence",
+    "translation": "прожиточный минимум; существование",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "tenacity",
+    "translation": "стойкость; упорство",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "gravitate",
+    "translation": "тяготеть; притягиваться",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "belligerent",
+    "translation": "воинственный",
+    "part_of_speech": "adj",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "derelict",
+    "translation": "заброшенный; нерадивый",
+    "part_of_speech": "adj",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "elasticity",
+    "translation": "эластичность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "epoxy",
+    "translation": "эпоксидная смола",
+    "part_of_speech": "n",
+    "category": "Environment",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "gambit",
+    "translation": "гамбит; уловка",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "intersperse",
+    "translation": "чередовать; перемежать",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "monastic",
+    "translation": "монашеский",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "mangle",
+    "translation": "калечить; исковеркивать",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "anthropological",
+    "translation": "антропологический",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "wayward",
+    "translation": "своенравный; непредсказуемый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "swivel",
+    "translation": "поворачиваться; шарнир",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "meticulously",
+    "translation": "скрупулёзно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "nascent",
+    "translation": "зарождающийся",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "venomous",
+    "translation": "ядовитый; язвительный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "forfeiture",
+    "translation": "конфискация; утрата",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "wallow",
+    "translation": "валяться; погрязать",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "consignment",
+    "translation": "партия товара; отправка",
+    "part_of_speech": "n",
+    "category": "Work",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "buccaneer",
+    "translation": "пират; корсар",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "pressurize",
+    "translation": "создавать давление",
+    "part_of_speech": "v",
+    "category": "Technology",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hindrance",
+    "translation": "препятствие",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "verbatim",
+    "translation": "дословно; дословный",
+    "part_of_speech": "adj",
+    "category": "Communication",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "reproach",
+    "translation": "упрёк; порицать",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "averse",
+    "translation": "не склонный; испытывающий отвращение",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "egalitarian",
+    "translation": "эгалитарный; сторонник равенства",
+    "part_of_speech": "adj",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "gout",
+    "translation": "подагра",
+    "part_of_speech": "n",
+    "category": "Health",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "intrinsically",
+    "translation": "по своей сути",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "palatable",
+    "translation": "приятный на вкус; приемлемый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unequivocally",
+    "translation": "недвусмысленно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "extracurricular",
+    "translation": "внеклассный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "consign",
+    "translation": "отправлять; передавать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "engender",
+    "translation": "порождать; вызывать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "exude",
+    "translation": "излучать; источать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "vandalize",
+    "translation": "совершать акт вандализма",
+    "part_of_speech": "v",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "acreage",
+    "translation": "площадь в акрах",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "counterproductive",
+    "translation": "контрпродуктивный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "materialism",
+    "translation": "материализм",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "meager / meagre",
+    "translation": "скудный; недостаточный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "parochial",
+    "translation": "узкоместный; ограниченный",
+    "part_of_speech": "adj",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "utilitarian",
+    "translation": "утилитарный; практичный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "wheeze",
+    "translation": "хрипеть; хрип",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "depraved",
+    "translation": "развращённый; порочный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "emulation",
+    "translation": "подражание; эмуляция",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "tenacious",
+    "translation": "упорный; цепкий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "euphemism",
+    "translation": "эвфемизм",
+    "part_of_speech": "n",
+    "category": "Communication",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "facsimile",
+    "translation": "факсимиле; точная копия",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "habitation",
+    "translation": "жилище; обитание",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "confrontational",
+    "translation": "конфронтационный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "contagion",
+    "translation": "заражение; зараза",
+    "part_of_speech": "adj",
+    "category": "Health",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "insular",
+    "translation": "замкнутый; островной",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "jarring",
+    "translation": "резкий; диссонирующий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "methodological",
+    "translation": "методологический",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "resounding",
+    "translation": "громкий; убедительный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "recuperate",
+    "translation": "восстанавливаться",
+    "part_of_speech": "v",
+    "category": "Health",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "edifice",
+    "translation": "здание; сооружение",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "infallible",
+    "translation": "безошибочный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "minefield",
+    "translation": "минное поле; опасная ситуация",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "buzzard",
+    "translation": "канюк",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "distillation",
+    "translation": "дистилляция; извлечение сути",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "veritable",
+    "translation": "подлинный; настоящий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "innuendo",
+    "translation": "намёк; инсинуация",
+    "part_of_speech": "adj",
+    "category": "Communication",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "wrack",
+    "translation": "разрушение; обломки",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "remittance",
+    "translation": "денежный перевод",
+    "part_of_speech": "n",
+    "category": "Work",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "preoccupation",
+    "translation": "поглощённость; навязчивая мысль",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "abject",
+    "translation": "жалкий; унизительный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "austere",
+    "translation": "строгий; аскетичный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "individualism",
+    "translation": "индивидуализм",
+    "part_of_speech": "n",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "infernal",
+    "translation": "адский",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "mystique",
+    "translation": "загадочность; ореол таинственности",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "superfluous",
+    "translation": "излишний; ненужный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "eccentricity",
+    "translation": "эксцентричность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "exorcist",
+    "translation": "экзорцист",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "arcane",
+    "translation": "тайный; эзотерический",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "behest",
+    "translation": "поручение; воля",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ephemeral",
+    "translation": "мимолётный; недолговечный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "materialistic",
+    "translation": "материалистичный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "requisition",
+    "translation": "запрос; реквизиция",
+    "part_of_speech": "n",
+    "category": "Work",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "enabler",
+    "translation": "тот, кто способствует; фактор",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "exorcism",
+    "translation": "экзорцизм",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "recitation",
+    "translation": "декламация; чтение вслух",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "athleticism",
+    "translation": "атлетизм",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "figuratively",
+    "translation": "в переносном смысле",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "interlocking",
+    "translation": "сцепленный; взаимосвязанный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "romp",
+    "translation": "резвиться; шумная игра",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "abhorrent",
+    "translation": "отвратительный",
+    "part_of_speech": "adj",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "elated",
+    "translation": "ликующий",
+    "part_of_speech": "adj",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "posterity",
+    "translation": "потомки; будущие поколения",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "cinematographer",
+    "translation": "кинооператор",
+    "part_of_speech": "n",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "frolic",
+    "translation": "резвиться; шалость",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "contraption",
+    "translation": "приспособление; хитроумное устройство",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "antithesis",
+    "translation": "антитеза; противоположность",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "spurious",
+    "translation": "ложный; поддельный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "vermin",
+    "translation": "паразиты; вредители",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "philistine",
+    "translation": "филистер; невежда",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "amorphous",
+    "translation": "бесформенный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "minster",
+    "translation": "главная церковь; собор",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "slither",
+    "translation": "скользить; ползти",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "brandish",
+    "translation": "размахивать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hysterically",
+    "translation": "истерически",
+    "part_of_speech": "adv",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "idiosyncratic",
+    "translation": "идиосинкразический; своеобразный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "paradoxically",
+    "translation": "парадоксальным образом",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "plumage",
+    "translation": "оперение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "proportionally",
+    "translation": "пропорционально",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "tacit",
+    "translation": "негласный; подразумеваемый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "cloister",
+    "translation": "монастырская галерея; затворять",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "colloquial",
+    "translation": "разговорный",
+    "part_of_speech": "adj",
+    "category": "Communication",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "midwifery",
+    "translation": "акушерство",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "milieu",
+    "translation": "среда; окружение",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "painstaking",
+    "translation": "кропотливый; тщательный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "patchy",
+    "translation": "неравномерный; отрывочный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "resuscitation",
+    "translation": "реанимация",
+    "part_of_speech": "n",
+    "category": "Health",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "vindication",
+    "translation": "оправдание; подтверждение правоты",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "lyricist",
+    "translation": "автор текстов песен",
+    "part_of_speech": "n",
+    "category": "Communication",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "abhor",
+    "translation": "питать отвращение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "qualm",
+    "translation": "сомнение; угрызение совести",
+    "part_of_speech": "adj",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "recluse",
+    "translation": "затворник",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "reverb",
+    "translation": "реверберация",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "chronologically",
+    "translation": "в хронологическом порядке",
+    "part_of_speech": "adv",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "opulent",
+    "translation": "роскошный; богатый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unequivocal",
+    "translation": "недвусмысленный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "patronize / patronise",
+    "translation": "покровительствовать; снисходительно обращаться",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "thicket",
+    "translation": "заросли; чаща",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ferocity",
+    "translation": "свирепость",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "instantaneously",
+    "translation": "мгновенно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "posturing",
+    "translation": "позёрство; демонстративное поведение",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "stratosphere",
+    "translation": "стратосфера",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "torrential",
+    "translation": "проливной; бурный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "virtuoso",
+    "translation": "виртуоз",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "reverberate",
+    "translation": "отдаваться эхом; резонировать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "loiter",
+    "translation": "слоняться; бездельничать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "divination",
+    "translation": "гадание",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "fabled",
+    "translation": "легендарный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ravish",
+    "translation": "похищать; приводить в восторг",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "archetypal",
+    "translation": "архетипический",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "attuned",
+    "translation": "настроенный; восприимчивый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "disparaging",
+    "translation": "пренебрежительный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hapless",
+    "translation": "несчастный; злосчастный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "locomotion",
+    "translation": "передвижение; локомоция",
+    "part_of_speech": "n",
+    "category": "Travel",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "paradoxical",
+    "translation": "парадоксальный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "sandwiched",
+    "translation": "зажатый; расположенный между",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "tactically",
+    "translation": "тактически",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "fete",
+    "translation": "чествовать; праздник",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "blurb",
+    "translation": "аннотация; рекламная заметка",
+    "part_of_speech": "n",
+    "category": "Communication",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "allegorical",
+    "translation": "аллегорический",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "depravity",
+    "translation": "развращённость; порочность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "indignant",
+    "translation": "негодующий",
+    "part_of_speech": "adj",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "precocious",
+    "translation": "развитый не по годам",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "indiscretion",
+    "translation": "неосмотрительность; нескромность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "flit",
+    "translation": "порхать; быстро перемещаться",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "brevity",
+    "translation": "краткость",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "euphoric",
+    "translation": "эйфорический; ликующий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "maliciously",
+    "translation": "злонамеренно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "spontaneity",
+    "translation": "спонтанность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unnerving",
+    "translation": "вызывающий тревогу",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "surrealist",
+    "translation": "сюрреалист",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "collider",
+    "translation": "коллайдер",
+    "part_of_speech": "n",
+    "category": "Technology",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "menial",
+    "translation": "низкоквалифицированный; чёрный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "opacity",
+    "translation": "непрозрачность; непонятность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "painstakingly",
+    "translation": "кропотливо",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "reptilian",
+    "translation": "рептильный; пресмыкающийся",
+    "part_of_speech": "adj",
+    "category": "Environment",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "resuscitate",
+    "translation": "реанимировать; оживлять",
+    "part_of_speech": "v",
+    "category": "Health",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "commensurate",
+    "translation": "соразмерный",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "flagging",
+    "translation": "ослабевающий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "forlorn",
+    "translation": "покинутый; безутешный",
+    "part_of_speech": "adj",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "portraiture",
+    "translation": "портретная живопись",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "seedy",
+    "translation": "неблагополучный; потрёпанный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "summarily",
+    "translation": "без промедления; вкратце",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "sheaf",
+    "translation": "сноп; пачка",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "brimstone",
+    "translation": "сера",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "malleable",
+    "translation": "податливый; ковкий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "singe",
+    "translation": "опалять; слегка обжечь",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "acrobatic",
+    "translation": "акробатический",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "consternation",
+    "translation": "смятение; тревога",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "lyrically",
+    "translation": "лирически",
+    "part_of_speech": "adv",
+    "category": "Communication",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "preconception",
+    "translation": "предубеждение; предварительное представление",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "denunciation",
+    "translation": "обличение; осуждение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "cay",
+    "translation": "коралловый островок",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "disparage",
+    "translation": "умалять; порочить",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "bereft",
+    "translation": "лишённый; обездоленный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "derision",
+    "translation": "насмешка; презрение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "selectivity",
+    "translation": "избирательность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "topographical",
+    "translation": "топографический",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "verily",
+    "translation": "истинно; воистину",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "subsist",
+    "translation": "существовать; прокормиться",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "preeminent",
+    "translation": "выдающийся; превосходящий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "patronizing / patronising",
+    "translation": "снисходительный; покровительственный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "surrealism",
+    "translation": "сюрреализм",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "telescopic",
+    "translation": "телескопический",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "breadwinner",
+    "translation": "кормилец семьи",
+    "part_of_speech": "n",
+    "category": "Work",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "inducement",
+    "translation": "стимул; побуждение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "haphazard",
+    "translation": "беспорядочный; случайный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "irrevocably",
+    "translation": "необратимо",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "prescriptive",
+    "translation": "предписывающий; нормативный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "banishment",
+    "translation": "изгнание",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "conciliatory",
+    "translation": "примирительный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "irrevocable",
+    "translation": "необратимый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "mottled",
+    "translation": "пёстрый; пятнистый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "reclusive",
+    "translation": "замкнутый; ведущий уединённый образ жизни",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "acrobatics",
+    "translation": "акробатика",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "repose",
+    "translation": "покой; отдых",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "spatially",
+    "translation": "пространственно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "conciliation",
+    "translation": "примирение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "nonchalant",
+    "translation": "беспечный; невозмутимый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "lamentation",
+    "translation": "плач; сетование",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "revile",
+    "translation": "поносить; оскорблять",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "lurid",
+    "translation": "кричащий; сенсационный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "liaise",
+    "translation": "поддерживать связь",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "besiege",
+    "translation": "осаждать; обступать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "cogent",
+    "translation": "убедительный; веский",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "floodgates",
+    "translation": "шлюзы; плотины",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "primeval",
+    "translation": "первобытный; первозданный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "revulsion",
+    "translation": "отвращение",
+    "part_of_speech": "n",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unsurpassed",
+    "translation": "непревзойдённый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "wistful",
+    "translation": "тоскливый; мечтательный",
+    "part_of_speech": "adj",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "confection",
+    "translation": "кондитерское изделие",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "protrusion",
+    "translation": "выступ; выпячивание",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "elation",
+    "translation": "ликование",
+    "part_of_speech": "n",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "whir",
+    "translation": "жужжать; вращаться с гулом",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "colloquially",
+    "translation": "в разговорной речи",
+    "part_of_speech": "adv",
+    "category": "Communication",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "incongruous",
+    "translation": "несоответствующий; нелепый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "maelstrom",
+    "translation": "водоворот; хаос",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "opulence",
+    "translation": "роскошь; богатство",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "pyre",
+    "translation": "погребальный костёр",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "surreptitiously",
+    "translation": "тайком; украдкой",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "tacitly",
+    "translation": "молча; негласно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "blubber",
+    "translation": "рыдать; ворвань",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "haughty",
+    "translation": "высокомерный",
+    "part_of_speech": "adj",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "headmistress",
+    "translation": "директриса",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "prostrate",
+    "translation": "лежащий ниц; повергать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "rickety",
+    "translation": "шаткий; дряхлый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "zoologist",
+    "translation": "зоолог",
+    "part_of_speech": "n",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "contractually",
+    "translation": "по договору",
+    "part_of_speech": "adv",
+    "category": "Work",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "deprecate",
+    "translation": "осуждать; выражать неодобрение",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unadulterated",
+    "translation": "чистый; неподдельный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "adornment",
+    "translation": "украшение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "glitz",
+    "translation": "мишура; показная роскошь",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "salivary",
+    "translation": "слюнный",
+    "part_of_speech": "adj",
+    "category": "Health",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hotelier",
+    "translation": "владелец гостиницы",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "farcical",
+    "translation": "фарсовый; нелепый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unobtrusive",
+    "translation": "ненавязчивый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "aghast",
+    "translation": "потрясённый; ошеломлённый",
+    "part_of_speech": "adj",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "autonomously",
+    "translation": "автономно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "contemptuous",
+    "translation": "презрительный",
+    "part_of_speech": "adj",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "crystallization / crystallisation",
+    "translation": "кристаллизация",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "enthuse",
+    "translation": "восторженно говорить; воодушевлять",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "inexorably",
+    "translation": "неумолимо",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "recuperation",
+    "translation": "восстановление; выздоровление",
+    "part_of_speech": "n",
+    "category": "Health",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "reverberation",
+    "translation": "отзвук; реверберация",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "bauble",
+    "translation": "безделушка",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "predilection",
+    "translation": "склонность; пристрастие",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "impeccably",
+    "translation": "безупречно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "stoicism",
+    "translation": "стоицизм; стойкость",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "smattering",
+    "translation": "поверхностное знание; небольшое количество",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "presuppose",
+    "translation": "предполагать; подразумевать",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "antithetical",
+    "translation": "противоположный; антитетический",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "magnanimous",
+    "translation": "великодушный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "physiologically",
+    "translation": "физиологически",
+    "part_of_speech": "adv",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "romper",
+    "translation": "комбинезон; участник шумной вечеринки",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ordain",
+    "translation": "назначать; предопределять",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "chrysalis",
+    "translation": "куколка",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "remorseful",
+    "translation": "раскаивающийся",
+    "part_of_speech": "adj",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unencumbered",
+    "translation": "необременённый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "virtuosity",
+    "translation": "виртуозность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "leaven",
+    "translation": "закваска; оживлять",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "artifice",
+    "translation": "искусность; уловка",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "drudgery",
+    "translation": "изнурительный труд",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "emolument",
+    "translation": "вознаграждение; доход",
+    "part_of_speech": "n",
+    "category": "Work",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "melodious",
+    "translation": "мелодичный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "nonchalantly",
+    "translation": "невозмутимо",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "inexorable",
+    "translation": "неумолимый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "moribund",
+    "translation": "умирающий; находящийся в упадке",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "suffuse",
+    "translation": "наполнять; пронизывать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "edify",
+    "translation": "поучать; просвещать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "concurrence",
+    "translation": "согласие; совпадение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hermetic",
+    "translation": "герметичный; замкнутый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "idiosyncrasy",
+    "translation": "особенность; причуда",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "inscrutable",
+    "translation": "непостижимый; загадочный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "postural",
+    "translation": "постуральный; относящийся к осанке",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "puritanical",
+    "translation": "пуританский; чрезмерно строгий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "anarchic",
+    "translation": "анархический",
+    "part_of_speech": "adj",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "dissension",
+    "translation": "раздор; разногласие",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "outmoded",
+    "translation": "устаревший",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "axiomatic",
+    "translation": "самоочевидный; аксиоматический",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "colloquium",
+    "translation": "коллоквиум",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "haphazardly",
+    "translation": "беспорядочно; наугад",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "impresario",
+    "translation": "импресарио; антрепренёр",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "incipient",
+    "translation": "начинающийся; зарождающийся",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "rhetorically",
+    "translation": "риторически",
+    "part_of_speech": "adv",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "rumination",
+    "translation": "размышление; пережёвывание",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ephemera",
+    "translation": "недолговечные предметы; эфемериды",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "gauche",
+    "translation": "неловкий; бестактный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ruminate",
+    "translation": "размышлять; пережёвывать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "snobbery",
+    "translation": "снобизм",
+    "part_of_speech": "n",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "sterility",
+    "translation": "стерильность; бесплодие",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "presupposition",
+    "translation": "предпосылка",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "improvisational",
+    "translation": "импровизационный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "astringent",
+    "translation": "вяжущий; терпкий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unnerve",
+    "translation": "лишать самообладания",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "neophyte",
+    "translation": "новичок; неофит",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ostensible",
+    "translation": "кажущийся; мнимый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "wistfully",
+    "translation": "тоскливо; мечтательно",
+    "part_of_speech": "adv",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "imperceptible",
+    "translation": "незаметный; неуловимый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unfeasible",
+    "translation": "невыполнимый; неосуществимый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "delicatessen",
+    "translation": "гастроном; деликатесы",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ponderous",
+    "translation": "громоздкий; тяжеловесный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "vestigial",
+    "translation": "рудиментарный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "virginal",
+    "translation": "девственный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ruminant",
+    "translation": "жвачное животное",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "floe",
+    "translation": "плавучая льдина",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "totter",
+    "translation": "шататься; ковылять",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "idiomatic",
+    "translation": "идиоматический",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "recumbent",
+    "translation": "лежащий; полулежащий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "resound",
+    "translation": "греметь; раздаваться",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "connote",
+    "translation": "подразумевать; иметь коннотацию",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "angsty",
+    "translation": "тревожный; полный angst",
+    "part_of_speech": "adj",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "impressionistic",
+    "translation": "импрессионистический",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "prise",
+    "translation": "поддевать; выламывать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "revelatory",
+    "translation": "открывающий; разоблачительный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "happenstance",
+    "translation": "случайность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "calamitous",
+    "translation": "катастрофический",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "cloistered",
+    "translation": "затворнический; монастырский",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ecotourism",
+    "translation": "экотуризм",
+    "part_of_speech": "n",
+    "category": "Travel",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "infallibility",
+    "translation": "безошибочность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "catastrophically",
+    "translation": "катастрофически",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "menacingly",
+    "translation": "угрожающе",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "rapturous",
+    "translation": "восторженный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "truism",
+    "translation": "банальная истина; трюизм",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "demystify",
+    "translation": "развеивать тайну; делать понятным",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "encumbrance",
+    "translation": "обуза; обременение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hypnotherapy",
+    "translation": "гипнотерапия",
+    "part_of_speech": "adj",
+    "category": "Health",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "marketability",
+    "translation": "коммерческая привлекательность",
+    "part_of_speech": "n",
+    "category": "Work",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "dwarfism",
+    "translation": "карликовость",
+    "part_of_speech": "n",
+    "category": "Health",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "declination",
+    "translation": "склонение; отклонение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "flighty",
+    "translation": "ветреный; непостоянный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "glitzy",
+    "translation": "броский; гламурный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "hauntingly",
+    "translation": "неотступно; завораживающе",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "laryngitis",
+    "translation": "ларингит",
+    "part_of_speech": "adj",
+    "category": "Health",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "taciturn",
+    "translation": "молчаливый; немногословный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "derisive",
+    "translation": "насмешливый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "domesticity",
+    "translation": "домашний уклад",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "sulphuric",
+    "translation": "серный",
+    "part_of_speech": "adj",
+    "category": "Environment",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "disdainful",
+    "translation": "презрительный",
+    "part_of_speech": "adj",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "interrogative",
+    "translation": "вопросительный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ardor / ardour",
+    "translation": "пыл; страсть",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "fractious",
+    "translation": "непокорный; раздражительный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ignominious",
+    "translation": "позорный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "prissy",
+    "translation": "чопорный; жеманный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "syllabic",
+    "translation": "слоговой",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "timidity",
+    "translation": "робость",
+    "part_of_speech": "n",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "teem",
+    "translation": "изобиловать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "echolocation",
+    "translation": "эхолокация",
+    "part_of_speech": "n",
+    "category": "Environment",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "mien",
+    "translation": "вид; манера держаться",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "commode",
+    "translation": "комод; туалетный стул",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "affectation",
+    "translation": "манерность; притворство",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "derisively",
+    "translation": "насмешливо",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "edification",
+    "translation": "назидание; просвещение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "histrionic",
+    "translation": "театральный; истеричный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "pressurization",
+    "translation": "создание давления",
+    "part_of_speech": "n",
+    "category": "Technology",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "surreptitious",
+    "translation": "тайный; скрытный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "circumnavigate",
+    "translation": "обогнуть; совершить кругосветное плавание",
+    "part_of_speech": "v",
+    "category": "Travel",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "indolent",
+    "translation": "ленивый",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "mutinous",
+    "translation": "мятежный",
+    "part_of_speech": "adj",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "imperceptibly",
+    "translation": "незаметно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ingratiate",
+    "translation": "втираться в доверие",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "wordsmith",
+    "translation": "мастер слова",
+    "part_of_speech": "n",
+    "category": "Communication",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "perversity",
+    "translation": "извращённость; своенравие",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "interweave",
+    "translation": "переплетать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "magnanimity",
+    "translation": "великодушие",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "calorific",
+    "translation": "калорийный; теплотворный",
+    "part_of_speech": "adj",
+    "category": "Health",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "capacious",
+    "translation": "вместительный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "incongruity",
+    "translation": "несоответствие; нелепость",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "circumnavigation",
+    "translation": "кругосветное плавание",
+    "part_of_speech": "n",
+    "category": "Travel",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "decentralize / decentralise",
+    "translation": "децентрализовать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "euphemistically",
+    "translation": "эвфемистически",
+    "part_of_speech": "adv",
+    "category": "Communication",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "malleability",
+    "translation": "податливость; ковкость",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "tenaciously",
+    "translation": "упорно; цепко",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "contrive",
+    "translation": "ухитриться; изобрести",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "verisimilitude",
+    "translation": "правдоподобие",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "buffoonery",
+    "translation": "клоунада; шутовство",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "prurient",
+    "translation": "похотливый; с нездоровым интересом",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "totemic",
+    "translation": "тотемный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "brouhaha",
+    "translation": "шумиха; переполох",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "deaden",
+    "translation": "приглушать; притуплять",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "disparagement",
+    "translation": "уничижение; умаление",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "octogenarian",
+    "translation": "восьмидесятилетний человек",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unsuspected",
+    "translation": "неподозреваемый; неожиданный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "callously",
+    "translation": "бессердечно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "indignantly",
+    "translation": "с негодованием",
+    "part_of_speech": "adv",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "pervasiveness",
+    "translation": "вездесущность; повсеместность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "resoundingly",
+    "translation": "громогласно; убедительно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "contemptuously",
+    "translation": "презрительно",
+    "part_of_speech": "adv",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "gravitationally",
+    "translation": "гравитационно",
+    "part_of_speech": "adv",
+    "category": "Environment",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "mesmeric",
+    "translation": "гипнотический",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "plutocrat",
+    "translation": "плутократ",
+    "part_of_speech": "n",
+    "category": "Work",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "belligerence",
+    "translation": "воинственность",
+    "part_of_speech": "n",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unpromising",
+    "translation": "необещающий; бесперспективный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "emulsifier",
+    "translation": "эмульгатор",
+    "part_of_speech": "adj",
+    "category": "Technology",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "laudatory",
+    "translation": "хвалебный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "nostalgically",
+    "translation": "с ностальгией",
+    "part_of_speech": "adv",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "preservationist",
+    "translation": "сторонник сохранения",
+    "part_of_speech": "n",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "solipsism",
+    "translation": "солипсизм",
+    "part_of_speech": "n",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "treacherously",
+    "translation": "предательски; коварно",
+    "part_of_speech": "adv",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ingratiating",
+    "translation": "заискивающий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "disparagingly",
+    "translation": "пренебрежительно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "dubiously",
+    "translation": "сомнительно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "shamble",
+    "translation": "шаркать; ковылять",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "antediluvian",
+    "translation": "допотопный; древний",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "compellingly",
+    "translation": "убедительно; захватывающе",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "indolence",
+    "translation": "лень; праздность",
+    "part_of_speech": "n",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "carbonize / carbonise",
+    "translation": "обугливать",
+    "part_of_speech": "v",
+    "category": "Environment",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "dissemble",
+    "translation": "притворяться; скрывать истинные намерения",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "emulsify",
+    "translation": "эмульгировать",
+    "part_of_speech": "v",
+    "category": "Technology",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "inchoate",
+    "translation": "неоформленный; зарождающийся",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "presentational",
+    "translation": "презентационный; относящийся к подаче",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unobtrusively",
+    "translation": "ненавязчиво",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "euphemistic",
+    "translation": "эвфемистический",
+    "part_of_speech": "adj",
+    "category": "Communication",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unexceptional",
+    "translation": "заурядный; обычный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "leavening",
+    "translation": "разрыхлитель; закваска",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "stringently",
+    "translation": "строго",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "methodologically",
+    "translation": "методологически",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "cultish",
+    "translation": "сектантский",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "topographically",
+    "translation": "топографически",
+    "part_of_speech": "adv",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "economize / economise",
+    "translation": "экономить",
+    "part_of_speech": "v",
+    "category": "Work",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "tantalizingly / tantalisingly",
+    "translation": "дразняще; заманчиво",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "elephantine",
+    "translation": "слоновий; громоздкий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ingrate",
+    "translation": "неблагодарный человек",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "proscription",
+    "translation": "запрет; изгнание",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "infallibly",
+    "translation": "безошибочно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "irrelevancy",
+    "translation": "неуместность; неактуальность",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "incongruously",
+    "translation": "неуместно; нелепо",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ingenuous",
+    "translation": "простодушный; искренний",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "denotation",
+    "translation": "денотативное значение",
+    "part_of_speech": "n",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "enduringly",
+    "translation": "надолго; устойчиво",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ignominiously",
+    "translation": "позорно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "materialization / materialisation",
+    "translation": "материализация; осуществление",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unexcused",
+    "translation": "неоправданный; без уважительной причины",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "indulgently",
+    "translation": "снисходительно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unmediated",
+    "translation": "непосредственный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "forlornly",
+    "translation": "безутешно",
+    "part_of_speech": "adv",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "attributive",
+    "translation": "атрибутивный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "squirmy",
+    "translation": "извивающийся; вызывающий неловкость",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "proscribe",
+    "translation": "запрещать; объявлять вне закона",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "tetchy",
+    "translation": "раздражительный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "remonstrance",
+    "translation": "возражение; протест",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "remonstrate",
+    "translation": "возражать; протестовать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "retrospection",
+    "translation": "воспоминание; ретроспекция",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "emulsification",
+    "translation": "эмульгирование",
+    "part_of_speech": "n",
+    "category": "Technology",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "formidably",
+    "translation": "грозно; внушительно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "haughtily",
+    "translation": "высокомерно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "kinetically",
+    "translation": "кинетически",
+    "part_of_speech": "adv",
+    "category": "Technology",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "polysyllabic",
+    "translation": "многосложный",
+    "part_of_speech": "adj",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "rapturously",
+    "translation": "восторженно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "tantalize / tantalise",
+    "translation": "дразнить; искушать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "confabulation",
+    "translation": "непринуждённая беседа; конфабуляция",
+    "part_of_speech": "n",
+    "category": "Communication",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "munificence",
+    "translation": "щедрость",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unnervingly",
+    "translation": "тревожно; пугающе",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "cogently",
+    "translation": "убедительно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "flatout",
+    "translation": "на полной скорости; категорически",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "magnanimously",
+    "translation": "великодушно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "anthropologically",
+    "translation": "антропологически",
+    "part_of_speech": "adv",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "precociously",
+    "translation": "не по годам развито",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "recuperative",
+    "translation": "восстановительный",
+    "part_of_speech": "adj",
+    "category": "Health",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "lassitude",
+    "translation": "вялость; усталость",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "commensurately",
+    "translation": "соразмерно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "encumber",
+    "translation": "обременять",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "redundantly",
+    "translation": "избыточно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "adulterate",
+    "translation": "фальсифицировать; разбавлять",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "equable",
+    "translation": "ровный; спокойный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "blubbery",
+    "translation": "жирный; покрытый ворванью",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "austerely",
+    "translation": "строго; аскетично",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "voracity",
+    "translation": "прожорливость; жадность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "incise",
+    "translation": "надрезать; вырезать",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "punitively",
+    "translation": "карательно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "tranquilize / tranquilise",
+    "translation": "успокаивать; давать транквилизатор",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "idiomatically",
+    "translation": "идиоматически",
+    "part_of_speech": "adv",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "mundanity",
+    "translation": "обыденность; заурядность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ruminative",
+    "translation": "склонный к размышлениям",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "spuriously",
+    "translation": "ложно; фальшиво",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "metalled",
+    "translation": "с твёрдым покрытием",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "promotable",
+    "translation": "перспективный для повышения",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "angularity",
+    "translation": "угловатость",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ephemerality",
+    "translation": "мимолётность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "arduously",
+    "translation": "тяжело; с большим трудом",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "demystification",
+    "translation": "развенчание тайны",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "infernally",
+    "translation": "адски",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ponderously",
+    "translation": "тяжеловесно; медленно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "undemonstrative",
+    "translation": "сдержанный в проявлении чувств",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "patchily",
+    "translation": "неравномерно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "deprecatingly",
+    "translation": "самоуничижительно; неодобрительно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "acrobatically",
+    "translation": "акробатически",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "luridly",
+    "translation": "кричаще; сенсационно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "melodiously",
+    "translation": "мелодично",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "cosset",
+    "translation": "баловать; холить",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "secularly",
+    "translation": "в светском смысле",
+    "part_of_speech": "adv",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "proprietorial",
+    "translation": "собственнический",
+    "part_of_speech": "adj",
+    "category": "Work",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "patronizingly / patronisingly",
+    "translation": "снисходительно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "drabness",
+    "translation": "унылость; невзрачность",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "euphorically",
+    "translation": "эйфорически",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "indiscrete",
+    "translation": "неосмотрительный; нескромный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "opulently",
+    "translation": "роскошно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "prurience",
+    "translation": "похотливость; нездоровое любопытство",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "philanthropically",
+    "translation": "благотворительно",
+    "part_of_speech": "adv",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "venomously",
+    "translation": "ядовито; злобно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "telescopically",
+    "translation": "телескопически",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "wordage",
+    "translation": "объём текста; словесное выражение",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unfeasibly",
+    "translation": "неосуществимо; неправдоподобно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "indolently",
+    "translation": "лениво",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "interrogatively",
+    "translation": "вопросительно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "abhorrently",
+    "translation": "отвратительно; с отвращением",
+    "part_of_speech": "adv",
+    "category": "Emotions",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ingenuously",
+    "translation": "простодушно; искренне",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "superfluously",
+    "translation": "излишне",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "inartistic",
+    "translation": "безыскусный; нехудожественный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "porten",
+    "translation": "предвещать (редк.; требует проверки)",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "calamitously",
+    "translation": "катастрофически",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "echolocate",
+    "translation": "определять местоположение эхом",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "caffeinate",
+    "translation": "насыщать кофеином",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "amorphously",
+    "translation": "бесформенно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "anticlimactically",
+    "translation": "разочаровывающе; без кульминации",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "arcanely",
+    "translation": "таинственно; эзотерически",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "bereftly",
+    "translation": "в состоянии утраты; безутешно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "blandishment",
+    "translation": "лесть; уговоры",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "choreographical",
+    "translation": "хореографический",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "confabulate",
+    "translation": "беседовать; конфабулировать",
+    "part_of_speech": "v",
+    "category": "Communication",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "confrontationally",
+    "translation": "конфронтационно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "counterproductively",
+    "translation": "контрпродуктивно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "deficiently",
+    "translation": "недостаточно; с недостатками",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "deviantly",
+    "translation": "девиантно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "evokingly",
+    "translation": "вызывающе ассоциации (требует проверки)",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "exaltedly",
+    "translation": "возвышенно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "fabulate",
+    "translation": "сочинять; выдумывать",
+    "part_of_speech": "v",
+    "category": "Communication",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "fabulation",
+    "translation": "вымысел; сочинительство",
+    "part_of_speech": "n",
+    "category": "Communication",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "flightiness",
+    "translation": "ветреность; непостоянство",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "genomically",
+    "translation": "геномно",
+    "part_of_speech": "adv",
+    "category": "Education",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "histrionically",
+    "translation": "театрально; истерично",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "impressionistically",
+    "translation": "импрессионистически",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "inchoately",
+    "translation": "неоформленно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "inexorability",
+    "translation": "неумолимость",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ingratiatingly",
+    "translation": "заискивающе",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "mutinously",
+    "translation": "мятежно",
+    "part_of_speech": "adv",
+    "category": "Society",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "paralyzingly / paralysingly",
+    "translation": "парализующе",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "soliloquize",
+    "translation": "произносить монолог",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "solitariness",
+    "translation": "одиночество; уединённость",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "stultify",
+    "translation": "подавлять; лишать инициативы",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "stultifyingly",
+    "translation": "удушающе; отупляюще",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "taciturnity",
+    "translation": "молчаливость",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "undemonstratively",
+    "translation": "сдержанно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "undiminishing",
+    "translation": "не уменьшающийся",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unexceptionally",
+    "translation": "обычно; заурядно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unharried",
+    "translation": "не потревоженный; спокойный",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "unobtrusiveness",
+    "translation": "ненавязчивость",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "vestigially",
+    "translation": "рудиментарно",
+    "part_of_speech": "adv",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "ad-lib",
+    "translation": "импровизировать; экспромт",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "all-encompassing",
+    "translation": "всеобъемлющий",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "muscle-bound",
+    "translation": "скованный чрезмерно развитыми мышцами",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "self-aggrandizement / self-aggrandisement",
+    "translation": "самовозвеличивание",
+    "part_of_speech": "n",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "side-step",
+    "translation": "уклоняться; обходить",
+    "part_of_speech": "v",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  },
+  {
+    "word": "taste-maker",
+    "translation": "законодатель вкусов",
+    "part_of_speech": "adj",
+    "category": "General",
+    "source": "English Vocabulary Profile",
+    "level": "C2"
+  }
+]

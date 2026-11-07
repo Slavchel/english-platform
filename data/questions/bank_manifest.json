@@ -1,0 +1,30 @@
+{
+  "bankVersion": "draft-4.0",
+  "totalQuestions": 524,
+  "counts": {
+    "Grammar": 174,
+    "Vocabulary": 175,
+    "Reading": 175
+  },
+  "readingPassages": 35,
+  "cefrLevels": [
+    "PRE-A1",
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1",
+    "C2"
+  ],
+  "languagePolicy": {
+    "instructions": "Russian through A2; English from B1",
+    "readingPassages": "English at every level"
+  },
+  "notes": [
+    "Grammar and Vocabulary combine old and new tasks into one file per skill.",
+    "Reading uses only the 175 new questions from reading_questions.json and their matching 35 passages.",
+    "The earlier 30 Reading questions are not used.",
+    "Reading explanations are translated into Russian; questions use the original English texts.",
+    "difficulty values are provisional ordering hints, not calibrated psychometric measurements."
+  ]
+}

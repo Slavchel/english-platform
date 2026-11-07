@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "incremental": false,
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "types": ["node"],
+    "outDir": ".test-build",
+    "rootDir": ".",
+    "plugins": []
+  },
+  "include": ["lib/cefr/**/*.ts", "tests/**/*.ts"],
+  "exclude": ["node_modules", ".next", ".test-build"]
+}

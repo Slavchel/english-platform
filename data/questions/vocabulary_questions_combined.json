@@ -1,0 +1,6302 @@
+[
+  {
+    "id": "vocabulary-pre-a1-0036",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "food",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “apple”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "яблоко"
+      },
+      {
+        "id": "B",
+        "text": "банан"
+      },
+      {
+        "id": "C",
+        "text": "апельсин"
+      },
+      {
+        "id": "D",
+        "text": "морковь"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "«apple» означает «яблоко».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:apple",
+      "word": "apple",
+      "level": "PRE-A1",
+      "partOfSpeech": "n",
+      "category": "food",
+      "translation": "яблоко"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0037",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "home",
+    "format": "mcq-context",
+    "stem": "Выбери подходящее слово: “Please sit on the ___.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "window"
+      },
+      {
+        "id": "B",
+        "text": "chair"
+      },
+      {
+        "id": "C",
+        "text": "table"
+      },
+      {
+        "id": "D",
+        "text": "door"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Здесь подходит “chair”: это означает «стул».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:chair",
+      "word": "chair",
+      "level": "PRE-A1",
+      "partOfSpeech": "n",
+      "category": "home",
+      "translation": "стул"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0038",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "family",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “brother”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "дедушка"
+      },
+      {
+        "id": "B",
+        "text": "друг"
+      },
+      {
+        "id": "C",
+        "text": "брат"
+      },
+      {
+        "id": "D",
+        "text": "сестра"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "«brother» означает «брат».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:brother",
+      "word": "brother",
+      "level": "PRE-A1",
+      "partOfSpeech": "n",
+      "category": "family",
+      "translation": "брат"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0039",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "feelings",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “angry”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "уставший"
+      },
+      {
+        "id": "B",
+        "text": "голодный"
+      },
+      {
+        "id": "C",
+        "text": "счастливый"
+      },
+      {
+        "id": "D",
+        "text": "сердитый"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "«angry» означает «сердитый».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:angry",
+      "word": "angry",
+      "level": "PRE-A1",
+      "partOfSpeech": "adj",
+      "category": "feelings",
+      "translation": "сердитый"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0040",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "home",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “bed”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "кровать"
+      },
+      {
+        "id": "B",
+        "text": "стол"
+      },
+      {
+        "id": "C",
+        "text": "стул"
+      },
+      {
+        "id": "D",
+        "text": "диван"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "«bed» означает «кровать».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:bed",
+      "word": "bed",
+      "level": "PRE-A1",
+      "partOfSpeech": "n",
+      "category": "home",
+      "translation": "кровать"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0041",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "school",
+    "format": "mcq-context",
+    "stem": "Выбери подходящее слово: “I ___ a book every evening.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "sleep"
+      },
+      {
+        "id": "B",
+        "text": "read"
+      },
+      {
+        "id": "C",
+        "text": "draw"
+      },
+      {
+        "id": "D",
+        "text": "sing"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Здесь подходит “read”: это означает «читать».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:read",
+      "word": "read",
+      "level": "PRE-A1",
+      "partOfSpeech": "v",
+      "category": "school",
+      "translation": "читать"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0042",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "food",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “banana”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "яблоко"
+      },
+      {
+        "id": "B",
+        "text": "апельсин"
+      },
+      {
+        "id": "C",
+        "text": "банан"
+      },
+      {
+        "id": "D",
+        "text": "виноград"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "«banana» означает «банан».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:banana",
+      "word": "banana",
+      "level": "PRE-A1",
+      "partOfSpeech": "n",
+      "category": "food",
+      "translation": "банан"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0043",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "descriptions",
+    "format": "mcq-context",
+    "stem": "Выбери подходящее слово: “An elephant is very ___.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "small"
+      },
+      {
+        "id": "B",
+        "text": "happy"
+      },
+      {
+        "id": "C",
+        "text": "blue"
+      },
+      {
+        "id": "D",
+        "text": "big"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Здесь подходит “big”: это означает «большой».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:big",
+      "word": "big",
+      "level": "PRE-A1",
+      "partOfSpeech": "adj",
+      "category": "descriptions",
+      "translation": "большой"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0044",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "family",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “father”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "отец"
+      },
+      {
+        "id": "B",
+        "text": "брат"
+      },
+      {
+        "id": "C",
+        "text": "сын"
+      },
+      {
+        "id": "D",
+        "text": "дедушка"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "«father» означает «отец».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:father",
+      "word": "father",
+      "level": "PRE-A1",
+      "partOfSpeech": "n",
+      "category": "family",
+      "translation": "отец"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0045",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "actions",
+    "format": "mcq-context",
+    "stem": "Выбери подходящее слово: “The children ___ in the park.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "eat"
+      },
+      {
+        "id": "B",
+        "text": "run"
+      },
+      {
+        "id": "C",
+        "text": "draw"
+      },
+      {
+        "id": "D",
+        "text": "sleep"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Здесь подходит “run”: это означает «бегать».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:run",
+      "word": "run",
+      "level": "PRE-A1",
+      "partOfSpeech": "v",
+      "category": "actions",
+      "translation": "бегать"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0046",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "food",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “milk”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "вода"
+      },
+      {
+        "id": "B",
+        "text": "чай"
+      },
+      {
+        "id": "C",
+        "text": "молоко"
+      },
+      {
+        "id": "D",
+        "text": "сок"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "«milk» означает «молоко».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:milk",
+      "word": "milk",
+      "level": "PRE-A1",
+      "partOfSpeech": "n",
+      "category": "food",
+      "translation": "молоко"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0047",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "colours",
+    "format": "mcq-context",
+    "stem": "Выбери подходящее слово: “Grass is usually ___.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "blue"
+      },
+      {
+        "id": "B",
+        "text": "red"
+      },
+      {
+        "id": "C",
+        "text": "yellow"
+      },
+      {
+        "id": "D",
+        "text": "green"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Здесь подходит “green”: это означает «зелёный».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:green",
+      "word": "green",
+      "level": "PRE-A1",
+      "partOfSpeech": "adj",
+      "category": "colours",
+      "translation": "зелёный"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0048",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "school",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “school”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "школа"
+      },
+      {
+        "id": "B",
+        "text": "магазин"
+      },
+      {
+        "id": "C",
+        "text": "больница"
+      },
+      {
+        "id": "D",
+        "text": "парк"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "«school» означает «школа».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:school",
+      "word": "school",
+      "level": "PRE-A1",
+      "partOfSpeech": "n",
+      "category": "school",
+      "translation": "школа"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0049",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "daily-routines",
+    "format": "mcq-context",
+    "stem": "Выбери подходящее слово: “I am tired. I want to ___.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "eat"
+      },
+      {
+        "id": "B",
+        "text": "sleep"
+      },
+      {
+        "id": "C",
+        "text": "swim"
+      },
+      {
+        "id": "D",
+        "text": "read"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Здесь подходит “sleep”: это означает «спать».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:sleep",
+      "word": "sleep",
+      "level": "PRE-A1",
+      "partOfSpeech": "v",
+      "category": "daily-routines",
+      "translation": "спать"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0050",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "animals",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “bird”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "лошадь"
+      },
+      {
+        "id": "B",
+        "text": "кошка"
+      },
+      {
+        "id": "C",
+        "text": "птица"
+      },
+      {
+        "id": "D",
+        "text": "рыба"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "«bird» означает «птица».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:bird",
+      "word": "bird",
+      "level": "PRE-A1",
+      "partOfSpeech": "n",
+      "category": "animals",
+      "translation": "птица"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0051",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "school",
+    "format": "mcq-context",
+    "stem": "Выбери подходящее слово: “Please ___ the door.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "close"
+      },
+      {
+        "id": "B",
+        "text": "wash"
+      },
+      {
+        "id": "C",
+        "text": "draw"
+      },
+      {
+        "id": "D",
+        "text": "open"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Здесь подходит “open”: это означает «открытый; открывать».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:open",
+      "word": "open",
+      "level": "PRE-A1",
+      "partOfSpeech": "adj + v",
+      "category": "school",
+      "translation": "открытый; открывать"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0052",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "food-drink",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “water”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "вода"
+      },
+      {
+        "id": "B",
+        "text": "молоко"
+      },
+      {
+        "id": "C",
+        "text": "хлеб"
+      },
+      {
+        "id": "D",
+        "text": "сок"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "«water» означает «вода».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:water",
+      "word": "water",
+      "level": "PRE-A1",
+      "partOfSpeech": "n",
+      "category": "food-drink",
+      "translation": "вода"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0053",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "family",
+    "format": "mcq-context",
+    "stem": "Выбери подходящее слово: “My ___ is my mum’s daughter.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "mother"
+      },
+      {
+        "id": "B",
+        "text": "sister"
+      },
+      {
+        "id": "C",
+        "text": "teacher"
+      },
+      {
+        "id": "D",
+        "text": "brother"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Здесь подходит “sister”: это означает «сестра».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:sister",
+      "word": "sister",
+      "level": "PRE-A1",
+      "partOfSpeech": "n",
+      "category": "family",
+      "translation": "сестра"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0054",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "feelings",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “happy”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "грустный"
+      },
+      {
+        "id": "B",
+        "text": "уставший"
+      },
+      {
+        "id": "C",
+        "text": "счастливый"
+      },
+      {
+        "id": "D",
+        "text": "злой"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "«happy» означает «счастливый».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:happy",
+      "word": "happy",
+      "level": "PRE-A1",
+      "partOfSpeech": "adj",
+      "category": "feelings",
+      "translation": "счастливый"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0055",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "school",
+    "format": "mcq-context",
+    "stem": "Выбери подходящее слово: “I read a ___.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "shoe"
+      },
+      {
+        "id": "B",
+        "text": "cake"
+      },
+      {
+        "id": "C",
+        "text": "chair"
+      },
+      {
+        "id": "D",
+        "text": "book"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Здесь подходит “book”: это означает «книга».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:book",
+      "word": "book",
+      "level": "PRE-A1",
+      "partOfSpeech": "n",
+      "category": "school",
+      "translation": "книга"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0056",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "the-world-around-us",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “island”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "остров"
+      },
+      {
+        "id": "B",
+        "text": "гора"
+      },
+      {
+        "id": "C",
+        "text": "река"
+      },
+      {
+        "id": "D",
+        "text": "лес"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "«island» означает «остров».",
+    "lexicalRef": {
+      "wordId": "A1:island",
+      "word": "island",
+      "level": "A1",
+      "partOfSpeech": "n",
+      "category": "the-world-around-us",
+      "translation": "остров"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0057",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "communication",
+    "format": "mcq-context",
+    "stem": "Какое слово подходит? “We want to ___ Anna to the party.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "call"
+      },
+      {
+        "id": "B",
+        "text": "invite"
+      },
+      {
+        "id": "C",
+        "text": "visit"
+      },
+      {
+        "id": "D",
+        "text": "arrive"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Здесь подходит “invite”: это означает «приглашать».",
+    "lexicalRef": {
+      "wordId": "A1:invite",
+      "word": "invite",
+      "level": "A1",
+      "partOfSpeech": "v",
+      "category": "communication",
+      "translation": "приглашать"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0058",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "descriptions",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “dangerous”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "вежливый"
+      },
+      {
+        "id": "B",
+        "text": "дорогой"
+      },
+      {
+        "id": "C",
+        "text": "опасный"
+      },
+      {
+        "id": "D",
+        "text": "полезный"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "«dangerous» означает «опасный».",
+    "lexicalRef": {
+      "wordId": "A1:dangerous",
+      "word": "dangerous",
+      "level": "A1",
+      "partOfSpeech": "adj",
+      "category": "descriptions",
+      "translation": "опасный"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0059",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "the-world-around-us",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “forest”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "город"
+      },
+      {
+        "id": "B",
+        "text": "остров"
+      },
+      {
+        "id": "C",
+        "text": "река"
+      },
+      {
+        "id": "D",
+        "text": "лес"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "«forest» означает «лес».",
+    "lexicalRef": {
+      "wordId": "A1:forest",
+      "word": "forest",
+      "level": "A1",
+      "partOfSpeech": "n",
+      "category": "the-world-around-us",
+      "translation": "лес"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0060",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "health-work",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “nurse”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "медсестра"
+      },
+      {
+        "id": "B",
+        "text": "врач"
+      },
+      {
+        "id": "C",
+        "text": "учитель"
+      },
+      {
+        "id": "D",
+        "text": "полицейский"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "«nurse» означает «медсестра».",
+    "lexicalRef": {
+      "wordId": "A1:nurse",
+      "word": "nurse",
+      "level": "A1",
+      "partOfSpeech": "n",
+      "category": "health-work",
+      "translation": "медсестра"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0061",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "actions",
+    "format": "mcq-context",
+    "stem": "Какое слово подходит? “Can you ___ me with this bag?”",
+    "options": [
+      {
+        "id": "A",
+        "text": "repair"
+      },
+      {
+        "id": "B",
+        "text": "help"
+      },
+      {
+        "id": "C",
+        "text": "carry"
+      },
+      {
+        "id": "D",
+        "text": "invite"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Здесь подходит “help”: это означает «помогать».",
+    "lexicalRef": {
+      "wordId": "A1:help",
+      "word": "help",
+      "level": "A1",
+      "partOfSpeech": "v",
+      "category": "actions",
+      "translation": "помогать"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0062",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "descriptions",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “quiet”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "дорогой"
+      },
+      {
+        "id": "B",
+        "text": "опасный"
+      },
+      {
+        "id": "C",
+        "text": "тихий"
+      },
+      {
+        "id": "D",
+        "text": "шумный"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "«quiet» означает «тихий».",
+    "lexicalRef": {
+      "wordId": "A1:quiet",
+      "word": "quiet",
+      "level": "A1",
+      "partOfSpeech": "adj",
+      "category": "descriptions",
+      "translation": "тихий"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0063",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "communication",
+    "format": "mcq-context",
+    "stem": "Какое слово подходит? “I sent you a text ___ this morning.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "mistake"
+      },
+      {
+        "id": "B",
+        "text": "map"
+      },
+      {
+        "id": "C",
+        "text": "ticket"
+      },
+      {
+        "id": "D",
+        "text": "message"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Здесь подходит “message”: это означает «сообщение».",
+    "lexicalRef": {
+      "wordId": "A1:message",
+      "word": "message",
+      "level": "A1",
+      "partOfSpeech": "n",
+      "category": "communication",
+      "translation": "сообщение"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0064",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "descriptions",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “careful”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "осторожный"
+      },
+      {
+        "id": "B",
+        "text": "небрежный"
+      },
+      {
+        "id": "C",
+        "text": "голодный"
+      },
+      {
+        "id": "D",
+        "text": "удивлённый"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "«careful» означает «осторожный».",
+    "lexicalRef": {
+      "wordId": "A1:careful",
+      "word": "careful",
+      "level": "A1",
+      "partOfSpeech": "adj",
+      "category": "descriptions",
+      "translation": "осторожный"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0065",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "places-directions",
+    "format": "mcq-context",
+    "stem": "Какое слово подходит? “We buy fruit at the ___.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "school"
+      },
+      {
+        "id": "B",
+        "text": "market"
+      },
+      {
+        "id": "C",
+        "text": "hospital"
+      },
+      {
+        "id": "D",
+        "text": "island"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Здесь подходит “market”: это означает «рынок».",
+    "lexicalRef": {
+      "wordId": "A1:market",
+      "word": "market",
+      "level": "A1",
+      "partOfSpeech": "n",
+      "category": "places-directions",
+      "translation": "рынок"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0066",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "animals",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “dolphin”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "крокодил"
+      },
+      {
+        "id": "B",
+        "text": "тигр"
+      },
+      {
+        "id": "C",
+        "text": "дельфин"
+      },
+      {
+        "id": "D",
+        "text": "орёл"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "«dolphin» означает «дельфин».",
+    "lexicalRef": {
+      "wordId": "A1:dolphin",
+      "word": "dolphin",
+      "level": "A1",
+      "partOfSpeech": "n",
+      "category": "animals",
+      "translation": "дельфин"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0067",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "clothes-safety",
+    "format": "mcq-context",
+    "stem": "Какое слово подходит? “Always wear a ___ when you ride a bike.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "glove"
+      },
+      {
+        "id": "B",
+        "text": "map"
+      },
+      {
+        "id": "C",
+        "text": "jacket"
+      },
+      {
+        "id": "D",
+        "text": "helmet"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Здесь подходит “helmet”: это означает «шлем».",
+    "lexicalRef": {
+      "wordId": "A1:helmet",
+      "word": "helmet",
+      "level": "A1",
+      "partOfSpeech": "n",
+      "category": "clothes-safety",
+      "translation": "шлем"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0068",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "school",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “mistake”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ошибка"
+      },
+      {
+        "id": "B",
+        "text": "приглашение"
+      },
+      {
+        "id": "C",
+        "text": "остров"
+      },
+      {
+        "id": "D",
+        "text": "сообщение"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "«mistake» означает «ошибка».",
+    "lexicalRef": {
+      "wordId": "A1:mistake",
+      "word": "mistake",
+      "level": "A1",
+      "partOfSpeech": "n",
+      "category": "school",
+      "translation": "ошибка"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0069",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "descriptions",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “quick”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "осторожный"
+      },
+      {
+        "id": "B",
+        "text": "быстрый"
+      },
+      {
+        "id": "C",
+        "text": "медленный"
+      },
+      {
+        "id": "D",
+        "text": "громкий"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "«quick» означает «быстрый».",
+    "lexicalRef": {
+      "wordId": "A1:quick",
+      "word": "quick",
+      "level": "A1",
+      "partOfSpeech": "adj",
+      "category": "descriptions",
+      "translation": "быстрый"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0070",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "feelings",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “ready”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "больной"
+      },
+      {
+        "id": "B",
+        "text": "удивлённый"
+      },
+      {
+        "id": "C",
+        "text": "готовый"
+      },
+      {
+        "id": "D",
+        "text": "голодный"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "«ready» означает «готовый».",
+    "lexicalRef": {
+      "wordId": "A1:ready",
+      "word": "ready",
+      "level": "A1",
+      "partOfSpeech": "adj",
+      "category": "feelings",
+      "translation": "готовый"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0071",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "the-world-around-us",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “road”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "парк"
+      },
+      {
+        "id": "B",
+        "text": "остановка"
+      },
+      {
+        "id": "C",
+        "text": "мост"
+      },
+      {
+        "id": "D",
+        "text": "дорога"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "«road» означает «дорога».",
+    "lexicalRef": {
+      "wordId": "A1:road",
+      "word": "road",
+      "level": "A1",
+      "partOfSpeech": "n",
+      "category": "the-world-around-us",
+      "translation": "дорога"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0072",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "places-directions",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “map”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "карта"
+      },
+      {
+        "id": "B",
+        "text": "сообщение"
+      },
+      {
+        "id": "C",
+        "text": "билет"
+      },
+      {
+        "id": "D",
+        "text": "приглашение"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "«map» означает «карта».",
+    "lexicalRef": {
+      "wordId": "A1:map",
+      "word": "map",
+      "level": "A1",
+      "partOfSpeech": "n",
+      "category": "places-directions",
+      "translation": "карта"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0073",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "actions",
+    "format": "mcq-context",
+    "stem": "Какое слово подходит? “This bag is heavy. Can you ___ it?”",
+    "options": [
+      {
+        "id": "A",
+        "text": "invite"
+      },
+      {
+        "id": "B",
+        "text": "carry"
+      },
+      {
+        "id": "C",
+        "text": "drop"
+      },
+      {
+        "id": "D",
+        "text": "repair"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Здесь подходит “carry”: это означает «нести».",
+    "lexicalRef": {
+      "wordId": "A1:carry",
+      "word": "carry",
+      "level": "A1",
+      "partOfSpeech": "v",
+      "category": "actions",
+      "translation": "нести"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0074",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "feelings",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “surprised”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "испуганный"
+      },
+      {
+        "id": "B",
+        "text": "уставший"
+      },
+      {
+        "id": "C",
+        "text": "удивлённый"
+      },
+      {
+        "id": "D",
+        "text": "расстроенный"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "«surprised» означает «удивлённый».",
+    "lexicalRef": {
+      "wordId": "A1:surprised",
+      "word": "surprised",
+      "level": "A1",
+      "partOfSpeech": "adj",
+      "category": "feelings",
+      "translation": "удивлённый"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0075",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "health",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “cough”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "головная боль"
+      },
+      {
+        "id": "B",
+        "text": "простуда"
+      },
+      {
+        "id": "C",
+        "text": "лихорадка"
+      },
+      {
+        "id": "D",
+        "text": "кашель"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "«cough» означает «кашель».",
+    "lexicalRef": {
+      "wordId": "A1:cough",
+      "word": "cough",
+      "level": "A1",
+      "partOfSpeech": "n",
+      "category": "health",
+      "translation": "кашель"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0076",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "actions",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “borrow”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "брать взаймы"
+      },
+      {
+        "id": "B",
+        "text": "одалживать кому-либо"
+      },
+      {
+        "id": "C",
+        "text": "покупать"
+      },
+      {
+        "id": "D",
+        "text": "продавать"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "«borrow» означает «брать взаймы».",
+    "lexicalRef": {
+      "wordId": "A2:borrow",
+      "word": "borrow",
+      "level": "A2",
+      "partOfSpeech": "v",
+      "category": "actions",
+      "translation": "брать взаймы"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0077",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "science-actions",
+    "format": "mcq-context",
+    "stem": "Выбери подходящее слово: “Who will ___ a machine that can fly?”",
+    "options": [
+      {
+        "id": "A",
+        "text": "repair"
+      },
+      {
+        "id": "B",
+        "text": "invent"
+      },
+      {
+        "id": "C",
+        "text": "describe"
+      },
+      {
+        "id": "D",
+        "text": "forget"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Здесь подходит “invent”: это означает «изобретать».",
+    "lexicalRef": {
+      "wordId": "A2:invent",
+      "word": "invent",
+      "level": "A2",
+      "partOfSpeech": "v",
+      "category": "science-actions",
+      "translation": "изобретать"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0078",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "descriptions",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “enormous”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "крошечный"
+      },
+      {
+        "id": "B",
+        "text": "дорогой"
+      },
+      {
+        "id": "C",
+        "text": "огромный"
+      },
+      {
+        "id": "D",
+        "text": "узкий"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "«enormous» означает «огромный».",
+    "lexicalRef": {
+      "wordId": "A2:enormous",
+      "word": "enormous",
+      "level": "A2",
+      "partOfSpeech": "adj",
+      "category": "descriptions",
+      "translation": "огромный"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0079",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "learning-actions",
+    "format": "mcq-context",
+    "stem": "Выбери подходящее слово: “Practising every day will ___ your English.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "damage"
+      },
+      {
+        "id": "B",
+        "text": "forget"
+      },
+      {
+        "id": "C",
+        "text": "repeat"
+      },
+      {
+        "id": "D",
+        "text": "improve"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Здесь подходит “improve”: это означает «улучшать».",
+    "lexicalRef": {
+      "wordId": "A2:improve",
+      "word": "improve",
+      "level": "A2",
+      "partOfSpeech": "v",
+      "category": "learning-actions",
+      "translation": "улучшать"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0080",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "places-buildings",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “entrance”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "вход"
+      },
+      {
+        "id": "B",
+        "text": "выход"
+      },
+      {
+        "id": "C",
+        "text": "лестница"
+      },
+      {
+        "id": "D",
+        "text": "платформа"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "«entrance» означает «вход».",
+    "lexicalRef": {
+      "wordId": "A2:entrance",
+      "word": "entrance",
+      "level": "A2",
+      "partOfSpeech": "n",
+      "category": "places-buildings",
+      "translation": "вход"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0081",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "actions",
+    "format": "mcq-context",
+    "stem": "Выбери подходящее слово: “The sun seemed to ___ behind the clouds.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "hurry"
+      },
+      {
+        "id": "B",
+        "text": "disappear"
+      },
+      {
+        "id": "C",
+        "text": "arrive"
+      },
+      {
+        "id": "D",
+        "text": "follow"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Здесь подходит “disappear”: это означает «исчезать».",
+    "lexicalRef": {
+      "wordId": "A2:disappear",
+      "word": "disappear",
+      "level": "A2",
+      "partOfSpeech": "v",
+      "category": "actions",
+      "translation": "исчезать"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0082",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "preferences",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “prefer”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "обещать"
+      },
+      {
+        "id": "B",
+        "text": "забывать"
+      },
+      {
+        "id": "C",
+        "text": "предпочитать"
+      },
+      {
+        "id": "D",
+        "text": "объяснять"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "«prefer» означает «предпочитать».",
+    "lexicalRef": {
+      "wordId": "A2:prefer",
+      "word": "prefer",
+      "level": "A2",
+      "partOfSpeech": "v",
+      "category": "preferences",
+      "translation": "предпочитать"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0083",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "everyday-life",
+    "format": "mcq-context",
+    "stem": "Выбери подходящее слово: “We need to solve this ___.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "journey"
+      },
+      {
+        "id": "B",
+        "text": "competition"
+      },
+      {
+        "id": "C",
+        "text": "invitation"
+      },
+      {
+        "id": "D",
+        "text": "problem"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Здесь подходит “problem”: это означает «проблема».",
+    "lexicalRef": {
+      "wordId": "A2:problem",
+      "word": "problem",
+      "level": "A2",
+      "partOfSpeech": "n",
+      "category": "everyday-life",
+      "translation": "проблема"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0084",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "animals-nature",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “extinct”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "вымерший"
+      },
+      {
+        "id": "B",
+        "text": "домашний"
+      },
+      {
+        "id": "C",
+        "text": "опасный"
+      },
+      {
+        "id": "D",
+        "text": "редкий"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "«extinct» означает «вымерший».",
+    "lexicalRef": {
+      "wordId": "A2:extinct",
+      "word": "extinct",
+      "level": "A2",
+      "partOfSpeech": "adj",
+      "category": "animals-nature",
+      "translation": "вымерший"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0085",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "communication",
+    "format": "mcq-context",
+    "stem": "Выбери подходящее слово: “Please ___; the baby is asleep.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "repeat"
+      },
+      {
+        "id": "B",
+        "text": "whisper"
+      },
+      {
+        "id": "C",
+        "text": "shout"
+      },
+      {
+        "id": "D",
+        "text": "laugh"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Здесь подходит “whisper”: это означает «шептать».",
+    "lexicalRef": {
+      "wordId": "A2:whisper",
+      "word": "whisper",
+      "level": "A2",
+      "partOfSpeech": "v",
+      "category": "communication",
+      "translation": "шептать"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0086",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "sports-events",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “competition”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "путешествие"
+      },
+      {
+        "id": "B",
+        "text": "разговор"
+      },
+      {
+        "id": "C",
+        "text": "соревнование; конкурс"
+      },
+      {
+        "id": "D",
+        "text": "приглашение"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "«competition» означает «соревнование; конкурс».",
+    "lexicalRef": {
+      "wordId": "A2:competition",
+      "word": "competition",
+      "level": "A2",
+      "partOfSpeech": "n",
+      "category": "sports-events",
+      "translation": "соревнование; конкурс"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0087",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "actions-money",
+    "format": "mcq-context",
+    "stem": "Выбери подходящее слово: “You should ___ your work before closing the computer.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "collect"
+      },
+      {
+        "id": "B",
+        "text": "prepare"
+      },
+      {
+        "id": "C",
+        "text": "spend"
+      },
+      {
+        "id": "D",
+        "text": "save"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Здесь подходит “save”: это означает «сохранять; копить».",
+    "lexicalRef": {
+      "wordId": "A2:save",
+      "word": "save",
+      "level": "A2",
+      "partOfSpeech": "v",
+      "category": "actions-money",
+      "translation": "сохранять; копить"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0088",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "food-drink",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “delicious”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "очень вкусный"
+      },
+      {
+        "id": "B",
+        "text": "горький"
+      },
+      {
+        "id": "C",
+        "text": "сырой"
+      },
+      {
+        "id": "D",
+        "text": "солёный"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "«delicious» означает «очень вкусный».",
+    "lexicalRef": {
+      "wordId": "A2:delicious",
+      "word": "delicious",
+      "level": "A2",
+      "partOfSpeech": "adj",
+      "category": "food-drink",
+      "translation": "очень вкусный"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0089",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "nature",
+    "format": "mcq-context",
+    "stem": "Выбери подходящее слово: “We should do more to protect the ___.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "competition"
+      },
+      {
+        "id": "B",
+        "text": "environment"
+      },
+      {
+        "id": "C",
+        "text": "entrance"
+      },
+      {
+        "id": "D",
+        "text": "instrument"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Здесь подходит “environment”: это означает «окружающая среда».",
+    "lexicalRef": {
+      "wordId": "A2:environment",
+      "word": "environment",
+      "level": "A2",
+      "partOfSpeech": "n",
+      "category": "nature",
+      "translation": "окружающая среда"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0090",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "communication-events",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “invitation”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "встреча"
+      },
+      {
+        "id": "B",
+        "text": "проект"
+      },
+      {
+        "id": "C",
+        "text": "приглашение"
+      },
+      {
+        "id": "D",
+        "text": "приключение"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "«invitation» означает «приглашение».",
+    "lexicalRef": {
+      "wordId": "A2:invitation",
+      "word": "invitation",
+      "level": "A2",
+      "partOfSpeech": "n",
+      "category": "communication-events",
+      "translation": "приглашение"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0091",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "hobbies-actions",
+    "format": "mcq-context",
+    "stem": "Выбери подходящее слово: “Some children ___ stamps as a hobby.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "borrow"
+      },
+      {
+        "id": "B",
+        "text": "invent"
+      },
+      {
+        "id": "C",
+        "text": "explore"
+      },
+      {
+        "id": "D",
+        "text": "collect"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Здесь подходит “collect”: это означает «собирать».",
+    "lexicalRef": {
+      "wordId": "A2:collect",
+      "word": "collect",
+      "level": "A2",
+      "partOfSpeech": "v",
+      "category": "hobbies-actions",
+      "translation": "собирать"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0092",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "transport",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “passenger”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "пассажир"
+      },
+      {
+        "id": "B",
+        "text": "пилот"
+      },
+      {
+        "id": "C",
+        "text": "механик"
+      },
+      {
+        "id": "D",
+        "text": "водитель"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "«passenger» означает «пассажир».",
+    "lexicalRef": {
+      "wordId": "A2:passenger",
+      "word": "passenger",
+      "level": "A2",
+      "partOfSpeech": "n",
+      "category": "transport",
+      "translation": "пассажир"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0093",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "actions",
+    "format": "mcq-context",
+    "stem": "Выбери подходящее слово: “We must ___ or we will miss the train.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "follow"
+      },
+      {
+        "id": "B",
+        "text": "hurry"
+      },
+      {
+        "id": "C",
+        "text": "relax"
+      },
+      {
+        "id": "D",
+        "text": "repeat"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Здесь подходит “hurry”: это означает «спешить».",
+    "lexicalRef": {
+      "wordId": "A2:hurry",
+      "word": "hurry",
+      "level": "A2",
+      "partOfSpeech": "v",
+      "category": "actions",
+      "translation": "спешить"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0094",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "descriptions",
+    "format": "mcq-meaning",
+    "stem": "Как переводится слово “unusual”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "удобный"
+      },
+      {
+        "id": "B",
+        "text": "дорогой"
+      },
+      {
+        "id": "C",
+        "text": "необычный"
+      },
+      {
+        "id": "D",
+        "text": "обычный"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "«unusual» означает «необычный».",
+    "lexicalRef": {
+      "wordId": "A2:unusual",
+      "word": "unusual",
+      "level": "A2",
+      "partOfSpeech": "adj",
+      "category": "descriptions",
+      "translation": "необычный"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0095",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "travel-nature",
+    "format": "mcq-context",
+    "stem": "Выбери подходящее слово: “The team will ___ the cave carefully.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "repair"
+      },
+      {
+        "id": "B",
+        "text": "invite"
+      },
+      {
+        "id": "C",
+        "text": "collect"
+      },
+      {
+        "id": "D",
+        "text": "explore"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Здесь подходит “explore”: это означает «исследовать».",
+    "lexicalRef": {
+      "wordId": "A2:explore",
+      "word": "explore",
+      "level": "A2",
+      "partOfSpeech": "v",
+      "category": "travel-nature",
+      "translation": "исследовать"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0096",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "daily-life",
+    "format": "mcq-meaning",
+    "stem": "What does “available” mean in this context?",
+    "options": [
+      {
+        "id": "A",
+        "text": "able to be used or obtained"
+      },
+      {
+        "id": "B",
+        "text": "unable to be used"
+      },
+      {
+        "id": "C",
+        "text": "required by law"
+      },
+      {
+        "id": "D",
+        "text": "happening regularly"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“available” means able to be used or obtained.",
+    "lexicalRef": {
+      "wordId": "B1:available",
+      "word": "available",
+      "level": "B1",
+      "partOfSpeech": "adj",
+      "category": "daily-life",
+      "translation": "доступный"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0097",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "daily-life",
+    "format": "mcq-context",
+    "stem": "The team decided to try a different ___ to the problem.",
+    "options": [
+      {
+        "id": "A",
+        "text": "network"
+      },
+      {
+        "id": "B",
+        "text": "approach"
+      },
+      {
+        "id": "C",
+        "text": "district"
+      },
+      {
+        "id": "D",
+        "text": "amount"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“approach” means a way of dealing with a problem, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "B1:approach",
+      "word": "approach",
+      "level": "B1",
+      "partOfSpeech": "n",
+      "category": "daily-life",
+      "translation": "подход"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0098",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "daily-life",
+    "format": "mcq-meaning",
+    "stem": "What does “option” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "a financial loss"
+      },
+      {
+        "id": "B",
+        "text": "a formal announcement"
+      },
+      {
+        "id": "C",
+        "text": "a choice or possibility"
+      },
+      {
+        "id": "D",
+        "text": "a legal requirement"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“option” means a choice or possibility.",
+    "lexicalRef": {
+      "wordId": "B1:option",
+      "word": "option",
+      "level": "B1",
+      "partOfSpeech": "n",
+      "category": "daily-life",
+      "translation": "вариант"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0099",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "daily-life",
+    "format": "mcq-meaning",
+    "stem": "What does the noun “benefit” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "a harmful result"
+      },
+      {
+        "id": "B",
+        "text": "a formal instruction"
+      },
+      {
+        "id": "C",
+        "text": "a financial loss"
+      },
+      {
+        "id": "D",
+        "text": "an advantage or helpful effect"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“benefit” means an advantage or helpful effect.",
+    "lexicalRef": {
+      "wordId": "B1:benefit",
+      "word": "benefit",
+      "level": "B1",
+      "partOfSpeech": "n",
+      "category": "daily-life",
+      "translation": "польза"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0100",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "daily-life",
+    "format": "mcq-meaning",
+    "stem": "What does “former” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "having had a particular role or position in the past"
+      },
+      {
+        "id": "B",
+        "text": "expected to have a role in the future"
+      },
+      {
+        "id": "C",
+        "text": "currently holding a position"
+      },
+      {
+        "id": "D",
+        "text": "lasting for a short time"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“former” means having had a particular role or position in the past.",
+    "lexicalRef": {
+      "wordId": "B1:former",
+      "word": "former",
+      "level": "B1",
+      "partOfSpeech": "adj",
+      "category": "daily-life",
+      "translation": "бывший"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0101",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "daily-life",
+    "format": "mcq-context",
+    "stem": "The job will ___ good communication skills.",
+    "options": [
+      {
+        "id": "A",
+        "text": "contain"
+      },
+      {
+        "id": "B",
+        "text": "require"
+      },
+      {
+        "id": "C",
+        "text": "protect"
+      },
+      {
+        "id": "D",
+        "text": "reduce"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“require” means to need or demand something, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "B1:require",
+      "word": "require",
+      "level": "B1",
+      "partOfSpeech": "v",
+      "category": "daily-life",
+      "translation": "требовать"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0102",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "daily-life",
+    "format": "mcq-meaning",
+    "stem": "What does “amount” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "a place where something happens"
+      },
+      {
+        "id": "B",
+        "text": "a reason for doing something"
+      },
+      {
+        "id": "C",
+        "text": "a quantity of something"
+      },
+      {
+        "id": "D",
+        "text": "a decision about something"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“amount” means a quantity of something.",
+    "lexicalRef": {
+      "wordId": "B1:amount",
+      "word": "amount",
+      "level": "B1",
+      "partOfSpeech": "n",
+      "category": "daily-life",
+      "translation": "количество"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0103",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "daily-life",
+    "format": "mcq-context",
+    "stem": "The new rules are designed to ___ personal information.",
+    "options": [
+      {
+        "id": "A",
+        "text": "contain"
+      },
+      {
+        "id": "B",
+        "text": "prove"
+      },
+      {
+        "id": "C",
+        "text": "require"
+      },
+      {
+        "id": "D",
+        "text": "protect"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“protect” means to keep someone or something safe, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "B1:protect",
+      "word": "protect",
+      "level": "B1",
+      "partOfSpeech": "v",
+      "category": "daily-life",
+      "translation": "защищать"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0104",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "daily-life",
+    "format": "mcq-meaning",
+    "stem": "What does “current” mean in the phrase “current regulations”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "happening or existing now"
+      },
+      {
+        "id": "B",
+        "text": "belonging to the past"
+      },
+      {
+        "id": "C",
+        "text": "likely to happen in the future"
+      },
+      {
+        "id": "D",
+        "text": "not available"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“current” means happening or existing now.",
+    "lexicalRef": {
+      "wordId": "B1:current",
+      "word": "current",
+      "level": "B1",
+      "partOfSpeech": "adj",
+      "category": "daily-life",
+      "translation": "текущий"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0105",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "daily-life",
+    "format": "mcq-context",
+    "stem": "After discussing the options, they reached a ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "option"
+      },
+      {
+        "id": "B",
+        "text": "decision"
+      },
+      {
+        "id": "C",
+        "text": "movement"
+      },
+      {
+        "id": "D",
+        "text": "development"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“decision” means a choice made after thinking, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "B1:decision",
+      "word": "decision",
+      "level": "B1",
+      "partOfSpeech": "n",
+      "category": "daily-life",
+      "translation": "решение"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0106",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "money",
+    "format": "mcq-meaning",
+    "stem": "What does “economic” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "related to physical health"
+      },
+      {
+        "id": "B",
+        "text": "related to the natural environment"
+      },
+      {
+        "id": "C",
+        "text": "related to the economy"
+      },
+      {
+        "id": "D",
+        "text": "related to personal feelings"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“economic” means related to the economy.",
+    "lexicalRef": {
+      "wordId": "B1:economic",
+      "word": "economic",
+      "level": "B1",
+      "partOfSpeech": "adj",
+      "category": "money",
+      "translation": "экономический"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0107",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "society",
+    "format": "mcq-meaning",
+    "stem": "What does “legal” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "against the law"
+      },
+      {
+        "id": "B",
+        "text": "connected with medicine"
+      },
+      {
+        "id": "C",
+        "text": "available to everyone"
+      },
+      {
+        "id": "D",
+        "text": "allowed or required by law"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“legal” means allowed or required by law.",
+    "lexicalRef": {
+      "wordId": "B1:legal",
+      "word": "legal",
+      "level": "B1",
+      "partOfSpeech": "adj",
+      "category": "society",
+      "translation": "законный"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0108",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "daily-life",
+    "format": "mcq-meaning",
+    "stem": "What does “serious” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "important or needing careful attention"
+      },
+      {
+        "id": "B",
+        "text": "funny and entertaining"
+      },
+      {
+        "id": "C",
+        "text": "not worth considering"
+      },
+      {
+        "id": "D",
+        "text": "easy to replace"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“serious” means important or needing careful attention.",
+    "lexicalRef": {
+      "wordId": "B1:serious",
+      "word": "serious",
+      "level": "B1",
+      "partOfSpeech": "adj",
+      "category": "daily-life",
+      "translation": "серьёзный"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0109",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "daily-life",
+    "format": "mcq-context",
+    "stem": "The researchers need more evidence to ___ their theory.",
+    "options": [
+      {
+        "id": "A",
+        "text": "reduce"
+      },
+      {
+        "id": "B",
+        "text": "prove"
+      },
+      {
+        "id": "C",
+        "text": "associate"
+      },
+      {
+        "id": "D",
+        "text": "suppose"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“prove” means to show that something is true, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "B1:prove",
+      "word": "prove",
+      "level": "B1",
+      "partOfSpeech": "v",
+      "category": "daily-life",
+      "translation": "доказывать"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0110",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "daily-life",
+    "format": "mcq-meaning",
+    "stem": "What does “risk” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "a fixed amount of money"
+      },
+      {
+        "id": "B",
+        "text": "a final decision"
+      },
+      {
+        "id": "C",
+        "text": "the possibility that something bad may happen"
+      },
+      {
+        "id": "D",
+        "text": "a benefit gained from an action"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“risk” means the possibility that something bad may happen.",
+    "lexicalRef": {
+      "wordId": "B1:risk",
+      "word": "risk",
+      "level": "B1",
+      "partOfSpeech": "n",
+      "category": "daily-life",
+      "translation": "риск"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0111",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "daily-life",
+    "format": "mcq-context",
+    "stem": "The report does not ___ enough detail to answer the question.",
+    "options": [
+      {
+        "id": "A",
+        "text": "reduce"
+      },
+      {
+        "id": "B",
+        "text": "prove"
+      },
+      {
+        "id": "C",
+        "text": "require"
+      },
+      {
+        "id": "D",
+        "text": "contain"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“contain” means to have something inside, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "B1:contain",
+      "word": "contain",
+      "level": "B1",
+      "partOfSpeech": "v",
+      "category": "daily-life",
+      "translation": "содержать"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0112",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "daily-life",
+    "format": "mcq-meaning",
+    "stem": "What does “involved” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "taking part in or connected with something"
+      },
+      {
+        "id": "B",
+        "text": "kept separate from something"
+      },
+      {
+        "id": "C",
+        "text": "unable to understand something"
+      },
+      {
+        "id": "D",
+        "text": "finished or completed"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“involved” means taking part in or connected with something.",
+    "lexicalRef": {
+      "wordId": "B1:involved",
+      "word": "involved",
+      "level": "B1",
+      "partOfSpeech": "adj",
+      "category": "daily-life",
+      "translation": "вовлечённый"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0113",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "health",
+    "format": "mcq-context",
+    "stem": "The service can ___ groceries to your home within an hour.",
+    "options": [
+      {
+        "id": "A",
+        "text": "protect"
+      },
+      {
+        "id": "B",
+        "text": "deliver"
+      },
+      {
+        "id": "C",
+        "text": "prove"
+      },
+      {
+        "id": "D",
+        "text": "reduce"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“deliver” means to take something to the person or place it is intended for, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "B1:deliver",
+      "word": "deliver",
+      "level": "B1",
+      "partOfSpeech": "v",
+      "category": "health",
+      "translation": "доставлять"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0114",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "daily-life",
+    "format": "mcq-meaning",
+    "stem": "What does “update” mean as a verb?",
+    "options": [
+      {
+        "id": "A",
+        "text": "to make something less accurate"
+      },
+      {
+        "id": "B",
+        "text": "to delay something"
+      },
+      {
+        "id": "C",
+        "text": "to make something more recent or current"
+      },
+      {
+        "id": "D",
+        "text": "to remove something completely"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“update” means to make something more recent or current.",
+    "lexicalRef": {
+      "wordId": "B1:update",
+      "word": "update",
+      "level": "B1",
+      "partOfSpeech": "v",
+      "category": "daily-life",
+      "translation": "обновлять"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0115",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "money",
+    "format": "mcq-context",
+    "stem": "They are looking for ___ support to start the project.",
+    "options": [
+      {
+        "id": "A",
+        "text": "central"
+      },
+      {
+        "id": "B",
+        "text": "former"
+      },
+      {
+        "id": "C",
+        "text": "serious"
+      },
+      {
+        "id": "D",
+        "text": "financial"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“financial” means related to money, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "B1:financial",
+      "word": "financial",
+      "level": "B1",
+      "partOfSpeech": "adj",
+      "category": "money",
+      "translation": "финансовый"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0116",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "finance",
+    "format": "mcq-context",
+    "stem": "The museum plans to ___ several paintings for its new collection.",
+    "options": [
+      {
+        "id": "A",
+        "text": "purchase"
+      },
+      {
+        "id": "B",
+        "text": "borrow"
+      },
+      {
+        "id": "C",
+        "text": "sell"
+      },
+      {
+        "id": "D",
+        "text": "rent"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“purchase” means to buy something, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "B2:purchase",
+      "word": "purchase",
+      "level": "B2",
+      "partOfSpeech": "v",
+      "category": "finance",
+      "translation": "покупка; покупать"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0117",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "general",
+    "format": "mcq-meaning",
+    "stem": "What does “decade” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "a group of elected people"
+      },
+      {
+        "id": "B",
+        "text": "a period of ten years"
+      },
+      {
+        "id": "C",
+        "text": "a legal agreement"
+      },
+      {
+        "id": "D",
+        "text": "a source of income"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“decade” means a period of ten years.",
+    "lexicalRef": {
+      "wordId": "B2:decade",
+      "word": "decade",
+      "level": "B2",
+      "partOfSpeech": "n",
+      "category": "general",
+      "translation": "десятилетие"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0118",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "general",
+    "format": "mcq-meaning",
+    "stem": "What does “corresponding” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "no longer in use"
+      },
+      {
+        "id": "B",
+        "text": "likely to cause harm"
+      },
+      {
+        "id": "C",
+        "text": "matching or having a similar role"
+      },
+      {
+        "id": "D",
+        "text": "unrelated to the subject"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“corresponding” means matching or having a similar role.",
+    "lexicalRef": {
+      "wordId": "B2:corresponding",
+      "word": "corresponding",
+      "level": "B2",
+      "partOfSpeech": "adj",
+      "category": "general",
+      "translation": "соответствующий"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0119",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "finance",
+    "format": "mcq-context",
+    "stem": "The company’s annual ___, measured before expenses are deducted, increased after it entered new markets.",
+    "options": [
+      {
+        "id": "A",
+        "text": "profit"
+      },
+      {
+        "id": "B",
+        "text": "debt"
+      },
+      {
+        "id": "C",
+        "text": "costs"
+      },
+      {
+        "id": "D",
+        "text": "revenue"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“revenue” means the income a company or organisation receives, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "B2:revenue",
+      "word": "revenue",
+      "level": "B2",
+      "partOfSpeech": "n",
+      "category": "finance",
+      "translation": "доход; выручка"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0120",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "general",
+    "format": "mcq-meaning",
+    "stem": "What does “dated” mean in the phrase “a dated computer system”?",
+    "options": [
+      {
+        "id": "A",
+        "text": "old-fashioned or no longer modern"
+      },
+      {
+        "id": "B",
+        "text": "carefully checked for errors"
+      },
+      {
+        "id": "C",
+        "text": "available in large quantities"
+      },
+      {
+        "id": "D",
+        "text": "expected to happen soon"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“dated” means old-fashioned or no longer modern.",
+    "lexicalRef": {
+      "wordId": "B2:dated",
+      "word": "dated",
+      "level": "B2",
+      "partOfSpeech": "adj",
+      "category": "general",
+      "translation": "устаревший; датированный"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0121",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "law",
+    "format": "mcq-context",
+    "stem": "The council voted to ___ smoking in public playgrounds.",
+    "options": [
+      {
+        "id": "A",
+        "text": "draft"
+      },
+      {
+        "id": "B",
+        "text": "ban"
+      },
+      {
+        "id": "C",
+        "text": "elect"
+      },
+      {
+        "id": "D",
+        "text": "quote"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“ban” means to officially forbid something, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "B2:ban",
+      "word": "ban",
+      "level": "B2",
+      "partOfSpeech": "v",
+      "category": "law",
+      "translation": "запрет; запрещать"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0122",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "politics",
+    "format": "mcq-meaning",
+    "stem": "What does “federal” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "relating to the natural environment"
+      },
+      {
+        "id": "B",
+        "text": "relating to local customs only"
+      },
+      {
+        "id": "C",
+        "text": "relating to a central government in a federation"
+      },
+      {
+        "id": "D",
+        "text": "relating to private family matters"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“federal” means relating to a central government in a federation.",
+    "lexicalRef": {
+      "wordId": "B2:federal",
+      "word": "federal",
+      "level": "B2",
+      "partOfSpeech": "adj",
+      "category": "politics",
+      "translation": "федеральный"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0123",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "general",
+    "format": "mcq-context",
+    "stem": "The researchers were able to ___ the main cause of the problem.",
+    "options": [
+      {
+        "id": "A",
+        "text": "purchase"
+      },
+      {
+        "id": "B",
+        "text": "reform"
+      },
+      {
+        "id": "C",
+        "text": "elect"
+      },
+      {
+        "id": "D",
+        "text": "identify"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“identify” means to recognise or establish what something is, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "B2:identify",
+      "word": "identify",
+      "level": "B2",
+      "partOfSpeech": "v",
+      "category": "general",
+      "translation": "определять; опознавать"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0124",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "general",
+    "format": "mcq-meaning",
+    "stem": "What does “primary” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "main or most important"
+      },
+      {
+        "id": "B",
+        "text": "temporary and uncertain"
+      },
+      {
+        "id": "C",
+        "text": "belonging to a local area"
+      },
+      {
+        "id": "D",
+        "text": "unusual or unexpected"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“primary” means main or most important.",
+    "lexicalRef": {
+      "wordId": "B2:primary",
+      "word": "primary",
+      "level": "B2",
+      "partOfSpeech": "adj",
+      "category": "general",
+      "translation": "основной; первичный"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0125",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "law",
+    "format": "mcq-context",
+    "stem": "Both parties must sign the ___ before work begins.",
+    "options": [
+      {
+        "id": "A",
+        "text": "policy"
+      },
+      {
+        "id": "B",
+        "text": "contract"
+      },
+      {
+        "id": "C",
+        "text": "species"
+      },
+      {
+        "id": "D",
+        "text": "campaign"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“contract” means a legal agreement, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "B2:contract",
+      "word": "contract",
+      "level": "B2",
+      "partOfSpeech": "n",
+      "category": "law",
+      "translation": "контракт; договор"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0126",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "finance",
+    "format": "mcq-meaning",
+    "stem": "What does “profit” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "the total cost of production"
+      },
+      {
+        "id": "B",
+        "text": "a payment made by the government"
+      },
+      {
+        "id": "C",
+        "text": "money a business gains after costs"
+      },
+      {
+        "id": "D",
+        "text": "money borrowed from a bank"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“profit” means money a business gains after costs.",
+    "lexicalRef": {
+      "wordId": "B2:profit",
+      "word": "profit",
+      "level": "B2",
+      "partOfSpeech": "n",
+      "category": "finance",
+      "translation": "прибыль"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0127",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "general",
+    "format": "mcq-context",
+    "stem": "The government plans to ___ the education system.",
+    "options": [
+      {
+        "id": "A",
+        "text": "quote"
+      },
+      {
+        "id": "B",
+        "text": "cast"
+      },
+      {
+        "id": "C",
+        "text": "elect"
+      },
+      {
+        "id": "D",
+        "text": "reform"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“reform” means to improve a system by making changes, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "B2:reform",
+      "word": "reform",
+      "level": "B2",
+      "partOfSpeech": "v",
+      "category": "general",
+      "translation": "реформа; реформировать"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0128",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "general",
+    "format": "mcq-meaning",
+    "stem": "What does “willing” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ready or happy to do something"
+      },
+      {
+        "id": "B",
+        "text": "unable to make a decision"
+      },
+      {
+        "id": "C",
+        "text": "required by law"
+      },
+      {
+        "id": "D",
+        "text": "unlikely to agree"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“willing” means ready or happy to do something.",
+    "lexicalRef": {
+      "wordId": "B2:willing",
+      "word": "willing",
+      "level": "B2",
+      "partOfSpeech": "adj",
+      "category": "general",
+      "translation": "готовый; желающий"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0129",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "general",
+    "format": "mcq-context",
+    "stem": "Cost is an important ___ when choosing a supplier.",
+    "options": [
+      {
+        "id": "A",
+        "text": "campaign"
+      },
+      {
+        "id": "B",
+        "text": "factor"
+      },
+      {
+        "id": "C",
+        "text": "contract"
+      },
+      {
+        "id": "D",
+        "text": "loan"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“factor” means something that influences a result, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "B2:factor",
+      "word": "factor",
+      "level": "B2",
+      "partOfSpeech": "n",
+      "category": "general",
+      "translation": "фактор"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0130",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "general",
+    "format": "mcq-meaning",
+    "stem": "What does “candidate” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "a person who owns a company"
+      },
+      {
+        "id": "B",
+        "text": "a person who observes an event"
+      },
+      {
+        "id": "C",
+        "text": "a person being considered for a position"
+      },
+      {
+        "id": "D",
+        "text": "a formal test of a product"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“candidate” means a person being considered for a position.",
+    "lexicalRef": {
+      "wordId": "B2:candidate",
+      "word": "candidate",
+      "level": "B2",
+      "partOfSpeech": "n",
+      "category": "general",
+      "translation": "кандидат"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0131",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "general",
+    "format": "mcq-context",
+    "stem": "The proposal aims to improve the ___ system that is already in place, rather than replace it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "proposed"
+      },
+      {
+        "id": "B",
+        "text": "moving"
+      },
+      {
+        "id": "C",
+        "text": "willing"
+      },
+      {
+        "id": "D",
+        "text": "existing"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“existing” means already present or in use, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "B2:existing",
+      "word": "existing",
+      "level": "B2",
+      "partOfSpeech": "adj",
+      "category": "general",
+      "translation": "существующий"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0132",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "general",
+    "format": "mcq-meaning",
+    "stem": "What does “sector” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "a part of an economy or society"
+      },
+      {
+        "id": "B",
+        "text": "a personal opinion"
+      },
+      {
+        "id": "C",
+        "text": "a legal document"
+      },
+      {
+        "id": "D",
+        "text": "a type of scientific measurement"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“sector” means a part of an economy or society.",
+    "lexicalRef": {
+      "wordId": "B2:sector",
+      "word": "sector",
+      "level": "B2",
+      "partOfSpeech": "n",
+      "category": "general",
+      "translation": "сектор; отрасль"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0133",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "politics",
+    "format": "mcq-context",
+    "stem": "The charity launched a public ___ to raise awareness.",
+    "options": [
+      {
+        "id": "A",
+        "text": "factor"
+      },
+      {
+        "id": "B",
+        "text": "campaign"
+      },
+      {
+        "id": "C",
+        "text": "revenue"
+      },
+      {
+        "id": "D",
+        "text": "species"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“campaign” means an organised series of actions to achieve an aim, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "B2:campaign",
+      "word": "campaign",
+      "level": "B2",
+      "partOfSpeech": "n",
+      "category": "politics",
+      "translation": "кампания"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0134",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "environment",
+    "format": "mcq-meaning",
+    "stem": "What does “species” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "a scientific measurement"
+      },
+      {
+        "id": "B",
+        "text": "a particular kind of law"
+      },
+      {
+        "id": "C",
+        "text": "a type of living organism"
+      },
+      {
+        "id": "D",
+        "text": "a group of elected officials"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“species” means a type of living organism.",
+    "lexicalRef": {
+      "wordId": "B2:species",
+      "word": "species",
+      "level": "B2",
+      "partOfSpeech": "n",
+      "category": "environment",
+      "translation": "вид; разновидность"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0135",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "finance",
+    "format": "mcq-context",
+    "stem": "The government introduced ___ measures to adjust taxation and public spending.",
+    "options": [
+      {
+        "id": "A",
+        "text": "annual"
+      },
+      {
+        "id": "B",
+        "text": "social"
+      },
+      {
+        "id": "C",
+        "text": "technical"
+      },
+      {
+        "id": "D",
+        "text": "fiscal"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“fiscal” means related to government income, spending or tax, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "B2:fiscal",
+      "word": "fiscal",
+      "level": "B2",
+      "partOfSpeech": "adj",
+      "category": "finance",
+      "translation": "финансовый"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0136",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-meaning",
+    "stem": "What does “comprise” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "to consist of or include"
+      },
+      {
+        "id": "B",
+        "text": "to criticize publicly"
+      },
+      {
+        "id": "C",
+        "text": "to delay deliberately"
+      },
+      {
+        "id": "D",
+        "text": "to make something less accurate"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“comprise” means to consist of or include.",
+    "lexicalRef": {
+      "wordId": "C1:comprise",
+      "word": "comprise",
+      "level": "C1",
+      "partOfSpeech": "v",
+      "category": "society",
+      "translation": "составлять; включать"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0137",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-context",
+    "stem": "The court has no ___ over cases involving foreign governments.",
+    "options": [
+      {
+        "id": "A",
+        "text": "mechanism"
+      },
+      {
+        "id": "B",
+        "text": "jurisdiction"
+      },
+      {
+        "id": "C",
+        "text": "duration"
+      },
+      {
+        "id": "D",
+        "text": "diversity"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“jurisdiction” means the official power to make legal decisions in an area, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "C1:jurisdiction",
+      "word": "jurisdiction",
+      "level": "C1",
+      "partOfSpeech": "n",
+      "category": "society",
+      "translation": "юрисдикция"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0138",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "environment",
+    "format": "mcq-meaning",
+    "stem": "What does “sustainable” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "based only on personal preference"
+      },
+      {
+        "id": "B",
+        "text": "likely to fail immediately"
+      },
+      {
+        "id": "C",
+        "text": "able to continue over time without exhausting resources"
+      },
+      {
+        "id": "D",
+        "text": "designed to attract attention"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“sustainable” means able to continue over time without exhausting resources.",
+    "lexicalRef": {
+      "wordId": "C1:sustainable",
+      "word": "sustainable",
+      "level": "C1",
+      "partOfSpeech": "adj",
+      "category": "environment",
+      "translation": "устойчивый"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0139",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-context",
+    "stem": "A senior editor will ___ the final stages of publication.",
+    "options": [
+      {
+        "id": "A",
+        "text": "portray"
+      },
+      {
+        "id": "B",
+        "text": "rotate"
+      },
+      {
+        "id": "C",
+        "text": "render"
+      },
+      {
+        "id": "D",
+        "text": "oversee"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“oversee” means to supervise or be responsible for work, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "C1:oversee",
+      "word": "oversee",
+      "level": "C1",
+      "partOfSpeech": "v",
+      "category": "society",
+      "translation": "контролировать; курировать"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0140",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-meaning",
+    "stem": "What does “compliance” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "the act of obeying a rule or requirement"
+      },
+      {
+        "id": "B",
+        "text": "a strong disagreement"
+      },
+      {
+        "id": "C",
+        "text": "the process of artistic creation"
+      },
+      {
+        "id": "D",
+        "text": "a formal announcement"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“compliance” means the act of obeying a rule or requirement.",
+    "lexicalRef": {
+      "wordId": "C1:compliance",
+      "word": "compliance",
+      "level": "C1",
+      "partOfSpeech": "n",
+      "category": "society",
+      "translation": "соблюдение"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0141",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-context",
+    "stem": "After reviewing the evidence, the jury reached its ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "fixture"
+      },
+      {
+        "id": "B",
+        "text": "verdict"
+      },
+      {
+        "id": "C",
+        "text": "legacy"
+      },
+      {
+        "id": "D",
+        "text": "scenario"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“verdict” means a decision reached by a jury, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "C1:verdict",
+      "word": "verdict",
+      "level": "C1",
+      "partOfSpeech": "n",
+      "category": "society",
+      "translation": "вердикт"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0142",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-meaning",
+    "stem": "What does “depict” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "to make something more precise"
+      },
+      {
+        "id": "B",
+        "text": "to remove something from a text"
+      },
+      {
+        "id": "C",
+        "text": "to represent or show something"
+      },
+      {
+        "id": "D",
+        "text": "to prevent something from happening"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“depict” means to represent or show something.",
+    "lexicalRef": {
+      "wordId": "C1:depict",
+      "word": "depict",
+      "level": "C1",
+      "partOfSpeech": "v",
+      "category": "society",
+      "translation": "изображать; описывать"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0143",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-context",
+    "stem": "The new director intends to continue several policies introduced by her ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "contractor"
+      },
+      {
+        "id": "B",
+        "text": "amateur"
+      },
+      {
+        "id": "C",
+        "text": "pioneer"
+      },
+      {
+        "id": "D",
+        "text": "predecessor"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“predecessor” means someone who held a position before another person, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "C1:predecessor",
+      "word": "predecessor",
+      "level": "C1",
+      "partOfSpeech": "n",
+      "category": "society",
+      "translation": "предшественник"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0144",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-meaning",
+    "stem": "What does “hostile” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "unfriendly or opposed"
+      },
+      {
+        "id": "B",
+        "text": "carefully balanced"
+      },
+      {
+        "id": "C",
+        "text": "highly productive"
+      },
+      {
+        "id": "D",
+        "text": "easy to persuade"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“hostile” means unfriendly or opposed.",
+    "lexicalRef": {
+      "wordId": "C1:hostile",
+      "word": "hostile",
+      "level": "C1",
+      "partOfSpeech": "adj",
+      "category": "society",
+      "translation": "враждебный"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0145",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-context",
+    "stem": "The organisation hopes to ___ public awareness of the issue.",
+    "options": [
+      {
+        "id": "A",
+        "text": "rotate"
+      },
+      {
+        "id": "B",
+        "text": "elevate"
+      },
+      {
+        "id": "C",
+        "text": "swap"
+      },
+      {
+        "id": "D",
+        "text": "expire"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“elevate” means to raise or increase something, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "C1:elevate",
+      "word": "elevate",
+      "level": "C1",
+      "partOfSpeech": "v",
+      "category": "society",
+      "translation": "повышать"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0146",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-meaning",
+    "stem": "In “There is widespread speculation about the cause, but no evidence yet,” what does “speculation” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "the act of following instructions"
+      },
+      {
+        "id": "B",
+        "text": "a final legal decision"
+      },
+      {
+        "id": "C",
+        "text": "the forming of opinions without firm evidence"
+      },
+      {
+        "id": "D",
+        "text": "the official measurement of a result"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“speculation” means the forming of opinions without firm evidence.",
+    "lexicalRef": {
+      "wordId": "C1:speculation",
+      "word": "speculation",
+      "level": "C1",
+      "partOfSpeech": "n",
+      "category": "society",
+      "translation": "предположение; спекуляция"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0147",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-context",
+    "stem": "The report was produced through close ___ between the two universities.",
+    "options": [
+      {
+        "id": "A",
+        "text": "suspension"
+      },
+      {
+        "id": "B",
+        "text": "conviction"
+      },
+      {
+        "id": "C",
+        "text": "mechanism"
+      },
+      {
+        "id": "D",
+        "text": "collaboration"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“collaboration” means the act of working together, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "C1:collaboration",
+      "word": "collaboration",
+      "level": "C1",
+      "partOfSpeech": "n",
+      "category": "society",
+      "translation": "сотрудничество"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0148",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-meaning",
+    "stem": "What does “ethical” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "related to moral principles"
+      },
+      {
+        "id": "B",
+        "text": "related to physical distance"
+      },
+      {
+        "id": "C",
+        "text": "related to financial profit"
+      },
+      {
+        "id": "D",
+        "text": "related to artistic technique"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“ethical” means related to moral principles.",
+    "lexicalRef": {
+      "wordId": "C1:ethical",
+      "word": "ethical",
+      "level": "C1",
+      "partOfSpeech": "adj",
+      "category": "society",
+      "translation": "этический"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0149",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-context",
+    "stem": "The politician’s remarks were likely to ___ a strong reaction.",
+    "options": [
+      {
+        "id": "A",
+        "text": "swap"
+      },
+      {
+        "id": "B",
+        "text": "provoke"
+      },
+      {
+        "id": "C",
+        "text": "render"
+      },
+      {
+        "id": "D",
+        "text": "align"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“provoke” means to cause a reaction, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "C1:provoke",
+      "word": "provoke",
+      "level": "C1",
+      "partOfSpeech": "v",
+      "category": "society",
+      "translation": "провоцировать"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0150",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-meaning",
+    "stem": "What does “precision” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "variety and complexity"
+      },
+      {
+        "id": "B",
+        "text": "strength and durability"
+      },
+      {
+        "id": "C",
+        "text": "exactness and accuracy"
+      },
+      {
+        "id": "D",
+        "text": "speed and efficiency"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“precision” means exactness and accuracy.",
+    "lexicalRef": {
+      "wordId": "C1:precision",
+      "word": "precision",
+      "level": "C1",
+      "partOfSpeech": "n",
+      "category": "society",
+      "translation": "точность"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0151",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-context",
+    "stem": "The museum raised funds for the ___ of the damaged paintings.",
+    "options": [
+      {
+        "id": "A",
+        "text": "transit"
+      },
+      {
+        "id": "B",
+        "text": "quest"
+      },
+      {
+        "id": "C",
+        "text": "duration"
+      },
+      {
+        "id": "D",
+        "text": "restoration"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“restoration” means the act of repairing or returning something to its former condition, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "C1:restoration",
+      "word": "restoration",
+      "level": "C1",
+      "partOfSpeech": "n",
+      "category": "society",
+      "translation": "реставрация; восстановление"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0152",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-meaning",
+    "stem": "What does “notable” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "worthy of attention; remarkable"
+      },
+      {
+        "id": "B",
+        "text": "impossible to understand"
+      },
+      {
+        "id": "C",
+        "text": "temporary and uncertain"
+      },
+      {
+        "id": "D",
+        "text": "not allowed by law"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“notable” means worthy of attention; remarkable.",
+    "lexicalRef": {
+      "wordId": "C1:notable",
+      "word": "notable",
+      "level": "C1",
+      "partOfSpeech": "adj",
+      "category": "society",
+      "translation": "заметный; выдающийся"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0153",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-context",
+    "stem": "The policy was revised after a public ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "scenario"
+      },
+      {
+        "id": "B",
+        "text": "consultation"
+      },
+      {
+        "id": "C",
+        "text": "fixture"
+      },
+      {
+        "id": "D",
+        "text": "debut"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“consultation” means a discussion to get advice or exchange views, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "C1:consultation",
+      "word": "consultation",
+      "level": "C1",
+      "partOfSpeech": "n",
+      "category": "society",
+      "translation": "консультация"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0154",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-meaning",
+    "stem": "What does “insubordinate” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "easy to persuade"
+      },
+      {
+        "id": "B",
+        "text": "highly experienced"
+      },
+      {
+        "id": "C",
+        "text": "unwilling to obey authority"
+      },
+      {
+        "id": "D",
+        "text": "extremely generous"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“insubordinate” means unwilling to obey authority.",
+    "lexicalRef": {
+      "wordId": "C1:insubordinate",
+      "word": "insubordinate",
+      "level": "C1",
+      "partOfSpeech": "adj",
+      "category": "society",
+      "translation": "неподчиняющийся; непокорный"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0155",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-context",
+    "stem": "Achieving the goal required considerable personal ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "coverage"
+      },
+      {
+        "id": "B",
+        "text": "mechanism"
+      },
+      {
+        "id": "C",
+        "text": "duration"
+      },
+      {
+        "id": "D",
+        "text": "sacrifice"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“sacrifice” means the act of giving up something valuable, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "C1:sacrifice",
+      "word": "sacrifice",
+      "level": "C1",
+      "partOfSpeech": "n",
+      "category": "society",
+      "translation": "жертва; приносить в жертву"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0156",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "general",
+    "format": "mcq-meaning",
+    "stem": "What does “accountability” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "the obligation to explain and take responsibility for actions"
+      },
+      {
+        "id": "B",
+        "text": "the ability to predict future events"
+      },
+      {
+        "id": "C",
+        "text": "the process of combining separate substances"
+      },
+      {
+        "id": "D",
+        "text": "the right to avoid all responsibility"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“accountability” means the obligation to explain and take responsibility for actions.",
+    "lexicalRef": {
+      "wordId": "C2:accountability",
+      "word": "accountability",
+      "level": "C2",
+      "partOfSpeech": "n",
+      "category": "general",
+      "translation": "подотчётность; ответственность"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0157",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "general",
+    "format": "mcq-context",
+    "stem": "A lack of reliable data may ___ efforts to assess the policy’s impact.",
+    "options": [
+      {
+        "id": "A",
+        "text": "fabricate"
+      },
+      {
+        "id": "B",
+        "text": "hamper"
+      },
+      {
+        "id": "C",
+        "text": "emulate"
+      },
+      {
+        "id": "D",
+        "text": "denote"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“hamper” means to make an action or process more difficult, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "C2:hamper",
+      "word": "hamper",
+      "level": "C2",
+      "partOfSpeech": "v",
+      "category": "general",
+      "translation": "затруднять; препятствовать"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0158",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "general",
+    "format": "mcq-meaning",
+    "stem": "What does “paramount” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "difficult to distinguish"
+      },
+      {
+        "id": "B",
+        "text": "having no practical effect"
+      },
+      {
+        "id": "C",
+        "text": "more important than anything else"
+      },
+      {
+        "id": "D",
+        "text": "occurring at regular intervals"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“paramount” means more important than anything else.",
+    "lexicalRef": {
+      "wordId": "C2:paramount",
+      "word": "paramount",
+      "level": "C2",
+      "partOfSpeech": "adj",
+      "category": "general",
+      "translation": "первостепенный"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0159",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "general",
+    "format": "mcq-context",
+    "stem": "The mediator tried to ___ the conflicting accounts of what had happened.",
+    "options": [
+      {
+        "id": "A",
+        "text": "prolong"
+      },
+      {
+        "id": "B",
+        "text": "disperse"
+      },
+      {
+        "id": "C",
+        "text": "denounce"
+      },
+      {
+        "id": "D",
+        "text": "reconcile"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“reconcile” means to bring opposing accounts or people into agreement, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "C2:reconcile",
+      "word": "reconcile",
+      "level": "C2",
+      "partOfSpeech": "v",
+      "category": "general",
+      "translation": "примирять; согласовывать"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0160",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "general",
+    "format": "mcq-meaning",
+    "stem": "What does “proliferation” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "a rapid increase in the number or amount of something"
+      },
+      {
+        "id": "B",
+        "text": "a gradual reduction in size"
+      },
+      {
+        "id": "C",
+        "text": "a formal expression of regret"
+      },
+      {
+        "id": "D",
+        "text": "a state of complete balance"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“proliferation” means a rapid increase in the number or amount of something.",
+    "lexicalRef": {
+      "wordId": "C2:proliferation",
+      "word": "proliferation",
+      "level": "C2",
+      "partOfSpeech": "n",
+      "category": "general",
+      "translation": "быстрое распространение; размножение"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0161",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "general",
+    "format": "mcq-context",
+    "stem": "The ___ administration defended its record ahead of the election.",
+    "options": [
+      {
+        "id": "A",
+        "text": "malicious"
+      },
+      {
+        "id": "B",
+        "text": "incumbent"
+      },
+      {
+        "id": "C",
+        "text": "secular"
+      },
+      {
+        "id": "D",
+        "text": "autonomous"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“incumbent” means currently holding a particular official position, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "C2:incumbent",
+      "word": "incumbent",
+      "level": "C2",
+      "partOfSpeech": "adj",
+      "category": "general",
+      "translation": "действующий; занимающий должность"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0162",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "general",
+    "format": "mcq-meaning",
+    "stem": "What does “adhere to a policy” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "to distribute something widely"
+      },
+      {
+        "id": "B",
+        "text": "to delay a decision"
+      },
+      {
+        "id": "C",
+        "text": "to follow or comply with a rule or policy"
+      },
+      {
+        "id": "D",
+        "text": "to publicly reject a proposal"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“adhere” means to follow or comply with a rule or policy.",
+    "lexicalRef": {
+      "wordId": "C2:adhere",
+      "word": "adhere",
+      "level": "C2",
+      "partOfSpeech": "v",
+      "category": "general",
+      "translation": "придерживаться; прилипать"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0163",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "general",
+    "format": "mcq-context",
+    "stem": "Unclear regulations could ___ innovation in the sector.",
+    "options": [
+      {
+        "id": "A",
+        "text": "embody"
+      },
+      {
+        "id": "B",
+        "text": "mediate"
+      },
+      {
+        "id": "C",
+        "text": "prolong"
+      },
+      {
+        "id": "D",
+        "text": "hinder"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“hinder” means to obstruct or make progress difficult, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "C2:hinder",
+      "word": "hinder",
+      "level": "C2",
+      "partOfSpeech": "v",
+      "category": "general",
+      "translation": "мешать; препятствовать"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0164",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "general",
+    "format": "mcq-meaning",
+    "stem": "What does “vicinity” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "the area near a particular place"
+      },
+      {
+        "id": "B",
+        "text": "the central part of an argument"
+      },
+      {
+        "id": "C",
+        "text": "a set of legal requirements"
+      },
+      {
+        "id": "D",
+        "text": "a period of ten years"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“vicinity” means the area near a particular place.",
+    "lexicalRef": {
+      "wordId": "C2:vicinity",
+      "word": "vicinity",
+      "level": "C2",
+      "partOfSpeech": "n",
+      "category": "general",
+      "translation": "окрестности; близость"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0165",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "general",
+    "format": "mcq-context",
+    "stem": "Several organisations were quick to ___ the use of violence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "hamper"
+      },
+      {
+        "id": "B",
+        "text": "denounce"
+      },
+      {
+        "id": "C",
+        "text": "stabilize"
+      },
+      {
+        "id": "D",
+        "text": "induce"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“denounce” means to publicly criticise or condemn, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "C2:denounce",
+      "word": "denounce",
+      "level": "C2",
+      "partOfSpeech": "v",
+      "category": "general",
+      "translation": "осуждать; разоблачать"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0166",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "general",
+    "format": "mcq-meaning",
+    "stem": "What does “autonomous” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "based entirely on tradition"
+      },
+      {
+        "id": "B",
+        "text": "controlled by an external authority"
+      },
+      {
+        "id": "C",
+        "text": "independent and self-governing"
+      },
+      {
+        "id": "D",
+        "text": "unable to change"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“autonomous” means independent and self-governing.",
+    "lexicalRef": {
+      "wordId": "C2:autonomous",
+      "word": "autonomous",
+      "level": "C2",
+      "partOfSpeech": "adj",
+      "category": "general",
+      "translation": "автономный"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0167",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "general",
+    "format": "mcq-context",
+    "stem": "The journalist was accused of attempting to ___ evidence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "reconcile"
+      },
+      {
+        "id": "B",
+        "text": "collide"
+      },
+      {
+        "id": "C",
+        "text": "hinder"
+      },
+      {
+        "id": "D",
+        "text": "fabricate"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“fabricate” means to invent or falsify something, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "C2:fabricate",
+      "word": "fabricate",
+      "level": "C2",
+      "partOfSpeech": "v",
+      "category": "general",
+      "translation": "изготавливать; выдумывать"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0168",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "general",
+    "format": "mcq-meaning",
+    "stem": "What does “grievance” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "a complaint about unfair treatment"
+      },
+      {
+        "id": "B",
+        "text": "a reward for good performance"
+      },
+      {
+        "id": "C",
+        "text": "a detailed scientific theory"
+      },
+      {
+        "id": "D",
+        "text": "a formal agreement"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“grievance” means a complaint about unfair treatment.",
+    "lexicalRef": {
+      "wordId": "C2:grievance",
+      "word": "grievance",
+      "level": "C2",
+      "partOfSpeech": "n",
+      "category": "general",
+      "translation": "обида; жалоба"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0169",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "general",
+    "format": "mcq-context",
+    "stem": "An independent organisation was invited to ___ between the two sides.",
+    "options": [
+      {
+        "id": "A",
+        "text": "prolong"
+      },
+      {
+        "id": "B",
+        "text": "mediate"
+      },
+      {
+        "id": "C",
+        "text": "scroll"
+      },
+      {
+        "id": "D",
+        "text": "denote"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“mediate” means to help opposing sides reach an agreement, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "C2:mediate",
+      "word": "mediate",
+      "level": "C2",
+      "partOfSpeech": "v",
+      "category": "general",
+      "translation": "посредничать; опосредовать"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0170",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "general",
+    "format": "mcq-meaning",
+    "stem": "What does “authenticity” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "the state of being legally responsible"
+      },
+      {
+        "id": "B",
+        "text": "the quality of being widely available"
+      },
+      {
+        "id": "C",
+        "text": "the quality of being genuine or real"
+      },
+      {
+        "id": "D",
+        "text": "the ability to change rapidly"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“authenticity” means the quality of being genuine or real.",
+    "lexicalRef": {
+      "wordId": "C2:authenticity",
+      "word": "authenticity",
+      "level": "C2",
+      "partOfSpeech": "n",
+      "category": "general",
+      "translation": "подлинность"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0171",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "general",
+    "format": "mcq-context",
+    "stem": "Public confidence began to ___ after repeated delays.",
+    "options": [
+      {
+        "id": "A",
+        "text": "encompass"
+      },
+      {
+        "id": "B",
+        "text": "adhere"
+      },
+      {
+        "id": "C",
+        "text": "hamper"
+      },
+      {
+        "id": "D",
+        "text": "diminish"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“diminish” means to become or make smaller or less, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "C2:diminish",
+      "word": "diminish",
+      "level": "C2",
+      "partOfSpeech": "v",
+      "category": "general",
+      "translation": "уменьшать(ся); ослаблять(ся)"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0172",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "general",
+    "format": "mcq-meaning",
+    "stem": "What does “malicious” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "intended to cause harm"
+      },
+      {
+        "id": "B",
+        "text": "based on careful reasoning"
+      },
+      {
+        "id": "C",
+        "text": "having no practical effect"
+      },
+      {
+        "id": "D",
+        "text": "designed to provide assistance"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "“malicious” means intended to cause harm.",
+    "lexicalRef": {
+      "wordId": "C2:malicious",
+      "word": "malicious",
+      "level": "C2",
+      "partOfSpeech": "adj",
+      "category": "general",
+      "translation": "злонамеренный"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0173",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "general",
+    "format": "mcq-meaning",
+    "stem": "What does “hypothetical” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "already proven to be true"
+      },
+      {
+        "id": "B",
+        "text": "based on an imagined situation rather than established fact"
+      },
+      {
+        "id": "C",
+        "text": "intended to cause harm"
+      },
+      {
+        "id": "D",
+        "text": "legally required"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "“hypothetical” means based on an imagined situation rather than established fact.",
+    "lexicalRef": {
+      "wordId": "C2:hypothetical",
+      "word": "hypothetical",
+      "level": "C2",
+      "partOfSpeech": "adj",
+      "category": "general",
+      "translation": "гипотетический"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0174",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "education",
+    "format": "mcq-meaning",
+    "stem": "What does “correlation” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "a formal transfer of ownership"
+      },
+      {
+        "id": "B",
+        "text": "a disagreement between two people"
+      },
+      {
+        "id": "C",
+        "text": "a connection or relationship between two or more things"
+      },
+      {
+        "id": "D",
+        "text": "a complete absence of evidence"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "“correlation” means a connection or relationship between two or more things.",
+    "lexicalRef": {
+      "wordId": "C2:correlation",
+      "word": "correlation",
+      "level": "C2",
+      "partOfSpeech": "n",
+      "category": "education",
+      "translation": "корреляция; взаимосвязь"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0175",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "general",
+    "format": "mcq-context",
+    "stem": "The negotiations may ___ the period of uncertainty surrounding the project by several more months.",
+    "options": [
+      {
+        "id": "A",
+        "text": "denounce"
+      },
+      {
+        "id": "B",
+        "text": "perch"
+      },
+      {
+        "id": "C",
+        "text": "diminish"
+      },
+      {
+        "id": "D",
+        "text": "prolong"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "“prolong” means to make something last longer, which fits the meaning of the sentence.",
+    "lexicalRef": {
+      "wordId": "C2:prolong",
+      "word": "prolong",
+      "level": "C2",
+      "partOfSpeech": "v",
+      "category": "general",
+      "translation": "продлевать"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0001",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "family",
+    "format": "mcq-meaning",
+    "stem": "Choose the correct meaning of “mother”.",
+    "options": [
+      {
+        "id": "A",
+        "text": "мама"
+      },
+      {
+        "id": "B",
+        "text": "сестра"
+      },
+      {
+        "id": "C",
+        "text": "друг"
+      },
+      {
+        "id": "D",
+        "text": "учитель"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Mother означает «мама».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:mother",
+      "word": "mother",
+      "level": "PRE-A1",
+      "partOfSpeech": "n",
+      "category": "family",
+      "translation": "мама"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0002",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "numbers",
+    "format": "mcq-meaning",
+    "stem": "Choose the English word for «три».",
+    "options": [
+      {
+        "id": "A",
+        "text": "tree"
+      },
+      {
+        "id": "B",
+        "text": "three"
+      },
+      {
+        "id": "C",
+        "text": "there"
+      },
+      {
+        "id": "D",
+        "text": "their"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Three означает «три».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:three",
+      "word": "three",
+      "level": "PRE-A1",
+      "partOfSpeech": "num",
+      "category": "numbers",
+      "translation": "три"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0003",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "colours",
+    "format": "mcq-meaning",
+    "stem": "Choose the correct meaning of “blue”.",
+    "options": [
+      {
+        "id": "A",
+        "text": "красный"
+      },
+      {
+        "id": "B",
+        "text": "зелёный"
+      },
+      {
+        "id": "C",
+        "text": "синий"
+      },
+      {
+        "id": "D",
+        "text": "чёрный"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Blue означает «синий».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:blue",
+      "word": "blue",
+      "level": "PRE-A1",
+      "partOfSpeech": "adj",
+      "category": "colours",
+      "translation": "синий"
+    }
+  },
+  {
+    "id": "vocabulary-pre-a1-0004",
+    "skill": "Vocabulary",
+    "cefrLevel": "PRE-A1",
+    "topic": "animals",
+    "format": "mcq-meaning",
+    "stem": "Choose the English word for «собака».",
+    "options": [
+      {
+        "id": "A",
+        "text": "cat"
+      },
+      {
+        "id": "B",
+        "text": "bird"
+      },
+      {
+        "id": "C",
+        "text": "dog"
+      },
+      {
+        "id": "D",
+        "text": "fish"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Dog означает «собака».",
+    "lexicalRef": {
+      "wordId": "PRE-A1:dog",
+      "word": "dog",
+      "level": "PRE-A1",
+      "partOfSpeech": "n",
+      "category": "animals",
+      "translation": "собака"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0005",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "places",
+    "format": "mcq-meaning",
+    "stem": "Choose the correct translation of “library”.",
+    "options": [
+      {
+        "id": "A",
+        "text": "библиотека"
+      },
+      {
+        "id": "B",
+        "text": "больница"
+      },
+      {
+        "id": "C",
+        "text": "кинотеатр"
+      },
+      {
+        "id": "D",
+        "text": "супермаркет"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Library означает «библиотека».",
+    "lexicalRef": {
+      "wordId": "A1:library",
+      "word": "library",
+      "level": "A1",
+      "partOfSpeech": "n",
+      "category": "places",
+      "translation": "библиотека"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0006",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "food",
+    "format": "mcq-meaning",
+    "stem": "Choose the correct English word for «суп».",
+    "options": [
+      {
+        "id": "A",
+        "text": "soup"
+      },
+      {
+        "id": "B",
+        "text": "milkshake"
+      },
+      {
+        "id": "C",
+        "text": "pancake"
+      },
+      {
+        "id": "D",
+        "text": "cabbage"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Soup означает «суп».",
+    "lexicalRef": {
+      "wordId": "A1:soup",
+      "word": "soup",
+      "level": "A1",
+      "partOfSpeech": "n",
+      "category": "food",
+      "translation": "суп"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0007",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "daily-routines",
+    "format": "mcq-context",
+    "stem": "I ___ get up at seven, but sometimes I get up later.",
+    "options": [
+      {
+        "id": "A",
+        "text": "never"
+      },
+      {
+        "id": "B",
+        "text": "usually"
+      },
+      {
+        "id": "C",
+        "text": "yesterday"
+      },
+      {
+        "id": "D",
+        "text": "quick"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Usually означает «обычно» и подходит по смыслу и грамматически.",
+    "lexicalRef": {
+      "wordId": "A1:usually",
+      "word": "usually",
+      "level": "A1",
+      "partOfSpeech": "adv",
+      "category": "daily-routines",
+      "translation": "обычно"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0008",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "home",
+    "format": "mcq-context",
+    "stem": "We cook dinner in the ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "bedroom"
+      },
+      {
+        "id": "B",
+        "text": "kitchen"
+      },
+      {
+        "id": "C",
+        "text": "bathroom"
+      },
+      {
+        "id": "D",
+        "text": "garden"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Kitchen — место, где готовят еду.",
+    "lexicalRef": {
+      "wordId": "A1:kitchen",
+      "word": "kitchen",
+      "level": "A1",
+      "partOfSpeech": "n",
+      "category": "home",
+      "translation": "кухня"
+    }
+  },
+  {
+    "id": "vocabulary-a1-0009",
+    "skill": "Vocabulary",
+    "cefrLevel": "A1",
+    "topic": "transport",
+    "format": "mcq-context",
+    "stem": "You need a ___ to travel by train.",
+    "options": [
+      {
+        "id": "A",
+        "text": "ticket"
+      },
+      {
+        "id": "B",
+        "text": "pillow"
+      },
+      {
+        "id": "C",
+        "text": "mirror"
+      },
+      {
+        "id": "D",
+        "text": "wallet"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Ticket означает «билет».",
+    "lexicalRef": {
+      "wordId": "A1:ticket",
+      "word": "ticket",
+      "level": "A1",
+      "partOfSpeech": "n",
+      "category": "transport",
+      "translation": "билет"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0010",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "travel",
+    "format": "mcq-context",
+    "stem": "The train ___ from Paris to Lyon takes two hours.",
+    "options": [
+      {
+        "id": "A",
+        "text": "journey"
+      },
+      {
+        "id": "B",
+        "text": "recipe"
+      },
+      {
+        "id": "C",
+        "text": "lesson"
+      },
+      {
+        "id": "D",
+        "text": "weather"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Journey — поездка или путешествие.",
+    "lexicalRef": {
+      "wordId": "A2:journey",
+      "word": "journey",
+      "level": "A2",
+      "partOfSpeech": "n",
+      "category": "travel",
+      "translation": "путешествие; поездка"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0011",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "shopping",
+    "format": "mcq-context",
+    "stem": "The shop is offering a 20% ___ this week.",
+    "options": [
+      {
+        "id": "A",
+        "text": "discount"
+      },
+      {
+        "id": "B",
+        "text": "receipt"
+      },
+      {
+        "id": "C",
+        "text": "size"
+      },
+      {
+        "id": "D",
+        "text": "queue"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Discount означает «скидка».",
+    "lexicalRef": {
+      "wordId": "A2:discount",
+      "word": "discount",
+      "level": "A2",
+      "partOfSpeech": "n",
+      "category": "shopping",
+      "translation": "скидка"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0012",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "health",
+    "format": "mcq-context",
+    "stem": "I have a doctor's ___ at 3 p.m.",
+    "options": [
+      {
+        "id": "A",
+        "text": "appointment"
+      },
+      {
+        "id": "B",
+        "text": "adventure"
+      },
+      {
+        "id": "C",
+        "text": "invitation"
+      },
+      {
+        "id": "D",
+        "text": "argument"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Appointment — назначенная встреча, в данном контексте приём у врача.",
+    "lexicalRef": {
+      "wordId": "A2:appointment",
+      "word": "appointment",
+      "level": "A2",
+      "partOfSpeech": "n",
+      "category": "health",
+      "translation": "приём; запись на приём"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0013",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "work",
+    "format": "mcq-context",
+    "stem": "My ___ helped me finish the report.",
+    "options": [
+      {
+        "id": "A",
+        "text": "neighbour"
+      },
+      {
+        "id": "B",
+        "text": "colleague"
+      },
+      {
+        "id": "C",
+        "text": "customer"
+      },
+      {
+        "id": "D",
+        "text": "passenger"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Colleague — человек, с которым вы работаете.",
+    "lexicalRef": {
+      "wordId": "A2:colleague",
+      "word": "colleague",
+      "level": "A2",
+      "partOfSpeech": "n",
+      "category": "work",
+      "translation": "коллега"
+    }
+  },
+  {
+    "id": "vocabulary-a2-0014",
+    "skill": "Vocabulary",
+    "cefrLevel": "A2",
+    "topic": "feelings",
+    "format": "mcq-context",
+    "stem": "She feels ___ because her son is late.",
+    "options": [
+      {
+        "id": "A",
+        "text": "pleased"
+      },
+      {
+        "id": "B",
+        "text": "worried"
+      },
+      {
+        "id": "C",
+        "text": "proud"
+      },
+      {
+        "id": "D",
+        "text": "relaxed"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Worried описывает тревогу или беспокойство.",
+    "lexicalRef": {
+      "wordId": "A2:worried",
+      "word": "worried",
+      "level": "A2",
+      "partOfSpeech": "adj",
+      "category": "feelings",
+      "translation": "обеспокоенный"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0015",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "education",
+    "format": "mcq-context",
+    "stem": "The teacher asked us to complete the ___ by Friday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "assignment"
+      },
+      {
+        "id": "B",
+        "text": "appointment"
+      },
+      {
+        "id": "C",
+        "text": "achievement"
+      },
+      {
+        "id": "D",
+        "text": "announcement"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Assignment — учебное или рабочее задание.",
+    "lexicalRef": {
+      "wordId": "B1:assignment",
+      "word": "assignment",
+      "level": "B1",
+      "partOfSpeech": "n",
+      "category": "education",
+      "translation": "задание"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0016",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "environment",
+    "format": "mcq-context",
+    "stem": "We should ___ the amount of plastic we use.",
+    "options": [
+      {
+        "id": "A",
+        "text": "increase"
+      },
+      {
+        "id": "B",
+        "text": "reduce"
+      },
+      {
+        "id": "C",
+        "text": "collect"
+      },
+      {
+        "id": "D",
+        "text": "replace"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Reduce означает «уменьшать».",
+    "lexicalRef": {
+      "wordId": "B1:reduce",
+      "word": "reduce",
+      "level": "B1",
+      "partOfSpeech": "v",
+      "category": "environment",
+      "translation": "уменьшать"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0017",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "society",
+    "format": "mcq-context",
+    "stem": "A ___ offered to help at the local shelter.",
+    "options": [
+      {
+        "id": "A",
+        "text": "volunteer"
+      },
+      {
+        "id": "B",
+        "text": "manager"
+      },
+      {
+        "id": "C",
+        "text": "customer"
+      },
+      {
+        "id": "D",
+        "text": "audience"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Volunteer — человек, который помогает добровольно.",
+    "lexicalRef": {
+      "wordId": "B1:volunteer",
+      "word": "volunteer",
+      "level": "B1",
+      "partOfSpeech": "n",
+      "category": "society",
+      "translation": "доброволец"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0018",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "communication",
+    "format": "mcq-context",
+    "stem": "He finally ___ that he had made a mistake.",
+    "options": [
+      {
+        "id": "A",
+        "text": "denied"
+      },
+      {
+        "id": "B",
+        "text": "admitted"
+      },
+      {
+        "id": "C",
+        "text": "avoided"
+      },
+      {
+        "id": "D",
+        "text": "reminded"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Admit означает «признавать», в том числе ошибку.",
+    "lexicalRef": {
+      "wordId": "B1:admit",
+      "word": "admit",
+      "level": "B1",
+      "partOfSpeech": "v",
+      "category": "communication",
+      "translation": "признавать"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0019",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "media",
+    "format": "mcq-context",
+    "stem": "Check whether the website is a ___ source before sharing the news.",
+    "options": [
+      {
+        "id": "A",
+        "text": "reliable"
+      },
+      {
+        "id": "B",
+        "text": "ordinary"
+      },
+      {
+        "id": "C",
+        "text": "private"
+      },
+      {
+        "id": "D",
+        "text": "narrow"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Reliable означает «надёжный».",
+    "lexicalRef": {
+      "wordId": "B1:reliable",
+      "word": "reliable",
+      "level": "B1",
+      "partOfSpeech": "adj",
+      "category": "media",
+      "translation": "надёжный"
+    }
+  },
+  {
+    "id": "vocabulary-b1-0020",
+    "skill": "Vocabulary",
+    "cefrLevel": "B1",
+    "topic": "relationships",
+    "format": "mcq-context",
+    "stem": "Good friends ___ each other during difficult times.",
+    "options": [
+      {
+        "id": "A",
+        "text": "support"
+      },
+      {
+        "id": "B",
+        "text": "avoid"
+      },
+      {
+        "id": "C",
+        "text": "interrupt"
+      },
+      {
+        "id": "D",
+        "text": "compare"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Support означает «поддерживать».",
+    "lexicalRef": {
+      "wordId": "B1:support",
+      "word": "support",
+      "level": "B1",
+      "partOfSpeech": "v/n",
+      "category": "relationships",
+      "translation": "поддерживать; поддержка"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0021",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "technology",
+    "format": "mcq-context",
+    "stem": "The software is ___ and no longer receives security updates.",
+    "options": [
+      {
+        "id": "A",
+        "text": "outdated"
+      },
+      {
+        "id": "B",
+        "text": "upcoming"
+      },
+      {
+        "id": "C",
+        "text": "accurate"
+      },
+      {
+        "id": "D",
+        "text": "temporary"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Outdated означает «устаревший».",
+    "lexicalRef": {
+      "wordId": "B2:outdated",
+      "word": "outdated",
+      "level": "B2",
+      "partOfSpeech": "adj",
+      "category": "technology",
+      "translation": "устаревший"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0022",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "economy",
+    "format": "mcq-context",
+    "stem": "Households tend to ___ less energy when prices rise.",
+    "options": [
+      {
+        "id": "A",
+        "text": "consume"
+      },
+      {
+        "id": "B",
+        "text": "invent"
+      },
+      {
+        "id": "C",
+        "text": "persuade"
+      },
+      {
+        "id": "D",
+        "text": "withdraw"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Consume означает «потреблять».",
+    "lexicalRef": {
+      "wordId": "B2:consume",
+      "word": "consume",
+      "level": "B2",
+      "partOfSpeech": "v",
+      "category": "economy",
+      "translation": "потреблять"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0023",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "culture",
+    "format": "mcq-context",
+    "stem": "The city is proud of its cultural ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "heritage"
+      },
+      {
+        "id": "B",
+        "text": "forecast"
+      },
+      {
+        "id": "C",
+        "text": "shortcut"
+      },
+      {
+        "id": "D",
+        "text": "schedule"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Heritage означает «наследие», в том числе культурное.",
+    "lexicalRef": {
+      "wordId": "B2:heritage",
+      "word": "heritage",
+      "level": "B2",
+      "partOfSpeech": "n",
+      "category": "culture",
+      "translation": "наследие"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0024",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "work",
+    "format": "mcq-context",
+    "stem": "The two companies will ___ a new contract.",
+    "options": [
+      {
+        "id": "A",
+        "text": "negotiate"
+      },
+      {
+        "id": "B",
+        "text": "hesitate"
+      },
+      {
+        "id": "C",
+        "text": "celebrate"
+      },
+      {
+        "id": "D",
+        "text": "estimate"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Negotiate означает «вести переговоры».",
+    "lexicalRef": {
+      "wordId": "B2:negotiate",
+      "word": "negotiate",
+      "level": "B2",
+      "partOfSpeech": "v",
+      "category": "work",
+      "translation": "вести переговоры"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0025",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "argumentation",
+    "format": "mcq-context",
+    "stem": "The minister met her ___ from another country.",
+    "options": [
+      {
+        "id": "A",
+        "text": "counterpart"
+      },
+      {
+        "id": "B",
+        "text": "spectator"
+      },
+      {
+        "id": "C",
+        "text": "ancestor"
+      },
+      {
+        "id": "D",
+        "text": "competitor"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Counterpart — человек или вещь, соответствующие другому по роли или функции.",
+    "lexicalRef": {
+      "wordId": "B2:counterpart",
+      "word": "counterpart",
+      "level": "B2",
+      "partOfSpeech": "n",
+      "category": "argumentation",
+      "translation": "аналог; коллега на соответствующей должности"
+    }
+  },
+  {
+    "id": "vocabulary-b2-0026",
+    "skill": "Vocabulary",
+    "cefrLevel": "B2",
+    "topic": "society",
+    "format": "mcq-context",
+    "stem": "The report examines income ___ across the region.",
+    "options": [
+      {
+        "id": "A",
+        "text": "inequality"
+      },
+      {
+        "id": "B",
+        "text": "imagination"
+      },
+      {
+        "id": "C",
+        "text": "interaction"
+      },
+      {
+        "id": "D",
+        "text": "invention"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Inequality означает «неравенство».",
+    "lexicalRef": {
+      "wordId": "B2:inequality",
+      "word": "inequality",
+      "level": "B2",
+      "partOfSpeech": "n",
+      "category": "society",
+      "translation": "неравенство"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0027",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "academic",
+    "format": "mcq-context",
+    "stem": "The essay presents a clear and ___ argument.",
+    "options": [
+      {
+        "id": "A",
+        "text": "coherent"
+      },
+      {
+        "id": "B",
+        "text": "reluctant"
+      },
+      {
+        "id": "C",
+        "text": "fragile"
+      },
+      {
+        "id": "D",
+        "text": "arbitrary"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Coherent описывает логически связное изложение.",
+    "lexicalRef": {
+      "wordId": "C1:coherent",
+      "word": "coherent",
+      "level": "C1",
+      "partOfSpeech": "adj",
+      "category": "academic",
+      "translation": "логичный; связный"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0028",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "analysis",
+    "format": "mcq-context",
+    "stem": "Repeated delays may ___ public confidence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "undermine"
+      },
+      {
+        "id": "B",
+        "text": "reinforce"
+      },
+      {
+        "id": "C",
+        "text": "restore"
+      },
+      {
+        "id": "D",
+        "text": "clarify"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Undermine означает «подрывать», ослаблять.",
+    "lexicalRef": {
+      "wordId": "C1:undermine",
+      "word": "undermine",
+      "level": "C1",
+      "partOfSpeech": "v",
+      "category": "analysis",
+      "translation": "подрывать"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0029",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "nuance",
+    "format": "mcq-context",
+    "stem": "The wording is ___ and could be interpreted in two ways.",
+    "options": [
+      {
+        "id": "A",
+        "text": "ambiguous"
+      },
+      {
+        "id": "B",
+        "text": "inevitable"
+      },
+      {
+        "id": "C",
+        "text": "generous"
+      },
+      {
+        "id": "D",
+        "text": "conventional"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Ambiguous означает «неоднозначный».",
+    "lexicalRef": {
+      "wordId": "C1:ambiguous",
+      "word": "ambiguous",
+      "level": "C1",
+      "partOfSpeech": "adj",
+      "category": "nuance",
+      "translation": "двусмысленный; неоднозначный"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0030",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "argumentation",
+    "format": "mcq-context",
+    "stem": "The author uses statistics to ___ the central claim.",
+    "options": [
+      {
+        "id": "A",
+        "text": "substantiate"
+      },
+      {
+        "id": "B",
+        "text": "contradict"
+      },
+      {
+        "id": "C",
+        "text": "postpone"
+      },
+      {
+        "id": "D",
+        "text": "simplify"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Substantiate означает подкреплять утверждение доказательствами.",
+    "lexicalRef": {
+      "wordId": "C1:substantiate",
+      "word": "substantiate",
+      "level": "C1",
+      "partOfSpeech": "v",
+      "category": "argumentation",
+      "translation": "подкреплять доказательствами"
+    }
+  },
+  {
+    "id": "vocabulary-c1-0031",
+    "skill": "Vocabulary",
+    "cefrLevel": "C1",
+    "topic": "society",
+    "format": "mcq-context",
+    "stem": "The study highlights a growing ___ between urban and rural incomes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "disparity"
+      },
+      {
+        "id": "B",
+        "text": "similarity"
+      },
+      {
+        "id": "C",
+        "text": "priority"
+      },
+      {
+        "id": "D",
+        "text": "capacity"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Disparity означает заметное различие или разрыв.",
+    "lexicalRef": {
+      "wordId": "C1:disparity",
+      "word": "disparity",
+      "level": "C1",
+      "partOfSpeech": "n",
+      "category": "society",
+      "translation": "значительное различие; разрыв"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0032",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "precision",
+    "format": "mcq-context",
+    "stem": "He is so ___ about formatting that even tiny inconsistencies bother him.",
+    "options": [
+      {
+        "id": "A",
+        "text": "fastidious"
+      },
+      {
+        "id": "B",
+        "text": "indifferent"
+      },
+      {
+        "id": "C",
+        "text": "spontaneous"
+      },
+      {
+        "id": "D",
+        "text": "tentative"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Fastidious описывает очень высокую требовательность к деталям.",
+    "lexicalRef": {
+      "wordId": "C2:fastidious",
+      "word": "fastidious",
+      "level": "C2",
+      "partOfSpeech": "adj",
+      "category": "precision",
+      "translation": "чрезмерно требовательный к деталям"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0033",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "rhetoric",
+    "format": "mcq-context",
+    "stem": "Her response was deliberately ___, avoiding a clear commitment.",
+    "options": [
+      {
+        "id": "A",
+        "text": "equivocal"
+      },
+      {
+        "id": "B",
+        "text": "unequivocal"
+      },
+      {
+        "id": "C",
+        "text": "candid"
+      },
+      {
+        "id": "D",
+        "text": "literal"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Equivocal означает неоднозначный; вариант unequivocal имеет противоположное значение.",
+    "lexicalRef": {
+      "wordId": "C2:equivocal",
+      "word": "equivocal",
+      "level": "C2",
+      "partOfSpeech": "adj",
+      "category": "rhetoric",
+      "translation": "двусмысленный; допускающий разные толкования"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0034",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "academic",
+    "format": "mcq-context",
+    "stem": "The modern glass extension looked ___ beside the historic stone building.",
+    "options": [
+      {
+        "id": "A",
+        "text": "incongruous"
+      },
+      {
+        "id": "B",
+        "text": "meticulous"
+      },
+      {
+        "id": "C",
+        "text": "ubiquitous"
+      },
+      {
+        "id": "D",
+        "text": "impartial"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Incongruous описывает то, что не сочетается с окружением.",
+    "lexicalRef": {
+      "wordId": "C2:incongruous",
+      "word": "incongruous",
+      "level": "C2",
+      "partOfSpeech": "adj",
+      "category": "academic",
+      "translation": "несоответствующий; нелепый в данном контексте"
+    }
+  },
+  {
+    "id": "vocabulary-c2-0035",
+    "skill": "Vocabulary",
+    "cefrLevel": "C2",
+    "topic": "idiomatic-meaning",
+    "format": "mcq-context",
+    "stem": "The researcher added an exception to ___ rather than reject it entirely.",
+    "options": [
+      {
+        "id": "A",
+        "text": "qualify a claim"
+      },
+      {
+        "id": "B",
+        "text": "draw a conclusion"
+      },
+      {
+        "id": "C",
+        "text": "raise an objection"
+      },
+      {
+        "id": "D",
+        "text": "take a shortcut"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "To qualify a claim — уточнить или ограничить область действия утверждения.",
+    "lexicalRef": {
+      "wordId": "C2:to qualify a claim",
+      "word": "to qualify a claim",
+      "level": "C2",
+      "partOfSpeech": "phrase",
+      "category": "idiomatic-meaning",
+      "translation": "ограничить или уточнить утверждение"
+    }
+  }
+]

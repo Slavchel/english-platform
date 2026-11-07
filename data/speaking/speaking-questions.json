@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "description": "Speaking question bank. Each session contains five questions. The AI is called once, after the fifth answer.",
+  "sessions": [
+    {
+      "id": "daily-life-01",
+      "topic": "Daily Life and Future Plans",
+      "questions": [
+        {
+          "id": "daily-life-01-q1",
+          "text": "Could you briefly introduce yourself and tell me a little about your daily life?",
+          "transitionId": "warm-curiosity"
+        },
+        {
+          "id": "daily-life-01-q2",
+          "text": "What does a typical weekday look like for you?",
+          "transitionId": "positive-interest"
+        },
+        {
+          "id": "daily-life-01-q3",
+          "text": "What do you usually enjoy doing in your free time?",
+          "transitionId": "friendly-followup"
+        },
+        {
+          "id": "daily-life-01-q4",
+          "text": "What did you do last weekend?",
+          "transitionId": "casual-interest"
+        },
+        {
+          "id": "daily-life-01-q5",
+          "text": "What are some of your biggest plans or goals for the future?",
+          "transitionId": "looking-ahead"
+        }
+      ]
+    },
+    {
+      "id": "interests-01",
+      "topic": "Interests and Hobbies",
+      "questions": [
+        {
+          "id": "interests-01-q1",
+          "text": "What are some activities you really enjoy doing?",
+          "transitionId": "warm-curiosity"
+        },
+        {
+          "id": "interests-01-q2",
+          "text": "How did you become interested in them?",
+          "transitionId": "positive-interest"
+        },
+        {
+          "id": "interests-01-q3",
+          "text": "Do you prefer spending your free time alone or with other people?",
+          "transitionId": "friendly-followup"
+        },
+        {
+          "id": "interests-01-q4",
+          "text": "Have your interests changed much over the past few years?",
+          "transitionId": "thoughtful-reflection"
+        },
+        {
+          "id": "interests-01-q5",
+          "text": "Is there a new hobby or skill you would like to try in the future?",
+          "transitionId": "looking-ahead"
+        }
+      ]
+    },
+    {
+      "id": "technology-01",
+      "topic": "Technology and Modern Life",
+      "questions": [
+        {
+          "id": "technology-01-q1",
+          "text": "How often do you use technology in your everyday life?",
+          "transitionId": "warm-curiosity"
+        },
+        {
+          "id": "technology-01-q2",
+          "text": "What devices or applications do you find most useful?",
+          "transitionId": "positive-interest"
+        },
+        {
+          "id": "technology-01-q3",
+          "text": "Has technology changed the way you study or work?",
+          "transitionId": "friendly-followup"
+        },
+        {
+          "id": "technology-01-q4",
+          "text": "Do you think people spend too much time on their phones?",
+          "transitionId": "thoughtful-reflection"
+        },
+        {
+          "id": "technology-01-q5",
+          "text": "How do you think technology will change our lives in the future?",
+          "transitionId": "looking-ahead"
+        }
+      ]
+    },
+    {
+      "id": "education-01",
+      "topic": "Education and Learning",
+      "questions": [
+        {
+          "id": "education-01-q1",
+          "text": "What do you enjoy most about learning new things?",
+          "transitionId": "warm-curiosity"
+        },
+        {
+          "id": "education-01-q2",
+          "text": "Do you prefer studying independently or with a teacher?",
+          "transitionId": "positive-interest"
+        },
+        {
+          "id": "education-01-q3",
+          "text": "What subject or skill has been the most challenging for you?",
+          "transitionId": "friendly-followup"
+        },
+        {
+          "id": "education-01-q4",
+          "text": "How do you stay motivated when learning something difficult?",
+          "transitionId": "thoughtful-reflection"
+        },
+        {
+          "id": "education-01-q5",
+          "text": "What would you like to learn or achieve over the next few years?",
+          "transitionId": "looking-ahead"
+        }
+      ]
+    },
+    {
+      "id": "travel-01",
+      "topic": "Travel and Experiences",
+      "questions": [
+        {
+          "id": "travel-01-q1",
+          "text": "Do you enjoy travelling? Why or why not?",
+          "transitionId": "warm-curiosity"
+        },
+        {
+          "id": "travel-01-q2",
+          "text": "What is the most interesting place you have ever visited?",
+          "transitionId": "positive-interest"
+        },
+        {
+          "id": "travel-01-q3",
+          "text": "Do you prefer travelling alone or with other people?",
+          "transitionId": "friendly-followup"
+        },
+        {
+          "id": "travel-01-q4",
+          "text": "Can you describe a memorable experience you had while travelling?",
+          "transitionId": "casual-interest"
+        },
+        {
+          "id": "travel-01-q5",
+          "text": "Is there a country or city you would really like to visit in the future?",
+          "transitionId": "looking-ahead"
+        }
+      ]
+    }
+  ]
+}

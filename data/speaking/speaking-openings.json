@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "description": "Short, natural acknowledgements shown before the next Speaking question. Select one suitable message per transition; do not evaluate or correct the answer mid-session.",
+  "rules": {
+    "language": "en",
+    "style": "friendly, natural, encouraging, concise",
+    "maxSentences": 1,
+    "usage": "Show an acknowledgement before questions 2-5. For question 1, use the sessionIntro. Avoid repeating the same message within one session.",
+    "important": "These are fixed UI messages, not AI-generated responses. Do not call the language model between questions."
+  },
+  "sessionIntros": [
+    "Let's talk about that. I'll ask you a few questions to get started.",
+    "Great! I'd like to learn a little more about your experiences and opinions.",
+    "Sounds good! Let's explore this topic together."
+  ],
+  "transitions": {
+    "warm-curiosity": [
+      "That sounds interesting! I'd love to hear a little more.",
+      "Nice! Let's start with something a bit more specific.",
+      "That's a good place to begin. Here's another question."
+    ],
+    "positive-interest": [
+      "That sounds really cool!",
+      "I can see why you enjoy that. Let me ask you something else.",
+      "That's interesting to hear! And what about this?"
+    ],
+    "friendly-followup": [
+      "I like that perspective!",
+      "That makes sense. Here's something I'd like to ask next.",
+      "Thanks for sharing that! Let's look at it from another angle."
+    ],
+    "casual-interest": [
+      "That sounds like a nice way to spend your time!",
+      "Sounds like you had an interesting experience.",
+      "I can imagine that was enjoyable! Here's another question."
+    ],
+    "thoughtful-reflection": [
+      "That's an interesting point to think about.",
+      "I hadn't thought about it that way. Let me ask you this.",
+      "That's a thoughtful answer! Here's a related question."
+    ],
+    "looking-ahead": [
+      "That sounds exciting! Let's talk a little about the future.",
+      "It's great to have goals to work towards. One last question.",
+      "I like that ambition! Here's the final question."
+    ]
+  },
+  "fallback": "Thanks for sharing! Here's the next question."
+}

@@ -1,0 +1,3338 @@
+[
+  {
+    "word": "across",
+    "translation": "через; поперёк",
+    "part_of_speech": "prep",
+    "category": "Movement & direction",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "act",
+    "translation": "действовать; выступать",
+    "part_of_speech": "v",
+    "category": "Arts & entertainment",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "actor",
+    "translation": "актёр",
+    "part_of_speech": "n",
+    "category": "Arts & entertainment",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "actually",
+    "translation": "на самом деле",
+    "part_of_speech": "adv",
+    "category": "Communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "adventure",
+    "translation": "приключение",
+    "part_of_speech": "n",
+    "category": "Travel & leisure",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "ago",
+    "translation": "назад (о времени)",
+    "part_of_speech": "adv",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "agree",
+    "translation": "соглашаться",
+    "part_of_speech": "v",
+    "category": "Communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "air",
+    "translation": "воздух",
+    "part_of_speech": "n",
+    "category": "Nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "airport",
+    "translation": "аэропорт",
+    "part_of_speech": "n",
+    "category": "Travel & transport",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "alone",
+    "translation": "один; в одиночестве",
+    "part_of_speech": "adj",
+    "category": "Feelings & states",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "already",
+    "translation": "уже",
+    "part_of_speech": "adv",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "amazing",
+    "translation": "удивительный",
+    "part_of_speech": "adj",
+    "category": "Feelings & descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "ambulance",
+    "translation": "машина скорой помощи",
+    "part_of_speech": "n",
+    "category": "Health & services",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "anyone",
+    "translation": "кто-нибудь; любой",
+    "part_of_speech": "pron",
+    "category": "People",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "anything",
+    "translation": "что-нибудь; что угодно",
+    "part_of_speech": "pron",
+    "category": "Things",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "anywhere",
+    "translation": "где-нибудь; куда угодно",
+    "part_of_speech": "adv",
+    "category": "Places",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "appear",
+    "translation": "появляться",
+    "part_of_speech": "v",
+    "category": "Actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "arrive",
+    "translation": "прибывать",
+    "part_of_speech": "v",
+    "category": "Travel & transport",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "art",
+    "translation": "искусство",
+    "part_of_speech": "n",
+    "category": "Arts & entertainment",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "artist",
+    "translation": "художник; артист",
+    "part_of_speech": "n",
+    "category": "Arts & entertainment",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "astronaut",
+    "translation": "астронавт",
+    "part_of_speech": "n",
+    "category": "Jobs",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "at the moment",
+    "translation": "в данный момент",
+    "part_of_speech": "adv",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "autumn (US fall)",
+    "translation": "осень",
+    "part_of_speech": "n",
+    "category": "Seasons & weather",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "backpack (UK rucksack)",
+    "translation": "рюкзак",
+    "part_of_speech": "n",
+    "category": "Travel & personal items",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "bandage",
+    "translation": "бинт; повязка",
+    "part_of_speech": "n",
+    "category": "Health & body",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "bank",
+    "translation": "банк",
+    "part_of_speech": "n",
+    "category": "Places & services",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "beetle",
+    "translation": "жук",
+    "part_of_speech": "n",
+    "category": "Animals & nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "begin",
+    "translation": "начинать(ся)",
+    "part_of_speech": "v",
+    "category": "Actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "believe",
+    "translation": "верить; полагать",
+    "part_of_speech": "v",
+    "category": "Communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "belt",
+    "translation": "ремень",
+    "part_of_speech": "n",
+    "category": "Clothes & accessories",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "bicycle",
+    "translation": "велосипед",
+    "part_of_speech": "n",
+    "category": "Transport",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "bin",
+    "translation": "мусорное ведро",
+    "part_of_speech": "n",
+    "category": "Home",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "biscuit (US cookie)",
+    "translation": "печенье",
+    "part_of_speech": "n",
+    "category": "Food & drink",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "bit",
+    "translation": "немного; кусочек",
+    "part_of_speech": "n",
+    "category": "Quantity",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "bored",
+    "translation": "скучающий",
+    "part_of_speech": "adj",
+    "category": "Feelings",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "borrow",
+    "translation": "брать взаймы",
+    "part_of_speech": "v",
+    "category": "Actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "bracelet",
+    "translation": "браслет",
+    "part_of_speech": "n",
+    "category": "Clothes & accessories",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "break",
+    "translation": "ломать; разбивать",
+    "part_of_speech": "v",
+    "category": "Actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "bridge",
+    "translation": "мост",
+    "part_of_speech": "n",
+    "category": "Places & buildings",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "broken",
+    "translation": "сломанный",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "brush",
+    "translation": "щётка; чистить щёткой",
+    "part_of_speech": "n + v",
+    "category": "Personal care",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "burn",
+    "translation": "обжигать(ся); гореть",
+    "part_of_speech": "v",
+    "category": "Health & actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "business",
+    "translation": "бизнес; дело",
+    "part_of_speech": "n",
+    "category": "Work & money",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "businessman/woman",
+    "translation": "бизнесмен / бизнесвумен",
+    "part_of_speech": "n",
+    "category": "Jobs",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "butter",
+    "translation": "масло (сливочное)",
+    "part_of_speech": "n",
+    "category": "Food & drink",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "butterfly",
+    "translation": "бабочка",
+    "part_of_speech": "n",
+    "category": "Animals & nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "by myself",
+    "translation": "самостоятельно; один",
+    "part_of_speech": "adv",
+    "category": "People & actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "by yourself",
+    "translation": "самостоятельно; один",
+    "part_of_speech": "adv",
+    "category": "People & actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "calendar",
+    "translation": "календарь",
+    "part_of_speech": "n",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "camel",
+    "translation": "верблюд",
+    "part_of_speech": "n",
+    "category": "Animals",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "camp",
+    "translation": "разбивать лагерь; жить в палатке",
+    "part_of_speech": "v",
+    "category": "Travel & leisure",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "card",
+    "translation": "карточка; открытка",
+    "part_of_speech": "n",
+    "category": "Everyday objects",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "cartoon",
+    "translation": "мультфильм",
+    "part_of_speech": "n",
+    "category": "Media & entertainment",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "castle",
+    "translation": "замок",
+    "part_of_speech": "n",
+    "category": "Places & buildings",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "cave",
+    "translation": "пещера",
+    "part_of_speech": "n",
+    "category": "Nature & places",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "century",
+    "translation": "век; столетие",
+    "part_of_speech": "n",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "cereal",
+    "translation": "хлопья; сухой завтрак",
+    "part_of_speech": "n",
+    "category": "Food & drink",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "channel",
+    "translation": "канал (телевизионный)",
+    "part_of_speech": "n",
+    "category": "Media",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "chat",
+    "translation": "болтать; беседовать",
+    "part_of_speech": "v",
+    "category": "Communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "cheap",
+    "translation": "дешёвый",
+    "part_of_speech": "adj",
+    "category": "Money & shopping",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "chemist(’s)",
+    "translation": "аптека",
+    "part_of_speech": "n",
+    "category": "Health & services",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "chess",
+    "translation": "шахматы",
+    "part_of_speech": "n",
+    "category": "Hobbies & games",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "chopsticks",
+    "translation": "палочки для еды",
+    "part_of_speech": "n",
+    "category": "Food & dining",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "club",
+    "translation": "клуб",
+    "part_of_speech": "n",
+    "category": "Leisure",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "collect",
+    "translation": "собирать",
+    "part_of_speech": "v",
+    "category": "Hobbies & actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "college",
+    "translation": "колледж",
+    "part_of_speech": "n",
+    "category": "Education",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "comb",
+    "translation": "расчёска; расчёсывать",
+    "part_of_speech": "n + v",
+    "category": "Personal care",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "competition",
+    "translation": "соревнование; конкурс",
+    "part_of_speech": "n",
+    "category": "Sports & events",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "concert",
+    "translation": "концерт",
+    "part_of_speech": "n",
+    "category": "Arts & entertainment",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "conversation",
+    "translation": "разговор; беседа",
+    "part_of_speech": "n",
+    "category": "Communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "cooker",
+    "translation": "плита",
+    "part_of_speech": "n",
+    "category": "Home",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "cookie (UK biscuit)",
+    "translation": "печенье",
+    "part_of_speech": "n",
+    "category": "Food & drink",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "corner",
+    "translation": "угол",
+    "part_of_speech": "n",
+    "category": "Places",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "costume",
+    "translation": "костюм; наряд",
+    "part_of_speech": "n",
+    "category": "Clothes",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "creature",
+    "translation": "существо",
+    "part_of_speech": "n",
+    "category": "Animals & nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "crown",
+    "translation": "корона",
+    "part_of_speech": "n",
+    "category": "Clothes & accessories",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "cushion",
+    "translation": "диванная подушка",
+    "part_of_speech": "n",
+    "category": "Home",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "cut",
+    "translation": "резать; порезать",
+    "part_of_speech": "v",
+    "category": "Actions & health",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "cycle",
+    "translation": "ездить на велосипеде",
+    "part_of_speech": "v",
+    "category": "Transport & leisure",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "dark",
+    "translation": "тёмный",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "date",
+    "translation": "дата",
+    "part_of_speech": "n",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "decide",
+    "translation": "решать",
+    "part_of_speech": "v",
+    "category": "Thinking & actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "deep",
+    "translation": "глубокий",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "delicious",
+    "translation": "очень вкусный",
+    "part_of_speech": "adj",
+    "category": "Food & drink",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "desert",
+    "translation": "пустыня",
+    "part_of_speech": "n",
+    "category": "Nature & places",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "design",
+    "translation": "дизайн; проектировать",
+    "part_of_speech": "n + v",
+    "category": "Arts & work",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "designer",
+    "translation": "дизайнер",
+    "part_of_speech": "n",
+    "category": "Jobs",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "diary",
+    "translation": "дневник",
+    "part_of_speech": "n",
+    "category": "Everyday objects",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "dictionary",
+    "translation": "словарь",
+    "part_of_speech": "n",
+    "category": "Education",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "dinosaur",
+    "translation": "динозавр",
+    "part_of_speech": "n",
+    "category": "Animals",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "disappear",
+    "translation": "исчезать",
+    "part_of_speech": "v",
+    "category": "Actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "drum",
+    "translation": "барабан",
+    "part_of_speech": "n",
+    "category": "Music",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "during",
+    "translation": "во время",
+    "part_of_speech": "prep",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "eagle",
+    "translation": "орёл",
+    "part_of_speech": "n",
+    "category": "Animals",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "early",
+    "translation": "ранний; рано",
+    "part_of_speech": "adj + adv",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "Earth",
+    "translation": "Земля",
+    "part_of_speech": "n",
+    "category": "Nature & space",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "east",
+    "translation": "восток; восточный",
+    "part_of_speech": "n",
+    "category": "Directions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "elbow",
+    "translation": "локоть",
+    "part_of_speech": "n",
+    "category": "Body",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "empty",
+    "translation": "пустой",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "engine",
+    "translation": "двигатель",
+    "part_of_speech": "n",
+    "category": "Transport & technology",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "engineer",
+    "translation": "инженер",
+    "part_of_speech": "n",
+    "category": "Jobs",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "enormous",
+    "translation": "огромный",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "enough",
+    "translation": "достаточно",
+    "part_of_speech": "adj + pron",
+    "category": "Quantity",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "entrance",
+    "translation": "вход",
+    "part_of_speech": "n",
+    "category": "Places & buildings",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "envelope",
+    "translation": "конверт",
+    "part_of_speech": "n",
+    "category": "Communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "environment",
+    "translation": "окружающая среда",
+    "part_of_speech": "n",
+    "category": "Nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "everywhere",
+    "translation": "повсюду",
+    "part_of_speech": "adv",
+    "category": "Places",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "excellent",
+    "translation": "превосходный",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "excited",
+    "translation": "взволнованный; радостно возбуждённый",
+    "part_of_speech": "adj",
+    "category": "Feelings",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "exit",
+    "translation": "выход",
+    "part_of_speech": "n",
+    "category": "Places & buildings",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "expensive",
+    "translation": "дорогой",
+    "part_of_speech": "adj",
+    "category": "Money & shopping",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "explain",
+    "translation": "объяснять",
+    "part_of_speech": "v",
+    "category": "Communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "explore",
+    "translation": "исследовать",
+    "part_of_speech": "v",
+    "category": "Travel & nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "extinct",
+    "translation": "вымерший",
+    "part_of_speech": "adj",
+    "category": "Animals & nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "factory",
+    "translation": "фабрика; завод",
+    "part_of_speech": "n",
+    "category": "Work & places",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "fall over",
+    "translation": "упасть; споткнуться",
+    "part_of_speech": "v",
+    "category": "Actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "far",
+    "translation": "далёкий; далеко",
+    "part_of_speech": "adj + adv",
+    "category": "Distance",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "fast",
+    "translation": "быстрый; быстро",
+    "part_of_speech": "adj + adv",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "festival",
+    "translation": "фестиваль",
+    "part_of_speech": "n",
+    "category": "Arts & events",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "fetch",
+    "translation": "сходить и принести",
+    "part_of_speech": "v",
+    "category": "Actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "a few",
+    "translation": "несколько",
+    "part_of_speech": "det",
+    "category": "Quantity",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "find out",
+    "translation": "выяснить; узнать",
+    "part_of_speech": "v",
+    "category": "Learning & communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "finger",
+    "translation": "палец руки",
+    "part_of_speech": "n",
+    "category": "Body",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "finish",
+    "translation": "заканчивать",
+    "part_of_speech": "v",
+    "category": "Actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "fire",
+    "translation": "огонь; пожар",
+    "part_of_speech": "n",
+    "category": "Nature & safety",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "fire engine",
+    "translation": "пожарная машина",
+    "part_of_speech": "n",
+    "category": "Emergency services",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "fire fighter",
+    "translation": "пожарный",
+    "part_of_speech": "n",
+    "category": "Jobs",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "fire station",
+    "translation": "пожарная часть",
+    "part_of_speech": "n",
+    "category": "Places & services",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "flag",
+    "translation": "флаг",
+    "part_of_speech": "n",
+    "category": "Everyday objects",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "flashlight (UK torch)",
+    "translation": "фонарик",
+    "part_of_speech": "n",
+    "category": "Everyday objects",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "flour",
+    "translation": "мука",
+    "part_of_speech": "n",
+    "category": "Food & drink",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "fog",
+    "translation": "туман",
+    "part_of_speech": "n",
+    "category": "Weather",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "foggy",
+    "translation": "туманный",
+    "part_of_speech": "adj",
+    "category": "Weather",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "follow",
+    "translation": "следовать",
+    "part_of_speech": "v",
+    "category": "Actions & movement",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "forget",
+    "translation": "забывать",
+    "part_of_speech": "v",
+    "category": "Memory & actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "fork",
+    "translation": "вилка",
+    "part_of_speech": "n",
+    "category": "Food & dining",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "fridge",
+    "translation": "холодильник",
+    "part_of_speech": "n",
+    "category": "Home",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "friendly",
+    "translation": "дружелюбный",
+    "part_of_speech": "adj",
+    "category": "Personality",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "frightening",
+    "translation": "пугающий",
+    "part_of_speech": "adj",
+    "category": "Feelings & descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "front",
+    "translation": "передняя часть; передний",
+    "part_of_speech": "n + adj",
+    "category": "Places & position",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "full",
+    "translation": "полный",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "fur",
+    "translation": "мех",
+    "part_of_speech": "n",
+    "category": "Animals & nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "furry",
+    "translation": "пушистый",
+    "part_of_speech": "adj",
+    "category": "Animals & descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "future",
+    "translation": "будущее",
+    "part_of_speech": "n",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "gate",
+    "translation": "ворота; калитка",
+    "part_of_speech": "n",
+    "category": "Places & buildings",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "geography",
+    "translation": "география",
+    "part_of_speech": "n",
+    "category": "Education",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "get to",
+    "translation": "добираться до",
+    "part_of_speech": "v",
+    "category": "Travel & movement",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "glass",
+    "translation": "стекло; стеклянный",
+    "part_of_speech": "n + adj",
+    "category": "Materials",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "glove",
+    "translation": "перчатка",
+    "part_of_speech": "n",
+    "category": "Clothes",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "glue",
+    "translation": "клей; клеить",
+    "part_of_speech": "n + v",
+    "category": "Everyday objects & actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "go out",
+    "translation": "выходить (из дома)",
+    "part_of_speech": "v",
+    "category": "Leisure & actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "gold",
+    "translation": "золото; золотой",
+    "part_of_speech": "n + adj",
+    "category": "Materials & colours",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "golf",
+    "translation": "гольф",
+    "part_of_speech": "n",
+    "category": "Sports",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "group",
+    "translation": "группа",
+    "part_of_speech": "n",
+    "category": "People",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "guess",
+    "translation": "догадываться; предположение",
+    "part_of_speech": "v + n",
+    "category": "Communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "gym",
+    "translation": "спортзал",
+    "part_of_speech": "n",
+    "category": "Sports & places",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "half",
+    "translation": "половина; половинный",
+    "part_of_speech": "n + adj",
+    "category": "Quantity & time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "happen",
+    "translation": "случаться",
+    "part_of_speech": "v",
+    "category": "Actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "hard",
+    "translation": "трудный; твёрдый; усердно",
+    "part_of_speech": "adj + adv",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "hate",
+    "translation": "ненавидеть",
+    "part_of_speech": "v",
+    "category": "Feelings",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "heavy",
+    "translation": "тяжёлый",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "hill",
+    "translation": "холм",
+    "part_of_speech": "n",
+    "category": "Nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "history",
+    "translation": "история",
+    "part_of_speech": "n",
+    "category": "Education",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "hole",
+    "translation": "дыра; отверстие",
+    "part_of_speech": "n",
+    "category": "Things & nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "honey",
+    "translation": "мёд",
+    "part_of_speech": "n",
+    "category": "Food & drink",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "hope",
+    "translation": "надеяться",
+    "part_of_speech": "v",
+    "category": "Feelings & communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "horrible",
+    "translation": "ужасный",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "hotel",
+    "translation": "отель; гостиница",
+    "part_of_speech": "n",
+    "category": "Travel & places",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "hour",
+    "translation": "час",
+    "part_of_speech": "n",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "how long",
+    "translation": "как долго; какой длины",
+    "part_of_speech": "adv + int",
+    "category": "Time & measurement",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "hurry",
+    "translation": "спешить",
+    "part_of_speech": "v",
+    "category": "Actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "husband",
+    "translation": "муж",
+    "part_of_speech": "n",
+    "category": "Family",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "important",
+    "translation": "важный",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "improve",
+    "translation": "улучшать",
+    "part_of_speech": "v",
+    "category": "Learning & actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "information",
+    "translation": "информация",
+    "part_of_speech": "n",
+    "category": "Communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "insect",
+    "translation": "насекомое",
+    "part_of_speech": "n",
+    "category": "Animals & nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "instead",
+    "translation": "вместо этого",
+    "part_of_speech": "adv",
+    "category": "Communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "instrument",
+    "translation": "музыкальный инструмент",
+    "part_of_speech": "n",
+    "category": "Music",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "interested",
+    "translation": "заинтересованный",
+    "part_of_speech": "adj",
+    "category": "Feelings",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "interesting",
+    "translation": "интересный",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "invent",
+    "translation": "изобретать",
+    "part_of_speech": "v",
+    "category": "Science & actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "invitation",
+    "translation": "приглашение",
+    "part_of_speech": "n",
+    "category": "Communication & events",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "jam",
+    "translation": "джем; варенье",
+    "part_of_speech": "n",
+    "category": "Food & drink",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "job",
+    "translation": "работа; профессия",
+    "part_of_speech": "n",
+    "category": "Work",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "join",
+    "translation": "вступать; присоединяться",
+    "part_of_speech": "v",
+    "category": "People & actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "journalist",
+    "translation": "журналист",
+    "part_of_speech": "n",
+    "category": "Jobs",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "journey",
+    "translation": "путешествие; поездка",
+    "part_of_speech": "n",
+    "category": "Travel",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "keep",
+    "translation": "держать; хранить",
+    "part_of_speech": "v",
+    "category": "Actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "key",
+    "translation": "ключ",
+    "part_of_speech": "n",
+    "category": "Everyday objects",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "kilometre (US kilometer)",
+    "translation": "километр",
+    "part_of_speech": "n",
+    "category": "Measurement",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "kind",
+    "translation": "добрый; вид; тип",
+    "part_of_speech": "adj + n",
+    "category": "Personality & categories",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "king",
+    "translation": "король",
+    "part_of_speech": "n",
+    "category": "People & history",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "knee",
+    "translation": "колено",
+    "part_of_speech": "n",
+    "category": "Body",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "knife",
+    "translation": "нож",
+    "part_of_speech": "n",
+    "category": "Food & dining",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "land",
+    "translation": "приземляться",
+    "part_of_speech": "v",
+    "category": "Travel",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "language",
+    "translation": "язык",
+    "part_of_speech": "n",
+    "category": "Education & communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "large",
+    "translation": "большой",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "late",
+    "translation": "поздний; поздно",
+    "part_of_speech": "adj + adv",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "later",
+    "translation": "позже",
+    "part_of_speech": "adv",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "lazy",
+    "translation": "ленивый",
+    "part_of_speech": "adj",
+    "category": "Personality",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "leave",
+    "translation": "уходить; покидать",
+    "part_of_speech": "v",
+    "category": "Actions & travel",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "left",
+    "translation": "левый; налево",
+    "part_of_speech": "adj + n",
+    "category": "Directions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "letter",
+    "translation": "письмо",
+    "part_of_speech": "n",
+    "category": "Communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "lie down",
+    "translation": "лечь",
+    "part_of_speech": "v",
+    "category": "Actions & health",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "lift",
+    "translation": "лифт; поднимать",
+    "part_of_speech": "n + v",
+    "category": "Transport & actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "light",
+    "translation": "лёгкий; свет; светлый",
+    "part_of_speech": "adj + n",
+    "category": "Descriptions & things",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "a little",
+    "translation": "немного",
+    "part_of_speech": "adv + det",
+    "category": "Quantity",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "look after",
+    "translation": "заботиться о",
+    "part_of_speech": "v",
+    "category": "People & actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "look like",
+    "translation": "быть похожим на",
+    "part_of_speech": "v",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "lovely",
+    "translation": "милый; прекрасный",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "low",
+    "translation": "низкий",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "lucky",
+    "translation": "удачливый; везучий",
+    "part_of_speech": "adj",
+    "category": "Feelings & descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "magazine",
+    "translation": "журнал",
+    "part_of_speech": "n",
+    "category": "Media",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "make sure",
+    "translation": "убедиться",
+    "part_of_speech": "v",
+    "category": "Actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "manager",
+    "translation": "менеджер; управляющий",
+    "part_of_speech": "n",
+    "category": "Jobs",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "married",
+    "translation": "женатый; замужняя",
+    "part_of_speech": "adj",
+    "category": "Family & relationships",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "match",
+    "translation": "матч; игра",
+    "part_of_speech": "n",
+    "category": "Sports",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "maths (US math)",
+    "translation": "математика",
+    "part_of_speech": "n",
+    "category": "Education",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "meal",
+    "translation": "приём пищи",
+    "part_of_speech": "n",
+    "category": "Food & drink",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "mechanic",
+    "translation": "механик",
+    "part_of_speech": "n",
+    "category": "Jobs",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "medicine",
+    "translation": "лекарство; медицина",
+    "part_of_speech": "n",
+    "category": "Health",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "meet",
+    "translation": "встречать(ся)",
+    "part_of_speech": "v",
+    "category": "People & actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "meeting",
+    "translation": "встреча; собрание",
+    "part_of_speech": "n",
+    "category": "Communication & work",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "member",
+    "translation": "участник; член группы",
+    "part_of_speech": "n",
+    "category": "People",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "metal",
+    "translation": "металл; металлический",
+    "part_of_speech": "n + adj",
+    "category": "Materials",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "midday",
+    "translation": "полдень",
+    "part_of_speech": "n",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "middle",
+    "translation": "середина; средний",
+    "part_of_speech": "n + adj",
+    "category": "Places & position",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "midnight",
+    "translation": "полночь",
+    "part_of_speech": "n",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "million",
+    "translation": "миллион",
+    "part_of_speech": "n",
+    "category": "Numbers",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "minute",
+    "translation": "минута",
+    "part_of_speech": "n",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "missing",
+    "translation": "отсутствующий; пропавший",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "mix",
+    "translation": "смешивать",
+    "part_of_speech": "v",
+    "category": "Actions & cooking",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "money",
+    "translation": "деньги",
+    "part_of_speech": "n",
+    "category": "Money",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "month",
+    "translation": "месяц",
+    "part_of_speech": "n",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "motorway",
+    "translation": "автомагистраль",
+    "part_of_speech": "n",
+    "category": "Transport",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "museum",
+    "translation": "музей",
+    "part_of_speech": "n",
+    "category": "Places & culture",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "necklace",
+    "translation": "ожерелье; цепочка",
+    "part_of_speech": "n",
+    "category": "Clothes & accessories",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "nest",
+    "translation": "гнездо",
+    "part_of_speech": "n",
+    "category": "Animals & nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "news",
+    "translation": "новости",
+    "part_of_speech": "n",
+    "category": "Media",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "newspaper",
+    "translation": "газета",
+    "part_of_speech": "n",
+    "category": "Media",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "next",
+    "translation": "следующий; рядом",
+    "part_of_speech": "adj + adv",
+    "category": "Time & position",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "noisy",
+    "translation": "шумный",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "no-one",
+    "translation": "никто",
+    "part_of_speech": "pron",
+    "category": "People",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "north",
+    "translation": "север; северный",
+    "part_of_speech": "n",
+    "category": "Directions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "nowhere",
+    "translation": "нигде; никуда",
+    "part_of_speech": "adv",
+    "category": "Places",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "ocean",
+    "translation": "океан",
+    "part_of_speech": "n",
+    "category": "Nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "octopus",
+    "translation": "осьминог",
+    "part_of_speech": "n",
+    "category": "Animals",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "of course",
+    "translation": "конечно",
+    "part_of_speech": "adv",
+    "category": "Communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "office",
+    "translation": "офис; кабинет",
+    "part_of_speech": "n",
+    "category": "Work & places",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "olives",
+    "translation": "оливки",
+    "part_of_speech": "n",
+    "category": "Food & drink",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "once",
+    "translation": "один раз; однажды",
+    "part_of_speech": "adv",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "online",
+    "translation": "онлайн; в интернете",
+    "part_of_speech": "adj",
+    "category": "Technology",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "oven",
+    "translation": "духовка",
+    "part_of_speech": "n",
+    "category": "Home",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "over",
+    "translation": "над; через; больше",
+    "part_of_speech": "prep + adv",
+    "category": "Position & movement",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "passenger",
+    "translation": "пассажир",
+    "part_of_speech": "n",
+    "category": "Transport",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "past",
+    "translation": "прошлое; после",
+    "part_of_speech": "n + prep",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "path",
+    "translation": "тропа; дорожка",
+    "part_of_speech": "n",
+    "category": "Places & nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "pepper",
+    "translation": "перец",
+    "part_of_speech": "n",
+    "category": "Food & drink",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "perhaps",
+    "translation": "возможно",
+    "part_of_speech": "adv",
+    "category": "Communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "photographer",
+    "translation": "фотограф",
+    "part_of_speech": "n",
+    "category": "Jobs",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "piece",
+    "translation": "кусок; часть",
+    "part_of_speech": "n",
+    "category": "Quantity & objects",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "pilot",
+    "translation": "пилот",
+    "part_of_speech": "n",
+    "category": "Jobs",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "pizza",
+    "translation": "пицца",
+    "part_of_speech": "n",
+    "category": "Food & drink",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "planet",
+    "translation": "планета",
+    "part_of_speech": "n",
+    "category": "Space",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "plastic",
+    "translation": "пластик; пластиковый",
+    "part_of_speech": "n + adj",
+    "category": "Materials",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "platform",
+    "translation": "платформа; перрон",
+    "part_of_speech": "n",
+    "category": "Transport",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "pleased",
+    "translation": "довольный",
+    "part_of_speech": "adj",
+    "category": "Feelings",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "pocket",
+    "translation": "карман",
+    "part_of_speech": "n",
+    "category": "Clothes",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "police officer",
+    "translation": "полицейский",
+    "part_of_speech": "n",
+    "category": "Jobs & services",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "police station",
+    "translation": "полицейский участок",
+    "part_of_speech": "n",
+    "category": "Places & services",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "pond",
+    "translation": "пруд",
+    "part_of_speech": "n",
+    "category": "Nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "poor",
+    "translation": "бедный",
+    "part_of_speech": "adj",
+    "category": "Money & descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "pop music",
+    "translation": "поп-музыка",
+    "part_of_speech": "n",
+    "category": "Music",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "popular",
+    "translation": "популярный",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "post",
+    "translation": "отправлять по почте",
+    "part_of_speech": "v",
+    "category": "Communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "post office",
+    "translation": "почта; почтовое отделение",
+    "part_of_speech": "n",
+    "category": "Places & services",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "postcard",
+    "translation": "открытка",
+    "part_of_speech": "n",
+    "category": "Communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "prefer",
+    "translation": "предпочитать",
+    "part_of_speech": "v",
+    "category": "Preferences",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "prepare",
+    "translation": "готовить; подготавливать",
+    "part_of_speech": "v",
+    "category": "Actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "prize",
+    "translation": "приз",
+    "part_of_speech": "n",
+    "category": "Events",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "problem",
+    "translation": "проблема",
+    "part_of_speech": "n",
+    "category": "Everyday life",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "programme",
+    "translation": "программа; передача",
+    "part_of_speech": "n",
+    "category": "Media",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "project",
+    "translation": "проект",
+    "part_of_speech": "n",
+    "category": "Education & work",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "pull",
+    "translation": "тянуть",
+    "part_of_speech": "v",
+    "category": "Actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "push",
+    "translation": "толкать; нажимать",
+    "part_of_speech": "v",
+    "category": "Actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "puzzle",
+    "translation": "головоломка; пазл",
+    "part_of_speech": "n",
+    "category": "Games & leisure",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "pyramid",
+    "translation": "пирамида",
+    "part_of_speech": "n",
+    "category": "Places & history",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "quarter",
+    "translation": "четверть",
+    "part_of_speech": "n",
+    "category": "Time & numbers",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "queen",
+    "translation": "королева",
+    "part_of_speech": "n",
+    "category": "People & history",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "quite",
+    "translation": "довольно",
+    "part_of_speech": "adv",
+    "category": "Degree",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "quiz",
+    "translation": "викторина",
+    "part_of_speech": "n",
+    "category": "Education & games",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "race",
+    "translation": "гонка; соревноваться",
+    "part_of_speech": "n + v",
+    "category": "Sports",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "railway",
+    "translation": "железная дорога",
+    "part_of_speech": "n",
+    "category": "Transport",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "ready",
+    "translation": "готовый",
+    "part_of_speech": "adj",
+    "category": "States",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "remember",
+    "translation": "помнить",
+    "part_of_speech": "v",
+    "category": "Memory",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "repair",
+    "translation": "ремонтировать; ремонт",
+    "part_of_speech": "v + n",
+    "category": "Actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "repeat",
+    "translation": "повторять",
+    "part_of_speech": "v",
+    "category": "Communication & learning",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "restaurant",
+    "translation": "ресторан",
+    "part_of_speech": "n",
+    "category": "Food & places",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "rich",
+    "translation": "богатый",
+    "part_of_speech": "adj",
+    "category": "Money & descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "right",
+    "translation": "правый; правильный",
+    "part_of_speech": "adj",
+    "category": "Directions & descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "ring",
+    "translation": "кольцо",
+    "part_of_speech": "n",
+    "category": "Clothes & accessories",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "rock music",
+    "translation": "рок-музыка",
+    "part_of_speech": "n",
+    "category": "Music",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "rocket",
+    "translation": "ракета",
+    "part_of_speech": "n",
+    "category": "Space & transport",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "salt",
+    "translation": "соль",
+    "part_of_speech": "n",
+    "category": "Food & drink",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "same",
+    "translation": "тот же самый; одинаковый",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "save",
+    "translation": "сохранять; копить",
+    "part_of_speech": "v",
+    "category": "Actions & money",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "science",
+    "translation": "наука",
+    "part_of_speech": "n",
+    "category": "Education",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "scissors",
+    "translation": "ножницы",
+    "part_of_speech": "n",
+    "category": "Everyday objects",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "score",
+    "translation": "забивать; счёт",
+    "part_of_speech": "v + n",
+    "category": "Sports",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "screen",
+    "translation": "экран",
+    "part_of_speech": "n",
+    "category": "Technology",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "search",
+    "translation": "искать; поиск",
+    "part_of_speech": "v + n",
+    "category": "Actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "secret",
+    "translation": "секрет",
+    "part_of_speech": "n",
+    "category": "Communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "sell",
+    "translation": "продавать",
+    "part_of_speech": "v",
+    "category": "Money & shopping",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "several",
+    "translation": "несколько",
+    "part_of_speech": "adj",
+    "category": "Quantity",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "shampoo",
+    "translation": "шампунь",
+    "part_of_speech": "n",
+    "category": "Personal care",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "shelf",
+    "translation": "полка",
+    "part_of_speech": "n",
+    "category": "Home",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "silver",
+    "translation": "серебро; серебряный",
+    "part_of_speech": "n + adj",
+    "category": "Materials & colours",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "singer",
+    "translation": "певец; певица",
+    "part_of_speech": "n",
+    "category": "Music & jobs",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "ski",
+    "translation": "лыжа; кататься на лыжах",
+    "part_of_speech": "n + v",
+    "category": "Sports & leisure",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "sledge",
+    "translation": "санки; кататься на санках",
+    "part_of_speech": "n + v",
+    "category": "Sports & leisure",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "smell",
+    "translation": "запах; пахнуть",
+    "part_of_speech": "n + v",
+    "category": "Senses",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "snack",
+    "translation": "лёгкая закуска",
+    "part_of_speech": "n",
+    "category": "Food & drink",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "snowball",
+    "translation": "снежок",
+    "part_of_speech": "n",
+    "category": "Winter & weather",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "snowboard",
+    "translation": "сноуборд; кататься на сноуборде",
+    "part_of_speech": "n + v",
+    "category": "Sports & leisure",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "snowboarding",
+    "translation": "сноубординг",
+    "part_of_speech": "n",
+    "category": "Sports & leisure",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "snowman",
+    "translation": "снеговик",
+    "part_of_speech": "n",
+    "category": "Winter & weather",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "soap",
+    "translation": "мыло",
+    "part_of_speech": "n",
+    "category": "Personal care",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "soft",
+    "translation": "мягкий",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "somewhere",
+    "translation": "где-нибудь; куда-нибудь",
+    "part_of_speech": "adv",
+    "category": "Places",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "soon",
+    "translation": "скоро",
+    "part_of_speech": "adv",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "sore",
+    "translation": "болезненный; воспалённый",
+    "part_of_speech": "adj",
+    "category": "Health",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "sound",
+    "translation": "звук; звучать",
+    "part_of_speech": "n + v",
+    "category": "Senses",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "south",
+    "translation": "юг; южный",
+    "part_of_speech": "n",
+    "category": "Directions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "space",
+    "translation": "космос; пространство",
+    "part_of_speech": "n",
+    "category": "Space",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "spaceship",
+    "translation": "космический корабль",
+    "part_of_speech": "n",
+    "category": "Space",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "speak",
+    "translation": "говорить",
+    "part_of_speech": "v",
+    "category": "Communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "special",
+    "translation": "особенный; специальный",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "spend",
+    "translation": "тратить; проводить (время)",
+    "part_of_speech": "v",
+    "category": "Money & time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "spoon",
+    "translation": "ложка",
+    "part_of_speech": "n",
+    "category": "Food & dining",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "spot",
+    "translation": "пятно; точка",
+    "part_of_speech": "n",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "spotted",
+    "translation": "в пятнах; пятнистый",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "spring",
+    "translation": "весна; пружина",
+    "part_of_speech": "n",
+    "category": "Seasons & nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "stadium",
+    "translation": "стадион",
+    "part_of_speech": "n",
+    "category": "Sports & places",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "stage",
+    "translation": "сцена",
+    "part_of_speech": "n",
+    "category": "Arts & entertainment",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "stamp",
+    "translation": "почтовая марка",
+    "part_of_speech": "n",
+    "category": "Communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "stay",
+    "translation": "оставаться; останавливаться",
+    "part_of_speech": "v",
+    "category": "Travel & actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "step",
+    "translation": "шаг",
+    "part_of_speech": "n",
+    "category": "Movement",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "stone",
+    "translation": "камень",
+    "part_of_speech": "n",
+    "category": "Nature & materials",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "storm",
+    "translation": "шторм; буря",
+    "part_of_speech": "n",
+    "category": "Weather",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "straight on",
+    "translation": "прямо",
+    "part_of_speech": "adv",
+    "category": "Directions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "strange",
+    "translation": "странный",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "strawberry",
+    "translation": "клубника",
+    "part_of_speech": "n",
+    "category": "Food & drink",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "stream",
+    "translation": "ручей",
+    "part_of_speech": "n",
+    "category": "Nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "stripe",
+    "translation": "полоса",
+    "part_of_speech": "n",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "striped",
+    "translation": "полосатый",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "student",
+    "translation": "ученик; студент",
+    "part_of_speech": "n",
+    "category": "Education",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "study",
+    "translation": "учиться; изучать",
+    "part_of_speech": "v",
+    "category": "Education",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "subject",
+    "translation": "предмет (учебный)",
+    "part_of_speech": "n",
+    "category": "Education",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "suddenly",
+    "translation": "внезапно",
+    "part_of_speech": "adv",
+    "category": "Time & manner",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "sugar",
+    "translation": "сахар",
+    "part_of_speech": "n",
+    "category": "Food & drink",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "suitcase",
+    "translation": "чемодан",
+    "part_of_speech": "n",
+    "category": "Travel",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "summer",
+    "translation": "лето",
+    "part_of_speech": "n",
+    "category": "Seasons",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "sunglasses",
+    "translation": "солнцезащитные очки",
+    "part_of_speech": "n",
+    "category": "Clothes & accessories",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "surprise",
+    "translation": "сюрприз; удивлять",
+    "part_of_speech": "n + v",
+    "category": "Feelings & events",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "swan",
+    "translation": "лебедь",
+    "part_of_speech": "n",
+    "category": "Animals",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "swing",
+    "translation": "качели; качаться",
+    "part_of_speech": "n + v",
+    "category": "Play & movement",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "taste",
+    "translation": "вкус; пробовать на вкус",
+    "part_of_speech": "n + v",
+    "category": "Food & senses",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "taxi",
+    "translation": "такси",
+    "part_of_speech": "n",
+    "category": "Transport",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "team",
+    "translation": "команда",
+    "part_of_speech": "n",
+    "category": "Sports & people",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "telephone",
+    "translation": "телефон",
+    "part_of_speech": "n",
+    "category": "Technology",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "tent",
+    "translation": "палатка",
+    "part_of_speech": "n",
+    "category": "Travel & leisure",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "theatre",
+    "translation": "театр",
+    "part_of_speech": "n",
+    "category": "Arts & places",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "thousand",
+    "translation": "тысяча",
+    "part_of_speech": "n",
+    "category": "Numbers",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "tidy",
+    "translation": "аккуратный; приводить в порядок",
+    "part_of_speech": "adj + v",
+    "category": "Home & descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "timetable",
+    "translation": "расписание",
+    "part_of_speech": "n",
+    "category": "Time & transport",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "toe",
+    "translation": "палец ноги",
+    "part_of_speech": "n",
+    "category": "Body",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "together",
+    "translation": "вместе",
+    "part_of_speech": "adv",
+    "category": "People",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "tonight",
+    "translation": "сегодня вечером",
+    "part_of_speech": "adv + n",
+    "category": "Time",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "torch (US flashlight)",
+    "translation": "фонарик",
+    "part_of_speech": "n",
+    "category": "Everyday objects",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "tortoise",
+    "translation": "черепаха (сухопутная)",
+    "part_of_speech": "n",
+    "category": "Animals",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "tour",
+    "translation": "экскурсия; тур",
+    "part_of_speech": "n",
+    "category": "Travel",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "traffic",
+    "translation": "дорожное движение; транспорт",
+    "part_of_speech": "n",
+    "category": "Transport",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "trainers",
+    "translation": "кроссовки",
+    "part_of_speech": "n",
+    "category": "Clothes",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "tune",
+    "translation": "мелодия",
+    "part_of_speech": "n",
+    "category": "Music",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "turn off",
+    "translation": "выключать",
+    "part_of_speech": "v",
+    "category": "Technology & actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "turn on",
+    "translation": "включать",
+    "part_of_speech": "v",
+    "category": "Technology & actions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "twice",
+    "translation": "дважды",
+    "part_of_speech": "adv",
+    "category": "Frequency",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "tyre",
+    "translation": "шина",
+    "part_of_speech": "n",
+    "category": "Transport",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "umbrella",
+    "translation": "зонт",
+    "part_of_speech": "n",
+    "category": "Everyday objects",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "unfriendly",
+    "translation": "недружелюбный",
+    "part_of_speech": "adj",
+    "category": "Personality",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "unhappy",
+    "translation": "несчастный; недовольный",
+    "part_of_speech": "adj",
+    "category": "Feelings",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "uniform",
+    "translation": "форма; униформа",
+    "part_of_speech": "n",
+    "category": "Clothes",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "unkind",
+    "translation": "недобрый",
+    "part_of_speech": "adj",
+    "category": "Personality",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "untidy",
+    "translation": "неопрятный; беспорядочный",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "unusual",
+    "translation": "необычный",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "usually",
+    "translation": "обычно",
+    "part_of_speech": "adv",
+    "category": "Frequency",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "view",
+    "translation": "вид; пейзаж",
+    "part_of_speech": "n",
+    "category": "Nature & places",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "violin",
+    "translation": "скрипка",
+    "part_of_speech": "n",
+    "category": "Music",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "visit",
+    "translation": "посещать; навещать",
+    "part_of_speech": "v",
+    "category": "Travel & people",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "volleyball",
+    "translation": "волейбол",
+    "part_of_speech": "n",
+    "category": "Sports",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "waiter",
+    "translation": "официант",
+    "part_of_speech": "n",
+    "category": "Jobs",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "warm",
+    "translation": "тёплый",
+    "part_of_speech": "adj",
+    "category": "Weather & temperature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "wheel",
+    "translation": "колесо",
+    "part_of_speech": "n",
+    "category": "Transport",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "whisper",
+    "translation": "шептать",
+    "part_of_speech": "v",
+    "category": "Communication",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "whistle",
+    "translation": "свистеть; свисток",
+    "part_of_speech": "v + n",
+    "category": "Communication & objects",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "wild",
+    "translation": "дикий",
+    "part_of_speech": "adj",
+    "category": "Animals & nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "win",
+    "translation": "победа; выигрывать",
+    "part_of_speech": "n + v",
+    "category": "Sports & competitions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "wing",
+    "translation": "крыло",
+    "part_of_speech": "n",
+    "category": "Animals & nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "winner",
+    "translation": "победитель",
+    "part_of_speech": "n",
+    "category": "People & competitions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "winter",
+    "translation": "зима",
+    "part_of_speech": "n",
+    "category": "Seasons",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "wonderful",
+    "translation": "замечательный",
+    "part_of_speech": "adj",
+    "category": "Descriptions",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "wood",
+    "translation": "дерево; древесина",
+    "part_of_speech": "n",
+    "category": "Materials & nature",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "wool",
+    "translation": "шерсть",
+    "part_of_speech": "n",
+    "category": "Materials & clothes",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "worried",
+    "translation": "обеспокоенный",
+    "part_of_speech": "adj",
+    "category": "Feelings",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "x-ray",
+    "translation": "рентген; рентгеновский снимок",
+    "part_of_speech": "n",
+    "category": "Health",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "yoghurt",
+    "translation": "йогурт",
+    "part_of_speech": "n",
+    "category": "Food & drink",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  },
+  {
+    "word": "zero",
+    "translation": "ноль",
+    "part_of_speech": "n",
+    "category": "Numbers",
+    "source": "A2 Flyers Wordlist picture book (Cambridge English)",
+    "level": "A2"
+  }
+]

@@ -1,0 +1,4062 @@
+[
+  {
+    "id": "grammar-pre-a1-0005",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "be-verb-negatives",
+    "format": "mcq-gap",
+    "stem": "My parents ___ at home now.",
+    "options": [
+      {
+        "id": "A",
+        "text": "isn't"
+      },
+      {
+        "id": "B",
+        "text": "aren't"
+      },
+      {
+        "id": "C",
+        "text": "am not"
+      },
+      {
+        "id": "D",
+        "text": "not are"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "С подлежащим во множественном числе используется are not / aren’t.",
+    "difficulty": -1.5
+  },
+  {
+    "id": "grammar-pre-a1-0006",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "be-verb-questions",
+    "format": "mcq-sentence-choice",
+    "stem": "Выбери грамматически правильный вопрос.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Is your name Alex?"
+      },
+      {
+        "id": "B",
+        "text": "Your name is Alex?"
+      },
+      {
+        "id": "C",
+        "text": "Are your name Alex?"
+      },
+      {
+        "id": "D",
+        "text": "Does your name is Alex?"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "В вопросе с be глагол ставится перед подлежащим.",
+    "difficulty": -1.47
+  },
+  {
+    "id": "grammar-pre-a1-0007",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "object-pronouns",
+    "format": "mcq-gap",
+    "stem": "I can see Anna. I can see ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "she"
+      },
+      {
+        "id": "B",
+        "text": "her"
+      },
+      {
+        "id": "C",
+        "text": "hers"
+      },
+      {
+        "id": "D",
+        "text": "he"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "После see нужно объектное местоимение her.",
+    "difficulty": -1.43
+  },
+  {
+    "id": "grammar-pre-a1-0008",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "demonstratives",
+    "format": "mcq-gap",
+    "stem": "___ are my shoes here next to me.",
+    "options": [
+      {
+        "id": "A",
+        "text": "This"
+      },
+      {
+        "id": "B",
+        "text": "That"
+      },
+      {
+        "id": "C",
+        "text": "These"
+      },
+      {
+        "id": "D",
+        "text": "It"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "These употребляется с предметами во множественном числе рядом с говорящим.",
+    "difficulty": -1.4
+  },
+  {
+    "id": "grammar-pre-a1-0009",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "possessive-nouns",
+    "format": "mcq-gap",
+    "stem": "В каком предложении допущена ошибка?",
+    "options": [
+      {
+        "id": "A",
+        "text": "This is my sister’s bag."
+      },
+      {
+        "id": "B",
+        "text": "The dog’s name is Max."
+      },
+      {
+        "id": "C",
+        "text": "My parents’ car is blue."
+      },
+      {
+        "id": "D",
+        "text": "This is the girls book."
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Для обозначения принадлежности нужен апостроф: girls’ или girl’s в зависимости от смысла.",
+    "difficulty": -1.36
+  },
+  {
+    "id": "grammar-pre-a1-0010",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "imperatives",
+    "format": "mcq-gap",
+    "stem": "Выбери правильное исправление: “You to open the door, please.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "You opening the door, please."
+      },
+      {
+        "id": "B",
+        "text": "Open the door, please."
+      },
+      {
+        "id": "C",
+        "text": "Opens the door, please."
+      },
+      {
+        "id": "D",
+        "text": "Are open the door, please."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "В повелительном наклонении используется начальная форма глагола без to.",
+    "difficulty": -1.32
+  },
+  {
+    "id": "grammar-pre-a1-0011",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "be-verb-affirmative",
+    "format": "mcq-gap",
+    "stem": "We ___ students.",
+    "options": [
+      {
+        "id": "A",
+        "text": "am"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "С подлежащим we используется форма are.",
+    "difficulty": -1.29
+  },
+  {
+    "id": "grammar-pre-a1-0012",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "subject-pronouns",
+    "format": "mcq-gap",
+    "stem": "Peter is my friend. ___ is from Spain.",
+    "options": [
+      {
+        "id": "A",
+        "text": "He"
+      },
+      {
+        "id": "B",
+        "text": "She"
+      },
+      {
+        "id": "C",
+        "text": "It"
+      },
+      {
+        "id": "D",
+        "text": "We"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Для Peter используется местоимение he.",
+    "difficulty": -1.25
+  },
+  {
+    "id": "grammar-pre-a1-0013",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "plural-nouns-irregular",
+    "format": "mcq-gap",
+    "stem": "I have two ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "child"
+      },
+      {
+        "id": "B",
+        "text": "childs"
+      },
+      {
+        "id": "C",
+        "text": "children"
+      },
+      {
+        "id": "D",
+        "text": "childes"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Множественное число child — children.",
+    "difficulty": -1.22
+  },
+  {
+    "id": "grammar-pre-a1-0014",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "articles-a-an",
+    "format": "mcq-gap",
+    "stem": "It is ___ book.",
+    "options": [
+      {
+        "id": "A",
+        "text": "a"
+      },
+      {
+        "id": "B",
+        "text": "an"
+      },
+      {
+        "id": "C",
+        "text": "the"
+      },
+      {
+        "id": "D",
+        "text": "—"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Перед согласным звуком в исчисляемом существительном в единственном числе используется a.",
+    "difficulty": -1.19
+  },
+  {
+    "id": "grammar-pre-a1-0015",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "possessive-adjectives",
+    "format": "mcq-gap",
+    "stem": "We live here. This is ___ house.",
+    "options": [
+      {
+        "id": "A",
+        "text": "our"
+      },
+      {
+        "id": "B",
+        "text": "us"
+      },
+      {
+        "id": "C",
+        "text": "we"
+      },
+      {
+        "id": "D",
+        "text": "ourselves"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Перед существительным нужен притяжательный определитель our.",
+    "difficulty": -1.15
+  },
+  {
+    "id": "grammar-pre-a1-0016",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "be-verb-questions",
+    "format": "mcq-gap",
+    "stem": "___ they happy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Is"
+      },
+      {
+        "id": "B",
+        "text": "Am"
+      },
+      {
+        "id": "C",
+        "text": "Are"
+      },
+      {
+        "id": "D",
+        "text": "Be"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "С they используется are; в вопросе are стоит перед подлежащим.",
+    "difficulty": -1.11
+  },
+  {
+    "id": "grammar-pre-a1-0017",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "object-pronouns",
+    "format": "mcq-gap",
+    "stem": "Please help ___. I cannot do this alone.",
+    "options": [
+      {
+        "id": "A",
+        "text": "I"
+      },
+      {
+        "id": "B",
+        "text": "my"
+      },
+      {
+        "id": "C",
+        "text": "me"
+      },
+      {
+        "id": "D",
+        "text": "mine"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "После help требуется объектное местоимение me.",
+    "difficulty": -1.08
+  },
+  {
+    "id": "grammar-pre-a1-0018",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "demonstratives",
+    "format": "mcq-gap",
+    "stem": "Look at ___ bird over there!",
+    "options": [
+      {
+        "id": "A",
+        "text": "this"
+      },
+      {
+        "id": "B",
+        "text": "these"
+      },
+      {
+        "id": "C",
+        "text": "those"
+      },
+      {
+        "id": "D",
+        "text": "that"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "That указывает на один предмет на расстоянии.",
+    "difficulty": -1.04
+  },
+  {
+    "id": "grammar-pre-a1-0019",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "there-is-are",
+    "format": "mcq-gap",
+    "stem": "There ___ a chair in the room.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "am"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "С существительным в единственном числе используется there is.",
+    "difficulty": -1.01
+  },
+  {
+    "id": "grammar-pre-a1-0020",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "prepositions-place",
+    "format": "mcq-gap",
+    "stem": "The cat is ___ the table. You can see it underneath.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "under"
+      },
+      {
+        "id": "C",
+        "text": "between"
+      },
+      {
+        "id": "D",
+        "text": "behind"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Under означает «под»; это уточнено контекстом underneath.",
+    "difficulty": -0.97
+  },
+  {
+    "id": "grammar-pre-a1-0021",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "have-got",
+    "format": "mcq-gap",
+    "stem": "I ___ got a small dog.",
+    "options": [
+      {
+        "id": "A",
+        "text": "has"
+      },
+      {
+        "id": "B",
+        "text": "have"
+      },
+      {
+        "id": "C",
+        "text": "am"
+      },
+      {
+        "id": "D",
+        "text": "do"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "С I используется have got.",
+    "difficulty": -0.94
+  },
+  {
+    "id": "grammar-pre-a1-0022",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "be-verb-negative",
+    "format": "mcq-gap",
+    "stem": "This ___ my bag. It belongs to Sam.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "isn’t"
+      },
+      {
+        "id": "C",
+        "text": "aren’t"
+      },
+      {
+        "id": "D",
+        "text": "am not"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Отрицательная форма для this — isn’t.",
+    "difficulty": -0.9
+  },
+  {
+    "id": "grammar-pre-a1-0023",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "plural-nouns",
+    "format": "mcq-gap",
+    "stem": "There are three ___ on the desk.",
+    "options": [
+      {
+        "id": "A",
+        "text": "box"
+      },
+      {
+        "id": "B",
+        "text": "boxs"
+      },
+      {
+        "id": "C",
+        "text": "boxes"
+      },
+      {
+        "id": "D",
+        "text": "boxies"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "После x множественное число обычно образуется с -es.",
+    "difficulty": -0.87
+  },
+  {
+    "id": "grammar-pre-a1-0024",
+    "skill": "Grammar",
+    "cefrLevel": "PRE-A1",
+    "topic": "articles-a-an",
+    "format": "mcq-gap",
+    "stem": "She has ___ orange in her lunchbox.",
+    "options": [
+      {
+        "id": "A",
+        "text": "a"
+      },
+      {
+        "id": "B",
+        "text": "an"
+      },
+      {
+        "id": "C",
+        "text": "the"
+      },
+      {
+        "id": "D",
+        "text": "some"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Перед гласным звуком в исчисляемом существительном единственного числа используется an.",
+    "difficulty": -0.83
+  },
+  {
+    "id": "grammar-a1-0010",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "present-simple-questions",
+    "format": "mcq-gap",
+    "stem": "___ your brother play football every weekend?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Do"
+      },
+      {
+        "id": "B",
+        "text": "Does"
+      },
+      {
+        "id": "C",
+        "text": "Is"
+      },
+      {
+        "id": "D",
+        "text": "Has"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "В вопросе Present Simple с he/she/it используется does.",
+    "difficulty": -0.9
+  },
+  {
+    "id": "grammar-a1-0011",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "present-simple-negatives",
+    "format": "mcq-sentence-choice",
+    "stem": "Выбери грамматически правильное предложение.",
+    "options": [
+      {
+        "id": "A",
+        "text": "She don’t like coffee."
+      },
+      {
+        "id": "B",
+        "text": "She doesn’t likes coffee."
+      },
+      {
+        "id": "C",
+        "text": "She doesn’t like coffee."
+      },
+      {
+        "id": "D",
+        "text": "She not like coffee."
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "После doesn’t используется начальная форма глагола.",
+    "difficulty": -0.86
+  },
+  {
+    "id": "grammar-a1-0012",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "adverbs-frequency",
+    "format": "mcq-gap",
+    "stem": "I ___ have breakfast before work; I do it every day.",
+    "options": [
+      {
+        "id": "A",
+        "text": "never"
+      },
+      {
+        "id": "B",
+        "text": "usually"
+      },
+      {
+        "id": "C",
+        "text": "hardly"
+      },
+      {
+        "id": "D",
+        "text": "rarely"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Usually соответствует регулярному действию; every day подтверждает привычку.",
+    "difficulty": -0.83
+  },
+  {
+    "id": "grammar-a1-0013",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "prepositions-place",
+    "format": "mcq-gap",
+    "stem": "The picture is ___ the wall.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in"
+      },
+      {
+        "id": "B",
+        "text": "on"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "to"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Для предмета, закреплённого на поверхности стены, используется on.",
+    "difficulty": -0.8
+  },
+  {
+    "id": "grammar-a1-0014",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "countable-uncountable",
+    "format": "mcq-gap",
+    "stem": "How ___ milk do we need?",
+    "options": [
+      {
+        "id": "A",
+        "text": "many"
+      },
+      {
+        "id": "B",
+        "text": "much"
+      },
+      {
+        "id": "C",
+        "text": "few"
+      },
+      {
+        "id": "D",
+        "text": "several"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Milk — неисчисляемое существительное; с ним используется much.",
+    "difficulty": -0.76
+  },
+  {
+    "id": "grammar-a1-0015",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "imperatives-negative",
+    "format": "mcq-gap",
+    "stem": "___ touch the wet paint.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Not"
+      },
+      {
+        "id": "B",
+        "text": "No"
+      },
+      {
+        "id": "C",
+        "text": "Don’t"
+      },
+      {
+        "id": "D",
+        "text": "Doesn’t"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Отрицательное повелительное наклонение образуется с don’t + verb.",
+    "difficulty": -0.72
+  },
+  {
+    "id": "grammar-a1-0016",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "present-continuous",
+    "format": "mcq-gap",
+    "stem": "Be quiet! The baby ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "sleeps"
+      },
+      {
+        "id": "B",
+        "text": "is sleeping"
+      },
+      {
+        "id": "C",
+        "text": "sleep"
+      },
+      {
+        "id": "D",
+        "text": "slept"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Действие происходит сейчас; используется Present Continuous.",
+    "difficulty": -0.69
+  },
+  {
+    "id": "grammar-a1-0017",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "past-simple-be",
+    "format": "mcq-gap",
+    "stem": "They ___ at school yesterday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "С they в Past Simple глагола be используется were.",
+    "difficulty": -0.66
+  },
+  {
+    "id": "grammar-a1-0018",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "object-pronouns",
+    "format": "mcq-gap",
+    "stem": "Can you call ___ after the lesson?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I"
+      },
+      {
+        "id": "B",
+        "text": "my"
+      },
+      {
+        "id": "C",
+        "text": "me"
+      },
+      {
+        "id": "D",
+        "text": "mine"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "После call требуется объектное местоимение me.",
+    "difficulty": -0.62
+  },
+  {
+    "id": "grammar-a1-0019",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "possessive-pronouns",
+    "format": "mcq-gap",
+    "stem": "This phone isn’t yours. It is ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "my"
+      },
+      {
+        "id": "B",
+        "text": "mine"
+      },
+      {
+        "id": "C",
+        "text": "me"
+      },
+      {
+        "id": "D",
+        "text": "I"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Mine заменяет сочетание my phone.",
+    "difficulty": -0.58
+  },
+  {
+    "id": "grammar-a1-0020",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "prepositions-time",
+    "format": "mcq-gap",
+    "stem": "The train leaves ___ 8:30.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in"
+      },
+      {
+        "id": "B",
+        "text": "on"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "by"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "С точным временем используется at.",
+    "difficulty": -0.55
+  },
+  {
+    "id": "grammar-a1-0021",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "comparatives",
+    "format": "mcq-gap",
+    "stem": "My new room is ___ than my old one.",
+    "options": [
+      {
+        "id": "A",
+        "text": "big"
+      },
+      {
+        "id": "B",
+        "text": "bigger"
+      },
+      {
+        "id": "C",
+        "text": "biggest"
+      },
+      {
+        "id": "D",
+        "text": "more big"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Короткое прилагательное big образует сравнительную степень с удвоением согласной и -er.",
+    "difficulty": -0.52
+  },
+  {
+    "id": "grammar-a1-0022",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "can-ability",
+    "format": "mcq-gap",
+    "stem": "My sister ___ swim very well.",
+    "options": [
+      {
+        "id": "A",
+        "text": "can"
+      },
+      {
+        "id": "B",
+        "text": "cans"
+      },
+      {
+        "id": "C",
+        "text": "is can"
+      },
+      {
+        "id": "D",
+        "text": "does can"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Модальный глагол can не меняется по лицам и используется без to.",
+    "difficulty": -0.48
+  },
+  {
+    "id": "grammar-a1-0023",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "there-is-are",
+    "format": "mcq-gap",
+    "stem": "There ___ two windows in the kitchen.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "be"
+      },
+      {
+        "id": "D",
+        "text": "has"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "С существительным во множественном числе используется there are.",
+    "difficulty": -0.44
+  },
+  {
+    "id": "grammar-a1-0024",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "some-any",
+    "format": "mcq-gap",
+    "stem": "Are there ___ apples in the fridge?",
+    "options": [
+      {
+        "id": "A",
+        "text": "some"
+      },
+      {
+        "id": "B",
+        "text": "any"
+      },
+      {
+        "id": "C",
+        "text": "much"
+      },
+      {
+        "id": "D",
+        "text": "a"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "В общих вопросах обычно используется any.",
+    "difficulty": -0.41
+  },
+  {
+    "id": "grammar-a1-0025",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "like-gerund",
+    "format": "mcq-gap",
+    "stem": "I enjoy ___ to music in the evening.",
+    "options": [
+      {
+        "id": "A",
+        "text": "listen"
+      },
+      {
+        "id": "B",
+        "text": "to listen"
+      },
+      {
+        "id": "C",
+        "text": "listening"
+      },
+      {
+        "id": "D",
+        "text": "listened"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "После enjoy используется герундий.",
+    "difficulty": -0.38
+  },
+  {
+    "id": "grammar-a1-0026",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "present-simple-vs-continuous",
+    "format": "mcq-gap",
+    "stem": "She usually ___ to work, but today she is taking a taxi.",
+    "options": [
+      {
+        "id": "A",
+        "text": "walk"
+      },
+      {
+        "id": "B",
+        "text": "walks"
+      },
+      {
+        "id": "C",
+        "text": "is walk"
+      },
+      {
+        "id": "D",
+        "text": "walking"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Usually указывает на привычку, поэтому нужен Present Simple.",
+    "difficulty": -0.34
+  },
+  {
+    "id": "grammar-a1-0027",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "past-simple-regular",
+    "format": "mcq-gap",
+    "stem": "We ___ our grandparents last Sunday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "visit"
+      },
+      {
+        "id": "B",
+        "text": "visits"
+      },
+      {
+        "id": "C",
+        "text": "visited"
+      },
+      {
+        "id": "D",
+        "text": "visiting"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Last Sunday указывает на завершённое действие в прошлом.",
+    "difficulty": -0.3
+  },
+  {
+    "id": "grammar-a1-0028",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "possessive-s",
+    "format": "mcq-gap",
+    "stem": "This is ___ bicycle; he rides it to school.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tom"
+      },
+      {
+        "id": "B",
+        "text": "Toms"
+      },
+      {
+        "id": "C",
+        "text": "Tom’s"
+      },
+      {
+        "id": "D",
+        "text": "Toms’"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Для принадлежности одному человеку используется апостроф + s.",
+    "difficulty": -0.27
+  },
+  {
+    "id": "grammar-a1-0029",
+    "skill": "Grammar",
+    "cefrLevel": "A1",
+    "topic": "how-often",
+    "format": "mcq-gap",
+    "stem": "___ do you go swimming? — Twice a week.",
+    "options": [
+      {
+        "id": "A",
+        "text": "How long"
+      },
+      {
+        "id": "B",
+        "text": "How many"
+      },
+      {
+        "id": "C",
+        "text": "How often"
+      },
+      {
+        "id": "D",
+        "text": "How much"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "How often спрашивает о частоте действия.",
+    "difficulty": -0.23
+  },
+  {
+    "id": "grammar-a2-0015",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "past-continuous",
+    "format": "mcq-gap",
+    "stem": "At eight yesterday evening, I ___ dinner.",
+    "options": [
+      {
+        "id": "A",
+        "text": "cooked"
+      },
+      {
+        "id": "B",
+        "text": "was cooking"
+      },
+      {
+        "id": "C",
+        "text": "have cooked"
+      },
+      {
+        "id": "D",
+        "text": "am cooking"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Действие было в процессе в определённый момент в прошлом.",
+    "difficulty": -0.3
+  },
+  {
+    "id": "grammar-a2-0016",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "past-simple-vs-continuous",
+    "format": "mcq-gap",
+    "stem": "While I ___ home, it started to rain.",
+    "options": [
+      {
+        "id": "A",
+        "text": "walked"
+      },
+      {
+        "id": "B",
+        "text": "was walking"
+      },
+      {
+        "id": "C",
+        "text": "am walking"
+      },
+      {
+        "id": "D",
+        "text": "have walked"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Длительное фоновое действие — Past Continuous; короткое событие — Past Simple.",
+    "difficulty": -0.27
+  },
+  {
+    "id": "grammar-a2-0017",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "quantifiers",
+    "format": "mcq-gap",
+    "stem": "There are ___ biscuits left, so we can have one each.",
+    "options": [
+      {
+        "id": "A",
+        "text": "a little"
+      },
+      {
+        "id": "B",
+        "text": "a few"
+      },
+      {
+        "id": "C",
+        "text": "much"
+      },
+      {
+        "id": "D",
+        "text": "any"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Biscuits — исчисляемое существительное во множественном числе; a few означает небольшое количество.",
+    "difficulty": -0.23
+  },
+  {
+    "id": "grammar-a2-0018",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "too-enough",
+    "format": "mcq-gap",
+    "stem": "This coffee is ___ hot to drink now.",
+    "options": [
+      {
+        "id": "A",
+        "text": "too"
+      },
+      {
+        "id": "B",
+        "text": "enough"
+      },
+      {
+        "id": "C",
+        "text": "such"
+      },
+      {
+        "id": "D",
+        "text": "so much"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Too + adjective + to-infinitive выражает чрезмерную степень.",
+    "difficulty": -0.19
+  },
+  {
+    "id": "grammar-a2-0019",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "modals-advice",
+    "format": "mcq-gap",
+    "stem": "You look tired. You ___ get some rest.",
+    "options": [
+      {
+        "id": "A",
+        "text": "should"
+      },
+      {
+        "id": "B",
+        "text": "mustn’t"
+      },
+      {
+        "id": "C",
+        "text": "can’t"
+      },
+      {
+        "id": "D",
+        "text": "may not"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Should используется для совета.",
+    "difficulty": -0.16
+  },
+  {
+    "id": "grammar-a2-0020",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "modals-permission",
+    "format": "mcq-gap",
+    "stem": "___ I borrow your pen for a moment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Must"
+      },
+      {
+        "id": "B",
+        "text": "May"
+      },
+      {
+        "id": "C",
+        "text": "Should"
+      },
+      {
+        "id": "D",
+        "text": "Need"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "May I — вежливая просьба о разрешении.",
+    "difficulty": -0.12
+  },
+  {
+    "id": "grammar-a2-0021",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "will-vs-going-to",
+    "format": "mcq-gap",
+    "stem": "I think people ___ use more electric cars in the future.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are going"
+      },
+      {
+        "id": "B",
+        "text": "will"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "did"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Will естественно используется для общего прогноза или мнения о будущем.",
+    "difficulty": -0.09
+  },
+  {
+    "id": "grammar-a2-0022",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "present-perfect-experience",
+    "format": "mcq-gap",
+    "stem": "Have you ever ___ sushi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "eat"
+      },
+      {
+        "id": "B",
+        "text": "ate"
+      },
+      {
+        "id": "C",
+        "text": "eaten"
+      },
+      {
+        "id": "D",
+        "text": "eating"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "После have используется третья форма глагола.",
+    "difficulty": -0.05
+  },
+  {
+    "id": "grammar-a2-0023",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "present-perfect-for-since",
+    "format": "mcq-gap",
+    "stem": "We have lived here ___ 2020.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "since"
+      },
+      {
+        "id": "C",
+        "text": "during"
+      },
+      {
+        "id": "D",
+        "text": "from"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Since указывает на начальную точку периода.",
+    "difficulty": -0.02
+  },
+  {
+    "id": "grammar-a2-0024",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "comparatives-long-adjectives",
+    "format": "mcq-gap",
+    "stem": "This exercise is ___ than the previous one.",
+    "options": [
+      {
+        "id": "A",
+        "text": "more difficult"
+      },
+      {
+        "id": "B",
+        "text": "difficulter"
+      },
+      {
+        "id": "C",
+        "text": "most difficult"
+      },
+      {
+        "id": "D",
+        "text": "the more difficult"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "У длинных прилагательных сравнительная степень обычно образуется с more.",
+    "difficulty": 0.02
+  },
+  {
+    "id": "grammar-a2-0025",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "superlatives",
+    "format": "mcq-gap",
+    "stem": "That was ___ meal I have ever had.",
+    "options": [
+      {
+        "id": "A",
+        "text": "better"
+      },
+      {
+        "id": "B",
+        "text": "the best"
+      },
+      {
+        "id": "C",
+        "text": "best"
+      },
+      {
+        "id": "D",
+        "text": "the better"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Для превосходной степени best требуется the.",
+    "difficulty": 0.05
+  },
+  {
+    "id": "grammar-a2-0026",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "first-conditional",
+    "format": "mcq-gap",
+    "stem": "If we leave now, we ___ the early train.",
+    "options": [
+      {
+        "id": "A",
+        "text": "catch"
+      },
+      {
+        "id": "B",
+        "text": "will catch"
+      },
+      {
+        "id": "C",
+        "text": "caught"
+      },
+      {
+        "id": "D",
+        "text": "would catch"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "В главной части First Conditional используется will + infinitive.",
+    "difficulty": 0.09
+  },
+  {
+    "id": "grammar-a2-0027",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "zero-conditional",
+    "format": "mcq-gap",
+    "stem": "If you heat ice, it ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "melts"
+      },
+      {
+        "id": "B",
+        "text": "will melt"
+      },
+      {
+        "id": "C",
+        "text": "melted"
+      },
+      {
+        "id": "D",
+        "text": "would melt"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Zero Conditional описывает общий факт: Present Simple в обеих частях.",
+    "difficulty": 0.12
+  },
+  {
+    "id": "grammar-a2-0028",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "used-to",
+    "format": "mcq-gap",
+    "stem": "I ___ play tennis when I was at school, but I don’t now.",
+    "options": [
+      {
+        "id": "A",
+        "text": "use to"
+      },
+      {
+        "id": "B",
+        "text": "used to"
+      },
+      {
+        "id": "C",
+        "text": "am used to"
+      },
+      {
+        "id": "D",
+        "text": "was use to"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Used to описывает привычку или состояние в прошлом, которого больше нет.",
+    "difficulty": 0.16
+  },
+  {
+    "id": "grammar-a2-0029",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "verb-patterns",
+    "format": "mcq-gap",
+    "stem": "He decided ___ a new language.",
+    "options": [
+      {
+        "id": "A",
+        "text": "learn"
+      },
+      {
+        "id": "B",
+        "text": "learning"
+      },
+      {
+        "id": "C",
+        "text": "to learn"
+      },
+      {
+        "id": "D",
+        "text": "learned"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "После decide используется to-infinitive.",
+    "difficulty": 0.19
+  },
+  {
+    "id": "grammar-a2-0030",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "articles-zero",
+    "format": "mcq-gap",
+    "stem": "___ children usually enjoy playing outside.",
+    "options": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "An"
+      },
+      {
+        "id": "C",
+        "text": "The"
+      },
+      {
+        "id": "D",
+        "text": "—"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Обобщение о детях в целом обычно выражается нулевым артиклем.",
+    "difficulty": 0.23
+  },
+  {
+    "id": "grammar-a2-0031",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "relative-pronouns",
+    "format": "mcq-gap",
+    "stem": "That’s the café ___ we first met.",
+    "options": [
+      {
+        "id": "A",
+        "text": "who"
+      },
+      {
+        "id": "B",
+        "text": "where"
+      },
+      {
+        "id": "C",
+        "text": "whose"
+      },
+      {
+        "id": "D",
+        "text": "which"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Where вводит относительное придаточное места.",
+    "difficulty": 0.26
+  },
+  {
+    "id": "grammar-a2-0032",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "passive-present",
+    "format": "mcq-gap",
+    "stem": "These phones ___ in Korea.",
+    "options": [
+      {
+        "id": "A",
+        "text": "make"
+      },
+      {
+        "id": "B",
+        "text": "are made"
+      },
+      {
+        "id": "C",
+        "text": "made"
+      },
+      {
+        "id": "D",
+        "text": "are making"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Present Simple Passive образуется be + past participle.",
+    "difficulty": 0.3
+  },
+  {
+    "id": "grammar-a2-0033",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "indirect-questions",
+    "format": "mcq-gap",
+    "stem": "Could you tell me where the station ___?",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "is it"
+      },
+      {
+        "id": "C",
+        "text": "does"
+      },
+      {
+        "id": "D",
+        "text": "it is located at"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "В косвенном вопросе используется прямой порядок слов.",
+    "difficulty": 0.33
+  },
+  {
+    "id": "grammar-a2-0034",
+    "skill": "Grammar",
+    "cefrLevel": "A2",
+    "topic": "so-neither",
+    "format": "mcq-gap",
+    "stem": "“I don’t like cold weather.” “Neither ___ I.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "do"
+      },
+      {
+        "id": "B",
+        "text": "am"
+      },
+      {
+        "id": "C",
+        "text": "have"
+      },
+      {
+        "id": "D",
+        "text": "will"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Для согласия с отрицательным Present Simple используется neither + do + subject.",
+    "difficulty": 0.37
+  },
+  {
+    "id": "grammar-b1-0021",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "second-conditional",
+    "format": "mcq-gap",
+    "stem": "If I had more free time, I ___ a new hobby.",
+    "options": [
+      {
+        "id": "A",
+        "text": "take up"
+      },
+      {
+        "id": "B",
+        "text": "will take up"
+      },
+      {
+        "id": "C",
+        "text": "would take up"
+      },
+      {
+        "id": "D",
+        "text": "would have taken up"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Second Conditional: if + Past Simple, would + infinitive.",
+    "difficulty": 0.3
+  },
+  {
+    "id": "grammar-b1-0022",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "question-tags",
+    "format": "mcq-gap",
+    "stem": "You’ve met our new teacher, ___?",
+    "options": [
+      {
+        "id": "A",
+        "text": "haven’t you"
+      },
+      {
+        "id": "B",
+        "text": "don’t you"
+      },
+      {
+        "id": "C",
+        "text": "didn’t you"
+      },
+      {
+        "id": "D",
+        "text": "aren’t you"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "В question tag повторяется вспомогательный have в противоположной полярности.",
+    "difficulty": 0.33
+  },
+  {
+    "id": "grammar-b1-0023",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "past-perfect",
+    "format": "mcq-gap",
+    "stem": "By the time we arrived, the film ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "already started"
+      },
+      {
+        "id": "B",
+        "text": "has already started"
+      },
+      {
+        "id": "C",
+        "text": "had already started"
+      },
+      {
+        "id": "D",
+        "text": "was already starting"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Past Perfect обозначает действие, завершившееся до другого момента в прошлом.",
+    "difficulty": 0.37
+  },
+  {
+    "id": "grammar-b1-0024",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "passive-present-perfect",
+    "format": "mcq-gap",
+    "stem": "The documents ___ already ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "have / signed"
+      },
+      {
+        "id": "B",
+        "text": "have been / signed"
+      },
+      {
+        "id": "C",
+        "text": "were / signing"
+      },
+      {
+        "id": "D",
+        "text": "are / sign"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Present Perfect Passive: have/has been + past participle.",
+    "difficulty": 0.41
+  },
+  {
+    "id": "grammar-b1-0025",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "relative-non-defining",
+    "format": "mcq-gap",
+    "stem": "My aunt, ___ lives in Bristol, is a doctor.",
+    "options": [
+      {
+        "id": "A",
+        "text": "that"
+      },
+      {
+        "id": "B",
+        "text": "which"
+      },
+      {
+        "id": "C",
+        "text": "who"
+      },
+      {
+        "id": "D",
+        "text": "whose"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "В non-defining relative clause о человеке используется who; that здесь не подходит.",
+    "difficulty": 0.44
+  },
+  {
+    "id": "grammar-b1-0026",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "gerund-infinitive-meaning",
+    "format": "mcq-gap",
+    "stem": "I stopped ___ some water because I was thirsty.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to buy"
+      },
+      {
+        "id": "B",
+        "text": "buying"
+      },
+      {
+        "id": "C",
+        "text": "buy"
+      },
+      {
+        "id": "D",
+        "text": "bought"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Stop to do означает остановиться, чтобы выполнить другое действие.",
+    "difficulty": 0.47
+  },
+  {
+    "id": "grammar-b1-0027",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "reported-questions",
+    "format": "mcq-gap",
+    "stem": "She asked me what time the shop ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "does close"
+      },
+      {
+        "id": "B",
+        "text": "did it close"
+      },
+      {
+        "id": "C",
+        "text": "closed"
+      },
+      {
+        "id": "D",
+        "text": "was it closing"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "В косвенном вопросе прямой порядок слов; после asked возможен backshift.",
+    "difficulty": 0.51
+  },
+  {
+    "id": "grammar-b1-0028",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "modal-obligation",
+    "format": "mcq-gap",
+    "stem": "You ___ wear a uniform at this school; it is compulsory.",
+    "options": [
+      {
+        "id": "A",
+        "text": "might"
+      },
+      {
+        "id": "B",
+        "text": "have to"
+      },
+      {
+        "id": "C",
+        "text": "could"
+      },
+      {
+        "id": "D",
+        "text": "would"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Have to выражает внешнее правило или обязательство.",
+    "difficulty": 0.55
+  },
+  {
+    "id": "grammar-b1-0029",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "used-to-would",
+    "format": "mcq-gap",
+    "stem": "When we were children, we ___ spend every summer by the sea.",
+    "options": [
+      {
+        "id": "A",
+        "text": "would"
+      },
+      {
+        "id": "B",
+        "text": "are used to"
+      },
+      {
+        "id": "C",
+        "text": "use"
+      },
+      {
+        "id": "D",
+        "text": "had"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Would может описывать повторяющиеся действия в прошлом.",
+    "difficulty": 0.58
+  },
+  {
+    "id": "grammar-b1-0030",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "future-arrangements",
+    "format": "mcq-gap",
+    "stem": "We ___ the dentist at 3 p.m. tomorrow; the appointment is confirmed.",
+    "options": [
+      {
+        "id": "A",
+        "text": "see"
+      },
+      {
+        "id": "B",
+        "text": "are seeing"
+      },
+      {
+        "id": "C",
+        "text": "will have seen"
+      },
+      {
+        "id": "D",
+        "text": "saw"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Present Continuous может обозначать договорённость на будущее.",
+    "difficulty": 0.61
+  },
+  {
+    "id": "grammar-b1-0031",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "present-perfect-continuous",
+    "format": "mcq-gap",
+    "stem": "I’m tired because I ___ all morning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "worked"
+      },
+      {
+        "id": "B",
+        "text": "have been working"
+      },
+      {
+        "id": "C",
+        "text": "had worked"
+      },
+      {
+        "id": "D",
+        "text": "am work"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Present Perfect Continuous подчёркивает длительность недавней деятельности с результатом сейчас.",
+    "difficulty": 0.65
+  },
+  {
+    "id": "grammar-b1-0032",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "wish-present",
+    "format": "mcq-gap",
+    "stem": "I wish I ___ closer to my office.",
+    "options": [
+      {
+        "id": "A",
+        "text": "live"
+      },
+      {
+        "id": "B",
+        "text": "lived"
+      },
+      {
+        "id": "C",
+        "text": "will live"
+      },
+      {
+        "id": "D",
+        "text": "have lived"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Wish + Past Simple выражает желание изменить нынешнюю ситуацию.",
+    "difficulty": 0.69
+  },
+  {
+    "id": "grammar-b1-0033",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "make-let-allow",
+    "format": "mcq-gap",
+    "stem": "Our teacher doesn’t let us ___ dictionaries during the test.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to use"
+      },
+      {
+        "id": "B",
+        "text": "using"
+      },
+      {
+        "id": "C",
+        "text": "use"
+      },
+      {
+        "id": "D",
+        "text": "used"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "После let используется object + bare infinitive.",
+    "difficulty": 0.72
+  },
+  {
+    "id": "grammar-b1-0034",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "causative-have",
+    "format": "mcq-gap",
+    "stem": "I’m going to have my hair ___ tomorrow.",
+    "options": [
+      {
+        "id": "A",
+        "text": "cut"
+      },
+      {
+        "id": "B",
+        "text": "to cut"
+      },
+      {
+        "id": "C",
+        "text": "cutting"
+      },
+      {
+        "id": "D",
+        "text": "cuts"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Конструкция have something done требует past participle.",
+    "difficulty": 0.76
+  },
+  {
+    "id": "grammar-b1-0035",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "linkers-although",
+    "format": "mcq-gap",
+    "stem": "___ it was raining, they continued the match.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Despite"
+      },
+      {
+        "id": "B",
+        "text": "Although"
+      },
+      {
+        "id": "C",
+        "text": "Because of"
+      },
+      {
+        "id": "D",
+        "text": "In spite"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Although вводит придаточное с подлежащим и сказуемым.",
+    "difficulty": 0.79
+  },
+  {
+    "id": "grammar-b1-0036",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "articles-institutions",
+    "format": "mcq-gap",
+    "stem": "My brother is at ___ university studying engineering.",
+    "options": [
+      {
+        "id": "A",
+        "text": "a"
+      },
+      {
+        "id": "B",
+        "text": "an"
+      },
+      {
+        "id": "C",
+        "text": "the"
+      },
+      {
+        "id": "D",
+        "text": "—"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "В значении обучения как студента употребляется at university без артикля в BrE.",
+    "difficulty": 0.82
+  },
+  {
+    "id": "grammar-b1-0037",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "phrasal-verb-grammar",
+    "format": "mcq-gap",
+    "stem": "Could you ___ the form before you submit it?",
+    "options": [
+      {
+        "id": "A",
+        "text": "fill in"
+      },
+      {
+        "id": "B",
+        "text": "fill to"
+      },
+      {
+        "id": "C",
+        "text": "fill at"
+      },
+      {
+        "id": "D",
+        "text": "fill over"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Fill in — устойчивый фразовый глагол «заполнить».",
+    "difficulty": 0.86
+  },
+  {
+    "id": "grammar-b1-0038",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "comparative-structures",
+    "format": "mcq-gap",
+    "stem": "The longer you wait, ___ it becomes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "the difficult"
+      },
+      {
+        "id": "B",
+        "text": "the more difficult"
+      },
+      {
+        "id": "C",
+        "text": "more difficult"
+      },
+      {
+        "id": "D",
+        "text": "the most difficult"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Коррелятивная конструкция the + comparative, the + comparative.",
+    "difficulty": 0.9
+  },
+  {
+    "id": "grammar-b1-0039",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "modal-deduction-present",
+    "format": "mcq-gap",
+    "stem": "She isn’t answering. She ___ be in a meeting.",
+    "options": [
+      {
+        "id": "A",
+        "text": "must"
+      },
+      {
+        "id": "B",
+        "text": "can’t"
+      },
+      {
+        "id": "C",
+        "text": "shouldn’t"
+      },
+      {
+        "id": "D",
+        "text": "would"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Must выражает сильное предположение на основании имеющихся признаков.",
+    "difficulty": 0.93
+  },
+  {
+    "id": "grammar-b1-0040",
+    "skill": "Grammar",
+    "cefrLevel": "B1",
+    "topic": "participle-adjectives",
+    "format": "mcq-gap",
+    "stem": "The lecture was so ___ that several students fell asleep.",
+    "options": [
+      {
+        "id": "A",
+        "text": "bored"
+      },
+      {
+        "id": "B",
+        "text": "boring"
+      },
+      {
+        "id": "C",
+        "text": "bore"
+      },
+      {
+        "id": "D",
+        "text": "boredom"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Boring описывает предмет или событие, вызывающее скуку.",
+    "difficulty": 0.97
+  },
+  {
+    "id": "grammar-b2-0027",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "future-perfect",
+    "format": "mcq-gap",
+    "stem": "By next June, she ___ her degree.",
+    "options": [
+      {
+        "id": "A",
+        "text": "will complete"
+      },
+      {
+        "id": "B",
+        "text": "will have completed"
+      },
+      {
+        "id": "C",
+        "text": "has completed"
+      },
+      {
+        "id": "D",
+        "text": "would complete"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Future Perfect обозначает завершение действия к будущему сроку.",
+    "difficulty": 0.8
+  },
+  {
+    "id": "grammar-b2-0028",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "future-continuous",
+    "format": "mcq-gap",
+    "stem": "This time tomorrow, I ___ to Madrid.",
+    "options": [
+      {
+        "id": "A",
+        "text": "will fly"
+      },
+      {
+        "id": "B",
+        "text": "will be flying"
+      },
+      {
+        "id": "C",
+        "text": "am flown"
+      },
+      {
+        "id": "D",
+        "text": "have flown"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Future Continuous описывает процесс в определённый момент будущего.",
+    "difficulty": 0.84
+  },
+  {
+    "id": "grammar-b2-0029",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "modal-perfect-deduction",
+    "format": "mcq-gap",
+    "stem": "The ground is wet. It ___ during the night.",
+    "options": [
+      {
+        "id": "A",
+        "text": "must have rained"
+      },
+      {
+        "id": "B",
+        "text": "should rain"
+      },
+      {
+        "id": "C",
+        "text": "can be raining"
+      },
+      {
+        "id": "D",
+        "text": "must rain"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Must have + past participle выражает сильный вывод о прошлом.",
+    "difficulty": 0.87
+  },
+  {
+    "id": "grammar-b2-0030",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "inversion-restrictive",
+    "format": "mcq-gap",
+    "stem": "Only after the meeting ___ the scale of the problem.",
+    "options": [
+      {
+        "id": "A",
+        "text": "we understood"
+      },
+      {
+        "id": "B",
+        "text": "did we understand"
+      },
+      {
+        "id": "C",
+        "text": "we had understood"
+      },
+      {
+        "id": "D",
+        "text": "understood we"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "После only + обстоятельство в начале предложения требуется инверсия.",
+    "difficulty": 0.91
+  },
+  {
+    "id": "grammar-b2-0031",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "would-rather-past",
+    "format": "mcq-gap",
+    "stem": "I’d rather you ___ me before making that decision.",
+    "options": [
+      {
+        "id": "A",
+        "text": "tell"
+      },
+      {
+        "id": "B",
+        "text": "told"
+      },
+      {
+        "id": "C",
+        "text": "will tell"
+      },
+      {
+        "id": "D",
+        "text": "have told"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Would rather + subject + Past Simple выражает предпочтение относительно настоящего/будущего.",
+    "difficulty": 0.94
+  },
+  {
+    "id": "grammar-b2-0032",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "its-time",
+    "format": "mcq-gap",
+    "stem": "It’s high time we ___ something about the noise.",
+    "options": [
+      {
+        "id": "A",
+        "text": "do"
+      },
+      {
+        "id": "B",
+        "text": "did"
+      },
+      {
+        "id": "C",
+        "text": "will do"
+      },
+      {
+        "id": "D",
+        "text": "have done"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "После it’s (high) time + subject употребляется форма Past Simple.",
+    "difficulty": 0.98
+  },
+  {
+    "id": "grammar-b2-0033",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "passive-perfect",
+    "format": "mcq-gap",
+    "stem": "The issue ___ before the committee reached a decision.",
+    "options": [
+      {
+        "id": "A",
+        "text": "had been discussed"
+      },
+      {
+        "id": "B",
+        "text": "has discussed"
+      },
+      {
+        "id": "C",
+        "text": "was discussing"
+      },
+      {
+        "id": "D",
+        "text": "had discussing"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Past Perfect Passive: had been + past participle.",
+    "difficulty": 1.01
+  },
+  {
+    "id": "grammar-b2-0034",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "participle-clauses",
+    "format": "mcq-gap",
+    "stem": "___ by the sudden noise, the horse ran away.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Startled"
+      },
+      {
+        "id": "B",
+        "text": "Starting"
+      },
+      {
+        "id": "C",
+        "text": "To startle"
+      },
+      {
+        "id": "D",
+        "text": "Having startle"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Past participle вводит сокращённую пассивную причастную конструкцию.",
+    "difficulty": 1.05
+  },
+  {
+    "id": "grammar-b2-0035",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "substitution-do-so",
+    "format": "mcq-gap",
+    "stem": "She promised to review the report, and she did ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "so"
+      },
+      {
+        "id": "B",
+        "text": "it"
+      },
+      {
+        "id": "C",
+        "text": "such"
+      },
+      {
+        "id": "D",
+        "text": "one"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Do so заменяет ранее упомянутое действие.",
+    "difficulty": 1.08
+  },
+  {
+    "id": "grammar-b2-0036",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "advanced-conditionals",
+    "format": "mcq-gap",
+    "stem": "___ you need any further information, please contact us.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Would"
+      },
+      {
+        "id": "B",
+        "text": "Should"
+      },
+      {
+        "id": "C",
+        "text": "Had"
+      },
+      {
+        "id": "D",
+        "text": "Were"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Should you need — формальная инверсия условного предложения первого типа.",
+    "difficulty": 1.12
+  },
+  {
+    "id": "grammar-b2-0037",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "as-if-unreal",
+    "format": "mcq-gap",
+    "stem": "He talks as if he ___ everything.",
+    "options": [
+      {
+        "id": "A",
+        "text": "knows"
+      },
+      {
+        "id": "B",
+        "text": "knew"
+      },
+      {
+        "id": "C",
+        "text": "has known"
+      },
+      {
+        "id": "D",
+        "text": "will know"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "As if + Past Simple может обозначать нереальное или маловероятное настоящее.",
+    "difficulty": 1.15
+  },
+  {
+    "id": "grammar-b2-0038",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "causative-have",
+    "format": "mcq-gap",
+    "stem": "They had the old house ___ before selling it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "renovate"
+      },
+      {
+        "id": "B",
+        "text": "renovating"
+      },
+      {
+        "id": "C",
+        "text": "renovated"
+      },
+      {
+        "id": "D",
+        "text": "to renovate"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Have something done: object + past participle.",
+    "difficulty": 1.19
+  },
+  {
+    "id": "grammar-b2-0039",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "noun-clauses",
+    "format": "mcq-gap",
+    "stem": "The question is ___ we can afford the extra cost.",
+    "options": [
+      {
+        "id": "A",
+        "text": "what"
+      },
+      {
+        "id": "B",
+        "text": "whether"
+      },
+      {
+        "id": "C",
+        "text": "which"
+      },
+      {
+        "id": "D",
+        "text": "whose"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Whether вводит альтернативный/косвенный вопрос со значением «ли».",
+    "difficulty": 1.22
+  },
+  {
+    "id": "grammar-b2-0040",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "concession-while",
+    "format": "mcq-gap",
+    "stem": "___ the first plan was expensive, it was ultimately the most reliable.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Despite"
+      },
+      {
+        "id": "B",
+        "text": "Whereas"
+      },
+      {
+        "id": "C",
+        "text": "Although"
+      },
+      {
+        "id": "D",
+        "text": "In spite"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Although вводит придаточное с полноценной грамматической основой.",
+    "difficulty": 1.26
+  },
+  {
+    "id": "grammar-b2-0041",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "relative-preposition",
+    "format": "mcq-gap",
+    "stem": "The colleague to ___ I sent the draft has not replied.",
+    "options": [
+      {
+        "id": "A",
+        "text": "who"
+      },
+      {
+        "id": "B",
+        "text": "whom"
+      },
+      {
+        "id": "C",
+        "text": "which"
+      },
+      {
+        "id": "D",
+        "text": "whose"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "После предлога при формальном стиле для человека используется whom.",
+    "difficulty": 1.29
+  },
+  {
+    "id": "grammar-b2-0042",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "reported-speech-modal",
+    "format": "mcq-gap",
+    "stem": "He said he ___ finish the work by Friday, but he wasn’t certain.",
+    "options": [
+      {
+        "id": "A",
+        "text": "will"
+      },
+      {
+        "id": "B",
+        "text": "would"
+      },
+      {
+        "id": "C",
+        "text": "can"
+      },
+      {
+        "id": "D",
+        "text": "must"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "В косвенной речи can/will часто переходят в could/would соответственно; здесь исходное обещание/будущее.",
+    "difficulty": 1.33
+  },
+  {
+    "id": "grammar-b2-0043",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "modal-neednt-have",
+    "format": "mcq-gap",
+    "stem": "You ___ bought any bread; there was plenty at home.",
+    "options": [
+      {
+        "id": "A",
+        "text": "mustn’t have"
+      },
+      {
+        "id": "B",
+        "text": "needn’t have"
+      },
+      {
+        "id": "C",
+        "text": "couldn’t have"
+      },
+      {
+        "id": "D",
+        "text": "should"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Needn’t have + past participle означает, что действие было выполнено, но не было необходимости.",
+    "difficulty": 1.36
+  },
+  {
+    "id": "grammar-b2-0044",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "wish-past-regret",
+    "format": "mcq-gap",
+    "stem": "I wish I ___ his advice before investing the money.",
+    "options": [
+      {
+        "id": "A",
+        "text": "followed"
+      },
+      {
+        "id": "B",
+        "text": "would follow"
+      },
+      {
+        "id": "C",
+        "text": "had followed"
+      },
+      {
+        "id": "D",
+        "text": "have followed"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Сожаление о прошлом: wish + Past Perfect.",
+    "difficulty": 1.4
+  },
+  {
+    "id": "grammar-b2-0045",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "cleft-what",
+    "format": "mcq-gap",
+    "stem": "___ I find most frustrating is the lack of clear communication.",
+    "options": [
+      {
+        "id": "A",
+        "text": "That"
+      },
+      {
+        "id": "B",
+        "text": "What"
+      },
+      {
+        "id": "C",
+        "text": "Which"
+      },
+      {
+        "id": "D",
+        "text": "It"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "What-clause может выступать именной частью cleft-конструкции.",
+    "difficulty": 1.43
+  },
+  {
+    "id": "grammar-b2-0046",
+    "skill": "Grammar",
+    "cefrLevel": "B2",
+    "topic": "determiners",
+    "format": "mcq-gap",
+    "stem": "There is ___ evidence to support the claim, so we cannot accept it yet.",
+    "options": [
+      {
+        "id": "A",
+        "text": "few"
+      },
+      {
+        "id": "B",
+        "text": "a few"
+      },
+      {
+        "id": "C",
+        "text": "little"
+      },
+      {
+        "id": "D",
+        "text": "many"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Evidence — неисчисляемое существительное; little означает недостаточное количество.",
+    "difficulty": 1.47
+  },
+  {
+    "id": "grammar-c1-0032",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "negative-inversion",
+    "format": "mcq-gap",
+    "stem": "Under no circumstances ___ the confidential files be shared.",
+    "options": [
+      {
+        "id": "A",
+        "text": "the staff should"
+      },
+      {
+        "id": "B",
+        "text": "should the staff"
+      },
+      {
+        "id": "C",
+        "text": "the staff must"
+      },
+      {
+        "id": "D",
+        "text": "do the staff should"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "После отрицательного обстоятельства в начале предложения требуется инверсия.",
+    "difficulty": 1.2
+  },
+  {
+    "id": "grammar-c1-0033",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "mixed-conditionals",
+    "format": "mcq-gap",
+    "stem": "If she were more organised, she ___ the deadline yesterday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "would meet"
+      },
+      {
+        "id": "B",
+        "text": "would have met"
+      },
+      {
+        "id": "C",
+        "text": "had met"
+      },
+      {
+        "id": "D",
+        "text": "will meet"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Настоящее условие с прошлым результатом: mixed conditional.",
+    "difficulty": 1.23
+  },
+  {
+    "id": "grammar-c1-0034",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "participle-perfect",
+    "format": "mcq-gap",
+    "stem": "___ the data twice, the researchers submitted their findings.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Having checked"
+      },
+      {
+        "id": "B",
+        "text": "Checking"
+      },
+      {
+        "id": "C",
+        "text": "To have check"
+      },
+      {
+        "id": "D",
+        "text": "Checked"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Perfect participle подчёркивает завершённость действия до основного.",
+    "difficulty": 1.27
+  },
+  {
+    "id": "grammar-c1-0035",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "fronting-emphasis",
+    "format": "mcq-gap",
+    "stem": "Rarely ___ such dedication from a new member of staff.",
+    "options": [
+      {
+        "id": "A",
+        "text": "we see"
+      },
+      {
+        "id": "B",
+        "text": "do we see"
+      },
+      {
+        "id": "C",
+        "text": "we do see"
+      },
+      {
+        "id": "D",
+        "text": "see we"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Rarely в начале предложения вызывает subject–auxiliary inversion.",
+    "difficulty": 1.3
+  },
+  {
+    "id": "grammar-c1-0036",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "subjunctive-formal",
+    "format": "mcq-gap",
+    "stem": "It is essential that every applicant ___ present at the interview.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "be"
+      },
+      {
+        "id": "C",
+        "text": "was"
+      },
+      {
+        "id": "D",
+        "text": "will be"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "После essential that в формальном английском используется mandative subjunctive.",
+    "difficulty": 1.34
+  },
+  {
+    "id": "grammar-c1-0037",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "modal-perfect-criticism",
+    "format": "mcq-gap",
+    "stem": "You ___ have checked the figures before sending the report; they are incorrect.",
+    "options": [
+      {
+        "id": "A",
+        "text": "might"
+      },
+      {
+        "id": "B",
+        "text": "ought to"
+      },
+      {
+        "id": "C",
+        "text": "can"
+      },
+      {
+        "id": "D",
+        "text": "would"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Ought to have + participle выражает критику невыполненного обязательства.",
+    "difficulty": 1.38
+  },
+  {
+    "id": "grammar-c1-0038",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "inversion-not-only",
+    "format": "mcq-gap",
+    "stem": "Not only ___ the proposal, but she also secured the funding.",
+    "options": [
+      {
+        "id": "A",
+        "text": "she presented"
+      },
+      {
+        "id": "B",
+        "text": "did she present"
+      },
+      {
+        "id": "C",
+        "text": "presented she"
+      },
+      {
+        "id": "D",
+        "text": "she did present"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Not only в начале предложения требует инверсии в первой части.",
+    "difficulty": 1.41
+  },
+  {
+    "id": "grammar-c1-0039",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "conditional-inversion",
+    "format": "mcq-gap",
+    "stem": "___ I known about the delay, I would have taken another route.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Had"
+      },
+      {
+        "id": "B",
+        "text": "Would"
+      },
+      {
+        "id": "C",
+        "text": "Should"
+      },
+      {
+        "id": "D",
+        "text": "Were"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Had I known — инвертированная форма Third Conditional.",
+    "difficulty": 1.45
+  },
+  {
+    "id": "grammar-c1-0040",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "cleft-it",
+    "format": "mcq-gap",
+    "stem": "It was not until the final chapter ___ the mystery was solved.",
+    "options": [
+      {
+        "id": "A",
+        "text": "when"
+      },
+      {
+        "id": "B",
+        "text": "which"
+      },
+      {
+        "id": "C",
+        "text": "that"
+      },
+      {
+        "id": "D",
+        "text": "where"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "В конструкции It was not until ... that используется that.",
+    "difficulty": 1.48
+  },
+  {
+    "id": "grammar-c1-0041",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "advanced-passive",
+    "format": "mcq-gap",
+    "stem": "The minister is thought ___ the proposal before the announcement.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to reject"
+      },
+      {
+        "id": "B",
+        "text": "to have rejected"
+      },
+      {
+        "id": "C",
+        "text": "rejecting"
+      },
+      {
+        "id": "D",
+        "text": "to be rejected"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Perfect infinitive показывает, что предполагаемое действие предшествовало сообщению.",
+    "difficulty": 1.52
+  },
+  {
+    "id": "grammar-c1-0042",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "concession-much-as",
+    "format": "mcq-gap",
+    "stem": "Much as I ___ the offer, I cannot accept it at present.",
+    "options": [
+      {
+        "id": "A",
+        "text": "appreciate"
+      },
+      {
+        "id": "B",
+        "text": "am appreciating"
+      },
+      {
+        "id": "C",
+        "text": "appreciated"
+      },
+      {
+        "id": "D",
+        "text": "have appreciate"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Much as вводит уступку; здесь естественно Present Simple.",
+    "difficulty": 1.55
+  },
+  {
+    "id": "grammar-c1-0043",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "gerund-perfect",
+    "format": "mcq-gap",
+    "stem": "He denied ___ the confidential email.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to send"
+      },
+      {
+        "id": "B",
+        "text": "having sent"
+      },
+      {
+        "id": "C",
+        "text": "to have send"
+      },
+      {
+        "id": "D",
+        "text": "send"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "После deny используется герундий; perfect gerund подчёркивает предшествование.",
+    "difficulty": 1.58
+  },
+  {
+    "id": "grammar-c1-0044",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "adjective-complement",
+    "format": "mcq-gap",
+    "stem": "The committee was reluctant ___ the findings without further evidence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "accept"
+      },
+      {
+        "id": "B",
+        "text": "accepting"
+      },
+      {
+        "id": "C",
+        "text": "to accept"
+      },
+      {
+        "id": "D",
+        "text": "accepted"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "После reluctant используется to-infinitive.",
+    "difficulty": 1.62
+  },
+  {
+    "id": "grammar-c1-0045",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "advanced-relative",
+    "format": "mcq-gap",
+    "stem": "The report, the conclusions of ___ were disputed, was withdrawn.",
+    "options": [
+      {
+        "id": "A",
+        "text": "that"
+      },
+      {
+        "id": "B",
+        "text": "which"
+      },
+      {
+        "id": "C",
+        "text": "what"
+      },
+      {
+        "id": "D",
+        "text": "whom"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "После предлога of для неодушевлённого antecedent используется which.",
+    "difficulty": 1.66
+  },
+  {
+    "id": "grammar-c1-0046",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "ellipsis-so-do",
+    "format": "mcq-gap",
+    "stem": "The first proposal was rejected, and so ___ the second.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was"
+      },
+      {
+        "id": "B",
+        "text": "did"
+      },
+      {
+        "id": "C",
+        "text": "had"
+      },
+      {
+        "id": "D",
+        "text": "has"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "So + auxiliary + subject повторяет пассивную конструкцию was rejected.",
+    "difficulty": 1.69
+  },
+  {
+    "id": "grammar-c1-0047",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "modal-hedging",
+    "format": "mcq-gap",
+    "stem": "The discrepancy ___ have arisen from a data-entry error, although this is unconfirmed.",
+    "options": [
+      {
+        "id": "A",
+        "text": "must"
+      },
+      {
+        "id": "B",
+        "text": "might"
+      },
+      {
+        "id": "C",
+        "text": "can’t"
+      },
+      {
+        "id": "D",
+        "text": "should"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Might have выражает осторожную, неуверенную гипотезу о прошлом.",
+    "difficulty": 1.73
+  },
+  {
+    "id": "grammar-c1-0048",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "unreal-past-would-rather",
+    "format": "mcq-gap",
+    "stem": "I would rather the issue ___ in public.",
+    "options": [
+      {
+        "id": "A",
+        "text": "were not discussed"
+      },
+      {
+        "id": "B",
+        "text": "is not discussed"
+      },
+      {
+        "id": "C",
+        "text": "not discussing"
+      },
+      {
+        "id": "D",
+        "text": "not to discuss"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Would rather + subject + Past Simple; в пассивном значении используется were not discussed.",
+    "difficulty": 1.76
+  },
+  {
+    "id": "grammar-c1-0049",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "inversion-only",
+    "format": "mcq-gap",
+    "stem": "Only when the figures were recalculated ___ the mistake.",
+    "options": [
+      {
+        "id": "A",
+        "text": "they noticed"
+      },
+      {
+        "id": "B",
+        "text": "did they notice"
+      },
+      {
+        "id": "C",
+        "text": "they had noticed"
+      },
+      {
+        "id": "D",
+        "text": "noticed they"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Only when в начале предложения вызывает инверсию в главной части.",
+    "difficulty": 1.79
+  },
+  {
+    "id": "grammar-c1-0050",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "nominalisation",
+    "format": "mcq-gap",
+    "stem": "The committee’s ___ to disclose the figures caused concern.",
+    "options": [
+      {
+        "id": "A",
+        "text": "refuse"
+      },
+      {
+        "id": "B",
+        "text": "refusal"
+      },
+      {
+        "id": "C",
+        "text": "refusingly"
+      },
+      {
+        "id": "D",
+        "text": "refused"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "После притяжательного существительного нужен noun refusal.",
+    "difficulty": 1.83
+  },
+  {
+    "id": "grammar-c1-0051",
+    "skill": "Grammar",
+    "cefrLevel": "C1",
+    "topic": "subjunctive-lest",
+    "format": "mcq-gap",
+    "stem": "She lowered her voice lest anyone ___ her plan.",
+    "options": [
+      {
+        "id": "A",
+        "text": "hears"
+      },
+      {
+        "id": "B",
+        "text": "heard"
+      },
+      {
+        "id": "C",
+        "text": "hear"
+      },
+      {
+        "id": "D",
+        "text": "will hear"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "После lest в формальном английском употребляется базовая форма глагола.",
+    "difficulty": 1.86
+  },
+  {
+    "id": "grammar-c2-0036",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "advanced-ellipsis",
+    "format": "mcq-gap",
+    "stem": "The first witness denied seeing the vehicle, and the second did ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "so"
+      },
+      {
+        "id": "B",
+        "text": "such"
+      },
+      {
+        "id": "C",
+        "text": "it"
+      },
+      {
+        "id": "D",
+        "text": "one"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Do so заменяет ранее названное действие; конструкция поддерживает эллипсис.",
+    "difficulty": 1.6
+  },
+  {
+    "id": "grammar-c2-0037",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "negative-inversion",
+    "format": "mcq-gap",
+    "stem": "Little ___ that the decision would have such far-reaching consequences.",
+    "options": [
+      {
+        "id": "A",
+        "text": "they realised"
+      },
+      {
+        "id": "B",
+        "text": "did they realise"
+      },
+      {
+        "id": "C",
+        "text": "they had realised"
+      },
+      {
+        "id": "D",
+        "text": "realised they"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Little в начале предложения со значением «совсем не» требует инверсии.",
+    "difficulty": 1.64
+  },
+  {
+    "id": "grammar-c2-0038",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "fronting-contrast",
+    "format": "mcq-gap",
+    "stem": "More troubling ___ the delay itself was the lack of explanation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "than"
+      },
+      {
+        "id": "B",
+        "text": "as"
+      },
+      {
+        "id": "C",
+        "text": "that"
+      },
+      {
+        "id": "D",
+        "text": "which"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "В конструкции more ... than ... используется than для сопоставления.",
+    "difficulty": 1.67
+  },
+  {
+    "id": "grammar-c2-0039",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "advanced-cleft",
+    "format": "mcq-gap",
+    "stem": "What the panel objected to ___ the timing, rather than the substance, of the proposal.",
+    "options": [
+      {
+        "id": "A",
+        "text": "were"
+      },
+      {
+        "id": "B",
+        "text": "have been"
+      },
+      {
+        "id": "C",
+        "text": "was"
+      },
+      {
+        "id": "D",
+        "text": "being"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "What-clause здесь трактуется как единая именная группа; сказуемое согласуется в единственном числе.",
+    "difficulty": 1.71
+  },
+  {
+    "id": "grammar-c2-0040",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "formal-subjunctive",
+    "format": "mcq-gap",
+    "stem": "The chair insisted that no further amendments ___ made without consultation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "be"
+      },
+      {
+        "id": "C",
+        "text": "were"
+      },
+      {
+        "id": "D",
+        "text": "will be"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "После insist that в формальном mandative subjunctive используется be.",
+    "difficulty": 1.74
+  },
+  {
+    "id": "grammar-c2-0041",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "inversion-hardly",
+    "format": "mcq-gap",
+    "stem": "Hardly ___ the station when the announcement was made.",
+    "options": [
+      {
+        "id": "A",
+        "text": "we had reached"
+      },
+      {
+        "id": "B",
+        "text": "had we reached"
+      },
+      {
+        "id": "C",
+        "text": "did we reached"
+      },
+      {
+        "id": "D",
+        "text": "we reached"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Hardly ... when требует инверсии с Past Perfect.",
+    "difficulty": 1.78
+  },
+  {
+    "id": "grammar-c2-0042",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "advanced-relative",
+    "format": "mcq-gap",
+    "stem": "The agreement, under the terms of ___ the funds were released, remains confidential.",
+    "options": [
+      {
+        "id": "A",
+        "text": "that"
+      },
+      {
+        "id": "B",
+        "text": "which"
+      },
+      {
+        "id": "C",
+        "text": "what"
+      },
+      {
+        "id": "D",
+        "text": "whose"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "После составного предлога under the terms of используется which.",
+    "difficulty": 1.81
+  },
+  {
+    "id": "grammar-c2-0043",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "ellipsis-comparative",
+    "format": "mcq-gap",
+    "stem": "The revised model is more reliable than the previous one ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was"
+      },
+      {
+        "id": "B",
+        "text": "did"
+      },
+      {
+        "id": "C",
+        "text": "has"
+      },
+      {
+        "id": "D",
+        "text": "had"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "В сравнительной конструкции возможно опустить повторяемую часть сказуемого: than the previous one was.",
+    "difficulty": 1.85
+  },
+  {
+    "id": "grammar-c2-0044",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "conditional-inversion",
+    "format": "mcq-gap",
+    "stem": "Were the evidence ___ stronger, the conclusion might be different.",
+    "options": [
+      {
+        "id": "A",
+        "text": "be"
+      },
+      {
+        "id": "B",
+        "text": "being"
+      },
+      {
+        "id": "C",
+        "text": "to be"
+      },
+      {
+        "id": "D",
+        "text": "been"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Were + subject + to-infinitive — формальная инверсия гипотетического условия.",
+    "difficulty": 1.88
+  },
+  {
+    "id": "grammar-c2-0045",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "modal-perfect-deduction",
+    "format": "mcq-gap",
+    "stem": "Given the locked doors, the intruder ___ entered through the roof.",
+    "options": [
+      {
+        "id": "A",
+        "text": "must have"
+      },
+      {
+        "id": "B",
+        "text": "should"
+      },
+      {
+        "id": "C",
+        "text": "would"
+      },
+      {
+        "id": "D",
+        "text": "can"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Must have + past participle выражает сильный вывод о прошлом.",
+    "difficulty": 1.92
+  },
+  {
+    "id": "grammar-c2-0046",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "advanced-reporting",
+    "format": "mcq-gap",
+    "stem": "The company is alleged ___ the figures before publication.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to manipulate"
+      },
+      {
+        "id": "B",
+        "text": "to have manipulated"
+      },
+      {
+        "id": "C",
+        "text": "having manipulated"
+      },
+      {
+        "id": "D",
+        "text": "to be manipulated"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Perfect infinitive показывает, что предполагаемая манипуляция произошла раньше сообщения.",
+    "difficulty": 1.95
+  },
+  {
+    "id": "grammar-c2-0047",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "subjunctive-formal",
+    "format": "mcq-gap",
+    "stem": "It was proposed that the final vote ___ until all members were present.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is postponed"
+      },
+      {
+        "id": "B",
+        "text": "be postponed"
+      },
+      {
+        "id": "C",
+        "text": "was postponing"
+      },
+      {
+        "id": "D",
+        "text": "will postpone"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "После proposed that используется mandative subjunctive; пассивная форма — be postponed.",
+    "difficulty": 1.99
+  },
+  {
+    "id": "grammar-c2-0048",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "concession-adverbial",
+    "format": "mcq-gap",
+    "stem": "Be that as it ___, the committee must still address the evidence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "may"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "was"
+      },
+      {
+        "id": "D",
+        "text": "being"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Be that as it may — устойчивый уступительный оборот со значением «как бы то ни было».",
+    "difficulty": 2.02
+  },
+  {
+    "id": "grammar-c2-0049",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "advanced-participle",
+    "format": "mcq-gap",
+    "stem": "The documents having been signed, the parties proceeded to the next stage. Choose the closest equivalent.",
+    "options": [
+      {
+        "id": "A",
+        "text": "After the documents had been signed, the parties proceeded to the next stage."
+      },
+      {
+        "id": "B",
+        "text": "Although the documents were signed, the parties stopped."
+      },
+      {
+        "id": "C",
+        "text": "The parties signed the documents after proceeding."
+      },
+      {
+        "id": "D",
+        "text": "The documents were signing as the parties proceeded."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Абсолютная причастная конструкция обозначает предшествующее обстоятельство; вариант A сохраняет временную связь.",
+    "difficulty": 2.06
+  },
+  {
+    "id": "grammar-c2-0050",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "inversion-no-sooner",
+    "format": "mcq-gap",
+    "stem": "No sooner ___ the announcement than the shares began to fall.",
+    "options": [
+      {
+        "id": "A",
+        "text": "the company made"
+      },
+      {
+        "id": "B",
+        "text": "had the company made"
+      },
+      {
+        "id": "C",
+        "text": "did the company made"
+      },
+      {
+        "id": "D",
+        "text": "the company had made"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "No sooner ... than обычно требует Past Perfect с инверсией.",
+    "difficulty": 2.09
+  },
+  {
+    "id": "grammar-c2-0051",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "advanced-determiners",
+    "format": "mcq-gap",
+    "stem": "___ of the two explanations fully accounts for the discrepancy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neither"
+      },
+      {
+        "id": "B",
+        "text": "None"
+      },
+      {
+        "id": "C",
+        "text": "Any"
+      },
+      {
+        "id": "D",
+        "text": "Every"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Neither относится к двум вариантам и означает, что ни один из них не подходит.",
+    "difficulty": 2.12
+  },
+  {
+    "id": "grammar-c2-0052",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "mandative-subjunctive-negative",
+    "format": "mcq-gap",
+    "stem": "The guidelines recommend that the device ___ exposed to moisture.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is not"
+      },
+      {
+        "id": "B",
+        "text": "not be"
+      },
+      {
+        "id": "C",
+        "text": "does not"
+      },
+      {
+        "id": "D",
+        "text": "will not"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "В отрицательном mandative subjunctive not ставится перед базовой формой be.",
+    "difficulty": 2.16
+  },
+  {
+    "id": "grammar-c2-0053",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "focus-inversion",
+    "format": "mcq-gap",
+    "stem": "Not until the audit was complete ___ the extent of the losses.",
+    "options": [
+      {
+        "id": "A",
+        "text": "the directors understood"
+      },
+      {
+        "id": "B",
+        "text": "did the directors understand"
+      },
+      {
+        "id": "C",
+        "text": "the directors had understood"
+      },
+      {
+        "id": "D",
+        "text": "understood the directors"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Not until в начальной позиции требует инверсии в главной части.",
+    "difficulty": 2.2
+  },
+  {
+    "id": "grammar-c2-0054",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "advanced-verb-pattern",
+    "format": "mcq-gap",
+    "stem": "The witness resented ___ as though her account were unreliable.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to treat"
+      },
+      {
+        "id": "B",
+        "text": "being treated"
+      },
+      {
+        "id": "C",
+        "text": "to be treating"
+      },
+      {
+        "id": "D",
+        "text": "treat"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "После resent используется герундий; пассивный герундий — being treated.",
+    "difficulty": 2.23
+  },
+  {
+    "id": "grammar-c2-0055",
+    "skill": "Grammar",
+    "cefrLevel": "C2",
+    "topic": "as-it-were",
+    "format": "mcq-gap",
+    "stem": "The proposal was, ___, a compromise between two incompatible positions.",
+    "options": [
+      {
+        "id": "A",
+        "text": "as it were"
+      },
+      {
+        "id": "B",
+        "text": "as it is"
+      },
+      {
+        "id": "C",
+        "text": "as it had"
+      },
+      {
+        "id": "D",
+        "text": "as it would"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "As it were — устойчивый вводный оборот со значением «так сказать».",
+    "difficulty": 2.27
+  }
+]

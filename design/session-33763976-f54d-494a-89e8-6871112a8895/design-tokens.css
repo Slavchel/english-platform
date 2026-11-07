@@ -1,0 +1,21 @@
+/* ipw-theme:start */
+:root {
+  --ipw-color-bg: #050505; --ipw-color-surface: #111110; --ipw-color-text: #f4f1e8;
+  --ipw-color-muted: #b7b2a8; --ipw-color-border: #2a2722; --ipw-color-primary: #e2d6bb;
+  --ipw-color-secondary: #24211b; --ipw-color-accent: #dfaa76; --ipw-font-display: Georgia, serif;
+  --ipw-font-body: Georgia, serif; --ipw-content-width: 1120px; --ipw-page-padding: 24px;
+  --ipw-section-space: 80px; --ipw-card-bg: #111110; --ipw-card-border: #2a2722;
+  --ipw-card-radius: 18px; --ipw-card-shadow: 0 24px 70px rgb(0 0 0 / 28%);
+  --ipw-bg-mode: gradient;
+  --ipw-bg-color: var(--ipw-color-bg);
+  --ipw-bg-decoration-opacity: 1;
+  --ipw-bg-gradient: radial-gradient(ellipse at 8% -8%, rgba(112, 83, 70, 0.20), transparent 38rem), radial-gradient(ellipse at 92% 8%, rgba(220, 205, 177, 0.045), transparent 34rem), linear-gradient(180deg, #050505 0%, #090807 45%, #050505 100%);
+  --ipw-bg-image: none;
+  --ipw-bg-overlay: linear-gradient(rgba(5, 5, 5, 0), rgba(5, 5, 5, 0));
+  --ipw-bg-overlay-opacity: 0;
+  --ipw-bg-size: cover;
+  --ipw-bg-position: 50% 50%;
+  --ipw-button-radius: 999px;
+  --ipw-type-scale: 1;
+}
+/* ipw-theme:end */
