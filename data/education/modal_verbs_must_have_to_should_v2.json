@@ -1,0 +1,96 @@
+{
+  "topic": "modal_verbs_must_have_to_should",
+  "title": "Modal Verbs: Must, Have to, Should (Модальные глаголы)",
+  "level": "A2",
+  "content": "### В чем разница?\n\nВсе три выражения говорят о необходимости, но сила у них разная.\n\n### MUST - нужно, обязан\n\nИспользуем, когда говорящий сам считает что-то очень важным или подчеркивает сильную необходимость.\n\nYou must wear a seat belt. - Ты обязательно должен пристегнуться.\n\nI must call my manager today. - Мне обязательно нужно сегодня позвонить менеджеру.\n\n### HAVE TO - приходится, нужно по правилу или из-за обстоятельств\n\nЧасто это внешняя необходимость: правила, работа, расписание. В обычной речи, когда говорим о законах и правилах, часто используем HAVE TO. MUST тоже возможно, особенно если говорящий сам сильно подчеркивает обязанность.\n\nI have to get up at six. - Мне приходится вставать в шесть.\n\nShe has to show her passport at the airport. - Ей нужно показать паспорт в аэропорту.\n\n### SHOULD - следует, стоит\n\nИспользуем, когда даем совет или мягко говорим, что будет лучше сделать. Это не строгая обязанность.\n\nYou should take an umbrella. - Тебе стоит взять зонт.\n\nHe should see this film. - Ему стоит посмотреть этот фильм.\n\n### Формулы\n\n- MUST + Глагол без to: I must go. He must go.\n- HAVE TO: I / you / we / they have to work. He / she / it has to work.\n- SHOULD + Глагол без to: You should rest. She should rest.\n\n### Вопросы и отрицания\n\nMust I book a table? - Мне обязательно бронировать столик?\n\nDo you have to work on Saturday? - Тебе нужно работать в субботу?\n\nYou shouldn't buy it. - Тебе не стоит это покупать.\n\n### ⚠️ Типичная ошибка\n\nНе путай DON'T HAVE TO и MUSTN'T.\n\n- **DON'T HAVE TO** = Не обязательно, можно не делать.\n\nYou don't have to come early. - Тебе необязательно приходить рано.\n\n- **MUSTN'T** = Нельзя, запрещено.\n\nYou mustn't park here. - Здесь нельзя парковаться.\n\n### Кратко\n\n- **MUST** = Очень нужно.\n- **HAVE TO** = Нужно по обстоятельствам или правилам.\n- **SHOULD** = Хороший совет.\n\nПосле must и should не ставим to.",
+  "questions": [
+    {
+      "question": "You ___ stop when the traffic light is red. It's the law.",
+      "options": [
+        "should",
+        "have to",
+        "mustn't",
+        "don't have to"
+      ],
+      "correctAnswer": "have to",
+      "explanation": "Это закон, то есть внешнее правило. В современном разговорном английском в таких случаях часто используют HAVE TO. MUST тоже возможно, особенно если говорящий сам подчеркивает обязанность, но здесь ожидаемый ответ HAVE TO."
+    },
+    {
+      "question": "I've got a terrible headache. I think I ___ go to bed early.",
+      "options": [
+        "should",
+        "mustn't",
+        "have",
+        "has to"
+      ],
+      "correctAnswer": "should",
+      "explanation": "Это совет самому себе: будет лучше лечь спать пораньше. Используем SHOULD."
+    },
+    {
+      "question": "___ you ___ wear a uniform at school?",
+      "options": [
+        "Do / have to",
+        "Does / have to",
+        "Do / has to",
+        "Are / have to"
+      ],
+      "correctAnswer": "Do / have to",
+      "explanation": "Чтобы задать вопрос с HAVE TO, используем DO или DOES + подлежащее + HAVE TO + глагол. С YOU нужно DO: Do you have to wear...?"
+    },
+    {
+      "question": "You ___ touch that button! It will stop the machine.",
+      "options": [
+        "don't have to",
+        "should",
+        "mustn't",
+        "have to"
+      ],
+      "correctAnswer": "mustn't",
+      "explanation": "Здесь строгий запрет: кнопку трогать нельзя. MUSTN'T означает 'запрещено'."
+    },
+    {
+      "question": "We ___ buy any food. There is plenty in the fridge.",
+      "options": [
+        "must",
+        "don't have to",
+        "mustn't",
+        "should"
+      ],
+      "correctAnswer": "don't have to",
+      "explanation": "Покупать еду необязательно, потому что она уже есть. DON'T HAVE TO означает отсутствие необходимости."
+    },
+    {
+      "question": "I ___ remember to send this report today. It's really important to me.",
+      "options": [
+        "must",
+        "shouldn't",
+        "have",
+        "mustn't"
+      ],
+      "correctAnswer": "must",
+      "explanation": "Говорящий сам подчеркивает, насколько это важно. Используем MUST + глагол без to."
+    },
+    {
+      "question": "Does Anna ___ take the train to work every day?",
+      "options": [
+        "must",
+        "has to",
+        "have to",
+        "should"
+      ],
+      "correctAnswer": "have to",
+      "explanation": "В вопросе с DOES используем HAVE TO, а не HAS TO: Does Anna have to...?"
+    },
+    {
+      "question": "You look tired. You ___ take a day off.",
+      "options": [
+        "mustn't",
+        "should",
+        "don't have to",
+        "has to"
+      ],
+      "correctAnswer": "should",
+      "explanation": "Это рекомендация, а не строгая обязанность. Используем SHOULD + глагол без to."
+    }
+  ]
+}

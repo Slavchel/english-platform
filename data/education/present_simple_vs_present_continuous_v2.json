@@ -1,0 +1,56 @@
+{
+  "topic": "present_simple_vs_present_continuous",
+  "title": "Present Simple vs Present Continuous (Настоящее простое и настоящее длительное время)",
+  "level": "A2",
+  "content": "### В чем разница?\n\n- **Present Simple** описывает привычки, регулярные действия, факты и состояния.\n- **Present Continuous** описывает действия, происходящие прямо сейчас, или временные ситуации.\n\n### Present Simple\n\nЭто то, что происходит обычно, а не обязательно прямо сейчас.\n- **Слова-подсказки:** always, usually, often, sometimes, never, every day.\n- **Пример:** I play tennis every Saturday. He works in a bank (обычная работа).\n\n### Present Continuous\n\nИспользуется в двух случаях:\n1. **Действие прямо сейчас:** Look! The dog is running.\n2. **Временная ситуация:** I'm living with friends this month (но обычно живу один).\n- **Слова-подсказки:** now, right now, at the moment, today, this week.\n- **Пример:** I'm not working today. He is working from home this week (временно).\n\n### ⚠️ Типичная ошибка\n\nНе забывай am / is / are в Present Continuous.\n- Неправильно: *She working now.*\n- Правильно: *She is working now.*\n\n**Глаголы состояния (Stative Verbs):**\nНекоторые глаголы (know, like, love, want, understand) обычно не используются в Continuous, когда описывают состояние. *I know the answer.*\nОднако некоторые из них могут использоваться в Continuous, если меняют значение: *I think you're right* (считаю) vs *I'm thinking about my future* (размышляю).\n\n### Как быстро выбрать время?\n- Обычно, регулярно, всегда или вообще? Выбирай Present Simple.\n- Сейчас или временно в этот период? Выбирай Present Continuous.",
+  "questions": [
+    {
+      "question": "Tom usually ___ to work by train.",
+      "options": ["go", "goes", "is going", "going"],
+      "correctAnswer": "goes",
+      "explanation": "Usually показывает привычку, поэтому нужен Present Simple. С he / she / it к глаголу добавляем -s или -es."
+    },
+    {
+      "question": "Be quiet! The baby ___.",
+      "options": ["sleeps", "sleep", "is sleeping", "does sleep"],
+      "correctAnswer": "is sleeping",
+      "explanation": "Be quiet! подсказывает, что действие происходит прямо сейчас. Используем am / is / are + глагол с -ing."
+    },
+    {
+      "question": "I never ___ coffee because it makes me feel nervous.",
+      "options": ["drink", "am drinking", "drinks", "not drink"],
+      "correctAnswer": "drink",
+      "explanation": "Never однозначно подчёркивает привычку. Нужен Present Simple: I + начальная форма глагола."
+    },
+    {
+      "question": "___ you ___ for the manager at the moment?",
+      "options": ["Do / wait", "Are / waiting", "Does / wait", "Is / waiting"],
+      "correctAnswer": "Are / waiting",
+      "explanation": "At the moment означает «в данный момент». В вопросе Present Continuous ставим are перед you, а основной глагол получает -ing."
+    },
+    {
+      "question": "My parents ___ TV in the evening. They prefer reading.",
+      "options": ["aren't watching", "doesn't watch", "don't watch", "not watching"],
+      "correctAnswer": "don't watch",
+      "explanation": "Речь об обычной привычке. С parents используем don't + начальную форму глагола."
+    },
+    {
+      "question": "We ___ in a hotel this week because our flat is being repaired.",
+      "options": ["stay", "stays", "are staying", "is staying"],
+      "correctAnswer": "are staying",
+      "explanation": "This week и причина показывают временную ситуацию. Используем Present Continuous. С we нужна форма are."
+    },
+    {
+      "question": "Why ___ he ___ a coat? It's warm outside.",
+      "options": ["does / wear", "is / wearing", "do / wear", "are / wearing"],
+      "correctAnswer": "is / wearing",
+      "explanation": "Говорящий видит человека в пальто прямо сейчас и спрашивает об этой ситуации. Поэтому используем Present Continuous: is + wearing."
+    },
+    {
+      "question": "I ___ the answer. Can you explain it to me?",
+      "options": ["am not understanding", "doesn't understand", "don't understand", "am not understand"],
+      "correctAnswer": "don't understand",
+      "explanation": "Understand - глагол состояния. В таком значении мы не говорим 'am understanding'. Используем Present Simple: с I отрицание строится с don't."
+    }
+  ]
+}

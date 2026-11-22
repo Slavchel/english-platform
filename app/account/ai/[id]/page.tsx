@@ -5,6 +5,9 @@ import { notFound, redirect } from "next/navigation";
 
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
+import CefrAiAnalysisCard from "@/app/components/CefrAiAnalysisCard";
+import { isCefrLevel } from "@/lib/cefr/levels";
+import type { CefrTestAnalysis } from "@/lib/cefr/test-analysis";
 
 const dateFormatter = new Intl.DateTimeFormat("ru-RU", {
   day: "numeric",
@@ -44,6 +47,12 @@ interface AiData {
   strengths?: unknown;
   mistakes?: unknown;
   recommendations?: unknown;
+  what_works?: unknown;
+  what_to_improve?: unknown;
+  recommended_topics?: unknown;
+  whatWorks?: unknown;
+  whatToImprove?: unknown;
+  recommendedTopics?: unknown;
   answered?: unknown;
 }
 
@@ -115,6 +124,25 @@ async function AiAnalysisContent({ params }: AiPageProps) {
 
   const analysis = await prisma.aiAnalysis.findFirst({
     where: { id, userId: user.id },
+    include: {
+      testResult: {
+        select: {
+          mistakes: {
+            where: {
+              skill: { in: ["grammar", "vocabulary"] },
+            },
+            select: {
+              topic: true,
+              skill: true,
+              question: true,
+              selectedAnswer: true,
+              correctAnswer: true,
+              explanation: true,
+            },
+          },
+        },
+      },
+    },
   });
 
   if (!analysis) notFound();
@@ -150,30 +178,69 @@ async function AiAnalysisContent({ params }: AiPageProps) {
     : [];
   const strengths = stringList(data.strengths);
   const recommendations = stringList(data.recommendations);
+  const rawWhatWorks =
+    textValue(data.whatWorks) || textValue(data.what_works);
+  const rawWhatToImprove =
+    textValue(data.whatToImprove) ||
+    textValue(data.what_to_improve);
+  const hasNewTestFormat = Boolean(rawWhatWorks || rawWhatToImprove);
+  const whatWorks = rawWhatWorks || strengths.join(" ");
+  const whatToImprove =
+    rawWhatToImprove ||
+    textValue(data.summary) ||
+    (hasNewTestFormat ? "" : analysis.summary);
+  const recommendedTopics = stringList(
+    data.recommendedTopics ?? data.recommended_topics,
+  );
+  const headerSummary =
+    textValue(data.summary) || (hasNewTestFormat ? "" : analysis.summary);
+  const testAnalysis: CefrTestAnalysis | null =
+    analysis.type === "test" && isCefrLevel(data.level)
+      ? {
+          level: data.level,
+          whatWorks:
+            whatWorks || "AI-анализ не выделил отдельных сильных сторон.",
+          whatToImprove:
+            whatToImprove || "Повтори основные темы и продолжай практику.",
+          recommendedTopics:
+            recommendedTopics.length > 0
+              ? recommendedTopics
+              : recommendations,
+          answered:
+            typeof data.answered === "number" ? data.answered : 0,
+        }
+      : null;
 
   return (
     <section className="page-shell auth-page">
       <div className="container auth-container account-result-page">
         <p className="eyebrow">English Platform · AI-разбор</p>
-        <Link href="/account" className="account-back">
-          ← В личный кабинет
-        </Link>
-
         <h1 className="page-title">{analysis.title}</h1>
         <p className="account-result-date">
           {typeLabels[analysis.type] ?? analysis.type} ·{" "}
           {dateFormatter.format(analysis.createdAt)}
         </p>
+        <Link href="/account" className="account-back ai-back">
+          ← В личный кабинет
+        </Link>
 
+        {testAnalysis ? (
+          <div className="account-ai-detail">
+            <CefrAiAnalysisCard
+              analysis={testAnalysis}
+              mistakes={analysis.testResult?.mistakes ?? []}
+            />
+          </div>
+        ) : (
         <div className="cefr-ai-panel account-ai-detail">
           <div className="cefr-ai-panel__head">
             <div>
               <p className="cefr-ai-kicker">
                 {typeLabels[analysis.type] ?? "AI-разбор"}
               </p>
-              <p className="cefr-ai-summary">
-                {textValue(data.summary) || analysis.summary}
-              </p>
+              {headerSummary ? (
+                <p className="cefr-ai-summary">{headerSummary}</p>
+              ) : null}
             </div>
             <div className="cefr-ai-level">
               <span>Уровень</span>
@@ -183,6 +250,34 @@ async function AiAnalysisContent({ params }: AiPageProps) {
               ) : null}
             </div>
           </div>
+
+          {hasNewTestFormat ? (
+            <div className="cefr-ai-columns">
+              {whatWorks ? (
+                <section>
+                  <h3>Что получилось</h3>
+                  <p className="cefr-ai-text">{whatWorks}</p>
+                </section>
+              ) : null}
+              {whatToImprove ? (
+                <section>
+                  <h3>Что улучшить</h3>
+                  <p className="cefr-ai-text">{whatToImprove}</p>
+                </section>
+              ) : null}
+            </div>
+          ) : null}
+
+          {recommendedTopics.length > 0 ? (
+            <section className="cefr-ai-mistakes">
+              <h3>Рекомендованные темы</h3>
+              <div className="cefr-ai-topics">
+                {recommendedTopics.map((topic) => (
+                  <span key={topic}>{topic}</span>
+                ))}
+              </div>
+            </section>
+          ) : null}
 
           {scores.length > 0 ? (
             <div className="cefr-ai-scores">
@@ -276,6 +371,7 @@ async function AiAnalysisContent({ params }: AiPageProps) {
             </details>
           ) : null}
         </div>
+        )}
       </div>
     </section>
   );

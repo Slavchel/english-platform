@@ -4,6 +4,8 @@ import { useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
 import { useState } from "react";
 
+import { PENDING_RESULT_KEY } from "@/lib/cefr/pending-result";
+
 export default function LoginForm() {
   const router = useRouter();
   const [email, setEmail] = useState("");
@@ -17,11 +19,22 @@ export default function LoginForm() {
     setPending(true);
     setError(null);
 
+    const requestedCallback = new URLSearchParams(
+      window.location.search,
+    ).get("callbackUrl");
+    const pendingResult = window.sessionStorage.getItem(PENDING_RESULT_KEY);
+    const callbackUrl = pendingResult
+      ? "/test?restore=1"
+      : requestedCallback?.startsWith("/") &&
+          !requestedCallback.startsWith("//")
+        ? requestedCallback
+        : "/account";
+
     try {
       const result = await signIn("credentials", {
         email: normalized,
         redirect: false,
-        callbackUrl: "/account",
+        callbackUrl,
       });
 
       if (result?.error) {
@@ -29,7 +42,7 @@ export default function LoginForm() {
         return;
       }
 
-      router.push("/account");
+      router.push(callbackUrl);
       router.refresh();
     } catch {
       setError("Не удалось войти. Попробуйте ещё раз.");

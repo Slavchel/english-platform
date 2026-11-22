@@ -1,0 +1,96 @@
+{
+  "topic": "conditionals_3_mixed",
+  "title": "Third and Mixed Conditionals (Условные 3 типа и смешанные)",
+  "level": "B1-B2",
+  "content": "### Когда они нужны?\n\nВ отличие от второго типа (который говорит о воображаемом настоящем), **третий тип (Third Conditional)** говорит о воображаемом прошлом. Мы представляем альтернативную ситуацию в прошлом и её воображаемый результат. Часто он выражает сожаление или критику, но не обязательно.\n\n- **Формула:** If + Past Perfect, ... would have + V3.\n- If I **had studied** harder, I **would have passed** the exam. - Если бы я учился усерднее, я бы сдал экзамен.\n\n### Смешанный тип (Mixed Conditional)\n\nСмешанные типы связывают разные времена в условии и результате.\n\n**1. Условие в прошлом -> результат в настоящем:**\n- **Формула:** If + Past Perfect (прошлое), ... would + V (настоящее).\n- If I **had saved** money last year (прошлое), I **would be** rich now (настоящее). - Если бы я накопил денег в прошлом году, сейчас я был бы богат.\n\n**2. Условие в настоящем -> результат в прошлом:**\n- **Формула:** If + Past Simple (настоящее), ... would have + V3 (прошлое).\n- If I **were** more careful (настоящее), I **wouldn't have made** that mistake yesterday (прошлое). - Если бы я был более внимательным, я бы не сделал ту ошибку вчера.\n\n### ⚠️ Типичная ошибка\n\nИспользовать would have в части с if, или путать формы глаголов.\n- Неправильно: *If I would have known, I would have told you.* / *I would have went.*\n- Правильно: *If I had known, I would have told you.* / *I would have gone.* (V3 от go).\n\n### Краткий вывод\n\nДля чистого 3-го типа используй **had + V3** в условии и **would have + V3** в результате. В смешанных типах смотри на время: если результат относится к настоящему, во второй половине используй **would + V**, а если к прошлому, то **would have + V3**.\n\n### Сначала Third, потом Mixed\n\n1. Third Conditional: If + Past Perfect, ... would have + V3. И условие, и результат — в прошлом.\n2. Mixed Conditional: прошлое условие + настоящее следствие или настоящее условие + прошлое следствие.\n\nСмешанные задания на различение даются только после отдельной практики Third и Mixed.\n",
+  "questions": [
+    {
+      "question": "If you ___ (tell) me about the party, I would have come.",
+      "options": [
+        "told",
+        "had told",
+        "would tell",
+        "have told"
+      ],
+      "correctAnswer": "had told",
+      "explanation": "Сожаление о прошлом (Third Conditional). В части с if используем Past Perfect: had + told."
+    },
+    {
+      "question": "If I had known you were in town, I ___ (invite) you for dinner.",
+      "options": [
+        "would invite",
+        "would have invited",
+        "had invited",
+        "would have invite"
+      ],
+      "correctAnswer": "would have invited",
+      "explanation": "Результат в прошлом (Third Conditional). В главной части используем would have + V3 (invited)."
+    },
+    {
+      "question": "If she ___ (not / miss) the train, she would be here right now.",
+      "options": [
+        "didn't miss",
+        "hadn't missed",
+        "hasn't missed",
+        "wouldn't miss"
+      ],
+      "correctAnswer": "hadn't missed",
+      "explanation": "Условие относится к прошлому (опоздала на поезд), а результат к настоящему (ее нет здесь). Поэтому используем Past Perfect в условной части: hadn't + missed."
+    },
+    {
+      "question": "I ___ (be) a doctor today if I had gone to medical school.",
+      "options": [
+        "will be",
+        "would be",
+        "would have been",
+        "am"
+      ],
+      "correctAnswer": "would be",
+      "explanation": "Смешанный тип: условие в прошлом, результат в настоящем (сейчас). Используем would + be."
+    },
+    {
+      "question": "If we ___ (leave) earlier, we wouldn't have missed the beginning of the film.",
+      "options": [
+        "left",
+        "had left",
+        "would leave",
+        "have left"
+      ],
+      "correctAnswer": "had left",
+      "explanation": "Third Conditional (сожаление о прошлом). В условии Past Perfect: had + left."
+    },
+    {
+      "question": "If I hadn't eaten so much cake, I ___ (not / feel) sick now.",
+      "options": [
+        "didn't feel",
+        "wouldn't feel",
+        "wouldn't have felt",
+        "hadn't felt"
+      ],
+      "correctAnswer": "wouldn't feel",
+      "explanation": "Условие в прошлом (съел много торта), а результат в настоящем (плохо себя чувствую). Поэтому используем would + V (feel)."
+    },
+    {
+      "question": "He would have passed the test if he ___ (study) more.",
+      "options": [
+        "studied",
+        "had studied",
+        "would study",
+        "studies"
+      ],
+      "correctAnswer": "had studied",
+      "explanation": "Third Conditional. В условии (вторая часть предложения) используем Past Perfect: had + studied."
+    },
+    {
+      "question": "If they ___ (not / lose) the map, we wouldn't be lost right now.",
+      "options": [
+        "didn't lose",
+        "hadn't lost",
+        "haven't lost",
+        "wouldn't lose"
+      ],
+      "correctAnswer": "hadn't lost",
+      "explanation": "Условие в прошлом (потеряли карту), результат в настоящем (блуждаем сейчас). Поэтому используем Past Perfect: hadn't + lost."
+    }
+  ]
+}

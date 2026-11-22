@@ -1,0 +1,118 @@
+{
+  "topic": "present_simple",
+  "title": "Present Simple (Настоящее простое время)",
+  "level": "A1",
+  "content": "### Когда нужен Present Simple?\n\nPresent Simple используют для привычек, регулярных действий, фактов, состояний и расписаний. \n\n- **Привычки и рутина:** I get up at seven. - Я встаю в семь.\n- **Факты:** Water boils at 100°C. - Вода кипит при 100 °C.\n- **Состояния и чувства:** I like coffee. She knows the answer. - Я люблю кофе. Она знает ответ.\n- **Расписания:** The train leaves at 7. The film starts at 8. - Поезд отправляется в 7. Фильм начинается в 8.\n\n### Формула\n- **Утверждение:** Подлежащее + глагол (с -s/-es для he/she/it).\n- **Отрицание:** Подлежащее + do/does not + глагол.\n- **Вопрос:** Do/Does + подлежащее + глагол?\n\n### Утверждения: где появляется -s?\n\nС **I, you, we, they** используем обычную форму глагола: I work, they live.\nС **he, she, it** добавляем к глаголу **-s** или **-es**: He works, she watches, my brother studies.\n\n**Правила добавления окончаний:**\n- Большинство глаголов: добавляем -s (work -> works).\n- Глаголы на -s, -sh, -ch, -x, -o: добавляем -es (watch -> watches, go -> goes).\n- Глаголы на согласную + y: меняем y на -ies (study -> studies).\n\n### Отрицания и вопросы (Do / Does)\n\nДля отрицания используем **don't** или **doesn't** + обычная форма глагола:\n- I don't drink coffee. He doesn't like fish.\n*Важно: после doesn't окончание -s у основного глагола исчезает.*\n\nВ вопросах ставим **Do** или **Does** в начало:\n- Do you speak English? Does she work here?\n\n### Важное исключение: глагол To Be (am / is / are)\n\nКогда мы описываем, кто человек, какой он, где находится или сколько ему лет, мы используем глагол **To Be**. С ним **не используются** Do или Does.\n- I **am** a student. He **is** here. They **are** happy.\n\n### Слова-подсказки\n\nЧасто встречаются: always (всегда), usually (обычно), often (часто), sometimes (иногда), never (никогда), every day (каждый день).\n*Примечание: эти слова часто указывают на Present Simple, но выбор времени всегда зависит от смысла предложения.*\n\n### Краткий вывод\n\nPresent Simple описывает то, что происходит регулярно, является фактом или состоянием. Если подлежащее можно заменить на he, she или it, добавь к глаголу -s или -es. В вопросах и отрицаниях используй Do/Does (кроме глагола To Be).",
+  "questions": [
+    {
+      "question": "My sister ___ to school by bus every day.",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "is go"
+      ],
+      "correctAnswer": "goes",
+      "explanation": "My sister - это she. В утверждении с he/she/it к глаголу go добавляем -es: goes."
+    },
+    {
+      "question": "I ___ breakfast at eight.",
+      "options": [
+        "has",
+        "have",
+        "having",
+        "haves"
+      ],
+      "correctAnswer": "have",
+      "explanation": "С I используем обычную форму глагола без окончания -s: I have."
+    },
+    {
+      "question": "Tom ___ like cold weather.",
+      "options": [
+        "don't",
+        "doesn't",
+        "isn't",
+        "aren't"
+      ],
+      "correctAnswer": "doesn't",
+      "explanation": "Tom можно заменить на he. В отрицании с he используем doesn't + обычную форму глагола: doesn't like."
+    },
+    {
+      "question": "___ your parents work in this city?",
+      "options": [
+        "Does",
+        "Do",
+        "Are",
+        "Is"
+      ],
+      "correctAnswer": "Do",
+      "explanation": "Your parents - множественное число, поэтому вопрос начинаем с Do: Do your parents work...?"
+    },
+    {
+      "question": "My parents ___ usually at work at this time.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "do"
+      ],
+      "correctAnswer": "are",
+      "explanation": "Мы описываем местоположение родителей. My parents - множественное число, поэтому используем форму are. Usually показывает регулярную ситуацию."
+    },
+    {
+      "question": "He doesn't ___ meat.",
+      "options": [
+        "eats",
+        "eating",
+        "eat",
+        "to eat"
+      ],
+      "correctAnswer": "eat",
+      "explanation": "После doesn't нужен глагол в обычной форме. Окончание -s уже содержится в does: doesn't eat."
+    },
+    {
+      "question": "My teacher ___ English and Spanish.",
+      "options": [
+        "teach",
+        "teachs",
+        "teaches",
+        "teaching"
+      ],
+      "correctAnswer": "teaches",
+      "explanation": "My teacher - один человек (he/she). У глагола teach добавляется -es: teaches."
+    },
+    {
+      "question": "We usually ___ tennis on Sundays.",
+      "options": [
+        "plays",
+        "play",
+        "playing",
+        "does play"
+      ],
+      "correctAnswer": "play",
+      "explanation": "С we в утвердительном предложении используем обычную форму глагола: we play."
+    },
+    {
+      "question": "She often ___ before bed.",
+      "options": [
+        "read",
+        "reads",
+        "does read",
+        "reading"
+      ],
+      "correctAnswer": "reads",
+      "explanation": "С she в утвердительном Present Simple добавляем к глаголу окончание -s: reads."
+    },
+    {
+      "question": "I ___ the answer to this question.",
+      "options": [
+        "am knowing",
+        "know",
+        "knows",
+        "knowing"
+      ],
+      "correctAnswer": "know",
+      "explanation": "Know - это глагол состояния (я знаю факт, а не совершаю действие). Поэтому используем Present Simple. С I форма know."
+    }
+  ]
+}

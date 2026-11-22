@@ -13,6 +13,18 @@ interface MistakeInput {
   correctAnswer: string;
   selectedAnswer: string;
   explanation: string | null;
+  passageId: string | null;
+}
+
+interface AnswerInput {
+  skill: string;
+  level: string;
+  topic: string;
+  question: string;
+  correct: boolean;
+  selectedAnswer: string;
+  correctAnswer: string;
+  passageId: string | null;
 }
 
 interface ResultInput {
@@ -27,6 +39,7 @@ interface ResultInput {
   seed: number;
   algorithmVersion: string;
   mistakes: MistakeInput[];
+  answers: AnswerInput[];
 }
 
 function cleanString(value: unknown, max = 4000): string {
@@ -77,6 +90,7 @@ function parseInput(value: unknown): ResultInput | null {
     const correctAnswer = cleanString(mistake.correctAnswer, 2000);
     const selectedAnswer = cleanString(mistake.selectedAnswer, 2000);
     const explanation = cleanString(mistake.explanation, 4000) || null;
+    const passageId = cleanString(mistake.passageId, 160) || null;
 
     if (!topic || !skill || !question || !correctAnswer) return null;
     mistakes.push({
@@ -86,6 +100,46 @@ function parseInput(value: unknown): ResultInput | null {
       correctAnswer,
       selectedAnswer,
       explanation,
+      passageId,
+    });
+  }
+
+  const rawAnswers = Array.isArray(input.answers)
+    ? input.answers.slice(0, 100)
+    : [];
+  const answers: AnswerInput[] = [];
+
+  for (const raw of rawAnswers) {
+    if (!raw || typeof raw !== "object") return null;
+    const answer = raw as Record<string, unknown>;
+    const skill = cleanString(answer.skill, 32);
+    const answerLevel = cleanString(answer.level, 16);
+    const topic = cleanString(answer.topic, 160);
+    const question = cleanString(answer.question, 4000);
+    const selectedAnswer = cleanString(answer.selectedAnswer, 2000);
+    const correctAnswer = cleanString(answer.correctAnswer, 2000);
+    const passageId = cleanString(answer.passageId, 160) || null;
+
+    if (
+      !skill ||
+      !isCefrLevel(answerLevel) ||
+      !topic ||
+      !question ||
+      !correctAnswer ||
+      typeof answer.correct !== "boolean"
+    ) {
+      return null;
+    }
+
+    answers.push({
+      skill,
+      level: answerLevel,
+      topic,
+      question,
+      correct: answer.correct,
+      selectedAnswer,
+      correctAnswer,
+      passageId,
     });
   }
 
@@ -101,6 +155,7 @@ function parseInput(value: unknown): ResultInput | null {
     seed,
     algorithmVersion: cleanString(input.algorithmVersion, 64) || "unknown",
     mistakes,
+    answers,
   };
 }
 
@@ -142,6 +197,9 @@ export async function saveTestResult(
         algorithmVersion: input.algorithmVersion,
         mistakes: {
           create: input.mistakes,
+        },
+        answers: {
+          create: input.answers,
         },
       },
       select: { id: true },

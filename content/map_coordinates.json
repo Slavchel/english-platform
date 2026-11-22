@@ -1,0 +1,83 @@
+{
+  "nodes": {
+    "to_be_am_is_are": { "mapX": 50, "mapY": 50 },
+    "there_is_there_are": { "mapX": 32, "mapY": 50 },
+    "possessives": { "mapX": 68, "mapY": 50 },
+
+    "present_simple": { "mapX": 25, "mapY": 30 },
+    "present_continuous": { "mapX": 75, "mapY": 30 },
+    "present_simple_vs_present_continuous": { "mapX": 50, "mapY": 20 },
+
+    "past_simple": { "mapX": 25, "mapY": 70 },
+    "past_continuous": { "mapX": 75, "mapY": 70 },
+    "past_simple_vs_past_continuous": { "mapX": 50, "mapY": 80 },
+
+    "articles_a_an_the": { "mapX": 10, "mapY": 40 },
+    "some_any_no_every": { "mapX": 10, "mapY": 25 },
+    "much_many_a_lot_of_little_few": { "mapX": 25, "mapY": 10 },
+    "quantifiers_both_either_neither": { "mapX": 50, "mapY": 10 },
+    "countable_uncountable": { "mapX": 75, "mapY": 10 },
+    "demonstratives": { "mapX": 90, "mapY": 20 },
+
+    "prepositions_of_time_in_on_at": { "mapX": 85, "mapY": 40 },
+    "prepositions_of_place": { "mapX": 85, "mapY": 60 },
+    "conjunctions_basic": { "mapX": 90, "mapY": 80 },
+
+    "modal_verbs_must_have_to_should": { "mapX": 10, "mapY": 60 },
+    "modals_of_ability": { "mapX": 10, "mapY": 80 },
+    "modals_of_advice": { "mapX": 25, "mapY": 90 },
+    "modals_of_probability": { "mapX": 75, "mapY": 90 },
+
+    "present_perfect_regular": { "mapX": 60, "mapY": 40 },
+    "present_perfect_continuous": { "mapX": 75, "mapY": 55 },
+    "past_simple_vs_present_perfect": { "mapX": 60, "mapY": 60 },
+
+    "future_will": { "mapX": 40, "mapY": 65 },
+    "future_going_to": { "mapX": 25, "mapY": 80 },
+    "future_continuous": { "mapX": 40, "mapY": 95 },
+    "future_perfect": { "mapX": 60, "mapY": 95 },
+    "future_forms_will_going_to_present_continuous": { "mapX": 75, "mapY": 80 }
+  },
+  "connections": [
+    { "from": "to_be_am_is_are", "to": "there_is_there_are" },
+    { "from": "to_be_am_is_are", "to": "possessives" },
+    { "from": "to_be_am_is_are", "to": "present_simple" },
+    { "from": "to_be_am_is_are", "to": "present_continuous" },
+    { "from": "to_be_am_is_are", "to": "past_simple" },
+    { "from": "to_be_am_is_are", "to": "past_continuous" },
+    { "from": "to_be_am_is_are", "to": "articles_a_an_the" },
+    { "from": "to_be_am_is_are", "to": "prepositions_of_time_in_on_at" },
+    { "from": "to_be_am_is_are", "to": "modal_verbs_must_have_to_should" },
+
+    { "from": "present_simple", "to": "present_simple_vs_present_continuous" },
+    { "from": "present_continuous", "to": "present_simple_vs_present_continuous" },
+    { "from": "present_simple", "to": "past_simple_vs_past_continuous" },
+    { "from": "present_continuous", "to": "past_simple_vs_past_continuous" },
+
+    { "from": "past_simple", "to": "past_simple_vs_past_continuous" },
+    { "from": "past_continuous", "to": "past_simple_vs_past_continuous" },
+    { "from": "past_simple_vs_past_continuous", "to": "present_perfect_regular" },
+
+    { "from": "articles_a_an_the", "to": "some_any_no_every" },
+    { "from": "some_any_no_every", "to": "much_many_a_lot_of_little_few" },
+    { "from": "much_many_a_lot_of_little_few", "to": "quantifiers_both_either_neither" },
+    { "from": "quantifiers_both_either_neither", "to": "countable_uncountable" },
+    { "from": "countable_uncountable", "to": "demonstratives" },
+
+    { "from": "present_perfect_regular", "to": "present_perfect_continuous" },
+    { "from": "present_perfect_regular", "to": "past_simple_vs_present_perfect" },
+
+    { "from": "future_will", "to": "future_going_to" },
+    { "from": "future_will", "to": "future_continuous" },
+    { "from": "future_going_to", "to": "future_continuous" },
+    { "from": "future_continuous", "to": "future_perfect" },
+    { "from": "future_perfect", "to": "future_forms_will_going_to_present_continuous" },
+
+    { "from": "prepositions_of_time_in_on_at", "to": "prepositions_of_place" },
+    { "from": "prepositions_of_place", "to": "conjunctions_basic" },
+    
+    { "from": "modal_verbs_must_have_to_should", "to": "modals_of_ability" },
+    { "from": "modal_verbs_must_have_to_should", "to": "modals_of_advice" },
+    { "from": "modals_of_advice", "to": "modals_of_probability" }
+  ]
+}

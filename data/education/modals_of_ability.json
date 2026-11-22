@@ -1,0 +1,85 @@
+{
+  "topic": "modals_of_ability",
+  "title": "Modals of Ability: Can, Could, Be able to (Умение)",
+  "level": "A2",
+  "content": "### Когда нужны эти глаголы?\n\nМы используем их, чтобы сказать, что кто-то **умеет** или **может** что-то сделать.\n\n### Can (Настоящее время)\n\nИспользуем **can** для настоящего времени.\n- I **can** swim. - Я умею плавать.\n- She **can** speak three languages. - Она может говорить на трех языках.\n\nОтрицание: **cannot** (can't).\n- He **can't** drive. - Он не умеет водить.\n\nВопрос: **Can** ставим в начало.\n- **Can** you play the guitar? - Ты умеешь играть на гитаре?\n\n### Could (Прошедшее время)\n\nИспользуем **could** для описания **общих способностей** в прошлом (умел вообще) или для вежливых просьб.\n- When I was 5, I **could** swim. - Когда мне было 5, я умел плавать.\n- **Could** you help me, please? - Не могли бы вы мне помочь?\n\n*⚠️ Важное правило:* Если мы говорим об **одном конкретном успешном действии** в прошлом (в какой-то ситуации), мы обычно используем **was/were able to** или **managed to**, а не could.\n- The fire was big, but we **were able to** escape. - Пожар был сильным, но мы смогли выбраться (конкретное действие).\n\n### Be able to (Замена)\n\nКонструкция **be able to** (am/is/are + able to) значит то же самое, что и *can*. Она нужна, когда мы используем другие времена (будущее, Present Perfect) или после других модальных глаголов.\n- I **will be able to** speak English soon. - Я скоро смогу говорить по-английски.\n- I **have been able to** fix it. - Я смог это починить.\n\n### ⚠️ Типичная ошибка\n\nДобавлять к can/could частицу to или окончание -s.\n- Неправильно: *He cans swim.* / *I can to swim.*\n- Правильно: *He can swim.* / *I can swim.*",
+  "questions": [
+    {
+      "question": "When I was younger, I ___ run very fast.",
+      "options": [
+        "can",
+        "could",
+        "am able to",
+        "will can"
+      ],
+      "correctAnswer": "could",
+      "explanation": "When I was younger указывает на прошлое. Для общей способности в прошлом используем could."
+    },
+    {
+      "question": "I ___ swim, but I can't dive.",
+      "options": [
+        "can",
+        "could",
+        "am able",
+        "will can"
+      ],
+      "correctAnswer": "can",
+      "explanation": "Речь об умении в настоящем времени. Используем can + глагол без to."
+    },
+    {
+      "question": "Next year, I ___ speak Spanish fluently.",
+      "options": [
+        "can",
+        "could",
+        "will be able to",
+        "will can"
+      ],
+      "correctAnswer": "will be able to",
+      "explanation": "Next year указывает на будущее. Для будущего времени (после will) нельзя использовать can, используем be able to: will be able to."
+    },
+    {
+      "question": "Ты разговариваешь с директором, которого видишь впервые. Выбери самую вежливую форму: ___ you possibly open the window, please?",
+      "options": [
+        "Can",
+        "Could",
+        "Are able to",
+        "Do"
+      ],
+      "correctAnswer": "Could",
+      "explanation": "В официальной ситуации с незнакомым человеком самая вежливая просьба — Could you possibly...? Can возможно, но звучит менее формально. Are able to и Do здесь не подходят."
+    },
+    {
+      "question": "He is a baby. He ___ walk yet.",
+      "options": [
+        "can't",
+        "couldn't",
+        "aren't able to",
+        "doesn't can"
+      ],
+      "correctAnswer": "can't",
+      "explanation": "Речь о настоящем времени (he is a baby). Отрицание от can — can't."
+    },
+    {
+      "question": "The box was very heavy, but we ___ lift it.",
+      "options": [
+        "could",
+        "can",
+        "were able to",
+        "are able to"
+      ],
+      "correctAnswer": "were able to",
+      "explanation": "Здесь речь об одном конкретном успешном действии в прошлом (коробка была тяжелой, но мы справились). Используем were able to."
+    },
+    {
+      "question": "She ___ to speak three languages when she was ten.",
+      "options": [
+        "can",
+        "could",
+        "was able to",
+        "is able to"
+      ],
+      "correctAnswer": "was able to",
+      "explanation": "Was able to используется для конкретного успешного действия в прошлом. Для общей способности в прошлом используют could: She could speak three languages. В этом предложении частица to уже стоит, поэтому нужен was able to."
+    }
+  ]
+}

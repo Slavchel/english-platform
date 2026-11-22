@@ -1,0 +1,96 @@
+{
+  "topic": "past_simple_vs_present_perfect",
+  "title": "Past Simple vs Present Perfect (Простое прошедшее и настоящее совершенное время)",
+  "level": "B1",
+  "content": "### В чем разница?\n\nСмотри, как ты связываешь событие с настоящим.\n\n### Past Simple\n\nИспользуем для события в завершенном прошлом. Часто понятно, когда оно произошло (yesterday, in 2022), или мы рассказываем историю о прошлом.\n\n### Present Perfect\n\nИспользуем, когда рассматриваем прошлое с точки зрения настоящего:\n- **Опыт:** I have been to Italy. (Бывал в Италии).\n- **Результат сейчас:** I have broken my glasses, so I can't read.\n- **Незаконченный период:** I've had two meetings today (день еще продолжается).\n- **Действие продолжается:** She has worked here for three years (она все еще работает).\n\n### Формулы\n- **Past Simple:** Кто + V2 (или глагол с -ed) / didn't + глагол / Did + кто + глагол?\n- **Present Perfect:** Кто + have/has + V3 / haven't/hasn't + V3 / Have/Has + кто + V3?\n\n### Слова-подсказки\n\n**Past Simple:** yesterday, last week, in 2022, two days ago, when.\n**Present Perfect:** ever, never, just, already, yet, so far, today / this week (если период не закончился).\n\n*For и since часто используются с Present Perfect, когда действие продолжается до настоящего момента. Если период завершён, может использоваться Past Simple.*\n\n### ⚠️ Типичная ошибка\n\nНеправильно: *I have seen him yesterday.*\nПравильно: *I saw him yesterday.*\n\nС завершенным временем в прошлом (yesterday, last week) используем Past Simple. Но помни: Present Perfect нужен не всегда, когда нет точного времени. Past Simple может использоваться, если время понятно из контекста.",
+  "questions": [
+    {
+      "question": "I ___ (see) this film last weekend.",
+      "options": [
+        "have seen",
+        "saw",
+        "seen",
+        "was seeing"
+      ],
+      "correctAnswer": "saw",
+      "explanation": "Last weekend - завершенное время в прошлом. Поэтому нужен Past Simple: see -> saw."
+    },
+    {
+      "question": "Have you ever ___ (try) surfing?",
+      "options": [
+        "tried",
+        "try",
+        "trying",
+        "have tried"
+      ],
+      "correctAnswer": "tried",
+      "explanation": "Ever спрашивает об опыте за всю жизнь до настоящего момента. Используем Present Perfect: have + V3."
+    },
+    {
+      "question": "So far, Mia ___ (not send) the invoice, so we can't pay it.",
+      "options": [
+        "didn't send",
+        "hasn't sent",
+        "doesn't send",
+        "isn't sending"
+      ],
+      "correctAnswer": "hasn't sent",
+      "explanation": "So far значит «на данный момент». Мы подводим итог к настоящему моменту, поэтому используем Present Perfect: has + V3."
+    },
+    {
+      "question": "When ___ the train ___ (leave) yesterday?",
+      "options": [
+        "has / left",
+        "did / leave",
+        "does / leave",
+        "was / leave"
+      ],
+      "correctAnswer": "did / leave",
+      "explanation": "Yesterday - завершенное время в прошлом. В вопросе Past Simple используем Did + подлежащее + начальную форму."
+    },
+    {
+      "question": "The season is still in progress. Our team ___ (win) three matches so far.",
+      "options": [
+        "won",
+        "has won",
+        "wins",
+        "is winning"
+      ],
+      "correctAnswer": "has won",
+      "explanation": "Сезон еще продолжается (контекст дан в предложении). Говорим о результате к настоящему моменту: Present Perfect."
+    },
+    {
+      "question": "I ___ (not buy) that jacket because it was too expensive.",
+      "options": [
+        "haven't bought",
+        "didn't buy",
+        "don't buy",
+        "wasn't buy"
+      ],
+      "correctAnswer": "didn't buy",
+      "explanation": "Вторая часть описывает конкретную ситуацию в прошлом: куртка показалась дорогой, и я ее не купил. Используем Past Simple."
+    },
+    {
+      "question": "This is the first time I ___ (eat) Korean food.",
+      "options": [
+        "ate",
+        "have eaten",
+        "eat",
+        "am eating"
+      ],
+      "correctAnswer": "have eaten",
+      "explanation": "This is the first time + Present Perfect используется, когда говорящий описывает первый опыт к настоящему моменту."
+    },
+    {
+      "question": "Sara still works at this company. How long ___ she ___ (work) here?",
+      "options": [
+        "did / work",
+        "has / worked",
+        "does / work",
+        "is / working"
+      ],
+      "correctAnswer": "has / worked",
+      "explanation": "Сара все еще работает здесь (продолжается до настоящего момента). Вопрос How long? требует Present Perfect: has + V3."
+    }
+  ]
+}

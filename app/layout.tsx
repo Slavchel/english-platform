@@ -3,6 +3,14 @@ import { Suspense, type ReactNode } from "react";
 import Link from "next/link";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
+import "./home-refresh.css";
+import "./premium.css";
+import "./lesson-reentry.css";
+import "./speaking-guide.css";
+import "./test-buttons.css";
+import "./speaking-redesign.css";
+import "./learning-enhance.css";
+import "./pricing.css";
 import AuthLink from "./components/AuthLink";
 
 const inter = Inter({
@@ -52,6 +60,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <li>
                   <Link href="/speaking" className="nav-link">
                     Speaking
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/learning" className="nav-link">
+                    Обучение
                   </Link>
                 </li>
                 <li>

@@ -1,0 +1,50 @@
+{
+  "topic": "countable_uncountable",
+  "title": "Countable and Uncountable Nouns (Исчисляемые и неисчисляемые)",
+  "level": "A2",
+  "content": "### В чем разница?\n\nВ английском все существительные делятся на две группы. От этого зависит, какие слова мы используем (much или many, a или без артикля).\n\n### Countable (Исчисляемые)\n\nЭто предметы, которые можно посчитать поштучно. Они имеют единственное и множественное число.\n- a book — two books\n- an apple — three apples\n- a car — many cars\n*С ними используем: many (много), a few (несколько), a/an (один).*\n\n### Uncountable (Неисчисляемые)\n\nЭто вещества, жидкости, абстрактные понятия или слова, которые нельзя посчитать поштучно.\n- water (вода)\n- money (деньги)\n- information (информация)\n- furniture (мебель)\n- advice (совет)\n*С ними используем: much (много), a little (немного), без артикля a/an.*\n\n### ⚠️ Важное правило\n\nВ обычном значении неисчисляемые существительные не имеют формы множественного числа. Но некоторые из них могут становиться исчисляемыми, когда речь идёт о порциях или видах.\n- Неправильно: *an information, two advices, a furniture.*\n- Правильно: *some information, two pieces of advice, a piece of furniture.*\n- *Исключение:* Two coffees, please (две чашки кофе).\n\n### Как сказать «одна единица»?\n\nЧтобы посчитать неисчисляемое, используем контейнеры или слова-кусочки:\n- a bottle of water (бутылка воды)\n- a cup of coffee (чашка кофе)\n- a piece of information (часть информации)\n- a slice of bread (ломтик хлеба)",
+  "questions": [
+    {
+      "question": "I need to buy some ___ for my new apartment.",
+      "options": ["furnitures", "a furniture", "furniture", "a piece of furniture"],
+      "correctAnswer": "furniture",
+      "explanation": "Furniture — неисчисляемое существительное в общем значении (мебель). У него нет множественного числа и артикля a/an."
+    },
+    {
+      "question": "How ___ books did you read last month?",
+      "options": ["much", "many", "a little", "a piece of"],
+      "correctAnswer": "many",
+      "explanation": "Books — исчисляемое существительное во множественном числе. С ним используем many."
+    },
+    {
+      "question": "Can you give me ___ advice? I don't know what to do.",
+      "options": ["an", "a", "some", "many"],
+      "correctAnswer": "some",
+      "explanation": "Advice — неисчисляемое. С ним используем some (немного), но не a/an."
+    },
+    {
+      "question": "There isn't ___ water in the bottle. Let's buy some.",
+      "options": ["many", "a few", "much", "a piece of"],
+      "correctAnswer": "much",
+      "explanation": "Water — неисчисляемое. В отрицаниях с ним используем much."
+    },
+    {
+      "question": "I have two important ___ to tell you.",
+      "options": ["informations", "information", "pieces of information", "an information"],
+      "correctAnswer": "pieces of information",
+      "explanation": "Чтобы посчитать information, используем pieces of information (части информации)."
+    },
+    {
+      "question": "We need to buy ___ bread for breakfast.",
+      "options": ["a", "many", "some", "a few"],
+      "correctAnswer": "some",
+      "explanation": "Bread — неисчисляемое. Используем some (немного), но не a или many."
+    },
+    {
+      "question": "She has less money than I ___.",
+      "options": ["am", "do", "have", "does"],
+      "correctAnswer": "do",
+      "explanation": "Money — неисчисляемое. В сравнительных конструкциях с глаголом have используется вспомогательный глагол do: than I do."
+    }
+  ]
+}

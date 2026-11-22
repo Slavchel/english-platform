@@ -1,0 +1,118 @@
+{
+  "topic": "present_continuous",
+  "title": "Present Continuous (Настоящее длительное время)",
+  "level": "A1",
+  "content": "### Когда нужен Present Continuous?\n\nPresent Continuous используют, когда действие происходит прямо сейчас, в момент речи, или описывает временную ситуацию в текущий период.\n\n- **Прямо сейчас:** Look! The dog is running. - Смотри! Собака бежит.\n- **Временная ситуация:** She is working from home this week. - Она работает из дома на этой неделе.\n\n### Формула\n- **Утверждение:** Подлежащее + am/is/are + глагол с -ing.\n- **Отрицание:** Подлежащее + am/is/are not + глагол с -ing.\n- **Вопрос:** Am/Is/Are + подлежащее + глагол с -ing?\n\n### Утверждения: какую форму выбрать?\n\nС **I** используем **am**: I am working.\nС **he, she, it** используем **is**: He is working.\nС **we, you, they** используем **are**: They are working.\n\n**Правила добавления -ing:**\n- Большинство глаголов: просто добавляем -ing (read -> reading).\n- Глаголы на -e: убираем -e (make -> making).\n- В коротких глаголах с ударным последним слогом последняя согласная удваивается: sit -> sitting, run -> running. В других случаях удвоения нет: open -> opening.\n\n### Отрицания и вопросы\n\nДобавляем **not** к am/is/are:\n- I am not sleeping. He isn't working. They aren't playing.\n\nВ вопросе ставим am/is/are на первое место:\n- Are you listening? Is she cooking?\n\n### Важное примечание: Глаголы состояния (Stative Verbs)\n\nНекоторые глаголы обозначают состояние, чувство или мысль (know, like, want, understand). Обычно они **не используются** в Present Continuous.\n- Правильно: I know the answer. I like coffee.\n- Неправильно: I am knowing the answer. I am liking coffee.\n*Однако некоторые из них могут использоваться в Continuous, если меняют значение (например, I have a car - у меня есть машина, но I'm having lunch - я обедаю).*\n\n### Слова-подсказки\n\nС Present Continuous часто используются: now (сейчас), right now (прямо сейчас), at the moment (в данный момент), currently (в настоящее время).\n\n### Краткий вывод\n\nPresent Continuous нужен для процессов, которые происходят прямо сейчас или временно. Используй am/is/are как вспомогательный глагол, а смысловой глагол ставь с окончанием -ing. Помни про правила написания и не используй глаголы состояния (know, like) в этом времени.",
+  "questions": [
+    {
+      "question": "Look! The cat ___ on the sofa.",
+      "options": [
+        "sleep",
+        "sleeps",
+        "is sleeping",
+        "are sleeping"
+      ],
+      "correctAnswer": "is sleeping",
+      "explanation": "Слово Look! показывает, что мы наблюдаем за происходящим прямо сейчас. The cat - это it, поэтому используем is + sleeping."
+    },
+    {
+      "question": "They ___ football in the yard right now.",
+      "options": [
+        "play",
+        "are playing",
+        "is playing",
+        "plays"
+      ],
+      "correctAnswer": "are playing",
+      "explanation": "Right now означает 'прямо сейчас'. С they используем are + playing."
+    },
+    {
+      "question": "I ___ dinner at the moment.",
+      "options": [
+        "am cooking",
+        "is cooking",
+        "cook",
+        "cooks"
+      ],
+      "correctAnswer": "am cooking",
+      "explanation": "At the moment означает 'в данный момент'. С I используем am + cooking."
+    },
+    {
+      "question": "She ___ her homework now.",
+      "options": [
+        "is not doing",
+        "are not doing",
+        "does not do",
+        "not doing"
+      ],
+      "correctAnswer": "is not doing",
+      "explanation": "Отрицание в Present Continuous строится с помощью is not (isn't). С she используем is not + doing."
+    },
+    {
+      "question": "___ you ___ to music?",
+      "options": [
+        "Do / listen",
+        "Are / listening",
+        "Is / listening",
+        "Are / listen"
+      ],
+      "correctAnswer": "Are / listening",
+      "explanation": "Вопрос в Present Continuous: Are + you + глагол с -ing. Глагол listen получает окончание -ing."
+    },
+    {
+      "question": "Why ___ he ___ a jacket? It is warm today.",
+      "options": [
+        "does / wear",
+        "is / wearing",
+        "are / wearing",
+        "is / wear"
+      ],
+      "correctAnswer": "is / wearing",
+      "explanation": "Мы спрашиваем о том, что происходит сейчас. Вопрос: is + he + глагол с -ing (wearing)."
+    },
+    {
+      "question": "I ___ the answer to this question.",
+      "options": [
+        "am knowing",
+        "know",
+        "is knowing",
+        "knowing"
+      ],
+      "correctAnswer": "know",
+      "explanation": "Глагол know (знать) обычно не используется в Continuous, так как описывает состояние. Правильно: I know."
+    },
+    {
+      "question": "My parents ___ TV in the living room at the moment.",
+      "options": [
+        "watch",
+        "is watching",
+        "are watching",
+        "watches"
+      ],
+      "correctAnswer": "are watching",
+      "explanation": "At the moment указывает на настоящее время. My parents - это they, поэтому используем are + watching."
+    },
+    {
+      "question": "She usually wears jeans, but today she ___ a dress.",
+      "options": [
+        "wears",
+        "is wearing",
+        "wear",
+        "are wearing"
+      ],
+      "correctAnswer": "is wearing",
+      "explanation": "Слово today подчеркивает временную ситуацию. Поэтому вместо обычного Present Simple (wears) используем Present Continuous (is wearing)."
+    },
+    {
+      "question": "What ___ they ___ at the moment?",
+      "options": [
+        "are / doing",
+        "is / doing",
+        "do / do",
+        "are / do"
+      ],
+      "correctAnswer": "are / doing",
+      "explanation": "Вопрос в Present Continuous с they: are + they + глагол с -ing (doing)."
+    }
+  ]
+}

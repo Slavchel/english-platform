@@ -1,0 +1,85 @@
+{
+  "topic": "possessives",
+  "title": "Possessives: My, Mine, Whose (Притяжательные местоимения)",
+  "level": "A2",
+  "content": "### My и mine\n\n**My, your, his, her, its, our, their** стоят ПЕРЕД существительным: my car, their house. Они отвечают на вопрос «чей?».\n\n**Mine, yours, his, hers, ours, theirs** заменяют существительное и стоят без него: This car is mine — эта машина моя.\n- This is **my** bag. — определитель + существительное.\n- This bag is **mine**. — местоимение вместо my bag.\n\nВ притяжательных местоимениях нет апострофа: hers, ours, theirs, yours.\n\n### Whose и Who's\n\n**Whose** — вопрос о принадлежности: Whose pen is this? — Чья это ручка?\n\n**Who's** — сокращение от who is или who has: Who's at the door? — Кто у двери? Who's got my keys? — У кого мои ключи?\n- Whose bag is this? — чья сумка.\n- Who's this? — кто это.\n\n### Its и It's\n\n**Its** показывает принадлежность предмету или животному: The dog is wagging its tail.\n\n**It's** — сокращение от it is (реже it has): It's cold today. It's got a long tail.\n- The robot is moving **its** arm. — принадлежность.\n- **It's** moving its arm. — it is moving.\n\n### ⚠️ Типичная ошибка\n\nПутать my/mine, whose/who's и its/it's.\n- Неправильно: *Mine car is red.* / *Who's bag is this?* / *The dog is wagging it's tail.*\n- Правильно: *My car is red.* / *Whose bag is this?* / *The dog is wagging its tail.*",
+  "questions": [
+    {
+      "question": "This is ___ bag. I bought it yesterday.",
+      "options": [
+        "my",
+        "mine",
+        "me",
+        "I"
+      ],
+      "correctAnswer": "my",
+      "explanation": "После пропуска стоит существительное (bag). Значит, нужно притяжательное прилагательное my."
+    },
+    {
+      "question": "That car is not yours, it is ___.",
+      "options": [
+        "my",
+        "mine",
+        "me",
+        "I"
+      ],
+      "correctAnswer": "mine",
+      "explanation": "После пропуска нет существительного, речь идет о машине (it). Значит, используем притяжательное местоимение mine."
+    },
+    {
+      "question": "___ phone is ringing? I can hear a melody.",
+      "options": [
+        "Who's",
+        "Whose",
+        "Who",
+        "Which"
+      ],
+      "correctAnswer": "Whose",
+      "explanation": "Мы спрашиваем о принадлежности телефона (чей телефон звонит). Используем Whose."
+    },
+    {
+      "question": "The robot is moving ___ arm.",
+      "options": [
+        "it's",
+        "its",
+        "it",
+        "his"
+      ],
+      "correctAnswer": "its",
+      "explanation": "Робот — это неодушевленный предмет. Принадлежность выражается через its (без апострофа). It's = it is."
+    },
+    {
+      "question": "We finished the project, but they haven't finished ___.",
+      "options": [
+        "their",
+        "theirs",
+        "them",
+        "they"
+      ],
+      "correctAnswer": "theirs",
+      "explanation": "После пропуска нет существительного, речь идет о проекте. Используем притяжательное местоимение theirs."
+    },
+    {
+      "question": "Is this ___ jacket or your brother's?",
+      "options": [
+        "your",
+        "yours",
+        "you",
+        "you're"
+      ],
+      "correctAnswer": "your",
+      "explanation": "После пропуска стоит существительное jacket. Используем притяжательное прилагательное your."
+    },
+    {
+      "question": "This is their house. And that house over there is ___.",
+      "options": [
+        "our",
+        "ours",
+        "us",
+        "we"
+      ],
+      "correctAnswer": "ours",
+      "explanation": "После пропуска нет существительного (речь о нашем доме). Используем притяжательное местоимение ours."
+    }
+  ]
+}

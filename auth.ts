@@ -7,6 +7,7 @@ const TEST_EMAILS = Array.from(
   { length: 10 },
   (_, index) => `test${String(index + 1).padStart(2, "0")}@example.com`,
 );
+const ADMIN_EMAIL = "test01@example.com";
 
 // Email provider is temporarily disabled for local development.
 // import Email from "next-auth/providers/email";
@@ -19,6 +20,19 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   },
   pages: {
     signIn: "/login",
+  },
+  callbacks: {
+    async jwt({ token, user }) {
+      token.isAdmin = (user?.email ?? token.email) === ADMIN_EMAIL;
+      return token;
+    },
+    async session({ session, token }) {
+      if (session.user) {
+        session.user.isAdmin =
+          Boolean(token.isAdmin) || session.user.email === ADMIN_EMAIL;
+      }
+      return session;
+    },
   },
   providers: [
     // Email({

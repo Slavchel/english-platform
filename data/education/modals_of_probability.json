@@ -1,0 +1,96 @@
+{
+  "topic": "modals_of_probability",
+  "title": "Modals of Probability: May, Might, Could, Must, Can't (Вероятность)",
+  "level": "A2-B1",
+  "content": "### Как мы говорим о вероятности?\n\nПредставь, что ты гадаешь, почему твой друг не отвечает на звонок. В русском языке ты можешь сказать: *«Он, наверное, спит»*, *«Он, возможно, занят»* или *«Он, может быть, в душе»*. Смысл один — ты не знаешь точно. \n\nВ английском для таких догадок есть три слова: **could**, **might** и **may**. В реальной речи они очень часто заменяют друг друга, а разница между ними минимальна. Ползунок в уроке показывает лишь условный переход от сомнения к уверенности, но это не жесткое правило. Твоя задача — прочувствовать плавный переход, а не запомнить проценты.\n\n### 1. Возможность (Could, Might, May)\n\nИспользуем эти глаголы, когда предполагаем, что что-то возможно:\n- **Could** — самый «робкий» вариант. Мы используем его для теоретической возможности, когда мы вообще не уверены или просто допускаем мысль. *(В теории может быть).*\n- **Might** — средняя уверенность. Мы допускаем, что это может быть правдой, шансы есть. *(Возможно).*\n- **May** — чуть более высокая уверенность. Мы склоняемся к этой мысли. *(Вероятно).*\n\nПримеры:\n- It **could** rain later. - В теории может пойти дождь (но вряд ли).\n- She **might** call later. - Она, возможно, позвонит.\n- He **may** be at home. - Он, вероятно, дома.\n\n### 2. Уверенный вывод (Must)\n\nА теперь представь ситуацию: твой друг работал 12 часов без перерыва. Ты смотришь на него и понимаешь: *«Он **точно** уставший»* или *«Он, **должно быть**, устал»*. Здесь уже не скажешь «возможно».\n\nВ английском для таких логических выводов на основе фактов используем **must**.\n- He has been working all day. He **must be** tired. - Он работал весь день. Он, должно быть, устал (я вижу это по фактам).\n\n### 3. Невозможность (Can't)\n\nЕще одна ситуация: ты точно знаешь, что друг не может быть дома, потому что только что видел его в парке. В русском ты скажешь: *«Его **не может быть** дома»*.\n\nВ английском для этого используем **can't** (cannot).\n- He **can't be** at home. I just saw him in the park. - Его не может быть дома. Я только что видел его в парке.\n\n### ⚠️ Важно по грамматике\n\nПосле всех этих глаголов (could, might, may, must, can't) смысловой глагол ставится в начальной форме **без частицы to**.\n- Правильно: He must **be** tired. / She might **go** home.\n- Неправильно: He must **to be** tired. / She might **to go** home.\n\n### Шкала — это не жесткое правило\n\nCould, might и may могут обозначать одну и ту же степень сомнения в зависимости от контекста. Ниже — лишь условные оттенки:\n\n- Could / might / may — «Возможно, он дома».\n- Must — «Должно быть, он дома (я вижу свет в окне)».\n- Can't — «Не может быть, чтобы он был дома (я знаю, что он в другом месте)».\n\nНе запоминай проценты: важно почувствовать плавный переход от сомнения к уверенности.\n",
+  "questions": [
+    {
+      "question": "I'm not sure about my plans, but I ___ visit my parents this weekend.",
+      "options": [
+        "may",
+        "may to",
+        "am may",
+        "do may"
+      ],
+      "correctAnswer": "may",
+      "explanation": "Говорим о возможном плане (I'm not sure). Используем may + глагол без to."
+    },
+    {
+      "question": "Look at his car! He ___ be very rich.",
+      "options": [
+        "must",
+        "must to",
+        "is must",
+        "does must"
+      ],
+      "correctAnswer": "must",
+      "explanation": "У нас есть прямые доказательства (дорогая машина), поэтому мы делаем уверенный вывод. Используем must + глагол без to (must be)."
+    },
+    {
+      "question": "He has been working for 12 hours. He ___ be exhausted.",
+      "options": [
+        "must",
+        "must to",
+        "is must",
+        "does must"
+      ],
+      "correctAnswer": "must",
+      "explanation": "Доказательство (12 часов работы) указывает на уверенный логический вывод. Используем must be."
+    },
+    {
+      "question": "I just saw John at the cinema. He ___ be at home right now.",
+      "options": [
+        "can't",
+        "can't to",
+        "doesn't can",
+        "isn't can"
+      ],
+      "correctAnswer": "can't",
+      "explanation": "У нас есть доказательство обратного (я видел его в кино), поэтому используем can't (не может быть)."
+    },
+    {
+      "question": "This old bridge ___ be dangerous, so let's be careful.",
+      "options": [
+        "could",
+        "could to",
+        "coulds",
+        "is could"
+      ],
+      "correctAnswer": "could",
+      "explanation": "Говорим о теоретической возможности (мост в теории может быть опасным). Используем could + глагол без to."
+    },
+    {
+      "question": "She isn't answering the phone. She ___ be sleeping.",
+      "options": [
+        "might",
+        "might to",
+        "am might",
+        "do might"
+      ],
+      "correctAnswer": "might",
+      "explanation": "Мы делаем предположение о возможной причине. Might + глагол без to."
+    },
+    {
+      "question": "You have been travelling all day. You ___ be very tired.",
+      "options": [
+        "must",
+        "must to",
+        "is must",
+        "does must"
+      ],
+      "correctAnswer": "must",
+      "explanation": "Логический вывод на основе факта (весь день в пути). Используем must be."
+    },
+    {
+      "question": "No, he ___ be at the party. He told me he was staying home tonight.",
+      "options": [
+        "can't",
+        "can't to",
+        "doesn't can",
+        "isn't can"
+      ],
+      "correctAnswer": "can't",
+      "explanation": "Есть факт, доказывающий невозможность (он сказал, что остается дома). Используем can't."
+    }
+  ]
+}

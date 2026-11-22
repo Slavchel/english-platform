@@ -1,0 +1,97 @@
+{
+  "topic": "gerunds_infinitives",
+  "title": "Gerunds and Infinitives (Герундий и инфинитив)",
+  "level": "B1-B2",
+  "introText": "После разных глаголов используются разные формы: -ing или to + инфинитив. Часто форму нужно запоминать вместе с глаголом, но есть и понятные закономерности. В этом уроке мы разберемся, как не запутаться",
+  "content": "### В чем проблема?\n\nПосле разных глаголов используются разные формы: -ing (герундий) или to + инфинитив. Часто форму нужно запоминать вместе с глаголом, но некоторые конструкции имеют понятные смысловые закономерности. Отдельные глаголы могут использовать обе формы с разным значением.\n\n### Глаголы + V-ing (Герундий)\n\nЭти глаголы требуют после себя -ing:\n- **enjoy** (наслаждаться), **avoid** (избегать), **finish** (заканчивать), **mind** (возражать), **suggest** (предлагать).\n- I enjoy **reading** books.\n- He suggested **going** to the cinema.\n\n### Глаголы + to + V (Инфинитив)\n\nЭти глаголы требуют после себя to + глагол:\n- **want** (хотеть), **decide** (решать), **hope** (надеяться), **plan** (планировать), **promise** (обещать).\n- I want **to go** home.\n- She decided **to buy** a new phone.\n\n### Глаголы, которые принимают обе формы\n\nНекоторые глаголы (like, love, hate, prefer) могут употребляться с обеими формами. Разница часто небольшая и зависит от контекста.\n- I like **swimming** / I like **to swim**.\n\n### Глаголы, которые меняют смысл\n\nС некоторыми глаголами выбор формы меняет смысл:\n- **stop doing** (перестать делать) vs **stop to do** (остановиться, чтобы сделать).\n- **remember doing** (помнить, что сделал) vs **remember to do** (не забыть сделать).\n- **try doing** (попробовать способ) vs **try to do** (пытаться сделать).\n- **forget doing** (забыть, что делал) vs **forget to do** (забыть сделать).\n\n### ⚠️ Типичная ошибка\n\nИспользовать to после глаголов, которые требуют -ing (и наоборот).\n- Неправильно: *I enjoy to read.* / *I want going.*\n- Правильно: *I enjoy reading.* / *I want to go.*\n\n### Два блока для запоминания\n\n**1. Только одна форма:**\n- enjoy / avoid / finish / mind / suggest + V-ing;\n- want / decide / hope / plan / promise + to + V.\n\n**2. Форма меняет смысл:**\n- stop doing — перестать делать; stop to do — остановиться, чтобы сделать;\n- remember doing — помнить, что сделал; remember to do — не забыть сделать;\n- try doing — попробовать способ; try to do — пытаться сделать;\n- forget doing — забыть, что делал; forget to do — забыть сделать.\n",
+  "questions": [
+    {
+      "question": "I really enjoy ___ (listen) to music in the evening.",
+      "options": [
+        "to listen",
+        "listening",
+        "listen",
+        "listened"
+      ],
+      "correctAnswer": "listening",
+      "explanation": "Глагол enjoy требует после себя герундий (-ing): enjoy listening."
+    },
+    {
+      "question": "She promised ___ (help) me with my homework.",
+      "options": [
+        "helping",
+        "to help",
+        "help",
+        "helped"
+      ],
+      "correctAnswer": "to help",
+      "explanation": "Глагол promise требует после себя инфинитив с to: promised to help."
+    },
+    {
+      "question": "You should avoid ___ (eat) too much sugar.",
+      "options": [
+        "to eat",
+        "eating",
+        "eat",
+        "ate"
+      ],
+      "correctAnswer": "eating",
+      "explanation": "Глагол avoid требует после себя герундий (-ing): avoid eating."
+    },
+    {
+      "question": "They decided ___ (not / go) on holiday this year.",
+      "options": [
+        "not going",
+        "not to go",
+        "not go",
+        "don't going"
+      ],
+      "correctAnswer": "not to go",
+      "explanation": "Глагол decide требует инфинитив с to. Отрицание ставится перед to: decided not to go."
+    },
+    {
+      "question": "He stopped ___ (smoke) two years ago and hasn't smoked since.",
+      "options": [
+        "to smoke",
+        "smoking",
+        "smoke",
+        "smoked"
+      ],
+      "correctAnswer": "smoking",
+      "explanation": "Контекст указывает на то, что он бросил привычку. Stop + -ing = перестать делать."
+    },
+    {
+      "question": "I can't remember ___ (lock) the door. Let me check.",
+      "options": [
+        "to lock",
+        "locking",
+        "lock",
+        "locked"
+      ],
+      "correctAnswer": "locking",
+      "explanation": "Remember + -ing означает помнить, что совершил действие в прошлом. Говорящий не помнит самого момента, когда запирал дверь."
+    },
+    {
+      "question": "Please remember ___ (buy) some milk when you go to the shop.",
+      "options": [
+        "buying",
+        "to buy",
+        "buy",
+        "bought"
+      ],
+      "correctAnswer": "to buy",
+      "explanation": "Remember + to do означает не забыть сделать что-то в будущем. Пожалуйста, не забудь купить молоко."
+    },
+    {
+      "question": "She doesn't mind ___ (work) on weekends occasionally.",
+      "options": [
+        "to work",
+        "working",
+        "work",
+        "worked"
+      ],
+      "correctAnswer": "working",
+      "explanation": "Глагол mind (возражать) требует после себя герундий (-ing): doesn't mind working."
+    }
+  ]
+}

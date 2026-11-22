@@ -1,0 +1,32 @@
+{
+  "nodes": {
+    "to_be_am_is_are_A1": { "mapX": 20, "mapY": 25 },
+    "there_is_there_are_A2": { "mapX": 45, "mapY": 15 },
+    "possessives": { "mapX": 45, "mapY": 40 },
+
+    "present_simple_A1": { "mapX": 75, "mapY": 15 },
+    "present_continuous_A1": { "mapX": 85, "mapY": 35 },
+    "present_simple_vs_present_continuous": { "mapX": 70, "mapY": 50 },
+
+    "past_simple": { "mapX": 15, "mapY": 70 },
+    "past_continuous": { "mapX": 35, "mapY": 80 },
+    "past_simple_vs_past_continuous": { "mapX": 55, "mapY": 70 },
+
+    "future_will": { "mapX": 75, "mapY": 75 },
+    "future_going_to": { "mapX": 85, "mapY": 90 }
+  },
+  "connections": [
+    { "from": "to_be_am_is_are_A1", "to": "there_is_there_are_A2" },
+    { "from": "to_be_am_is_are_A1", "to": "possessives" },
+    { "from": "possessives", "to": "present_simple_A1" },
+    { "from": "present_simple_A1", "to": "present_continuous_A1" },
+    { "from": "present_simple_A1", "to": "present_simple_vs_present_continuous" },
+    { "from": "present_continuous_A1", "to": "present_simple_vs_present_continuous" },
+    { "from": "present_simple_vs_present_continuous", "to": "past_simple" },
+    { "from": "past_simple", "to": "past_continuous" },
+    { "from": "past_simple", "to": "past_simple_vs_past_continuous" },
+    { "from": "past_continuous", "to": "past_simple_vs_past_continuous" },
+    { "from": "past_simple_vs_past_continuous", "to": "future_will" },
+    { "from": "future_will", "to": "future_going_to" }
+  ]
+}

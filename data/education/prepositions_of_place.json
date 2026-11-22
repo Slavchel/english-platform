@@ -1,0 +1,50 @@
+{
+  "topic": "prepositions_of_place",
+  "title": "Prepositions of Place: In, On, At, Under (Предлоги места)",
+  "level": "A1-A2",
+  "content": "### Когда они нужны?\n\nЭти предлоги помогают ответить на вопрос **Where?** (Где?) и показать, как предмет расположен в пространстве.\n\n### In (В, внутри)\n\nИспользуем, когда предмет находится внутри чего-то (комната, коробка, город, страна).\n- The keys are **in** my bag. - Ключи в моей сумке.\n- She lives **in** London. - Она живет в Лондоне.\n\n### On (На)\n\nИспользуем, когда предмет находится на поверхности (стол, стена, пол).\n- The book is **on** the table. - Книга на столе.\n- There is a picture **on** the wall. - На стене висит картина.\n\n### At (У, около, в)\n\nИспользуем, когда предмет находится в конкретной точке, у какого-то объекта или на мероприятии.\n- I am **at** the bus stop. - Я на автобусной остановке.\n- He is **at** work. - Он на работе.\n- Look **at** me. - Посмотри на меня (направить взгляд в точку).\n\n### Under (Под)\n\nИспользуем, когда один предмет находится ниже другого.\n- The cat is **under** the table. - Кошка под столом.\n\n### ⚠️ Типичная ошибка\n\nПутать In и On, или говорить *on the room* вместо *in the room*.\n- Неправильно: *The keys are on my bag.* (если они внутри).\n- Правильно: *The keys are in my bag.*",
+  "questions": [
+    {
+      "question": "I have a lot of books ___ my room.",
+      "options": ["in", "on", "at", "under"],
+      "correctAnswer": "in",
+      "explanation": "Книги находятся внутри комнаты. Для замкнутого пространства используем in."
+    },
+    {
+      "question": "Your phone is ___ the table, next to the laptop.",
+      "options": ["in", "on", "at", "under"],
+      "correctAnswer": "on",
+      "explanation": "Телефон лежит на поверхности стола. Используем on."
+    },
+    {
+      "question": "I am waiting for you ___ the bus stop.",
+      "options": ["in", "on", "at", "under"],
+      "correctAnswer": "at",
+      "explanation": "Автобусная остановка — это конкретная точка/место. Используем at."
+    },
+    {
+      "question": "The dog is sleeping ___ the table.",
+      "options": ["in", "on", "at", "under"],
+      "correctAnswer": "under",
+      "explanation": "Собака находится ниже стола. Используем under."
+    },
+    {
+      "question": "We are ___ a concert right now. It's amazing!",
+      "options": ["in", "on", "at", "under"],
+      "correctAnswer": "at",
+      "explanation": "Используем at, когда находимся на мероприятии (at a concert, at a party, at work)."
+    },
+    {
+      "question": "There is a beautiful picture ___ the wall.",
+      "options": ["in", "on", "at", "under"],
+      "correctAnswer": "on",
+      "explanation": "Картина висит на поверхности стены. Используем on."
+    },
+    {
+      "question": "She lives ___ Paris with her family.",
+      "options": ["in", "on", "at", "under"],
+      "correctAnswer": "in",
+      "explanation": "С городами и странами используем предлог in."
+    }
+  ]
+}

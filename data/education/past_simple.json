@@ -1,0 +1,68 @@
+{
+  "topic": "past_simple",
+  "title": "Past Simple (Прошедшее простое время)",
+  "level": "A2",
+  "content": "### Когда нужен Past Simple?\n\nPast Simple используют для описания завершённых действий и состояний в прошлом. Время может быть указано прямо (yesterday) или быть понятным из контекста (например, в рассказе о прошлом).\n- I watched a movie yesterday.\n- Shakespeare wrote many plays. (Время понятно из контекста).\n\n### Формула\n- **Утверждение:** Подлежащее + глагол с окончанием -ed (или 2-я форма).\n- **Отрицание:** Подлежащее + did not (didn't) + глагол в начальной форме.\n- **Вопрос:** Did + подлежащее + глагол в начальной форме?\n\n### Утверждения: правильные и неправильные глаголы\n\n1. **Правильные:** к ним добавляется окончание **-ed**. \n   *Обрати внимание на правописание:* work -> worked, live -> lived (просто -d), study -> studied (y меняется на -ied), stop -> stopped (удвоение согласной).\n2. **Неправильные:** их форма меняется полностью, их нужно запоминать (go -> went, see -> saw, have -> had).\n\n### Отрицания и вопросы\n\nКак только в предложении появляется **did** или **didn't**, основной глагол теряет свои окончания и возвращается в начальную форму.\n- Отрицание: I didn't watch TV. (Не I didn't watched).\n- Вопрос: Did you go to school? (Не Did you went).\n\n### Слова-подсказки\n\nС Past Simple часто встречаются: yesterday, last week / month / year, two days ago, in 2010.\n\n### Краткий вывод\n\nPast Simple - это время для фактов из прошлого. Если глагол правильный, добавляй к нему -ed, если неправильный - используй вторую форму. В вопросах и отрицаниях тебе поможет Did, после которого глагол стоит в начальной форме.",
+  "questions": [
+    {
+      "question": "I ___ to the cinema last weekend.",
+      "options": ["go", "went", "gone", "was go"],
+      "correctAnswer": "went",
+      "explanation": "Last weekend указывает на прошлое. Глагол go - неправильный, его вторая форма - went."
+    },
+    {
+      "question": "She ___ her homework two hours ago. She finished it before dinner.",
+      "options": ["finish", "finished", "finishes", "finishing"],
+      "correctAnswer": "finished",
+      "explanation": "Two hours ago - завершенное время в прошлом. Глагол finish правильный, добавляем -ed."
+    },
+    {
+      "question": "We ___ see the match because we were busy.",
+      "options": ["don't", "didn't", "wasn't", "weren't"],
+      "correctAnswer": "didn't",
+      "explanation": "Отрицание в Past Simple строится с помощью didn't для всех лиц."
+    },
+    {
+      "question": "___ you buy that jacket yesterday?",
+      "options": ["Do", "Did", "Was", "Were"],
+      "correctAnswer": "Did",
+      "explanation": "Вопрос в Past Simple начинается с Did. Глагол buy остается в начальной форме."
+    },
+    {
+      "question": "He didn't ___ his friends at the park.",
+      "options": ["saw", "seen", "see", "sees"],
+      "correctAnswer": "see",
+      "explanation": "После didn't глагол всегда ставится в начальную форму без окончаний: see."
+    },
+    {
+      "question": "My parents ___ a new car last month.",
+      "options": ["buy", "bought", "buyed", "buys"],
+      "correctAnswer": "bought",
+      "explanation": "Last month - прошлое. Глагол buy неправильный, его вторая форма - bought."
+    },
+    {
+      "question": "Where ___ you go on holiday last summer?",
+      "options": ["do", "did", "was", "were"],
+      "correctAnswer": "did",
+      "explanation": "Вопрос в Past Simple: Where + did + you + начальная форма глагола (go)."
+    },
+    {
+      "question": "I ___ the answer, so I asked the teacher.",
+      "options": ["don't know", "didn't know", "wasn't know", "not knew"],
+      "correctAnswer": "didn't know",
+      "explanation": "Действие в прошлом (спросил учителя). Отрицание для глагола know: didn't know."
+    },
+    {
+      "question": "The train ___ at 8:00 yesterday morning.",
+      "options": ["leave", "leaves", "left", "leaved"],
+      "correctAnswer": "left",
+      "explanation": "Yesterday morning - прошлое. Глагол leave неправильный, его вторая форма - left."
+    },
+    {
+      "question": "They ___ to the party because they were tired.",
+      "options": ["didn't came", "didn't come", "don't come", "not came"],
+      "correctAnswer": "didn't come",
+      "explanation": "После didn't используется начальная форма глагола come."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "topic": "demonstratives",
+  "title": "Demonstratives: This, That, These, Those (Указательные местоимения)",
+  "level": "A1-A2",
+  "content": "### Когда они нужны?\n\nМы используем эти слова, чтобы указать на предмет и показать, находится он близко или далеко, а также об одном мы говорим или о нескольких.\n\n### This и These (Близко)\n\n- **This** (этот, эта, это) — используем для одного предмета, который находится **рядом** с нами.\n  * **This** is my phone. - Это мой телефон.\n- **These** (эти) — используем для нескольких предметов, которые находятся **рядом**.\n  * **These** are my books. - Это мои книги.\n\n### That и Those (Далеко)\n\n- **That** (тот, та, то) — используем для одного предмета, который находится **далеко** от нас.\n  * **That** is your car over there. - Вон та машина — твоя.\n- **Those** (те) — используем для нескольких предметов, которые находятся **далеко**.\n  * **Those** are beautiful mountains. - Те горы красивые.\n\n*Обычно this/these указывают на что-то близкое, а that/those — на более далёкое. Но расстояние не всегда физическое: **this morning** — сегодняшнее утро, которое ещё продолжается; **that day** — тот день в прошлом.*\n\n### Как задать вопрос?\n\n- **Is this** your pen? - Это твоя ручка? (один предмет близко)\n- **Are these** your keys? - Это твои ключи? (несколько предметов близко)\n- **Is that** your bag? - То твоя сумка? (один предмет далеко)\n- **Are those** your shoes? - То твои туфли? (несколько предметов далеко)\n\n### ⚠️ Типичная ошибка\n\nПутать единственное и множественное число.\n- Неправильно: *This are my friends.* / *These is my book.*\n- Правильно: *This is my book.* / *These are my friends.*",
+  "questions": [
+    {
+      "question": "___ is my cup here on the table.",
+      "options": [
+        "This",
+        "These",
+        "That",
+        "Those"
+      ],
+      "correctAnswer": "This",
+      "explanation": "Речь об одном предмете (cup) рядом с нами (here on the table). Используем This + is."
+    },
+    {
+      "question": "Look at ___ birds in the sky! They are flying south.",
+      "options": [
+        "This",
+        "These",
+        "That",
+        "Those"
+      ],
+      "correctAnswer": "Those",
+      "explanation": "Речь о нескольких предметах (birds), которые находятся далеко (in the sky). Используем Those + are."
+    },
+    {
+      "question": "___ are my shoes right here by the door.",
+      "options": [
+        "This",
+        "These",
+        "That",
+        "Those"
+      ],
+      "correctAnswer": "These",
+      "explanation": "Несколько предметов (shoes) рядом с нами (right here). Используем These + are."
+    },
+    {
+      "question": "Can you see ___ house on the hill? It's very old.",
+      "options": [
+        "this",
+        "these",
+        "that",
+        "those"
+      ],
+      "correctAnswer": "that",
+      "explanation": "Один предмет (house) находится далеко (on the hill). Используем that."
+    },
+    {
+      "question": "___ is my jacket here next to me.",
+      "options": [
+        "This",
+        "These",
+        "That",
+        "Those"
+      ],
+      "correctAnswer": "This",
+      "explanation": "Один предмет (jacket) рядом с говорящим (here next to me). Используем This."
+    },
+    {
+      "question": "What are ___ things over there?",
+      "options": [
+        "this",
+        "these",
+        "that",
+        "those"
+      ],
+      "correctAnswer": "those",
+      "explanation": "Несколько предметов (things) далеко (over there). Вопрос во множественном числе: What are those?"
+    },
+    {
+      "question": "___ are my friends here with me.",
+      "options": [
+        "This",
+        "These",
+        "That",
+        "Those"
+      ],
+      "correctAnswer": "These",
+      "explanation": "Несколько человек (friends) рядом (here with me). Используем These."
+    }
+  ]
+}

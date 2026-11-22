@@ -1,0 +1,118 @@
+{
+  "topic": "future_will",
+  "title": "Future Simple: Will (Спонтанные решения, обещания и прогнозы)",
+  "level": "A2",
+  "content": "### Когда нужен Will?\n\nFuture Simple (will) часто используется, когда мы говорим о будущем. Вот несколько типичных ситуаций:\n- **Спонтанные решения:** The phone is ringing. I will answer it. (Я принял решение прямо сейчас).\n- **Обещания:** I will help you with your bags. (Я обещаю помочь).\n- **Прогнозы и мнения:** I think it will rain tomorrow. (Я предполагаю, основываясь на своих мыслях).\n\n### Формула\n- **Утверждение:** Подлежащее + will + глагол в начальной форме.\n- **Отрицание:** Подлежащее + will not (won't) + глагол.\n- **Вопрос:** Will + подлежащее + глагол?\n\n### Утверждения, отрицания и вопросы\n\nГлагол **will** никогда не меняется по лицам (не добавляет -s).\n- I / He / They **will** go.\n- Отрицание: I **will not** (won't) tell anyone.\n- Вопрос: **Will** you help me?\n\n### ⚠️ Типичная ошибка\n\nДобавлять к глаголу после will окончания или частицу to.\n- Неправильно: *I will to go.* / *He will goes.*\n- Правильно: *I will go.* / *He will go.*\n\n### Слова-подсказки\n\nС Will часто используются фразы, показывающие мнение или обещание: I think... (Я думаю), I promise... (Я обещаю), probably (вероятно).\n\n### Краткий вывод\n\nWill часто используется для решений, обещаний и прогнозов, основанных на мнении. Это не единственный способ говорить о будущем: выбор зависит от контекста. После will глагол всегда стоит в начальной форме.",
+  "questions": [
+    {
+      "question": "The phone is ringing. I ___ answer it.",
+      "options": [
+        "am",
+        "will",
+        "going to",
+        "do"
+      ],
+      "correctAnswer": "will",
+      "explanation": "Решение отвечать на звонок принято прямо сейчас, в момент речи. Используем will + глагол."
+    },
+    {
+      "question": "Don't worry, I ___ tell anyone your secret.",
+      "options": [
+        "will not",
+        "don't",
+        "am not",
+        "not will"
+      ],
+      "correctAnswer": "will not",
+      "explanation": "Это обещание не делать чего-то. Отрицание в Future Simple: will not (won't)."
+    },
+    {
+      "question": "I think people ___ live on Mars in the future.",
+      "options": [
+        "will",
+        "are",
+        "do",
+        "going"
+      ],
+      "correctAnswer": "will",
+      "explanation": "Говорящий выражает собственный прогноз, а не описывает заранее сформированный план. Используем will."
+    },
+    {
+      "question": "___ you help me with this box? It's too heavy.",
+      "options": [
+        "Do",
+        "Are",
+        "Will",
+        "Going"
+      ],
+      "correctAnswer": "Will",
+      "explanation": "Мы предлагаем помощь или просим ее. Вопрос в Future Simple строится через Will."
+    },
+    {
+      "question": "It's cold in here. I ___ close the window.",
+      "options": [
+        "will",
+        "am",
+        "do",
+        "going"
+      ],
+      "correctAnswer": "will",
+      "explanation": "Спонтанное решение, принятое в момент разговора (стало холодно). Используем will."
+    },
+    {
+      "question": "I promise I ___ be late tomorrow.",
+      "options": [
+        "don't",
+        "am not",
+        "won't",
+        "not will"
+      ],
+      "correctAnswer": "won't",
+      "explanation": "Promise (обещание) часто используется с will. Отрицание: won't (will not) + глагол."
+    },
+    {
+      "question": "He ___ come to the party. He is too busy.",
+      "options": [
+        "won't",
+        "doesn't",
+        "isn't",
+        "not"
+      ],
+      "correctAnswer": "won't",
+      "explanation": "Прогноз или мнение о будущем (он занят, поэтому не придет). Отрицание с will: won't."
+    },
+    {
+      "question": "We haven't made any plans yet. Maybe we ___ go to the cinema tonight.",
+      "options": [
+        "will",
+        "are",
+        "do",
+        "going"
+      ],
+      "correctAnswer": "will",
+      "explanation": "Решение рассматривается как возможная идея, возникшая в момент разговора (нет планов). Используем will."
+    },
+    {
+      "question": "I will ___ you tomorrow morning.",
+      "options": [
+        "to call",
+        "calling",
+        "call",
+        "called"
+      ],
+      "correctAnswer": "call",
+      "explanation": "После will глагол всегда ставится в начальной форме без частицы to и окончаний."
+    },
+    {
+      "question": "What ___ you do if you win the lottery?",
+      "options": [
+        "do",
+        "are",
+        "will",
+        "going"
+      ],
+      "correctAnswer": "will",
+      "explanation": "Это условное предложение первого типа (First Conditional). В главной части используем will + начальную форму глагола, а после if — Present Simple."
+    }
+  ]
+}

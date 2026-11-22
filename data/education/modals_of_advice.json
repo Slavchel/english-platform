@@ -1,0 +1,96 @@
+{
+  "topic": "modals_of_advice",
+  "title": "Modals of Advice: Should, Ought to, Had better (Советы)",
+  "level": "A2",
+  "content": "### Когда нужны эти глаголы?\n\nМы используем их, когда хотим дать кому-то совет, сказать, что будет лучше сделать, или предупредить о последствиях.\n\n### Should (Следует, стоит)\n\nСамый распространенный и мягкий способ дать совет. Это не строгая обязанность, а рекомендация.\n- You **should** take an umbrella. - Тебе стоит взять зонт.\n- He **should** see a doctor. - Ему следует показаться врачу.\n- Отрицание: You **shouldn't** eat so much sugar. - Тебе не стоит есть так много сахара.\n\n### Ought to (Следует)\n\nОзначает то же самое, что и *should*, но звучит чуть более формально. После ought **всегда** ставим частицу to (ought to go, ought to see).\n- You **ought to** apologize. - Тебе следует извиниться.\n- Отрицание: You **ought not to** do that (формально).\n\n### Had better (Лучше бы)\n\nИспользуется, когда совет звучит как предупреждение. Если ты этого не сделаешь, будут плохие последствия.\n- You **had better** hurry up, or you will miss the train. - Тебе лучше поторопиться, иначе опоздаешь на поезд.\n- *В разговорной речи had сокращается до 'd*: You'd better hurry.\n- Отрицание: You **had better not** (You'd better not) be late. - Тебе лучше не опаздывать.\n\n### ⚠️ Типичная ошибка\n\nДобавлять частицу to после should и had better, или забывать to после ought.\n- Неправильно: *You should to go.* / *You had better to go.* / *You ought go.*\n- Правильно: *You should go.* / *You had better go.* / *You ought to go.*",
+  "questions": [
+    {
+      "question": "You look tired. You ___ go to bed early tonight.",
+      "options": [
+        "should",
+        "should to",
+        "ought",
+        "had better to"
+      ],
+      "correctAnswer": "should",
+      "explanation": "Даем мягкий совет (тебе стоит). После should глагол идет без частицы to."
+    },
+    {
+      "question": "We ___ to book the tickets now, or they will be sold out.",
+      "options": [
+        "should",
+        "ought",
+        "had better",
+        "must"
+      ],
+      "correctAnswer": "ought",
+      "explanation": "Конструкция ought to означает 'следует'. В пропуске нет частицы to, значит, подходит только ought (ought to book)."
+    },
+    {
+      "question": "You ___ better take an umbrella.",
+      "options": [
+        "had",
+        "would",
+        "should",
+        "ought"
+      ],
+      "correctAnswer": "had",
+      "explanation": "Конструкция had better + глагол без to означает сильный совет: You had better take an umbrella. В пропуске перед better нужен had."
+    },
+    {
+      "question": "You ___ better not tell her the truth. She will be very upset.",
+      "options": [
+        "had",
+        "would",
+        "should",
+        "ought"
+      ],
+      "correctAnswer": "had",
+      "explanation": "Конструкция had better not означает 'лучше не'. В пропуске есть better not, значит, ставим had."
+    },
+    {
+      "question": "You ___ to tell your parents about this problem.",
+      "options": [
+        "should",
+        "ought",
+        "had better",
+        "can"
+      ],
+      "correctAnswer": "ought",
+      "explanation": "Используем ought to для совета. В пропуске уже есть частица to, поэтому ставим ought."
+    },
+    {
+      "question": "He is always late. He ___ be more punctual.",
+      "options": [
+        "should",
+        "should to",
+        "ought",
+        "had better to"
+      ],
+      "correctAnswer": "should",
+      "explanation": "Даем совет о пунктуальности. Should + глагол без to."
+    },
+    {
+      "question": "You ___ to apologize to her immediately.",
+      "options": [
+        "should",
+        "ought",
+        "had better",
+        "can"
+      ],
+      "correctAnswer": "ought",
+      "explanation": "После ought всегда идет to. В предложении есть to apologize, поэтому подходит ought."
+    },
+    {
+      "question": "You had better ___ that mushroom. It might be poisonous.",
+      "options": [
+        "eat",
+        "to eat",
+        "not eat",
+        "not to eat"
+      ],
+      "correctAnswer": "not eat",
+      "explanation": "После had better используется глагол без to. Отрицание ставится перед глаголом: had better not eat. It might be poisonous — сильное предупреждение."
+    }
+  ]
+}

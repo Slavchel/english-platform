@@ -1,0 +1,63 @@
+{
+  "topic": "future_forms_will_going_to_present_continuous",
+  "title": "Future Forms: Will / Going to / Present Continuous (Способы говорить о будущем)",
+  "level": "A2",
+  "content": "### В чем разница?\n\nВ английском языке нет одного универсального будущего времени. Мы используем разные конструкции в зависимости от того, насколько мы уверены в своих планах и когда мы их приняли. Важно понимать: эти конструкции часто пересекаются, и в некоторых ситуациях можно использовать несколько форм, но смысловые оттенки будут различаться.\n\n- **Will:** Решение, принятое прямо сейчас (спонтанно), обещания или личные предположения (часто с *I think*).\n- **Going to:** Заранее принятое намерение (но без конкретной договоренности с людьми) или прогноз, основанный на видимых признаках.\n- **Present Continuous:** Уже организованная договоренность (встреча с кем-то, купленные билеты).\n\n### Примеры\n- **Will:** The phone is ringing. I will answer it! (Я принял решение прямо сейчас, в момент звонка).\n- **Going to:** I am going to visit my parents this weekend. (Я решил это заранее, но пока ни с кем не договорился).\n- **Present Continuous:** I am meeting my friend at 7 p.m. (Мы уже договорились, есть точное время).\n\n### ⚠️ Важно: Не путайте абсолютные правила\n\nВ реальной речи границы размыты. Если вы видите тучи, вы можете сказать: *Look at those clouds! It will rain* или *It is going to rain*. Оба варианта правильные, но *going to* звучит естественнее, потому что есть визуальное доказательство.\n\nЕсли вы говорите *I think our team will win* — это ваше мнение. Но если вы говорите *I think our team is going to win*, это тоже абсолютно нормально, особенно если у команды сильный состав.\n\n### Слова-подсказки\n- **Спонтанность:** I think, probably, I hope (для Will).\n- **Признаки:** Look!, Listen! (для Going to).\n- **Договоренности:** arranged, booked, scheduled (для Present Continuous).\n\n### Краткий вывод\n\nВыбирайте конструкцию по ситуации: если решаете на ходу — *Will*. Если у вас есть план, но нет договоренностей с другими людьми — *Going to*. Если вы уже договорились о времени и месте с кем-то — *Present Continuous*.\n\n### В этом уроке только три формы\n\nМы разбираем will, going to и Present Continuous. Future Continuous и Future Perfect — отдельные темы, поэтому не смешивай их с этим уроком.\n",
+  "questions": [
+    {
+      "question": "Your friend asks what you think will happen. You have no special evidence, but you want to give your opinion. What do you say? The team ___ the match tomorrow.",
+      "options": [
+        "is winning",
+        "will win",
+        "wins",
+        "is going to win"
+      ],
+      "correctAnswer": "will win",
+      "explanation": "Говорящий выражает личное мнение о будущем, не опираясь на конкретные признаки. В такой ситуации используется will."
+    },
+    {
+      "question": "Anna has agreed to meet us at 7 p.m. on Friday. We have booked a table and invited our friends — everything is arranged. We ___ dinner with her at 7.",
+      "options": [
+        "are having",
+        "have",
+        "had",
+        "having"
+      ],
+      "correctAnswer": "are having",
+      "explanation": "Встреча полностью организована: время согласовано, столик забронирован. Для такой договорённости используем Present Continuous: are having."
+    },
+    {
+      "question": "She decided last week to make a cake this evening. She hasn't arranged anything else yet. She ___ a cake this evening.",
+      "options": [
+        "makes",
+        "is making",
+        "is going to make",
+        "will make"
+      ],
+      "correctAnswer": "is going to make",
+      "explanation": "Решение было принято заранее, но речь не идёт о конкретной договоренности с другими людьми. Поэтому используем going to."
+    },
+    {
+      "question": "Look at those dark clouds! It ___ rain soon.",
+      "options": [
+        "is going to",
+        "will",
+        "is raining",
+        "rains"
+      ],
+      "correctAnswer": "is going to",
+      "explanation": "Мы видим конкретные признаки (тучи) прямо сейчас, по которым делаем прогноз. Поэтому используем going to."
+    },
+    {
+      "question": "You've booked your flights and confirmed the departure time with your travel companion. How do you describe your travel arrangement? We ___ to Rome next Saturday.",
+      "options": [
+        "will fly",
+        "are flying",
+        "fly",
+        "were flying"
+      ],
+      "correctAnswer": "are flying",
+      "explanation": "Билеты куплены, время согласовано, есть четкая договоренность. Present Continuous — идеальный выбор для описания организованных планов."
+    }
+  ]
+}

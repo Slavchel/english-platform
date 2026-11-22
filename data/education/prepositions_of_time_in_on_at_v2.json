@@ -1,0 +1,107 @@
+{
+  "topic": "prepositions_of_time_in_on_at",
+  "title": "Prepositions of Time: In, On, At (Предлоги времени)",
+  "level": "A2",
+  "content": "### В чем разница?\n\nВыбирай предлог по тому, насколько точно указано время.\n\n### In - для больших периодов\n\nИспользуем для месяцев, лет, времен года и частей дня.\n\nI was born in 2001. - Я родился в 2001 году.\n\nWe go skiing in winter. - Мы катаемся на лыжах зимой.\n\nI usually work in the morning. - Обычно я работаю утром.\n\n### On - для дней недели и конкретных дат\n\nThe match is on Saturday. - Матч в субботу.\n\nHer birthday is on 12 May. - Ее день рождения 12 мая.\n\nWe don't have classes on Mondays. - У нас нет занятий по понедельникам.\n\n### At - для точного времени и некоторых устойчивых выражений\n\nThe film starts at 7:30. - Фильм начинается в 7:30.\n\nI usually go to bed at midnight. - Обычно я ложусь спать в полночь.\n\nHe works at night. - Он работает ночью.\n\n### Кратко\n\n- Предлог **in** = Большой период: in July, in 2026, in summer, in the evening.\n- Предлог **on** = День или дата: on Friday, on my birthday, on 1 January.\n- Предлог **at** = Точный момент: at 6 o'clock, at noon, at midnight, at night.\n\n### Полезные подсказки\n\n- Говорим in the morning, in the afternoon, in the evening, но at night.\n- Перед last, next, every и this предлог обычно не нужен: next Tuesday, last year, every morning, this weekend.\n- В британском английском чаще говорят at the weekend, а в американском английском часто говорят on the weekend.\n\n### ⚠️ Типичная ошибка\n\nНеправильно: The train leaves on 8 o'clock.\n\nПравильно: The train leaves at 8 o'clock. - Поезд отправляется в 8 часов.\n\nНе путай день и время: on Monday, но at 8 o'clock.",
+  "questions": [
+    {
+      "question": "Our holiday starts ___ August.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "ничего"
+      ],
+      "correctAnswer": "in",
+      "explanation": "August - это месяц. Перед месяцами используем IN."
+    },
+    {
+      "question": "The football training is ___ Wednesday evening.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "ничего"
+      ],
+      "correctAnswer": "on",
+      "explanation": "Здесь указан конкретный день, Wednesday. Перед днями недели используем ON."
+    },
+    {
+      "question": "What time does the flight leave? ___ 6:45 a.m.",
+      "options": [
+        "In",
+        "On",
+        "At",
+        "ничего"
+      ],
+      "correctAnswer": "At",
+      "explanation": "6:45 a.m. - точное время. Перед временем на часах используем AT."
+    },
+    {
+      "question": "I don't like driving ___ night because I get tired.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "ничего"
+      ],
+      "correctAnswer": "at",
+      "explanation": "Это устойчивое выражение: at night. Хотя с другими частями дня говорим in the morning и in the evening."
+    },
+    {
+      "question": "Do you usually go running ___ the morning?",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "ничего"
+      ],
+      "correctAnswer": "in",
+      "explanation": "Перед частями дня morning, afternoon и evening используем IN: in the morning."
+    },
+    {
+      "question": "The shop closes ___ midnight, so let's go now.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "ничего"
+      ],
+      "correctAnswer": "at",
+      "explanation": "Midnight - конкретный момент времени. Говорим at midnight."
+    },
+    {
+      "question": "We usually visit our grandparents ___ Sundays.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "ничего"
+      ],
+      "correctAnswer": "on",
+      "explanation": "Речь о повторяющемся дне недели. Перед Sundays используем ON."
+    },
+    {
+      "question": "We are going to the cinema ___ next Friday.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "ничего"
+      ],
+      "correctAnswer": "ничего",
+      "explanation": "Перед next предлог не нужен. Говорим next Friday, а не on next Friday."
+    },
+    {
+      "question": "The online meeting isn't ___ Friday. It's ___ Monday.",
+      "options": [
+        "on / on",
+        "in / at",
+        "at / in",
+        "on / at"
+      ],
+      "correctAnswer": "on / on",
+      "explanation": "И Friday, и Monday - дни недели. С днями недели используем ON."
+    }
+  ]
+}

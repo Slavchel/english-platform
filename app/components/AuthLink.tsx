@@ -18,6 +18,13 @@ export default async function AuthLink() {
           {session?.user ? "Аккаунт" : "Войти"}
         </Link>
       </li>
+      {session?.user?.isAdmin ? (
+        <li>
+          <Link href="/admin" className="nav-link">
+            Админка
+          </Link>
+        </li>
+      ) : null}
       {session?.user ? (
         <li>
           <form action={signOutAction}>

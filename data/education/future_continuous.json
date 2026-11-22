@@ -1,0 +1,68 @@
+{
+  "topic": "future_continuous",
+  "title": "Future Continuous (Будущее длительное время)",
+  "level": "B1",
+  "content": "### Когда нужен Future Continuous?\n\nFuture Continuous в основном используется, чтобы сказать, что какое-то действие будет **в процессе** в определенный момент в будущем. Также он может описывать ожидаемый ход событий или использоваться для вежливых вопросов о планах человека.\n- At 8 PM tomorrow, I will be watching a movie. - Завтра в 8 вечера я буду смотреть фильм (я буду в процессе).\n- Will you be using the car tonight? - Ты будешь использовать машину сегодня вечером? (вежливый вопрос о планах).\n\n### Формула\n- **Утверждение:** Подлежащее + will be + глагол с -ing.\n- **Отрицание:** Подлежащее + will not (won't) be + глагол с -ing.\n- **Вопрос:** Will + подлежащее + be + глагол с -ing?\n\n### Как это работает?\n\nВ этом времени глагол **will** не меняется, а глагол **be** всегда стоит в начальной форме (без am/is/are). Смысловой глагол всегда получает окончание **-ing**.\n- I **will be working**. (Я буду работать).\n- He **won't be sleeping**. (Он не будет спать).\n- **Will** you **be studying**? (Ты будешь учиться?)\n\n### Чем отличается от Future Simple (Will)?\n\n- **Future Simple (will + глагол):** Часто используется для предсказаний, решений, обещаний. *I will call you at 8.* (Я позвоню тебе в 8).\n- **Future Continuous (will be + ing):** Подчеркивает, что действие будет в процессе. *I will be having dinner at 8.* (В 8 я буду ужинать).\n\n### ⚠️ Типичная ошибка\n\nИспользовать am/is/are вместо be, или забывать про -ing.\n- Неправильно: *I will am working.* / *He will be work.*\n- Правильно: *I will be working.* / *He will be working.*\n\n### Слова-подсказки\n\nС Future Continuous часто используются выражения (но они не гарантируют выбор времени, всегда важен контекст):\n- **this time tomorrow** (завтра в это же время)\n- **at 8 PM tomorrow** (завтра в 8 вечера)\n- **all day tomorrow** (весь день завтра)\n\n### Краткий вывод\n\nИспользуй Future Continuous, когда хочешь подчеркнуть, что в конкретный момент в будущем ты будешь находиться в процессе выполнения действия. Запомни конструкцию: **will be + V-ing** (и никаких am/is/are после will).",
+  "questions": [
+    {
+      "question": "At exactly 8 PM tomorrow, I ___ (watch) a movie. I expect to be halfway through it.",
+      "options": ["will watch", "will be watching", "will watching", "will be watch"],
+      "correctAnswer": "will be watching",
+      "explanation": "Указано точное время и контекст процесса (буду на середине фильма). Грамматически правильная конструкция: will be + watching."
+    },
+    {
+      "question": "Don't call me at 10. I ___ (sleep).",
+      "options": ["will sleep", "will be sleeping", "will sleeping", "will be sleep"],
+      "correctAnswer": "will be sleeping",
+      "explanation": "В 10 часов я буду находиться в процессе сна. Используем will be + sleeping."
+    },
+    {
+      "question": "This time next week, we ___ (lie) on the beach.",
+      "options": ["will lie", "will be lying", "will lying", "will be lie"],
+      "correctAnswer": "will be lying",
+      "explanation": "This time next week указывает на конкретный момент в будущем. Мы будем в процессе (will be lying)."
+    },
+    {
+      "question": "She ___ (not / work) tomorrow because it's a holiday.",
+      "options": ["won't work", "won't be working", "won't working", "won't be work"],
+      "correctAnswer": "won't be working",
+      "explanation": "Отрицание в Future Continuous: won't be + глагол с -ing. Подчеркиваем, что она не будет в процессе работы."
+    },
+    {
+      "question": "At 3 PM tomorrow, ___ you ___ your computer? I need to borrow it while you are away.",
+      "options": ["Will / use", "Will / be using", "Will / using", "Are / be using"],
+      "correctAnswer": "Will / be using",
+      "explanation": "Вопрос в Future Continuous: Will + you + be + глагол с -ing. Спрашиваем, будешь ли ты в процессе использования."
+    },
+    {
+      "question": "When you arrive at the airport, I ___ (wait) for you near the exit.",
+      "options": ["will wait", "will be waiting", "will waiting", "will be wait"],
+      "correctAnswer": "will be waiting",
+      "explanation": "К моменту, когда ты приедешь, я уже буду находиться в процессе ожидания. Используем will be + waiting."
+    },
+    {
+      "question": "They ___ (play) football all afternoon tomorrow.",
+      "options": ["will play", "will be playing", "will playing", "will be play"],
+      "correctAnswer": "will be playing",
+      "explanation": "All afternoon tomorrow подчеркивает длительный процесс в будущем. Используем will be + playing."
+    },
+    {
+      "question": "I ___ (not / drive) at this time tomorrow. I will be on a train.",
+      "options": ["won't drive", "won't be driving", "won't driving", "won't be drive"],
+      "correctAnswer": "won't be driving",
+      "explanation": "Речь о процессе в конкретный момент будущего. Отрицание: won't be + driving."
+    },
+    {
+      "question": "What ___ you ___ (do) at 6 PM tonight?",
+      "options": ["will / do", "will / be doing", "will / doing", "do / be doing"],
+      "correctAnswer": "will / be doing",
+      "explanation": "Вопрос к процессу в конкретный момент будущего. С you используем will you be doing."
+    },
+    {
+      "question": "We will ___ (fly) over Paris at this time tomorrow.",
+      "options": ["fly", "be flying", "being flying", "be fly"],
+      "correctAnswer": "be flying",
+      "explanation": "После will всегда ставим be, а смысловой глагол получает окончание -ing. Полная конструкция: will be flying."
+    }
+  ]
+}

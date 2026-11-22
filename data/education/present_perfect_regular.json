@@ -1,0 +1,118 @@
+{
+  "topic": "present_perfect",
+  "title": "Present Perfect (Настоящее совершенное время)",
+  "level": "A2",
+  "content": "### Когда нужен Present Perfect?\n\nPresent Perfect связывает прошлое с настоящим. Мы используем его в трех основных ситуациях:\n1. **Результат:** Действие произошло в прошлом, но результат важен прямо сейчас. *I have broken my glasses.* (Я разбил очки, и сейчас не могу читать).\n2. **Опыт:** Мы говорим о том, что происходило в жизни до настоящего момента. *I have been to London.* (Я бывал в Лондоне).\n3. **Незаконченный период:** Действие началось в прошлом и продолжается сейчас. *I have lived here for five years.* (Я живу здесь уже пять лет).\n\n### Формула\n- **Утверждение:** Подлежащее + have/has + глагол в 3-й форме (V3).\n- **Отрицание:** Подлежащее + have not (haven't) / has not (hasn't) + V3.\n- **Вопрос:** Have/Has + подлежащее + V3?\n\n### Как выбрать Have или Has?\n\n- **I, you, we, they** → используем **have**.\n- **He, she, it** → используем **has**.\n\n### 3-я форма глагола (V3)\nУ правильных глаголов V3 образуется добавлением **-ed** (work -> worked). У неправильных глаголов форму нужно запоминать (go -> gone, see -> seen, write -> written).\n\n### Важное правило: Завершенное и незавершенное время\n\nМы используем Present Perfect, когда время еще не закончилось (today, this week, this year).\n- I have seen him **today**. (Сегодняшний день еще не закончился).\n\nМы используем Past Simple, когда период времени завершен (yesterday, last week, in 2010).\n- I saw him **yesterday**. (Вчерашний день закончился).\n\n### Слова-подсказки\n\n- just (только что), already (уже), yet (еще не / уже).\n- ever (когда-либо), never (никогда).\n- since (с какого-то момента), for (в течение какого-то времени).\n*Примечание: эти слова часто встречаются с Present Perfect, но выбор времени всегда зависит от смысла предложения.*\n\n### Краткий вывод\n\nPresent Perfect нужен, когда прошлое действие имеет связь с настоящим: либо остался результат, либо это ваш жизненный опыт, либо действие все еще продолжается. Если вы называете точное время в прошлом (yesterday) или завершенный год (in 2022), используйте Past Simple.\n\n### Два блока маркеров\n\n**1. Опыт и результат:** ever, never, just, already, yet.\n- Have you ever been to London?\n- He has just arrived.\n- She has already finished.\n- They haven't visited us yet.\n\n**2. Продолжительность:** for, since.\n- for five years — в течение пяти лет;\n- since 2020 — с 2020 года.\n\nСравни: I finished the report yesterday (Past Simple, точное прошлое) и I've finished the report, so we can send it (Present Perfect, результат сейчас).\n",
+  "questions": [
+    {
+      "question": "I can't find my phone. I ___ (leave) it on the bus.",
+      "options": [
+        "leave",
+        "left",
+        "have left",
+        "has left"
+      ],
+      "correctAnswer": "have left",
+      "explanation": "Результат важен сейчас: телефона нет. С I используем have + V3: have left."
+    },
+    {
+      "question": "She ___ (clean) her room. It looks perfect now.",
+      "options": [
+        "have cleaned",
+        "has cleaned",
+        "cleaned",
+        "cleans"
+      ],
+      "correctAnswer": "has cleaned",
+      "explanation": "Результат виден сейчас (комната идеальна). С she используем has + 3-ю форму (cleaned)."
+    },
+    {
+      "question": "We moved here five years ago, and we still live here. We ___ (live) in this city for five years.",
+      "options": [
+        "live",
+        "lived",
+        "have lived",
+        "has lived"
+      ],
+      "correctAnswer": "have lived",
+      "explanation": "Действие началось пять лет назад и продолжается до сих пор (мы все еще живем здесь). Поэтому используем Present Perfect: have + lived."
+    },
+    {
+      "question": "___ you ever ___ (be) to London?",
+      "options": [
+        "Did / be",
+        "Have / been",
+        "Has / been",
+        "Do / be"
+      ],
+      "correctAnswer": "Have / been",
+      "explanation": "Вопрос о жизненном опыте (бывал ли ты когда-нибудь). С you используем Have + 3-ю форму глагола be (been)."
+    },
+    {
+      "question": "It is 10 a.m. I ___ (not / call) him today, so I don't know his plans yet.",
+      "options": [
+        "didn't call",
+        "haven't called",
+        "hasn't called",
+        "don't call"
+      ],
+      "correctAnswer": "haven't called",
+      "explanation": "Today — это незаконченный период (день еще не прошел). Отрицание с I: haven't + 3-ю форму (called)."
+    },
+    {
+      "question": "He ___ (just / arrive). He is in the hall.",
+      "options": [
+        "just arrived",
+        "has just arrived",
+        "have just arrived",
+        "just arrives"
+      ],
+      "correctAnswer": "has just arrived",
+      "explanation": "Just (только что) указывает на недавнее действие, результат которого важен сейчас. С he используем has + arrived."
+    },
+    {
+      "question": "The train ___ (leave) at 8:00 yesterday morning.",
+      "options": [
+        "has left",
+        "have left",
+        "left",
+        "leaves"
+      ],
+      "correctAnswer": "left",
+      "explanation": "Yesterday morning — это завершенный период времени в прошлом. Поэтому используем Past Simple (left), а не Present Perfect."
+    },
+    {
+      "question": "I ___ (see) this movie last week.",
+      "options": [
+        "have seen",
+        "has seen",
+        "saw",
+        "seen"
+      ],
+      "correctAnswer": "saw",
+      "explanation": "Last week — завершенный период. Используем Past Simple (saw)."
+    },
+    {
+      "question": "She can go out now because she ___ (already / finish) her homework.",
+      "options": [
+        "has already finished",
+        "have already finished",
+        "already finish",
+        "already finishes"
+      ],
+      "correctAnswer": "has already finished",
+      "explanation": "Результат важен сейчас: домашняя работа уже готова, поэтому она может выйти. С she используем has + already + 3-ю форму (finished)."
+    },
+    {
+      "question": "My brother ___ (not / visit) us yet.",
+      "options": [
+        "didn't visit",
+        "haven't visited",
+        "hasn't visited",
+        "doesn't visit"
+      ],
+      "correctAnswer": "hasn't visited",
+      "explanation": "Yet (еще) используется в отрицаниях, когда ожидаемое действие не произошло к настоящему моменту. My brother — это he, поэтому hasn't + visited."
+    }
+  ]
+}

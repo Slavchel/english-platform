@@ -1,0 +1,68 @@
+{
+  "topic": "future_perfect",
+  "title": "Future Perfect (Будущее совершенное время)",
+  "level": "B1-B2",
+  "content": "### Когда нужен Future Perfect?\n\nFuture Perfect используется, когда мы хотим сказать, что какое-то действие **завершится (будет сделано) ДО определенного момента в будущем**. Также он может описывать состояние, которое будет продолжаться до определенного момента (By next June, I will have lived here for ten years).\n\n- By 8 PM, I will have finished my homework. - К 8 вечера я уже сделаю (закончу) домашку.\n- She will have left before we arrive. - Она уже уйдет к тому моменту, как мы приедем.\n\n### Формула\n- **Утверждение:** Подлежащее + will have + глагол в 3-й форме (V3).\n- **Отрицание:** Подлежащее + will not (won't) have + V3.\n- **Вопрос:** Will + подлежащее + have + V3?\n\n### Чем отличается от Future Simple (Will)?\n\n- **Future Simple (will + V1):** Сообщает о будущем действии или событии, не фокусируясь на его завершении. *I will finish the report on Friday.* (Я закончу отчет в пятницу).\n- **Future Perfect (will have + V3):** Подчеркивает, что действие будет **уже завершено** к определенному моменту. *I will have finished the report by Friday.* (К пятнице я уже закончу отчет).\n\n### ⚠️ Типичная ошибка\n\nИспользовать 2-ю форму глагола (V2) или путать с Future Continuous.\n- Неправильно: *I will have wrote it.* / *I will have writing it.*\n- Правильно: *I will have written it.* (V3).\n\n### Слова-подсказки\n\nFuture Perfect часто используется с предлогом **by** (к, до):\n- **by tomorrow** (к завтрашнему дню)\n- **by 5 o'clock** (к 5 часам)\n- **by the time...** (к тому времени, как...)\n*Однако наличие by не является обязательным, если момент в будущем понятен из контекста.*\n\n### Краткий вывод\n\nИспользуй Future Perfect, когда хочешь сказать, что к определенному моменту в будущем действие уже будет выполнено. Запомни конструкцию: **will have + V3**.",
+  "questions": [
+    {
+      "question": "By 8 PM, I ___ (finish) my homework.",
+      "options": ["will finish", "will have finished", "will has finished", "will have finish"],
+      "correctAnswer": "will have finished",
+      "explanation": "Предлог By 8 PM указывает на завершение действия к конкретному моменту в будущем. Структура: will + have + V3 (finished)."
+    },
+    {
+      "question": "She ___ (leave) before we arrive.",
+      "options": ["will leave", "will have left", "will has left", "will have leave"],
+      "correctAnswer": "will have left",
+      "explanation": "Действие завершится раньше другого будущего события (before we arrive). Используем will have + left (V3)."
+    },
+    {
+      "question": "By the time you read this letter, I ___ (go) to London.",
+      "options": ["will go", "will have gone", "will has gone", "will have going"],
+      "correctAnswer": "will have gone",
+      "explanation": "By the time указывает на момент в будущем, к которому действие уже завершится. Go - went - gone. Используем will have + gone."
+    },
+    {
+      "question": "Don't worry, the train ___ (not / leave) by the time we get to the station.",
+      "options": ["won't leave", "won't have left", "won't has left", "won't have leaving"],
+      "correctAnswer": "won't have left",
+      "explanation": "Отрицание в Future Perfect: won't have + V3. Мы говорим, что поезд еще не уедет к моменту нашего прибытия."
+    },
+    {
+      "question": "___ you ___ (write) the report by Friday?",
+      "options": ["Will / write", "Will / have written", "Will / has written", "Will / have writing"],
+      "correctAnswer": "Will / have written",
+      "explanation": "Вопрос в Future Perfect: Will + you + have + V3. Спрашиваем, будет ли отчет уже написан к пятнице."
+    },
+    {
+      "question": "By the end of this year, they ___ (build) the new school.",
+      "options": ["will build", "will have built", "will has built", "will have building"],
+      "correctAnswer": "will have built",
+      "explanation": "By the end of this year — конкретный срок в будущем. Действие завершится к этому моменту. Build - built - built. Используем will have + built."
+    },
+    {
+      "question": "I hope I ___ (find) a new job by the time I turn 30.",
+      "options": ["will find", "will have found", "will has found", "will have finding"],
+      "correctAnswer": "will have found",
+      "explanation": "By the time I turn 30 — момент в будущем. Результат (нахождение работы) должен быть достигнут до него. Используем will have + found."
+    },
+    {
+      "question": "He ___ (not / complete) the project by Monday because he is too slow.",
+      "options": ["won't complete", "won't have completed", "won't has completed", "won't have completing"],
+      "correctAnswer": "won't have completed",
+      "explanation": "К понедельнику (by Monday) он не успеет завершить проект. Отрицание: won't have + completed."
+    },
+    {
+      "question": "By 2030, scientists ___ (make) a huge breakthrough in medicine.",
+      "options": ["will make", "will have made", "will has made", "will have making"],
+      "correctAnswer": "will have made",
+      "explanation": "By 2030 — будущий рубеж. Ученые сделают прорыв к этому времени. Make - made - made. Используем will have + made."
+    },
+    {
+      "question": "We will ___ (eat) dinner by the time the film starts.",
+      "options": ["have eat", "have eaten", "has eaten", "have eating"],
+      "correctAnswer": "have eaten",
+      "explanation": "После will всегда ставим have и смысловой глагол в 3-й форме (V3). Полная конструкция: will have eaten."
+    }
+  ]
+}

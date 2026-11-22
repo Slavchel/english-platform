@@ -1,0 +1,41 @@
+.test-shell .button--test-primary {
+  border: 1px solid rgba(194, 166, 109, 0.48);
+  background:
+    linear-gradient(
+      135deg,
+      rgba(194, 166, 109, 0.22),
+      transparent 58%
+    ),
+    rgba(32, 29, 23, 0.68);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.09),
+    0 0 16px rgba(194, 166, 109, 0.1);
+  color: #e8d5ad;
+  transition:
+    border-color 0.25s ease,
+    background 0.25s ease,
+    box-shadow 0.25s ease,
+    color 0.25s ease;
+}
+
+.test-shell .button--test-primary:hover:not(:disabled) {
+  border-color: rgba(218, 190, 132, 0.68);
+  background:
+    linear-gradient(
+      135deg,
+      rgba(194, 166, 109, 0.32),
+      transparent 58%
+    ),
+    rgba(39, 34, 25, 0.78);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    0 0 18px rgba(194, 166, 109, 0.18),
+    0 0 30px rgba(194, 166, 109, 0.08);
+  color: #f4e5c4;
+}
+
+.test-shell .button--test-primary:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  box-shadow: none;
+}

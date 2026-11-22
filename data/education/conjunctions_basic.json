@@ -1,0 +1,50 @@
+{
+  "topic": "conjunctions_basic",
+  "title": "Conjunctions: And, But, Because, So (Союзы)",
+  "level": "A2",
+  "content": "### Когда они нужны?\n\nСоюзы — это «клей» для предложений. Они соединяют идеи и показывают связь между ними.\n\n### And (И)\n\nИспользуем, чтобы добавить информацию или соединить похожие вещи.\n- I like tea **and** coffee. - Я люблю чай и кофе.\n- She is smart **and** beautiful. - Она умная и красивая.\n\n### But (Но)\n\nИспользуем, чтобы показать контраст или противоположность.\n- I wanted to go out, **but** I was too tired. - Я хотел пойти гулять, но был слишком уставшим.\n- He is short, **but** he is very strong. - Он невысокий, но очень сильный.\n\n### Because (Потому что)\n\nИспользуем, чтобы объяснить причину (почему что-то произошло).\n- I stayed at home **because** it was raining. - Я остался дома, потому что шел дождь.\n- She is happy **because** she passed the exam. - Она счастлива, потому что сдала экзамен.\n\n### So (Поэтому)\n\nИспользуем, чтобы показать результат или следствие.\n- It was raining, **so** I stayed at home. - Шел дождь, поэтому я остался дома.\n- I was hungry, **so** I made a sandwich. - Я был голоден, поэтому сделал бутерброд.\n\n### ⚠️ Типичная ошибка\n\nИспользовать because и so в одном предложении (как в русском «потому что, поэтому»). В английском выбирают только одно.\n- Неправильно: *Because it was raining, so I stayed at home.*\n- Правильно: *Because it was raining, I stayed at home.* / *It was raining, so I stayed at home.*",
+  "questions": [
+    {
+      "question": "I wanted to buy the jacket, ___ I didn't have enough money.",
+      "options": ["and", "but", "because", "so"],
+      "correctAnswer": "but",
+      "explanation": "Здесь контраст: я хотел купить, НО не было денег. Используем but."
+    },
+    {
+      "question": "She is tired ___ she worked all day.",
+      "options": ["and", "but", "because", "so"],
+      "correctAnswer": "because",
+      "explanation": "Вторая часть объясняет причину усталости. Используем because."
+    },
+    {
+      "question": "I forgot my keys, ___ I couldn't open the door.",
+      "options": ["and", "but", "because", "so"],
+      "correctAnswer": "so",
+      "explanation": "Вторая часть — результат первой. Используем so."
+    },
+    {
+      "question": "I like apples ___ bananas.",
+      "options": ["and", "but", "because", "so"],
+      "correctAnswer": "and",
+      "explanation": "Перечисляем две вещи, которые любим. Используем and."
+    },
+    {
+      "question": "He studied hard, ___ he passed the exam easily.",
+      "options": ["and", "but", "because", "so"],
+      "correctAnswer": "so",
+      "explanation": "Сдача экзамена — это результат усердной учебы. Используем so."
+    },
+    {
+      "question": "My brother is a doctor, ___ my sister isn't interested in medicine at all.",
+      "options": ["and", "but", "because", "so"],
+      "correctAnswer": "but",
+      "explanation": "Здесь показан явный контраст: брат — врач, а сестра вообще не интересуется медициной. Используем but."
+    },
+    {
+      "question": "I didn't buy the car ___ it was too expensive.",
+      "options": ["and", "but", "because", "so"],
+      "correctAnswer": "because",
+      "explanation": "Цена — это причина, по которой я не купил машину. Используем because."
+    }
+  ]
+}

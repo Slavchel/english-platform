@@ -6,7 +6,7 @@ import bigBen from "../big-ben.png";
 const FEATURES = [
   {
     title: "CEFR-диагностика",
-    text: "Результат в привычной шкале Pre-A1–C2",
+    text: "Результат в привычной шкале A1–C2",
   },
   {
     title: "Grammar, Vocabulary, Reading",
@@ -25,21 +25,26 @@ const FEATURES = [
 const REASONS = [
   {
     title: "Что вы умеете",
-    text: "Описание навыков и типичных задач для вашего уровня — без завышенных обещаний.",
+    text: "Описание навыков и типичных задач для вашего уровня - без завышенных обещаний.",
   },
   {
     title: "Что улучшать",
-    text: "Зоны роста по грамматике, лексике и чтению, а не абстрактное «продолжайте учиться».",
+    text: "Зоны роста по грамматике, лексике и чтению. Вы получите список тем, в которых есть трудности.",
   },
   {
-    title: "Насколько надёжно",
-    text: "Уверенность результата показывается отдельно: это не оценка способностей, а качество данных.",
+    title: "Обучение",
+    text: "Вы сможете разобратся в темах, изучив наши уроки, мы подберем их под ваш уровень",
   },
 ];
 
 export default function Home() {
   return (
     <section className="page-shell home-page">
+      <div className="home-atmosphere" aria-hidden="true">
+        <span className="home-atmosphere__light home-atmosphere__light--gold" />
+        <span className="home-atmosphere__light home-atmosphere__light--steel" />
+        <span className="home-atmosphere__light home-atmosphere__light--bronze" />
+      </div>
       <div className="container">
         <div className="home-hero">
           <div className="home-hero__content">
@@ -64,8 +69,8 @@ export default function Home() {
               <Link href="/test" className="button button--primary">
                 Пройти тест
               </Link>
-              <Link href="/cefr" className="button button--ghost">
-                Уровни CEFR
+              <Link href="/learning" className="button button--learning">
+                Обучение
               </Link>
               <Link href="/speaking" className="button button--speaking">
                 <span className="button__speaking-dot" aria-hidden="true" />
@@ -112,7 +117,11 @@ export default function Home() {
 
           <div className="feature-grid">
             {FEATURES.map((feature, index) => (
-              <article key={feature.title} className="feature-card">
+              <article 
+                key={feature.title} 
+                className="feature-card relative overflow-hidden transform-gpu isolate" 
+                style={{ WebkitBackfaceVisibility: "hidden" }}
+              >
                 <span className="feature-card__number">
                   {String(index + 1).padStart(2, "0")}
                 </span>
@@ -130,7 +139,11 @@ export default function Home() {
 
           <div className="reason-grid">
             {REASONS.map((reason) => (
-              <div key={reason.title} className="reason">
+              <div 
+                key={reason.title} 
+                className="reason relative overflow-hidden transform-gpu isolate"
+                style={{ WebkitBackfaceVisibility: "hidden" }}
+              >
                 <strong>{reason.title}</strong>
                 <p>{reason.text}</p>
               </div>

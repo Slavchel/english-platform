@@ -1,0 +1,118 @@
+{
+  "topic": "there_is_there_are",
+  "title": "There is / There are: Present, Past and Future (Оборот «есть, находится»)",
+  "level": "A2",
+  "content": "### Для чего нужны there is / there are?\n\nПредставь, что ты хочешь сказать: «В комнате есть стол», «На улице много машин». В английском для этого используют конструкцию there is / there are. Она помогает рассказать, что где-то что-то существует или находится.\n\n### There is - если предмет один\n\nИспользуем, когда говорим об одном предмете, человеке или неисчисляемом существительном (вода, время, информация).\n- There is a cat in the room. - В комнате есть кошка.\n- There is some water in the bottle. - В бутылке есть немного воды.\n\n### There are - если предметов несколько\n\nИспользуем, когда говорим о двух и более предметах или людях.\n- There are two chairs in the kitchen. - На кухне есть два стула.\n- There are many people in the street. - На улице много людей.\n\n### Как строить отрицания?\n\nДобавляем not после is или are:\n- There isn't a TV in my bedroom. - В спальне нет телевизора.\n- There aren't any buses at night. - Ночью нет автобусов.\n\n### Как задавать вопросы?\n\nЧтобы задать вопрос, поставь is или are в начало:\n- There are some shops nearby. -> Are there any shops nearby? - Рядом есть магазины?\n\nВ вопросах и отрицаниях с множественным числом часто используем any:\n- Are there any free seats? - Есть свободные места?\n- There aren't any chairs. - Здесь нет стульев.\n\n### Прошедшее время: there was / there were\n\nМеняем is на was, а are на were:\n- There was a café here. - Здесь было кафе.\n- There were two mistakes in my report. - В моём отчёте было две ошибки.\n- Was there a park here before? - Раньше здесь был парк?\n\n### Будущее время: there will be\n\nДля будущего используем there will be (для любого количества).\n- There will be a party on Saturday. - В субботу будет вечеринка.\n- Will there be a test tomorrow? - Завтра будет тест?\n- There won't be any problems. - Проблем не будет.\n\n### Не путай!\n- There is a book on the table. - На столе есть книга. (Сообщаем о наличии).\n- The book is on the table. - Книга на столе. (Говорим, где конкретная книга).\n\n### Кратко\n- Один предмет/неисчисляемое: There is.\n- Несколько предметов: There are.\n- В прошлом: There was / There were.\n- В будущем: There will be.\n- Вопрос: Is / Are / Was / Were / Will ставим в начало.",
+  "questions": [
+    {
+      "question": "There ___ a lamp next to my bed.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "correctAnswer": "is",
+      "explanation": "Lamp - один предмет, поэтому используем There is."
+    },
+    {
+      "question": "There ___ five people at the bus stop.",
+      "options": [
+        "is",
+        "are",
+        "was",
+        "be"
+      ],
+      "correctAnswer": "are",
+      "explanation": "Five people - несколько человек. Для множественного числа в настоящем времени нужно are."
+    },
+    {
+      "question": "There ___ any milk in the fridge.",
+      "options": [
+        "isn't",
+        "aren't",
+        "don't",
+        "not is"
+      ],
+      "correctAnswer": "isn't",
+      "explanation": "Milk - неисчисляемое существительное, поэтому используем is. Для отрицания добавляем not: isn't."
+    },
+    {
+      "question": "___ there a pharmacy near the station?",
+      "options": [
+        "Are",
+        "Is",
+        "Do",
+        "Does"
+      ],
+      "correctAnswer": "Is",
+      "explanation": "Pharmacy - один предмет. В вопросе Is ставим перед there."
+    },
+    {
+      "question": "___ there any clean glasses in the kitchen?",
+      "options": [
+        "Is",
+        "Are",
+        "Was",
+        "Be"
+      ],
+      "correctAnswer": "Are",
+      "explanation": "Glasses - множественное число. В вопросе используем Are there."
+    },
+    {
+      "question": "Yesterday, there ___ a big meeting at work.",
+      "options": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "correctAnswer": "was",
+      "explanation": "Yesterday указывает на прошлое, а meeting - один предмет/одна встреча. Поэтому There was."
+    },
+    {
+      "question": "There ___ two museums in this town ten years ago.",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "will be"
+      ],
+      "correctAnswer": "were",
+      "explanation": "Ten years ago указывает на прошлое. Two museums - множественное число, поэтому используем were."
+    },
+    {
+      "question": "___ there a new hotel near the airport next year?",
+      "options": [
+        "Is",
+        "Was",
+        "Will",
+        "Will be"
+      ],
+      "correctAnswer": "Will",
+      "explanation": "Next year указывает на будущее. Вопрос в будущем строится так: Will + there + be...?"
+    },
+    {
+      "question": "There ___ any trains after midnight tonight.",
+      "options": [
+        "won't be",
+        "isn't",
+        "wasn't",
+        "not be"
+      ],
+      "correctAnswer": "won't be",
+      "explanation": "Tonight в этом контексте говорит о будущем. Отрицательная форма будущего: There won't be."
+    },
+    {
+      "question": "Choose the correct sentence: «В офисе нет свободных стульев».",
+      "options": [
+        "There isn't any free chairs in the office.",
+        "There aren't any free chairs in the office.",
+        "There not are free chairs in the office.",
+        "There isn't free chair in the office."
+      ],
+      "correctAnswer": "There aren't any free chairs in the office.",
+      "explanation": "Chairs - множественное число, поэтому нужно There aren't. В отрицании с исчисляемыми предметами во множественном числе часто используем any."
+    }
+  ]
+}

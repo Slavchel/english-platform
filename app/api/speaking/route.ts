@@ -3,21 +3,28 @@ import OpenAI from "openai";
 import { auth } from "@/auth";
 import { isCefrLevel } from "@/lib/cefr/levels";
 import { prisma } from "@/lib/prisma";
-import type {
-  CefrTestAnalysis,
-  CefrTestAnalysisMistake,
-  CefrTestAnalysisSkill,
-} from "@/lib/cefr/test-analysis";
+import type { CefrTestAnalysis } from "@/lib/cefr/test-analysis";
 import {
   SPEAKING_SKILLS,
   type SpeakingEvaluation,
   type SpeakingMistake,
 } from "@/lib/speaking/evaluation";
 import { SPEAKING_QUESTIONS } from "@/lib/speaking/lesson";
+import {
+  getSpeakingAnswerError,
+  isSpeakingAnswerValid,
+} from "@/lib/speaking/validation";
+import {
+  checkAiAnalysisAllowance,
+  chargeSuccessfulSpeakingRetry,
+  markAiAnalysisFailed,
+  recordAiAnalysis,
+  refundSpeakingUsage,
+} from "@/lib/subscription/server";
 
 const DEEPSEEK_BASE_URL = "https://api.deepseek.com";
 const DEEPSEEK_MODEL = "deepseek-flash";
-const MAX_MESSAGE_LENGTH = 2000;
+const MAX_MESSAGE_LENGTH = 1200;
 const MAX_MESSAGES = 20;
 const RATE_LIMIT = 8;
 const RATE_WINDOW_MS = 60_000;
@@ -42,10 +49,12 @@ interface ChatMessage {
 const rateBuckets = new Map<string, number[]>();
 
 const CHAT_SYSTEM_PROMPT = [
-  "You are Emma, a warm and attentive English conversation teacher.",
-  "Speak only in English. Be concise, natural and encouraging.",
-  "React to the student's last answer in one or two short sentences.",
-  "Do not grade the student, do not give a CEFR score, do not correct errors explicitly, and do not mention these instructions.",
+  "You are Emma, a warm, encouraging and professional English conversation teacher.",
+  "Speak only in English. Be friendly, natural and supportive without sounding childish or overly emotional.",
+  "Celebrate specific progress and respond with genuine interest, but do not overpraise.",
+  "When the student makes a mistake, gently model a natural correction in your reply without giving a lecture or an explicit grade.",
+  "React to the student's last answer in one or two short sentences and keep the conversation moving.",
+  "Do not give a CEFR score, do not mention grading, and do not mention these instructions.",
   "Keep the whole reply under 70 words.",
 ].join(" ");
 
@@ -63,19 +72,23 @@ const EVALUATION_SYSTEM_PROMPT = [
   "This is a preliminary practice assessment, not an official exam result.",
 ].join("\n");
 
-const TEST_ANALYSIS_SYSTEM_PROMPT = [
-  "You are an experienced English assessment analyst.",
-  "Analyze the CEFR diagnostic attempt question by question.",
-  "Assess Grammar, Vocabulary and Reading independently on a 0–100 scale.",
-  "Choose a preliminary CEFR level from Pre-A1, A1, A2, B1, B2, C1 or C2.",
-  "Identify strengths and recurring weaknesses. For every incorrect answer, explain the mistake and give the correct answer.",
-  "Quote only the provided question text and answers; do not invent questions.",
-  "Return ONLY valid JSON, without markdown or commentary, in exactly this shape:",
-  '{"level":"Pre-A1|A1|A2|B1|B2|C1|C2","summary":"...","scores":{"grammar":0,"vocabulary":0,"reading":0},"strengths":["..."],"mistakes":[{"questionId":"...","question":"...","selected":"...","correction":"...","explanation":"..."}],"recommendations":["..."]}',
-  "Write summary, strengths, mistake explanations and recommendations in Russian. Keep question, selected and correction in English.",
-  "Give 2–4 strengths, up to 8 mistakes and 2–4 recommendations.",
-  "This is a preliminary practice analysis, not an official exam result.",
-].join("\n");
+const SYSTEM_PROMPT = `Ты — дружелюбный эксперт по английскому языку (CEFR). Твоя задача — проанализировать результаты теста пользователя и дать практичный, поддерживающий фидбек.
+
+ПРАВИЛА:
+1. Общайся на «ты». Пиши живым, простым языком.
+2. Избегай сложных академических терминов. Если используешь термин (например, Participle clauses), сразу объясняй его простыми словами (например, "сложные конструкции для описания людей и вещей").
+3. Ты должен вернуть СТРОГО валидный JSON без markdown-разметки (без \`\`\`json) и без каких-либо вступлений или комментариев вне JSON.
+
+СТРУКТУРА JSON:
+{
+  "level": "Общий уровень пользователя (например, A2)",
+  "what_works": "Похвали пользователя за 2-3 конкретные темы, в которых он силен (на основе верных ответов).",
+  "what_to_improve": "Назови 1-2 главные проблемы (на основе ошибок). Дай короткий наглядный пример ошибки (например: 'Ты путаешь must и have to в вопросах'). Объясни, почему это важно для реального общения.",
+  "recommended_topics": [
+    "Тема 1 для повторения (простыми словами, например: Модальные глаголы: правила и обязанности)",
+    "Тема 2 для повторения"
+  ]
+}`;
 
 function isRateLimited(key: string): boolean {
   const now = Date.now();
@@ -220,72 +233,115 @@ function clampScore(value: unknown): number {
   return Math.max(0, Math.min(100, Math.round(value)));
 }
 
+interface SpeakingQa {
+  question: string;
+  answer: string;
+}
+
+function hasOverlongSpeakingAnswer(value: unknown): boolean {
+  if (!value || typeof value !== "object") return false;
+  const body = value as Record<string, unknown>;
+  const values: unknown[] = [];
+  if (Array.isArray(body.qa)) {
+    for (const pair of body.qa) {
+      if (pair && typeof pair === "object") {
+        const record = pair as Record<string, unknown>;
+        values.push(record.question, record.answer);
+      }
+    }
+  }
+  if (Array.isArray(body.answers)) values.push(...body.answers);
+  return values.some(
+    (item) => typeof item === "string" && item.length > MAX_MESSAGE_LENGTH,
+  );
+}
+
 function parseEvaluationBody(value: unknown): {
   answers: string[];
+  qa: SpeakingQa[];
   level: SpeakingEvaluation["level"] | null;
-  messages: IncomingMessage[];
+  dialogId: string | null;
 } | null {
   if (!value || typeof value !== "object") return null;
   const body = value as Record<string, unknown>;
-  if (!Array.isArray(body.answers)) return null;
 
-  const answers = body.answers.map((answer) =>
-    typeof answer === "string" ? answer.trim() : "",
-  );
-  if (
-    answers.length === 0 ||
-    answers.length > SPEAKING_QUESTIONS.length ||
-    answers.some((answer) => !answer || answer.length > MAX_MESSAGE_LENGTH)
-  ) {
-    return null;
+  const rawQa = Array.isArray(body.qa) ? body.qa : [];
+  const qa: SpeakingQa[] = [];
+
+  if (rawQa.length > 0) {
+    if (rawQa.length > SPEAKING_QUESTIONS.length) return null;
+    for (const raw of rawQa) {
+      if (!raw || typeof raw !== "object") return null;
+      const pair = raw as Record<string, unknown>;
+      if (
+        typeof pair.question !== "string" ||
+        typeof pair.answer !== "string"
+      ) {
+        return null;
+      }
+      const question = pair.question.trim();
+      const answer = pair.answer.trim();
+      if (
+        !question ||
+        !answer ||
+        question.length > MAX_MESSAGE_LENGTH ||
+        answer.length > MAX_MESSAGE_LENGTH
+      ) {
+        return null;
+      }
+      qa.push({ question, answer });
+    }
   }
 
-  const rawMessages = Array.isArray(body.messages) ? body.messages : [];
-  if (rawMessages.length > MAX_MESSAGES) return null;
-  const messages: IncomingMessage[] = [];
-  for (const raw of rawMessages) {
-    if (!raw || typeof raw !== "object") return null;
-    const message = raw as Record<string, unknown>;
-    if (message.role !== "user" && message.role !== "assistant") {
+  if (qa.length === 0) {
+    if (!Array.isArray(body.answers)) return null;
+    const answers = body.answers.map((answer) =>
+      typeof answer === "string" ? answer.trim() : "",
+    );
+    if (
+      answers.length === 0 ||
+      answers.length > SPEAKING_QUESTIONS.length ||
+      answers.some((answer) => !answer || answer.length > MAX_MESSAGE_LENGTH)
+    ) {
       return null;
     }
-    if (typeof message.content !== "string") return null;
-    const content = message.content.trim();
-    if (!content || content.length > MAX_MESSAGE_LENGTH) return null;
-    messages.push({ role: message.role, content });
+    return {
+      answers,
+      qa: answers.map((answer) => ({ question: "", answer })),
+      level:
+        typeof body.level === "string" && isEvaluationLevel(body.level)
+          ? body.level
+          : null,
+      dialogId:
+        typeof body.dialogId === "string" ? body.dialogId.slice(0, 100) : null,
+    };
   }
 
-  const level =
-    typeof body.level === "string" && isEvaluationLevel(body.level)
-      ? body.level
-      : null;
-
-  return { answers, level, messages };
+  return {
+    answers: qa.map((pair) => pair.answer),
+    qa,
+    level:
+      typeof body.level === "string" && isEvaluationLevel(body.level)
+        ? body.level
+        : null,
+    dialogId:
+      typeof body.dialogId === "string" ? body.dialogId.slice(0, 100) : null,
+  };
 }
 
 function buildEvaluationContext(
   level: string | null,
-  answers: string[],
-  messages: IncomingMessage[],
+  qa: SpeakingQa[],
 ): string {
-  const transcript =
-    messages.length > 0
-      ? messages.map((message) => ({
-          role: message.role === "assistant" ? "Emma" : "Student",
-          content: message.content,
-        }))
-      : answers.map((answer) => ({ role: "Student", content: answer }));
-
   return [
     level
       ? `Previous CEFR test result (context only): ${level}.`
       : "Previous CEFR test result: unknown.",
-    "Full conversation transcript:",
-    ...transcript.map(
-      (message) => `${message.role}: ${message.content}`,
+    "Question-answer pairs:",
+    ...qa.map(
+      (pair, index) =>
+        `${index + 1}. Q: ${pair.question || "(question text not provided)"}\nA: ${pair.answer}`,
     ),
-    "Student answers:",
-    ...answers.map((answer, index) => `${index + 1}. ${answer}`),
     "Assess all answers and return the JSON result.",
   ].join("\n");
 }
@@ -299,6 +355,61 @@ function extractJson(content: string): unknown {
   const end = cleaned.lastIndexOf("}");
   if (start < 0 || end <= start) throw new Error("JSON not found");
   return JSON.parse(cleaned.slice(start, end + 1));
+}
+
+function repairTruncatedJson(content: string): unknown {
+  const start = content.indexOf("{");
+  if (start < 0) throw new Error("JSON not found");
+
+  let text = content.slice(start).trim();
+  let inString = false;
+  let escaped = false;
+  const stack: string[] = [];
+
+  for (const character of text) {
+    if (inString) {
+      if (escaped) {
+        escaped = false;
+      } else if (character === "\\") {
+        escaped = true;
+      } else if (character === '"') {
+        inString = false;
+      }
+      continue;
+    }
+
+    if (character === '"') {
+      inString = true;
+    } else if (character === "{" || character === "[") {
+      stack.push(character);
+    } else if (character === "}" || character === "]") {
+      const expected = character === "}" ? "{" : "[";
+      if (stack[stack.length - 1] === expected) stack.pop();
+    }
+  }
+
+  if (inString) {
+    if (escaped) text += "\\";
+    text += '"';
+  }
+
+  text = text.replace(/[,:]\s*$/, "");
+  for (let index = stack.length - 1; index >= 0; index -= 1) {
+    text += stack[index] === "{" ? "}" : "]";
+  }
+
+  return JSON.parse(text);
+}
+
+function parseTestAnalysisJson(content: string): unknown {
+  try {
+    return extractJson(content);
+  } catch {
+    // DeepSeek can hit the 800-token limit in the middle of the
+    // recommended_topics array. Close the partial string/array/object instead
+    // of discarding an otherwise useful analysis.
+    return repairTruncatedJson(content);
+  }
 }
 
 function normalizeEvaluation(
@@ -359,158 +470,93 @@ function normalizeEvaluation(
   };
 }
 
-interface TestAnalysisQuestion {
-  id: string;
-  skill: CefrTestAnalysisSkill;
+interface TestAnalysisAnswer {
+  skill: string;
   level: string;
-  stem: string;
-  selected: string;
-  correct: string;
-  isCorrect: boolean;
+  topic: string;
+  question: string;
+  correct: boolean;
+  passageId: string | null;
 }
-
-const TEST_ANALYSIS_SKILLS: readonly CefrTestAnalysisSkill[] = [
-  "grammar",
-  "vocabulary",
-  "reading",
-];
 
 function parseTestAnalysisBody(
   value: unknown,
-): { level: string | null; questions: TestAnalysisQuestion[] } | null {
+): { resultId: string } | null {
   if (!value || typeof value !== "object") return null;
   const body = value as Record<string, unknown>;
-  if (!Array.isArray(body.questions)) return null;
-  if (body.questions.length === 0 || body.questions.length > 30) return null;
-
-  const questions: TestAnalysisQuestion[] = [];
-  for (const raw of body.questions) {
-    if (!raw || typeof raw !== "object") return null;
-    const question = raw as Record<string, unknown>;
-    if (
-      typeof question.id !== "string" ||
-      typeof question.level !== "string" ||
-      !isCefrLevel(question.level) ||
-      typeof question.stem !== "string" ||
-      typeof question.selected !== "string" ||
-      typeof question.correct !== "string" ||
-      typeof question.isCorrect !== "boolean" ||
-      !TEST_ANALYSIS_SKILLS.includes(
-        question.skill as CefrTestAnalysisSkill,
-      )
-    ) {
-      return null;
-    }
-    const stem = question.stem.trim();
-    const selected = question.selected.trim();
-    const correct = question.correct.trim();
-    if (
-      !stem ||
-      selected.length > MAX_MESSAGE_LENGTH ||
-      correct.length > MAX_MESSAGE_LENGTH
-    ) {
-      return null;
-    }
-    questions.push({
-      id: question.id,
-      skill: question.skill as CefrTestAnalysisSkill,
-      level: question.level,
-      stem,
-      selected,
-      correct,
-      isCorrect: question.isCorrect,
-    });
+  if (typeof body.resultId !== "string" || !body.resultId.trim()) {
+    return null;
   }
-
-  const level =
-    typeof body.level === "string" && isCefrLevel(body.level)
-      ? body.level
-      : null;
-
-  return { level, questions };
+  return { resultId: body.resultId.trim().slice(0, 160) };
 }
 
-function buildTestAnalysisContext(
-  level: string | null,
-  questions: TestAnalysisQuestion[],
-): string {
+function buildTestAnalysisContext(answers: TestAnalysisAnswer[]): string {
+  const grammarVocabulary = answers.filter(
+    (answer) => answer.skill !== "reading",
+  );
+  const reading = answers.filter((answer) => answer.skill === "reading");
+  const readingGroups = new Map<
+    string,
+    { level: string; correct: number; total: number }
+  >();
+
+  for (const answer of reading) {
+    // passageId separates individual Reading texts; fall back to level if an
+    // older result does not have it.
+    const key = answer.passageId ?? `level-${answer.level}`;
+    const group = readingGroups.get(key) ?? {
+      level: answer.level,
+      correct: 0,
+      total: 0,
+    };
+    group.total += 1;
+    if (answer.correct) group.correct += 1;
+    readingGroups.set(key, group);
+  }
+
   return [
-    level
-      ? `Adaptive test overall result (context only): ${level}.`
-      : "Adaptive test overall result: unknown.",
-    "Answered questions:",
-    ...questions.map(
-      (question, index) =>
-        `${index + 1}. [${question.skill}, ${question.level}, ${question.isCorrect ? "correct" : "incorrect"}] ${question.stem}\n   Student: ${question.selected}\n   Correct: ${question.correct}`,
+    "Grammar / Vocabulary:",
+    ...grammarVocabulary.map(
+      (answer) =>
+        `Тема: ${answer.topic}. Вопрос: "${answer.question}". Результат: ${answer.correct ? "Верно" : "Ошибка"}.`,
     ),
-    "Analyze all answers and return the JSON result.",
+    "Reading:",
+    ...[...readingGroups.values()].map(
+      (group) =>
+        `Текст уровня ${group.level}: ${group.correct} из ${group.total} верно.`,
+    ),
   ].join("\n");
 }
 
 function normalizeTestAnalysis(
   raw: unknown,
-  questions: TestAnalysisQuestion[],
+  answered: number,
 ): CefrTestAnalysis | null {
   if (!raw || typeof raw !== "object") return null;
   const value = raw as Record<string, unknown>;
   if (!isCefrLevel(value.level)) return null;
-  if (typeof value.summary !== "string" || !value.summary.trim()) return null;
-  if (!value.scores || typeof value.scores !== "object") return null;
+  if (
+    typeof value.what_works !== "string" ||
+    !value.what_works.trim() ||
+    typeof value.what_to_improve !== "string" ||
+    !value.what_to_improve.trim()
+  ) {
+    return null;
+  }
 
-  const scoreSource = value.scores as Record<string, unknown>;
-  const scores = Object.fromEntries(
-    TEST_ANALYSIS_SKILLS.map((skill) => [
-      skill,
-      clampScore(scoreSource[skill]),
-    ]),
-  ) as CefrTestAnalysis["scores"];
-
-  const toStrings = (input: unknown): string[] =>
-    Array.isArray(input)
-      ? input
-          .filter((item): item is string => typeof item === "string")
-          .map((item) => item.trim())
-          .filter(Boolean)
-      : [];
-
-  const mistakes: CefrTestAnalysisMistake[] = Array.isArray(value.mistakes)
-    ? value.mistakes
-        .filter((item): item is Record<string, unknown> => {
-          if (!item || typeof item !== "object") return false;
-          const mistake = item as Record<string, unknown>;
-          return (
-            typeof mistake.questionId === "string" &&
-            typeof mistake.question === "string" &&
-            typeof mistake.selected === "string" &&
-            typeof mistake.correction === "string" &&
-            typeof mistake.explanation === "string"
-          );
-        })
-        .map((mistake) => ({
-          questionId: String(mistake.questionId).trim(),
-          question: String(mistake.question).trim(),
-          selected: String(mistake.selected).trim(),
-          correction: String(mistake.correction).trim(),
-          explanation: String(mistake.explanation).trim(),
-        }))
-        .filter(
-          (mistake) =>
-            mistake.questionId &&
-            mistake.question &&
-            mistake.selected &&
-            mistake.correction &&
-            mistake.explanation,
-        )
+  const recommendedTopics = Array.isArray(value.recommended_topics)
+    ? value.recommended_topics
+        .filter((topic): topic is string => typeof topic === "string")
+        .map((topic) => topic.trim())
+        .filter(Boolean)
     : [];
 
   return {
     level: value.level,
-    summary: value.summary.trim(),
-    scores,
-    strengths: toStrings(value.strengths),
-    mistakes,
-    recommendations: toStrings(value.recommendations),
-    answered: questions.length,
+    whatWorks: value.what_works.trim(),
+    whatToImprove: value.what_to_improve.trim(),
+    recommendedTopics,
+    answered,
   };
 }
 
@@ -529,23 +575,45 @@ async function completeDeepSeek(
     maxTokens: number;
     signal: AbortSignal;
     json?: boolean;
+    thinkingDisabled?: boolean;
   },
-): Promise<string> {
+): Promise<{ content: string; finishReason: string | null }> {
   const client = createClient(apiKey);
-  const completion = await client.chat.completions.create(
-    {
-      model: DEEPSEEK_MODEL,
-      messages,
-      temperature: options.temperature,
-      max_tokens: options.maxTokens,
-      ...(options.json
-        ? { response_format: { type: "json_object" as const } }
-        : {}),
-    },
-    { signal: options.signal },
-  );
+  const payload = {
+    model: DEEPSEEK_MODEL,
+    messages,
+    temperature: options.temperature,
+    max_tokens: options.maxTokens,
+    ...(options.json
+      ? { response_format: { type: "json_object" as const } }
+      : {}),
+    ...(options.thinkingDisabled
+      ? { thinking: { type: "disabled" as const } }
+      : {}),
+  } as unknown as Parameters<typeof client.chat.completions.create>[0];
 
-  return completion.choices[0]?.message?.content?.trim() ?? "";
+  const completion = (await client.chat.completions.create(payload, {
+    signal: options.signal,
+  })) as {
+    choices: Array<{
+      finish_reason?: string | null;
+      message?: { content?: string | null };
+    }>;
+  };
+
+  return {
+    content: completion.choices[0]?.message?.content?.trim() ?? "",
+    finishReason: completion.choices[0]?.finish_reason ?? null,
+  };
+}
+
+function truncationNotice(
+  content: string,
+  finishReason: string | null,
+): string {
+  return finishReason === "length"
+    ? `${content}\n\n(Ответ был сокращен)`
+    : content;
 }
 
 function errorStatus(error: unknown): number | undefined {
@@ -608,6 +676,7 @@ async function persistAiAnalysis(
   summary: string,
   payload: unknown,
   rawResponse: string,
+  testResultId: string | null = null,
 ): Promise<void> {
   if (!email) return;
 
@@ -629,6 +698,7 @@ async function persistAiAnalysis(
       data: {
         userId: user.id,
         type,
+        testResultId,
         title,
         level,
         score: average,
@@ -649,6 +719,21 @@ async function evaluateSpeaking(
   body: unknown,
   userEmail: string | null,
 ): Promise<Response> {
+  const user = userEmail
+    ? await prisma.user.findUnique({
+        where: { email: userEmail },
+        select: { id: true },
+      })
+    : null;
+
+  if (hasOverlongSpeakingAnswer(body)) {
+    if (user) await refundSpeakingUsage(user.id);
+    return Response.json(
+      { error: "Ответ слишком длинный. Максимум 1200 символов" },
+      { status: 400 },
+    );
+  }
+
   const parsed = parseEvaluationBody(body);
   if (!parsed) {
     return Response.json(
@@ -657,21 +742,82 @@ async function evaluateSpeaking(
     );
   }
 
+  const emptyOrInvalid = parsed.answers.find(
+    (answer) => !isSpeakingAnswerValid(answer),
+  );
+  if (emptyOrInvalid !== undefined) {
+    if (user) await refundSpeakingUsage(user.id);
+    return Response.json(
+      {
+        error:
+          getSpeakingAnswerError(emptyOrInvalid) ??
+          "Ответ слишком короткий для оценки.",
+      },
+      { status: 400 },
+    );
+  }
+
+  if (!user) {
+    return Response.json(
+      { error: "Войдите, чтобы получить анализ Speaking." },
+      { status: 401 },
+    );
+  }
+
+  let dialog =
+    parsed.dialogId
+      ? await prisma.speakingDialog.findFirst({
+          where: { id: parsed.dialogId, userId: user.id },
+        })
+      : null;
+
+  if (dialog?.retryAfter && dialog.retryAfter.getTime() > Date.now()) {
+    return Response.json(
+      {
+        error: "Повторная попытка будет доступна позже.",
+        code: "COOLDOWN",
+        dialogId: dialog.id,
+        retryAfter: Math.ceil(
+          (dialog.retryAfter.getTime() - Date.now()) / 1000,
+        ),
+      },
+      { status: 429 },
+    );
+  }
+
+  if (!dialog || dialog.status === "completed") {
+    dialog = await prisma.speakingDialog.create({
+      data: {
+        userId: user.id,
+        qa: JSON.stringify(parsed.qa),
+        status: "analyzing",
+        counted: true,
+      },
+    });
+  } else {
+    await prisma.speakingDialog.update({
+      where: { id: dialog.id },
+      data: {
+        qa: JSON.stringify(parsed.qa),
+        status: "analyzing",
+        retryAfter: null,
+      },
+    });
+  }
+
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 60_000);
 
+  let rawResponse: string | null = null;
+
   try {
-    const content = await completeDeepSeek(
+    const completion = await completeDeepSeek(
       apiKey,
       [
         { role: "system", content: EVALUATION_SYSTEM_PROMPT },
         {
           role: "user",
-          content: buildEvaluationContext(
-            parsed.level,
-            parsed.answers,
-            parsed.messages,
-          ),
+          content: buildEvaluationContext(parsed.level, parsed.qa),
         },
       ],
       {
@@ -682,23 +828,33 @@ async function evaluateSpeaking(
       },
     );
 
-    if (!content) {
-      return Response.json(
-        { error: "Оценка Speaking не вернула результат. Попробуйте ещё раз." },
-        { status: 502 },
-      );
+    if (!completion.content) {
+      throw new Error("EMPTY_AI_RESPONSE");
     }
+    rawResponse = truncationNotice(completion.content, completion.finishReason);
 
     const evaluation = normalizeEvaluation(
-      extractJson(content),
+      extractJson(completion.content),
       parsed.answers,
       parsed.level,
     );
     if (!evaluation) {
-      return Response.json(
-        { error: "Не удалось разобрать оценку Speaking. Попробуйте ещё раз." },
-        { status: 502 },
-      );
+      throw new Error("INVALID_AI_RESPONSE");
+    }
+    if (completion.finishReason === "length") {
+      evaluation.summary = `${evaluation.summary} (Ответ был сокращен)`;
+    }
+
+    await prisma.speakingDialog.update({
+      where: { id: dialog.id },
+      data: {
+        status: "completed",
+        retryAfter: null,
+        rawResponse,
+      },
+    });
+    if (!dialog.counted) {
+      await chargeSuccessfulSpeakingRetry(user.id);
     }
 
     await persistAiAnalysis(
@@ -709,12 +865,34 @@ async function evaluateSpeaking(
       Object.values(evaluation.scores),
       evaluation.summary,
       evaluation,
-      content,
+      truncationNotice(completion.content, completion.finishReason),
     );
 
     return Response.json({ evaluation });
   } catch (error) {
-    return aiErrorResponse(error, controller.signal.aborted, "evaluation");
+    const retryAfter = 10 * 60;
+    await prisma.speakingDialog.update({
+      where: { id: dialog.id },
+      data: {
+        status: "failed",
+        retryAfter: new Date(Date.now() + retryAfter * 1000),
+        counted: false,
+        rawResponse,
+      },
+    });
+    if (dialog.counted) await refundSpeakingUsage(user.id);
+
+    console.error("[speaking] Evaluation failed", error);
+    return Response.json(
+      {
+        error:
+          "Не удалось получить анализ. Пожалуйста, попробуйте позже.",
+        code: "ANALYSIS_FAILED",
+        dialogId: dialog.id,
+        retryAfter,
+      },
+      { status: 502 },
+    );
   } finally {
     clearTimeout(timeout);
   }
@@ -736,96 +914,124 @@ async function analyzeTest(
   apiKey: string,
   body: unknown,
   userEmail: string | null,
+  isAdmin: boolean,
 ): Promise<Response> {
   const parsed = parseTestAnalysisBody(body);
   if (!parsed) {
     return Response.json(
-      { error: "Для анализа нужны отвеченные вопросы." },
+      { error: "Для анализа нужен сохранённый результат теста." },
       { status: 400 },
     );
   }
+
+  const user = userEmail
+    ? await prisma.user.findUnique({
+        where: { email: userEmail },
+        select: { id: true },
+      })
+    : null;
+  if (!user) {
+    return Response.json(
+      { error: "Пользователь не найден." },
+      { status: 401 },
+    );
+  }
+
+  const result = await prisma.testResult.findFirst({
+    where: { id: parsed.resultId, userId: user.id },
+    include: {
+      answers: {
+        orderBy: { createdAt: "asc" },
+      },
+    },
+  });
+  if (!result) {
+    return Response.json(
+      { error: "Результат теста не найден." },
+      { status: 404 },
+    );
+  }
+  if (result.answers.length === 0) {
+    return Response.json(
+      {
+        error:
+          "Для этого результата нет полных данных. Пройдите тест заново.",
+      },
+      { status: 400 },
+    );
+  }
+
+  const allowance = await checkAiAnalysisAllowance(userEmail, isAdmin);
+  if (!allowance.allowed) {
+    const cooldown = allowance.retryAfter > 0 && allowance.retryAfter < 3600;
+    return Response.json(
+      {
+        error: allowance.message,
+        code: cooldown ? "COOLDOWN" : "LIMIT_REACHED",
+        feature: "ai",
+        tier: allowance.tier,
+        retryAfter: allowance.retryAfter,
+        upgradeUrl: "/pricing",
+      },
+      {
+        status: 429,
+        headers: { "Retry-After": String(allowance.retryAfter) },
+      },
+    );
+  }
+
+  const context = buildTestAnalysisContext(
+    result.answers.map((answer) => ({
+      skill: answer.skill,
+      level: answer.level,
+      topic: answer.topic,
+      question: answer.question,
+      correct: answer.correct,
+      passageId: answer.passageId,
+    })),
+  );
 
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 100_000);
 
   try {
-    let content = "";
-    let analysis: CefrTestAnalysis | null = null;
+    const completion = await completeDeepSeek(
+      apiKey,
+      [
+        { role: "system", content: SYSTEM_PROMPT },
+        { role: "user", content: context },
+      ],
+      {
+        temperature: 0.2,
+        maxTokens: 800,
+        signal: controller.signal,
+        json: true,
+        thinkingDisabled: true,
+      },
+    );
 
-    // DeepSeek occasionally returns a malformed first response, while a second
-    // request is valid. Retry once automatically instead of making the user
-    // press "AI-анализ" again.
-    for (let attempt = 0; attempt < 2; attempt += 1) {
-      const retryInstruction =
-        attempt === 0
-          ? ""
-          : "\n\nIMPORTANT: Return exactly one JSON object matching the schema. Do not wrap it in another object, do not use markdown, and do not add commentary.";
-
-      try {
-        content = await completeDeepSeek(
-          apiKey,
-          [
-            { role: "system", content: TEST_ANALYSIS_SYSTEM_PROMPT },
-            {
-              role: "user",
-              content:
-                buildTestAnalysisContext(parsed.level, parsed.questions) +
-                retryInstruction,
-            },
-          ],
-          {
-            temperature: attempt === 0 ? 0.2 : 0.1,
-            maxTokens: 6000,
-            signal: controller.signal,
-            json: true,
-          },
-        );
-      } catch (error) {
-        if (
-          attempt === 0 &&
-          !controller.signal.aborted
-        ) {
-          console.warn(
-            "[ai] CEFR analysis request failed, retrying once",
-            error,
-          );
-          continue;
-        }
-        throw error;
-      }
-
-      if (!content) {
-        console.warn(
-          `[ai] CEFR analysis attempt ${attempt + 1} returned empty content`,
-        );
-        if (attempt === 0) continue;
-        break;
-      }
-
-      try {
-        const rawAnalysis = unwrapTestAnalysis(extractJson(content));
-        analysis = normalizeTestAnalysis(rawAnalysis, parsed.questions);
-      } catch (error) {
-        console.warn(
-          `[ai] CEFR analysis attempt ${attempt + 1} returned invalid JSON`,
-          error,
-        );
-      }
-
-      if (analysis) break;
-      console.warn(
-        `[ai] CEFR analysis attempt ${attempt + 1} did not match the schema`,
-      );
+    if (!completion.content) {
+      throw new Error("EMPTY_AI_RESPONSE");
     }
 
-    if (!analysis) {
-      return Response.json(
-        {
-          error:
-            "AI дважды вернул некорректный разбор. Попробуйте ещё раз.",
-        },
-        { status: 502 },
+    let rawAnalysis: unknown;
+    try {
+      rawAnalysis = unwrapTestAnalysis(
+        parseTestAnalysisJson(completion.content),
       );
+    } catch {
+      throw new Error("INVALID_AI_RESPONSE");
+    }
+
+    const analysis = normalizeTestAnalysis(
+      rawAnalysis,
+      result.answers.length,
+    );
+    if (!analysis) {
+      throw new Error("INVALID_AI_RESPONSE");
+    }
+    if (completion.finishReason === "length") {
+      analysis.whatToImprove = `${analysis.whatToImprove} (Ответ был сокращен)`;
     }
 
     await persistAiAnalysis(
@@ -833,15 +1039,27 @@ async function analyzeTest(
       "test",
       "CEFR-тест — AI-разбор",
       analysis.level,
-      Object.values(analysis.scores),
-      analysis.summary,
+      [],
+      analysis.whatToImprove,
       analysis,
-      content,
+      truncationNotice(completion.content, completion.finishReason),
+      result.id,
     );
+    if (userEmail) await recordAiAnalysis(userEmail);
 
     return Response.json({ analysis });
   } catch (error) {
-    return aiErrorResponse(error, controller.signal.aborted, "test");
+    if (userEmail) await markAiAnalysisFailed(userEmail);
+    console.error("[ai] Test analysis failed", error);
+    return Response.json(
+      {
+        error:
+          "Не удалось получить анализ. Пожалуйста, попробуйте позже.",
+        code: "ANALYSIS_FAILED",
+        retryAfter: 10 * 60,
+      },
+      { status: 502 },
+    );
   } finally {
     clearTimeout(timeout);
   }
@@ -889,7 +1107,11 @@ export async function POST(request: Request): Promise<Response> {
     typeof body === "object" &&
     (body as Record<string, unknown>).action === "evaluate"
   ) {
-    return evaluateSpeaking(apiKey, body, session.user.email ?? null);
+    return evaluateSpeaking(
+      apiKey,
+      body,
+      session.user.email ?? null,
+    );
   }
 
   if (
@@ -897,35 +1119,60 @@ export async function POST(request: Request): Promise<Response> {
     typeof body === "object" &&
     (body as Record<string, unknown>).action === "analyze-test"
   ) {
-    return analyzeTest(apiKey, body, session.user.email ?? null);
+    return analyzeTest(
+      apiKey,
+      body,
+      session.user.email ?? null,
+      Boolean(session.user.isAdmin),
+    );
   }
 
   const parsed = parseBody(body);
   if (!parsed) {
+    const rawMessages =
+      body && typeof body === "object"
+        ? (body as Record<string, unknown>).messages
+        : null;
+    const tooLong =
+      Array.isArray(rawMessages) &&
+      rawMessages.some(
+        (message) =>
+          message &&
+          typeof message === "object" &&
+          typeof (message as Record<string, unknown>).content === "string" &&
+          ((message as Record<string, unknown>).content as string).length >
+            MAX_MESSAGE_LENGTH,
+      );
     return Response.json(
-      { error: "Проверьте сообщение: оно пустое или слишком длинное." },
+      {
+        error: tooLong
+          ? "Ответ слишком длинный. Максимум 1200 символов"
+          : "Проверьте сообщение: оно пустое или слишком длинное.",
+      },
       { status: 400 },
     );
   }
 
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 25_000);
+  const timeout = setTimeout(() => controller.abort(), 60_000);
 
   try {
-    const content = await completeDeepSeek(
+    const completion = await completeDeepSeek(
       apiKey,
       buildChatMessages(parsed),
       { temperature: 0.7, maxTokens: 2048, signal: controller.signal },
     );
 
-    if (!content) {
+    if (!completion.content) {
       return Response.json(
         { error: "Emma не вернула ответ. Попробуйте отправить сообщение ещё раз." },
         { status: 502 },
       );
     }
 
-    return Response.json({ reply: content.slice(0, MAX_MESSAGE_LENGTH) });
+    return Response.json({
+      reply: truncationNotice(completion.content, completion.finishReason),
+    });
   } catch (error) {
     return aiErrorResponse(error, controller.signal.aborted, "chat");
   } finally {

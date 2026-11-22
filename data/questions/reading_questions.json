@@ -10,19 +10,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Five"
+        "text": "Пять"
       },
       {
         "id": "B",
-        "text": "Six"
+        "text": "Шесть"
       },
       {
         "id": "C",
-        "text": "Seven"
+        "text": "Семь"
       },
       {
         "id": "D",
-        "text": "Eight"
+        "text": "Восемь"
       }
     ],
     "correctOptionId": "B",
@@ -39,19 +39,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Sam"
+        "text": "Сэм"
       },
       {
         "id": "B",
-        "text": "Ben"
+        "text": "Бен"
       },
       {
         "id": "C",
-        "text": "Max"
+        "text": "Макс"
       },
       {
         "id": "D",
-        "text": "Tom"
+        "text": "Том"
       }
     ],
     "correctOptionId": "C",
@@ -68,19 +68,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Black"
+        "text": "Чёрный"
       },
       {
         "id": "B",
-        "text": "Brown"
+        "text": "Коричневый"
       },
       {
         "id": "C",
-        "text": "White"
+        "text": "Белый"
       },
       {
         "id": "D",
-        "text": "Yellow"
+        "text": "Жёлтый"
       }
     ],
     "correctOptionId": "B",
@@ -97,19 +97,19 @@
     "options": [
       {
         "id": "A",
-        "text": "In the park"
+        "text": "В парке"
       },
       {
         "id": "B",
-        "text": "In the garden"
+        "text": "В саду"
       },
       {
         "id": "C",
-        "text": "At school"
+        "text": "В школе"
       },
       {
         "id": "D",
-        "text": "In his bedroom"
+        "text": "В своей спальне"
       }
     ],
     "correctOptionId": "B",
@@ -126,19 +126,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Sam and Max"
+        "text": "Сэм и Макс"
       },
       {
         "id": "B",
-        "text": "Sam's mother and father"
+        "text": "Мать и отец Сэма"
       },
       {
         "id": "C",
-        "text": "The dogs"
+        "text": "Собаки"
       },
       {
         "id": "D",
-        "text": "Sam's friends"
+        "text": "Друзья Сэма"
       }
     ],
     "correctOptionId": "B",
@@ -155,19 +155,19 @@
     "options": [
       {
         "id": "A",
-        "text": "A banana"
+        "text": "Банан"
       },
       {
         "id": "B",
-        "text": "An orange"
+        "text": "Апельсин"
       },
       {
         "id": "C",
-        "text": "A red apple"
+        "text": "Красное яблоко"
       },
       {
         "id": "D",
-        "text": "A green apple"
+        "text": "Зелёное яблоко"
       }
     ],
     "correctOptionId": "C",
@@ -184,19 +184,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Cold water"
+        "text": "Холодная вода"
       },
       {
         "id": "B",
-        "text": "Milk"
+        "text": "Молоко"
       },
       {
         "id": "C",
-        "text": "Fruit juice"
+        "text": "Фруктовый сок"
       },
       {
         "id": "D",
-        "text": "Hot tea"
+        "text": "Горячий чай"
       }
     ],
     "correctOptionId": "A",
@@ -213,19 +213,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Mia's brother"
+        "text": "Брат Мии"
       },
       {
         "id": "B",
-        "text": "Mia's teacher"
+        "text": "Учитель Мии"
       },
       {
         "id": "C",
-        "text": "Mia's friend"
+        "text": "Друг Мии"
       },
       {
         "id": "D",
-        "text": "Mia's father"
+        "text": "Отец Мии"
       }
     ],
     "correctOptionId": "C",
@@ -242,19 +242,19 @@
     "options": [
       {
         "id": "A",
-        "text": "At home"
+        "text": "Дома"
       },
       {
         "id": "B",
-        "text": "In the park"
+        "text": "В парке"
       },
       {
         "id": "C",
-        "text": "At school"
+        "text": "В школе"
       },
       {
         "id": "D",
-        "text": "In a cafe"
+        "text": "В кафе"
       }
     ],
     "correctOptionId": "C",
@@ -271,23 +271,23 @@
     "options": [
       {
         "id": "A",
-        "text": "Mia's pet"
+        "text": "Питомец Мии"
       },
       {
         "id": "B",
-        "text": "Mia's lunch"
+        "text": "Обед Мии"
       },
       {
         "id": "C",
-        "text": "Mia's family"
+        "text": "Семья Мии"
       },
       {
         "id": "D",
-        "text": "Mia's toys"
+        "text": "Игрушки Мии"
       }
     ],
     "correctOptionId": "B",
-    "explanation": "В этом отрывке описывается, что Миа и ее подруга едят и пьют на обед."
+    "explanation": "В этом отрывке описывается, что Миа и её друг Том едят и пьют на обед."
   },
   {
     "id": "reading-pre-a1-0011",
@@ -300,19 +300,19 @@
     "options": [
       {
         "id": "A",
-        "text": "His mother"
+        "text": "Его мать"
       },
       {
         "id": "B",
-        "text": "His father"
+        "text": "Его отец"
       },
       {
         "id": "C",
-        "text": "His grandfather"
+        "text": "Его дедушка"
       },
       {
         "id": "D",
-        "text": "His sister"
+        "text": "Его сестра"
       }
     ],
     "correctOptionId": "C",
@@ -329,23 +329,23 @@
     "options": [
       {
         "id": "A",
-        "text": "Red"
+        "text": "Красная"
       },
       {
         "id": "B",
-        "text": "Blue"
+        "text": "Синяя"
       },
       {
         "id": "C",
-        "text": "Yellow"
+        "text": "Жёлтая"
       },
       {
         "id": "D",
-        "text": "Green"
+        "text": "Зелёная"
       }
     ],
     "correctOptionId": "B",
-    "explanation": "В тексте говорится: «Посмотрите на синюю машину! Это быстро."
+    "explanation": "В тексте говорится: «Посмотрите на синюю машину! Она быстрая»."
   },
   {
     "id": "reading-pre-a1-0013",
@@ -358,19 +358,19 @@
     "options": [
       {
         "id": "A",
-        "text": "A blue car"
+        "text": "Синяя машинка"
       },
       {
         "id": "B",
-        "text": "A red ball"
+        "text": "Красный мяч"
       },
       {
         "id": "C",
-        "text": "A yellow bus"
+        "text": "Жёлтый автобус"
       },
       {
         "id": "D",
-        "text": "A book"
+        "text": "Книга"
       }
     ],
     "correctOptionId": "B",
@@ -387,19 +387,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Small and old"
+        "text": "Маленький и старый"
       },
       {
         "id": "B",
-        "text": "Big and clean"
+        "text": "Большой и чистый"
       },
       {
         "id": "C",
-        "text": "Dark and cold"
+        "text": "Тёмный и холодный"
       },
       {
         "id": "D",
-        "text": "Quiet and empty"
+        "text": "Тихий и пустой"
       }
     ],
     "correctOptionId": "B",
@@ -416,19 +416,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Happy"
+        "text": "Счастливый"
       },
       {
         "id": "B",
-        "text": "Sad"
+        "text": "Грустный"
       },
       {
         "id": "C",
-        "text": "Tired"
+        "text": "Усталый"
       },
       {
         "id": "D",
-        "text": "Angry"
+        "text": "Злой"
       }
     ],
     "correctOptionId": "A",
@@ -445,19 +445,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Monday"
+        "text": "Понедельник"
       },
       {
         "id": "B",
-        "text": "Friday"
+        "text": "Пятница"
       },
       {
         "id": "C",
-        "text": "Saturday"
+        "text": "Суббота"
       },
       {
         "id": "D",
-        "text": "Sunday"
+        "text": "Воскресенье"
       }
     ],
     "correctOptionId": "C",
@@ -474,19 +474,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Red"
+        "text": "Красные"
       },
       {
         "id": "B",
-        "text": "Yellow"
+        "text": "Жёлтые"
       },
       {
         "id": "C",
-        "text": "Blue"
+        "text": "Синие"
       },
       {
         "id": "D",
-        "text": "White"
+        "text": "Белые"
       }
     ],
     "correctOptionId": "B",
@@ -503,19 +503,19 @@
     "options": [
       {
         "id": "A",
-        "text": "One"
+        "text": "Одна"
       },
       {
         "id": "B",
-        "text": "Two"
+        "text": "Две"
       },
       {
         "id": "C",
-        "text": "Three"
+        "text": "Три"
       },
       {
         "id": "D",
-        "text": "Four"
+        "text": "Четыре"
       }
     ],
     "correctOptionId": "C",
@@ -532,19 +532,19 @@
     "options": [
       {
         "id": "A",
-        "text": "A red hat"
+        "text": "Красная шляпа"
       },
       {
         "id": "B",
-        "text": "A blue hat"
+        "text": "Синяя шляпа"
       },
       {
         "id": "C",
-        "text": "A green hat"
+        "text": "Зелёная шляпа"
       },
       {
         "id": "D",
-        "text": "A yellow coat"
+        "text": "Жёлтое пальто"
       }
     ],
     "correctOptionId": "B",
@@ -561,19 +561,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Two o'clock"
+        "text": "В два часа"
       },
       {
         "id": "B",
-        "text": "Three o'clock"
+        "text": "В три часа"
       },
       {
         "id": "C",
-        "text": "Four o'clock"
+        "text": "В четыре часа"
       },
       {
         "id": "D",
-        "text": "Five o'clock"
+        "text": "В пять часов"
       }
     ],
     "correctOptionId": "C",
@@ -590,19 +590,19 @@
     "options": [
       {
         "id": "A",
-        "text": "White"
+        "text": "Белый"
       },
       {
         "id": "B",
-        "text": "Red"
+        "text": "Красный"
       },
       {
         "id": "C",
-        "text": "Yellow"
+        "text": "Жёлтый"
       },
       {
         "id": "D",
-        "text": "Brown"
+        "text": "Коричневый"
       }
     ],
     "correctOptionId": "A",
@@ -619,19 +619,19 @@
     "options": [
       {
         "id": "A",
-        "text": "On the desk"
+        "text": "На столе"
       },
       {
         "id": "B",
-        "text": "On the chair"
+        "text": "На стуле"
       },
       {
         "id": "C",
-        "text": "On the bed"
+        "text": "На кровати"
       },
       {
         "id": "D",
-        "text": "Under the table"
+        "text": "Под столом"
       }
     ],
     "correctOptionId": "C",
@@ -648,19 +648,19 @@
     "options": [
       {
         "id": "A",
-        "text": "On the bed"
+        "text": "На кровати"
       },
       {
         "id": "B",
-        "text": "On the desk"
+        "text": "На столе"
       },
       {
         "id": "C",
-        "text": "On the floor"
+        "text": "На полу"
       },
       {
         "id": "D",
-        "text": "In a bag"
+        "text": "В сумке"
       }
     ],
     "correctOptionId": "B",
@@ -677,19 +677,19 @@
     "options": [
       {
         "id": "A",
-        "text": "A dog"
+        "text": "Собака"
       },
       {
         "id": "B",
-        "text": "A bird"
+        "text": "Птица"
       },
       {
         "id": "C",
-        "text": "A cat"
+        "text": "Кошка"
       },
       {
         "id": "D",
-        "text": "A rabbit"
+        "text": "Кролик"
       }
     ],
     "correctOptionId": "C",
@@ -706,19 +706,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Quiet"
+        "text": "Тихая"
       },
       {
         "id": "B",
-        "text": "Noisy"
+        "text": "Шумная"
       },
       {
         "id": "C",
-        "text": "Dark"
+        "text": "Тёмная"
       },
       {
         "id": "D",
-        "text": "Cold"
+        "text": "Холодная"
       }
     ],
     "correctOptionId": "A",
@@ -735,19 +735,19 @@
     "options": [
       {
         "id": "A",
-        "text": "He plays tennis."
+        "text": "Он играет в теннис."
       },
       {
         "id": "B",
-        "text": "He assists his mother at the market."
+        "text": "Он помогает матери на рынке."
       },
       {
         "id": "C",
-        "text": "He reads books at home."
+        "text": "Он читает книги дома."
       },
       {
         "id": "D",
-        "text": "He swims in the sea."
+        "text": "Он плавает в море."
       }
     ],
     "correctOptionId": "B",
@@ -764,19 +764,19 @@
     "options": [
       {
         "id": "A",
-        "text": "At the market"
+        "text": "На рынке"
       },
       {
         "id": "B",
-        "text": "Near the park"
+        "text": "Рядом с парком"
       },
       {
         "id": "C",
-        "text": "At his home"
+        "text": "У него дома"
       },
       {
         "id": "D",
-        "text": "At school"
+        "text": "В школе"
       }
     ],
     "correctOptionId": "B",
@@ -793,23 +793,23 @@
     "options": [
       {
         "id": "A",
-        "text": "He can spend the afternoon outdoors."
+        "text": "Он может провести вторую половину дня на улице."
       },
       {
         "id": "B",
-        "text": "Market sales are better."
+        "text": "Продажи на рынке лучше."
       },
       {
         "id": "C",
-        "text": "He can swim in the sea."
+        "text": "Он может плавать в море."
       },
       {
         "id": "D",
-        "text": "He doesn't have homework."
+        "text": "У него нет домашнего задания."
       }
     ],
     "correctOptionId": "A",
-    "explanation": "В тексте отмечается: «Бен любит солнечные дни, потому что он может оставаться на улице весь день»."
+    "explanation": "В тексте отмечается: «Бен любит солнечные дни, потому что он может оставаться на улице всю вторую половину дня»."
   },
   {
     "id": "reading-a1-0004",
@@ -822,19 +822,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Rides a bicycle"
+        "text": "Едет на велосипеде"
       },
       {
         "id": "B",
-        "text": "Cooks dinner"
+        "text": "Готовит ужин"
       },
       {
         "id": "C",
-        "text": "Reads a book"
+        "text": "Читает книгу"
       },
       {
         "id": "D",
-        "text": "Walks by the sea"
+        "text": "Гуляет у моря"
       }
     ],
     "correctOptionId": "C",
@@ -851,19 +851,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Ben and his mother"
+        "text": "Бен и его мать"
       },
       {
         "id": "B",
-        "text": "Ben and Anna"
+        "text": "Бен и Анна"
       },
       {
         "id": "C",
-        "text": "The people at the market"
+        "text": "Люди на рынке"
       },
       {
         "id": "D",
-        "text": "Ben's family members"
+        "text": "Члены семьи Бена"
       }
     ],
     "correctOptionId": "B",
@@ -880,19 +880,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Monday and Wednesday"
+        "text": "По понедельникам и средам"
       },
       {
         "id": "B",
-        "text": "Tuesday and Thursday"
+        "text": "По вторникам и четвергам"
       },
       {
         "id": "C",
-        "text": "Friday and Saturday"
+        "text": "По пятницам и субботам"
       },
       {
         "id": "D",
-        "text": "Every day at five o'clock"
+        "text": "Каждый день в пять часов"
       }
     ],
     "correctOptionId": "B",
@@ -909,19 +909,19 @@
     "options": [
       {
         "id": "A",
-        "text": "England"
+        "text": "Англия"
       },
       {
         "id": "B",
-        "text": "The USA"
+        "text": "США"
       },
       {
         "id": "C",
-        "text": "Canada"
+        "text": "Канада"
       },
       {
         "id": "D",
-        "text": "Australia"
+        "text": "Австралия"
       }
     ],
     "correctOptionId": "C",
@@ -938,19 +938,19 @@
     "options": [
       {
         "id": "A",
-        "text": "He speaks slowly."
+        "text": "Он говорит медленно."
       },
       {
         "id": "B",
-        "text": "He speaks their language."
+        "text": "Он говорит на их языке."
       },
       {
         "id": "C",
-        "text": "The class is very small."
+        "text": "Класс очень маленький."
       },
       {
         "id": "D",
-        "text": "He uses pictures."
+        "text": "Он использует картинки."
       }
     ],
     "correctOptionId": "A",
@@ -967,19 +967,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Five"
+        "text": "Пять"
       },
       {
         "id": "B",
-        "text": "Ten"
+        "text": "Десять"
       },
       {
         "id": "C",
-        "text": "Twelve"
+        "text": "Двенадцать"
       },
       {
         "id": "D",
-        "text": "Fifteen"
+        "text": "Пятнадцать"
       }
     ],
     "correctOptionId": "B",
@@ -996,23 +996,23 @@
     "options": [
       {
         "id": "A",
-        "text": "It has no homework."
+        "text": "По нему не задают домашних заданий."
       },
       {
         "id": "B",
-        "text": "She gets to practice speaking."
+        "text": "У автора есть возможность попрактиковаться в говорении."
       },
       {
         "id": "C",
-        "text": "It is near her house."
+        "text": "Он находится рядом с домом автора."
       },
       {
         "id": "D",
-        "text": "The teacher is quiet."
+        "text": "Учитель тихий."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "Последнее предложение гласит: «Мне нравится этот класс, потому что я могу практиковаться в разговорной речи»."
+    "explanation": "Автору нравится курс, потому что там можно практиковаться в разговорной речи."
   },
   {
     "id": "reading-a1-0011",
@@ -1025,19 +1025,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Monkeys"
+        "text": "Обезьяны"
       },
       {
         "id": "B",
-        "text": "Elephants"
+        "text": "Слоны"
       },
       {
         "id": "C",
-        "text": "Lions"
+        "text": "Львы"
       },
       {
         "id": "D",
-        "text": "Giraffes"
+        "text": "Жирафы"
       }
     ],
     "correctOptionId": "D",
@@ -1054,23 +1054,23 @@
     "options": [
       {
         "id": "A",
-        "text": "A toy giraffe"
+        "text": "Игрушечный жираф"
       },
       {
         "id": "B",
-        "text": "An ice cream"
+        "text": "Мороженое"
       },
       {
         "id": "C",
-        "text": "A zoo ticket"
+        "text": "Билет в зоопарк"
       },
       {
         "id": "D",
-        "text": "Fruit juice"
+        "text": "Фруктовый сок"
       }
     ],
     "correctOptionId": "B",
-    "explanation": "В тексте упоминается: «Ее брат купил маленькое мороженое возле входа»."
+    "explanation": "В тексте упоминается: «Её брат купил небольшую порцию мороженого возле входа»."
   },
   {
     "id": "reading-a1-0013",
@@ -1083,23 +1083,23 @@
     "options": [
       {
         "id": "A",
-        "text": "By train"
+        "text": "На поезде"
       },
       {
         "id": "B",
-        "text": "By car"
+        "text": "На машине"
       },
       {
         "id": "C",
-        "text": "By bus"
+        "text": "На автобусе"
       },
       {
         "id": "D",
-        "text": "On foot"
+        "text": "Пешком"
       }
     ],
     "correctOptionId": "C",
-    "explanation": "В тексте говорится: «...и вернулся домой на автобусе в шесть часов»."
+    "explanation": "В тексте говорится: «Они вернулись домой на автобусе в шесть часов»."
   },
   {
     "id": "reading-a1-0014",
@@ -1112,19 +1112,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Her friends and teacher"
+        "text": "Её друзья и учитель"
       },
       {
         "id": "B",
-        "text": "Her brother and parents"
+        "text": "Её брат и родители"
       },
       {
         "id": "C",
-        "text": "Her grandparents"
+        "text": "Её бабушка и дедушка"
       },
       {
         "id": "D",
-        "text": "Her classmates"
+        "text": "Её одноклассники"
       }
     ],
     "correctOptionId": "B",
@@ -1141,19 +1141,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Yes, she wants to go back next month."
+        "text": "Да, она хочет вернуться туда в следующем месяце."
       },
       {
         "id": "B",
-        "text": "No, it was too crowded."
+        "text": "Нет, там было слишком многолюдно."
       },
       {
         "id": "C",
-        "text": "No, she was tired of walking."
+        "text": "Нет, она устала ходить."
       },
       {
         "id": "D",
-        "text": "The text does not say."
+        "text": "В тексте не сказано."
       }
     ],
     "correctOptionId": "A",
@@ -1170,19 +1170,19 @@
     "options": [
       {
         "id": "A",
-        "text": "In a big city"
+        "text": "В большом городе"
       },
       {
         "id": "B",
-        "text": "On a farm in the countryside"
+        "text": "На ферме в сельской местности"
       },
       {
         "id": "C",
-        "text": "Near a beach resort"
+        "text": "Рядом с пляжным курортом"
       },
       {
         "id": "D",
-        "text": "Next to a school"
+        "text": "Рядом со школой"
       }
     ],
     "correctOptionId": "B",
@@ -1199,19 +1199,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Fresh milk"
+        "text": "Свежее молоко"
       },
       {
         "id": "B",
-        "text": "Fresh eggs"
+        "text": "Свежие яйца"
       },
       {
         "id": "C",
-        "text": "Apples"
+        "text": "Яблоки"
       },
       {
         "id": "D",
-        "text": "Vegetables"
+        "text": "Овощи"
       }
     ],
     "correctOptionId": "B",
@@ -1228,19 +1228,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Two days"
+        "text": "Два дня"
       },
       {
         "id": "B",
-        "text": "One week"
+        "text": "Одну неделю"
       },
       {
         "id": "C",
-        "text": "Two weeks"
+        "text": "Две недели"
       },
       {
         "id": "D",
-        "text": "One month"
+        "text": "Один месяц"
       }
     ],
     "correctOptionId": "C",
@@ -1257,19 +1257,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Chickens"
+        "text": "Курицы"
       },
       {
         "id": "B",
-        "text": "Horses"
+        "text": "Лошади"
       },
       {
         "id": "C",
-        "text": "Cows"
+        "text": "Коровы"
       },
       {
         "id": "D",
-        "text": "A dog"
+        "text": "Собака"
       }
     ],
     "correctOptionId": "C",
@@ -1286,19 +1286,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Feeds animals and waters plants"
+        "text": "Кормит животных и поливает растения"
       },
       {
         "id": "B",
-        "text": "Bakes bread"
+        "text": "Печёт хлеб"
       },
       {
         "id": "C",
-        "text": "Drives a tractor"
+        "text": "Водит трактор"
       },
       {
         "id": "D",
-        "text": "Sells eggs at the market"
+        "text": "Продаёт яйца на рынке"
       }
     ],
     "correctOptionId": "A",
@@ -1315,19 +1315,19 @@
     "options": [
       {
         "id": "A",
-        "text": "A comedy about animals"
+        "text": "Комедия о животных"
       },
       {
         "id": "B",
-        "text": "A movie about space travellers"
+        "text": "Фильм о космических путешественниках"
       },
       {
         "id": "C",
-        "text": "A historical drama"
+        "text": "Историческая драма"
       },
       {
         "id": "D",
-        "text": "A scary ghost story"
+        "text": "Страшная история о призраках"
       }
     ],
     "correctOptionId": "B",
@@ -1344,19 +1344,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Because they were students."
+        "text": "Потому что они были студентами."
       },
       {
         "id": "B",
-        "text": "Because they bought them online."
+        "text": "Потому что они купили их онлайн."
       },
       {
         "id": "C",
-        "text": "Because the cinema was old."
+        "text": "Потому что кинотеатр был старым."
       },
       {
         "id": "D",
-        "text": "Because it was a Tuesday."
+        "text": "Потому что был вторник."
       }
     ],
     "correctOptionId": "B",
@@ -1373,19 +1373,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Pizza and soda"
+        "text": "Пицца и газировка"
       },
       {
         "id": "B",
-        "text": "Popcorn and fruit juice"
+        "text": "Попкорн и фруктовый сок"
       },
       {
         "id": "C",
-        "text": "Ice cream and water"
+        "text": "Мороженое и вода"
       },
       {
         "id": "D",
-        "text": "Sandwiches and tea"
+        "text": "Бутерброды и чай"
       }
     ],
     "correctOptionId": "B",
@@ -1402,19 +1402,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Went straight home"
+        "text": "Сразу пошли домой"
       },
       {
         "id": "B",
-        "text": "Walked to a pizza restaurant"
+        "text": "Пошли пешком в пиццерию"
       },
       {
         "id": "C",
-        "text": "Took a bus to the park"
+        "text": "Поехали на автобусе в парк"
       },
       {
         "id": "D",
-        "text": "Bought more cinema tickets"
+        "text": "Купили ещё билеты в кино"
       }
     ],
     "correctOptionId": "B",
@@ -1431,19 +1431,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Near the beach"
+        "text": "Рядом с пляжем"
       },
       {
         "id": "B",
-        "text": "In the town centre"
+        "text": "В центре города"
       },
       {
         "id": "C",
-        "text": "Next to Peter's house"
+        "text": "Рядом с домом Питера"
       },
       {
         "id": "D",
-        "text": "Inside a shopping mall"
+        "text": "Внутри торгового центра"
       }
     ],
     "correctOptionId": "B",
@@ -1460,19 +1460,19 @@
     "options": [
       {
         "id": "A",
-        "text": "The lake was closed to visitors."
+        "text": "Озеро было закрыто для посетителей."
       },
       {
         "id": "B",
-        "text": "It started raining heavily."
+        "text": "Начался сильный дождь."
       },
       {
         "id": "C",
-        "text": "The water temperature was too cold."
+        "text": "Температура воды была слишком холодной."
       },
       {
         "id": "D",
-        "text": "They had forgotten to bring towels."
+        "text": "Они забыли взять полотенца."
       }
     ],
     "correctOptionId": "C",
@@ -1489,19 +1489,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Rented bicycles and rode in the forest"
+        "text": "Взяли напрокат велосипеды и катались по лесу"
       },
       {
         "id": "B",
-        "text": "Went shopping in a nearby village"
+        "text": "Отправились за покупками в соседнюю деревню"
       },
       {
         "id": "C",
-        "text": "Climbed up the mountains"
+        "text": "Поднялись в горы"
       },
       {
         "id": "D",
-        "text": "Visited a local art gallery"
+        "text": "Посетили местную художественную галерею"
       }
     ],
     "correctOptionId": "A",
@@ -1518,19 +1518,19 @@
     "options": [
       {
         "id": "A",
-        "text": "At a forest café"
+        "text": "В лесном кафе"
       },
       {
         "id": "B",
-        "text": "At a picnic area near the water"
+        "text": "На площадке для пикника у воды"
       },
       {
         "id": "C",
-        "text": "Inside the bike rental shop"
+        "text": "Внутри пункта проката велосипедов"
       },
       {
         "id": "D",
-        "text": "At Daniel's home"
+        "text": "Дома у Дэниела"
       }
     ],
     "correctOptionId": "B",
@@ -1547,19 +1547,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Bought souvenirs"
+        "text": "Купил сувениры"
       },
       {
         "id": "B",
-        "text": "Swam in the lake"
+        "text": "Искупался в озере"
       },
       {
         "id": "C",
-        "text": "Took photographs of the mountains"
+        "text": "Сфотографировал горы"
       },
       {
         "id": "D",
-        "text": "Repaired his bicycle"
+        "text": "Починил свой велосипед"
       }
     ],
     "correctOptionId": "C",
@@ -1576,19 +1576,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Dangerous and narrow"
+        "text": "Опасный и узкий"
       },
       {
         "id": "B",
-        "text": "Beautiful and pleasant to view"
+        "text": "Красивый и приятный для обзора"
       },
       {
         "id": "C",
-        "text": "Very long and boring"
+        "text": "Очень длинный и скучный"
       },
       {
         "id": "D",
-        "text": "Crowded with people"
+        "text": "Переполненный людьми"
       }
     ],
     "correctOptionId": "B",
@@ -1605,19 +1605,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Staff training"
+        "text": "Обучение персонала"
       },
       {
         "id": "B",
-        "text": "Heating system maintenance"
+        "text": "Техническое обслуживание системы отопления"
       },
       {
         "id": "C",
-        "text": "Cleaning services"
+        "text": "Уборка помещений"
       },
       {
         "id": "D",
-        "text": "A public holiday"
+        "text": "Государственный праздник"
       }
     ],
     "correctOptionId": "B",
@@ -1634,23 +1634,23 @@
     "options": [
       {
         "id": "A",
-        "text": "9:00 a.m."
+        "text": "9:00 утра"
       },
       {
         "id": "B",
-        "text": "11:00 a.m."
+        "text": "11:00 утра"
       },
       {
         "id": "C",
-        "text": "1:00 p.m."
+        "text": "1:00 дня"
       },
       {
         "id": "D",
-        "text": "6:00 p.m."
+        "text": "6:00 вечера"
       }
     ],
     "correctOptionId": "C",
-    "explanation": "В уведомлении указано: «Часы работы будут с 13:00. до 18:00»."
+    "explanation": "В уведомлении указано: «Часы работы будут с 13:00 до 18:00»."
   },
   {
     "id": "reading-a2-0008",
@@ -1663,23 +1663,23 @@
     "options": [
       {
         "id": "A",
-        "text": "By post"
+        "text": "По почте"
       },
       {
         "id": "B",
-        "text": "Using the drop box near the front door"
+        "text": "С помощью ящика для возврата книг рядом с главным входом"
       },
       {
         "id": "C",
-        "text": "Giving them to security guards"
+        "text": "Отдав их охранникам"
       },
       {
         "id": "D",
-        "text": "They must wait until Tuesday morning."
+        "text": "Им придётся ждать до утра вторника."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "В тексте говорится: «Посетители могут вернуть взятые напрокат книги, воспользовавшись ящиком для хранения рядом с входной дверью»."
+    "explanation": "В тексте говорится: «Посетители могут вернуть взятые в библиотеке книги, воспользовавшись ящиком для возврата рядом с входной дверью»."
   },
   {
     "id": "reading-a2-0009",
@@ -1692,19 +1692,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Monday evening"
+        "text": "Вечером в понедельник"
       },
       {
         "id": "B",
-        "text": "Tuesday morning"
+        "text": "Утром во вторник"
       },
       {
         "id": "C",
-        "text": "Wednesday afternoon"
+        "text": "Днём в среду"
       },
       {
         "id": "D",
-        "text": "Next week"
+        "text": "На следующей неделе"
       }
     ],
     "correctOptionId": "B",
@@ -1721,19 +1721,19 @@
     "options": [
       {
         "id": "A",
-        "text": "To advertise new library books"
+        "text": "Чтобы прорекламировать новые книги библиотеки"
       },
       {
         "id": "B",
-        "text": "To notify the public of temporary schedule changes"
+        "text": "Чтобы уведомить общественность о временных изменениях в расписании"
       },
       {
         "id": "C",
-        "text": "To hire maintenance workers"
+        "text": "Чтобы нанять работников по техническому обслуживанию"
       },
       {
         "id": "D",
-        "text": "To invite people to a reading event"
+        "text": "Чтобы пригласить людей на мероприятие по чтению"
       }
     ],
     "correctOptionId": "B",
@@ -1750,19 +1750,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Painting portraits"
+        "text": "Рисование портретов"
       },
       {
         "id": "B",
-        "text": "Digital photography"
+        "text": "Цифровая фотография"
       },
       {
         "id": "C",
-        "text": "Video editing"
+        "text": "Видеомонтаж"
       },
       {
         "id": "D",
-        "text": "Graphic design"
+        "text": "Графический дизайн"
       }
     ],
     "correctOptionId": "B",
@@ -1779,19 +1779,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Taking evening classes at a college"
+        "text": "Посещая вечерние занятия в колледже"
       },
       {
         "id": "B",
-        "text": "Reading library books"
+        "text": "Читая библиотечные книги"
       },
       {
         "id": "C",
-        "text": "Watching free online tutorial videos"
+        "text": "Смотря бесплатные онлайн-видеоуроки"
       },
       {
         "id": "D",
-        "text": "Learning from a professional photographer friend"
+        "text": "Учась у друга — профессионального фотографа"
       }
     ],
     "correctOptionId": "C",
@@ -1808,19 +1808,19 @@
     "options": [
       {
         "id": "A",
-        "text": "They were too expensive to print."
+        "text": "Их было слишком дорого распечатывать."
       },
       {
         "id": "B",
-        "text": "They were dark or blurry."
+        "text": "Они были тёмными или размытыми."
       },
       {
         "id": "C",
-        "text": "Her camera was broken."
+        "text": "Её камера была сломана."
       },
       {
         "id": "D",
-        "text": "Nobody wanted to pose for her."
+        "text": "Никто не хотел позировать ей."
       }
     ],
     "correctOptionId": "B",
@@ -1837,23 +1837,23 @@
     "options": [
       {
         "id": "A",
-        "text": "In the city park"
+        "text": "В городском парке"
       },
       {
         "id": "B",
-        "text": "At her school"
+        "text": "В своей школе"
       },
       {
         "id": "C",
-        "text": "In a studio"
+        "text": "В студии"
       },
       {
         "id": "D",
-        "text": "In her garden"
+        "text": "В своём саду"
       }
     ],
     "correctOptionId": "A",
-    "explanation": "В тексте упоминается: «...после ежевечерних тренировок в городском парке она быстро улучшилась»."
+    "explanation": "В тексте упоминается: «...после того как она каждый вечер занималась фотографией в городском парке, она быстро улучшилась»."
   },
   {
     "id": "reading-a2-0015",
@@ -1866,19 +1866,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Buy a brand-new camera"
+        "text": "Купить совершенно новую камеру"
       },
       {
         "id": "B",
-        "text": "Display her work at a youth centre"
+        "text": "Выставить свои работы в молодёжном центре"
       },
       {
         "id": "C",
-        "text": "Start a paid photography business"
+        "text": "Начать платный фотобизнес"
       },
       {
         "id": "D",
-        "text": "Move to another city"
+        "text": "Переехать в другой город"
       }
     ],
     "correctOptionId": "B",
@@ -1895,19 +1895,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Every month"
+        "text": "Каждый месяц"
       },
       {
         "id": "B",
-        "text": "Once a year in October"
+        "text": "Раз в год в октябре"
       },
       {
         "id": "C",
-        "text": "Every weekend"
+        "text": "Каждые выходные"
       },
       {
         "id": "D",
-        "text": "Twice every summer"
+        "text": "Дважды за лето"
       }
     ],
     "correctOptionId": "B",
@@ -1924,19 +1924,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Inside the town hall"
+        "text": "Внутри здания мэрии"
       },
       {
         "id": "B",
-        "text": "Along the main square"
+        "text": "Вдоль главной площади"
       },
       {
         "id": "C",
-        "text": "In the city park"
+        "text": "В городском парке"
       },
       {
         "id": "D",
-        "text": "Next to the river"
+        "text": "Рядом с рекой"
       }
     ],
     "correctOptionId": "B",
@@ -1953,19 +1953,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Outdoor cinema screenings"
+        "text": "Показы кино на открытом воздухе"
       },
       {
         "id": "B",
-        "text": "Live musicians playing traditional songs"
+        "text": "Живые музыканты, исполняющие традиционные песни"
       },
       {
         "id": "C",
-        "text": "Cooking competitions"
+        "text": "Кулинарные конкурсы"
       },
       {
         "id": "D",
-        "text": "Dance workshops"
+        "text": "Танцевальные мастер-классы"
       }
     ],
     "correctOptionId": "B",
@@ -1982,19 +1982,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Entry is completely free."
+        "text": "Вход совершенно бесплатный."
       },
       {
         "id": "B",
-        "text": "Five dollars per person"
+        "text": "Пять долларов с человека"
       },
       {
         "id": "C",
-        "text": "Visitors buy one ticket for all food."
+        "text": "Посетители покупают один билет на всю еду."
       },
       {
         "id": "D",
-        "text": "It is free only for children."
+        "text": "Бесплатно только для детей."
       }
     ],
     "correctOptionId": "A",
@@ -2011,19 +2011,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Only local traditional soups"
+        "text": "Только местные традиционные супы"
       },
       {
         "id": "B",
-        "text": "Dishes from various international cuisines"
+        "text": "Блюда различных кухонь мира"
       },
       {
         "id": "C",
-        "text": "Fast food burger chains only"
+        "text": "Только сети ресторанов быстрого питания"
       },
       {
         "id": "D",
-        "text": "Vegetable salads exclusively"
+        "text": "Исключительно овощные салаты"
       }
     ],
     "correctOptionId": "B",
@@ -2040,19 +2040,19 @@
     "options": [
       {
         "id": "A",
-        "text": "They drive at higher speed limits."
+        "text": "Они ездят с более высокими ограничениями скорости."
       },
       {
         "id": "B",
-        "text": "They bypass traffic congestion."
+        "text": "Они объезжают дорожные заторы."
       },
       {
         "id": "C",
-        "text": "They make fewer stops."
+        "text": "Они делают меньше остановок."
       },
       {
         "id": "D",
-        "text": "Roads are closed to private vehicles."
+        "text": "Дороги закрыты для частных автомобилей."
       }
     ],
     "correctOptionId": "B",
@@ -2069,19 +2069,19 @@
     "options": [
       {
         "id": "A",
-        "text": "A monthly travel pass costs less than petrol and parking fees."
+        "text": "Месячный проездной стоит меньше, чем бензин и плата за парковку."
       },
       {
         "id": "B",
-        "text": "Tickets are subsidized for all workers."
+        "text": "Билеты субсидируются для всех работников."
       },
       {
         "id": "C",
-        "text": "Drivers get tax discounts."
+        "text": "Водители получают налоговые скидки."
       },
       {
         "id": "D",
-        "text": "Car repairs become unnecessary."
+        "text": "Ремонт автомобилей становится ненужным."
       }
     ],
     "correctOptionId": "A",
@@ -2098,19 +2098,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Quieter streets at night"
+        "text": "Более тихие улицы ночью"
       },
       {
         "id": "B",
-        "text": "Lower air pollution levels"
+        "text": "Более низкий уровень загрязнения воздуха"
       },
       {
         "id": "C",
-        "text": "More space for city parks"
+        "text": "Больше места для городских парков"
       },
       {
         "id": "D",
-        "text": "Lower electricity consumption"
+        "text": "Более низкое потребление электроэнергии"
       }
     ],
     "correctOptionId": "B",
@@ -2127,19 +2127,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Quiet and calm"
+        "text": "Тихие и спокойные"
       },
       {
         "id": "B",
-        "text": "Busiest and most crowded"
+        "text": "Самые загруженные и многолюдные"
       },
       {
         "id": "C",
-        "text": "Early before sunrise"
+        "text": "Ранние, до восхода солнца"
       },
       {
         "id": "D",
-        "text": "Late afternoon"
+        "text": "Поздний день"
       }
     ],
     "correctOptionId": "B",
@@ -2156,19 +2156,19 @@
     "options": [
       {
         "id": "A",
-        "text": "The danger of city driving"
+        "text": "Опасность вождения в городе"
       },
       {
         "id": "B",
-        "text": "Reasons why urban commuters switch to public transport"
+        "text": "Причины, по которым городские жители пересаживаются на общественный транспорт"
       },
       {
         "id": "C",
-        "text": "How to buy monthly train passes"
+        "text": "Как покупать месячные проездные на поезд"
       },
       {
         "id": "D",
-        "text": "The history of urban buses"
+        "text": "История городских автобусов"
       }
     ],
     "correctOptionId": "B",
@@ -2185,19 +2185,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Cooking professionally requires years of intensive training."
+        "text": "Для профессионального занятия кулинарией требуются годы интенсивного обучения."
       },
       {
         "id": "B",
-        "text": "Mastering a small set of basic dishes can improve daily life and finances."
+        "text": "Освоение небольшого набора базовых блюд может улучшить повседневную жизнь и финансовое положение."
       },
       {
         "id": "C",
-        "text": "Takeaway meals are always superior in nutrition."
+        "text": "Еда на вынос всегда более питательна."
       },
       {
         "id": "D",
-        "text": "Vegetable curry is the easiest dish for beginners."
+        "text": "Овощное карри — самое простое блюдо для начинающих."
       }
     ],
     "correctOptionId": "B",
@@ -2214,19 +2214,19 @@
     "options": [
       {
         "id": "A",
-        "text": "To keep learning manageable until confidence developed"
+        "text": "Чтобы обучение оставалось посильным, пока не появится уверенность"
       },
       {
         "id": "B",
-        "text": "Because other ingredients were unavailable"
+        "text": "Потому что другие ингредиенты были недоступны"
       },
       {
         "id": "C",
-        "text": "To prepare for a professional culinary exam"
+        "text": "Чтобы подготовиться к профессиональному кулинарному экзамену"
       },
       {
         "id": "D",
-        "text": "To avoid using kitchen appliances"
+        "text": "Чтобы избежать использования кухонной техники"
       }
     ],
     "correctOptionId": "A",
@@ -2243,19 +2243,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Tomato soup"
+        "text": "Томатный суп"
       },
       {
         "id": "B",
-        "text": "Pasta"
+        "text": "Паста"
       },
       {
         "id": "C",
-        "text": "Vegetable curry"
+        "text": "Овощное карри"
       },
       {
         "id": "D",
-        "text": "Roast chicken"
+        "text": "Жареная курица"
       }
     ],
     "correctOptionId": "D",
@@ -2272,19 +2272,19 @@
     "options": [
       {
         "id": "A",
-        "text": "They took too long to arrive."
+        "text": "Их доставка занимала слишком много времени."
       },
       {
         "id": "B",
-        "text": "They were expensive and unhealthy."
+        "text": "Они были дорогими и вредными для здоровья."
       },
       {
         "id": "C",
-        "text": "They lacked variety in flavor."
+        "text": "Им не хватало разнообразия вкусов."
       },
       {
         "id": "D",
-        "text": "They caused arguments with roommates."
+        "text": "Они вызывали ссоры с соседями по квартире."
       }
     ],
     "correctOptionId": "B",
@@ -2301,19 +2301,19 @@
     "options": [
       {
         "id": "A",
-        "text": "It has become their favorite passion."
+        "text": "Это стало их любимым увлечением."
       },
       {
         "id": "B",
-        "text": "They still strongly dislike it."
+        "text": "Они по-прежнему очень не любят это."
       },
       {
         "id": "C",
-        "text": "They view it as a practical skill that simplified life."
+        "text": "Они считают это практическим навыком, который упростил жизнь."
       },
       {
         "id": "D",
-        "text": "They plan to open a restaurant."
+        "text": "Они планируют открыть ресторан."
       }
     ],
     "correctOptionId": "C",
@@ -2330,19 +2330,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Every weekday afternoon"
+        "text": "Каждый будний день после обеда"
       },
       {
         "id": "B",
-        "text": "Every Saturday morning"
+        "text": "Каждую субботу утром"
       },
       {
         "id": "C",
-        "text": "Once a month on Sunday"
+        "text": "Раз в месяц по воскресеньям"
       },
       {
         "id": "D",
-        "text": "Every Friday evening"
+        "text": "Каждую пятницу вечером"
       }
     ],
     "correctOptionId": "B",
@@ -2359,19 +2359,19 @@
     "options": [
       {
         "id": "A",
-        "text": "A request from the local town council"
+        "text": "Просьба местного городского совета"
       },
       {
         "id": "B",
-        "text": "Concern over an unused lot being filled with trash"
+        "text": "Беспокойство из-за того, что неиспользуемый участок заполняется мусором"
       },
       {
         "id": "C",
-        "text": "A desire to sell organic produce commercially"
+        "text": "Желание продавать органическую продукцию на коммерческой основе"
       },
       {
         "id": "D",
-        "text": "A school competition"
+        "text": "Школьный конкурс"
       }
     ],
     "correctOptionId": "B",
@@ -2388,23 +2388,23 @@
     "options": [
       {
         "id": "A",
-        "text": "For physical education classes"
+        "text": "Для уроков физкультуры"
       },
       {
         "id": "B",
-        "text": "For practical science lessons"
+        "text": "Для практических уроков естественных наук"
       },
       {
         "id": "C",
-        "text": "As a playground during recess"
+        "text": "Как площадка для игр во время перемен"
       },
       {
         "id": "D",
-        "text": "To host weekend art fairs"
+        "text": "Для проведения ярмарок искусства по выходным"
       }
     ],
     "correctOptionId": "B",
-    "explanation": "В тексте уточняется: «...соседняя начальная школа использует это помещение для практических уроков естественных наук»."
+    "explanation": "В тексте уточняется: «...соседняя начальная школа использует территорию сада для практических уроков естественных наук»."
   },
   {
     "id": "reading-b1-0009",
@@ -2417,19 +2417,19 @@
     "options": [
       {
         "id": "A",
-        "text": "The large volume of harvested food"
+        "text": "Большой объём собранного урожая"
       },
       {
         "id": "B",
-        "text": "The financial profits from selling vegetables"
+        "text": "Финансовая прибыль от продажи овощей"
       },
       {
         "id": "C",
-        "text": "Stronger relationships among local neighbours"
+        "text": "Укрепившиеся отношения между местными соседями"
       },
       {
         "id": "D",
-        "text": "Winning an environmental award"
+        "text": "Получение экологической премии"
       }
     ],
     "correctOptionId": "C",
@@ -2446,19 +2446,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Extremely expensive"
+        "text": "Чрезвычайно дорогой"
       },
       {
         "id": "B",
-        "text": "Uncared for and ignored"
+        "text": "Оставленный без ухода и внимания"
       },
       {
         "id": "C",
-        "text": "Beautifully landscaped"
+        "text": "Красиво благоустроенный"
       },
       {
         "id": "D",
-        "text": "Densely populated"
+        "text": "Плотно населённый"
       }
     ],
     "correctOptionId": "B",
@@ -2475,23 +2475,23 @@
     "options": [
       {
         "id": "A",
-        "text": "They are cheaper than print books."
+        "text": "Они дешевле печатных книг."
       },
       {
         "id": "B",
-        "text": "They are more convenient during travel than holding paper books."
+        "text": "Им удобнее слушать аудиокниги во время поездок, чем читать печатную книгу."
       },
       {
         "id": "C",
-        "text": "They contain shorter stories."
+        "text": "Они содержат более короткие истории."
       },
       {
         "id": "D",
-        "text": "They do not require internet access."
+        "text": "Для них не требуется доступ в интернет."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "В тексте говорится, что слушатели, путешествующие на работу, считают аудиокниги гораздо более удобными, чем держать в руках печатные книги."
+    "explanation": "В тексте говорится, что пассажирам удобнее слушать аудиокниги во время поездок, чем читать печатную книгу."
   },
   {
     "id": "reading-b1-0012",
@@ -2504,19 +2504,19 @@
     "options": [
       {
         "id": "A",
-        "text": "They help people fall asleep faster."
+        "text": "Они помогают людям быстрее заснуть."
       },
       {
         "id": "B",
-        "text": "They allow multi-tasking while performing chores."
+        "text": "Они позволяют заниматься несколькими делами одновременно во время домашних обязанностей."
       },
       {
         "id": "C",
-        "text": "They improve reading speed."
+        "text": "Они повышают скорость чтения."
       },
       {
         "id": "D",
-        "text": "They eliminate the need for headphones."
+        "text": "Они устраняют необходимость в наушниках."
       }
     ],
     "correctOptionId": "B",
@@ -2533,23 +2533,23 @@
     "options": [
       {
         "id": "A",
-        "text": "Audiobooks harm children's hearing."
+        "text": "Аудиокниги вредят слуху детей."
       },
       {
         "id": "B",
-        "text": "Listening to narration lacks the quiet intimacy of reading paper pages."
+        "text": "Прослушивание актёрского чтения лишено особой атмосферы уединения при перелистывании бумажных страниц."
       },
       {
         "id": "C",
-        "text": "Actors read books too quickly."
+        "text": "Актёры читают книги слишком быстро."
       },
       {
         "id": "D",
-        "text": "Audiobooks are frequently incomplete."
+        "text": "Аудиокниги часто бывают неполными."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "В этом отрывке подчеркивается, что традиционалисты утверждают, что слушанию актера не хватает тихой интимности, как перелистыванию бумажных страниц."
+    "explanation": "В этом отрывке подчёркивается, что традиционалисты утверждают: прослушивание актёрского чтения лишено особой атмосферы уединения при перелистывании бумажных страниц."
   },
   {
     "id": "reading-b1-0014",
@@ -2562,19 +2562,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Sales have steadily declined."
+        "text": "Продажи неуклонно снижались."
       },
       {
         "id": "B",
-        "text": "Digital downloads continue to hit record sales."
+        "text": "Цифровые загрузки продолжают устанавливать рекорды продаж."
       },
       {
         "id": "C",
-        "text": "Print books still sell ten times more than audiobooks."
+        "text": "Печатные книги по-прежнему продаются в десять раз лучше, чем аудиокниги."
       },
       {
         "id": "D",
-        "text": "Only fiction audiobooks make a profit."
+        "text": "Только художественные аудиокниги приносят прибыль."
       }
     ],
     "correctOptionId": "B",
@@ -2591,19 +2591,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Strongly taking the side of traditional print readers"
+        "text": "Решительно встаёт на сторону традиционных читателей печатных книг"
       },
       {
         "id": "B",
-        "text": "Balanced, presenting benefits alongside traditionalist criticisms"
+        "text": "Сбалансированно: представляет преимущества наряду с критикой традиционалистов"
       },
       {
         "id": "C",
-        "text": "Dismissing traditional books as outdated"
+        "text": "Отмахивается от традиционных книг как от устаревших"
       },
       {
         "id": "D",
-        "text": "Focusing exclusively on technical audio quality"
+        "text": "Сосредоточивается исключительно на техническом качестве звука"
       }
     ],
     "correctOptionId": "B",
@@ -2620,19 +2620,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Higher salaries"
+        "text": "Более высокая зарплата"
       },
       {
         "id": "B",
-        "text": "Flexibility and avoiding commutes"
+        "text": "Гибкость и отсутствие поездок на работу"
       },
       {
         "id": "C",
-        "text": "Free home office equipment"
+        "text": "Бесплатное оборудование для домашнего офиса"
       },
       {
         "id": "D",
-        "text": "Fewer working hours per day"
+        "text": "Меньше рабочих часов в день"
       }
     ],
     "correctOptionId": "B",
@@ -2649,19 +2649,19 @@
     "options": [
       {
         "id": "A",
-        "text": "They lack internet connectivity."
+        "text": "У них нет подключения к интернету."
       },
       {
         "id": "B",
-        "text": "They miss out on spontaneous office conversations."
+        "text": "Они лишаются спонтанных разговоров в офисе."
       },
       {
         "id": "C",
-        "text": "Their managers never communicate with them."
+        "text": "Их руководители никогда с ними не общаются."
       },
       {
         "id": "D",
-        "text": "They work different hours than colleagues."
+        "text": "Они работают в другие часы, чем коллеги."
       }
     ],
     "correctOptionId": "B",
@@ -2678,23 +2678,23 @@
     "options": [
       {
         "id": "A",
-        "text": "By forcing employees back to the office full-time"
+        "text": "Принуждая сотрудников полностью вернуться в офис"
       },
       {
         "id": "B",
-        "text": "By scheduling informal video calls and quarterly retreats"
+        "text": "Назначая неформальные видеозвонки и ежеквартальные очные командные встречи"
       },
       {
         "id": "C",
-        "text": "By eliminating team projects"
+        "text": "Отменяя командные проекты"
       },
       {
         "id": "D",
-        "text": "By monitoring employee screens continuously"
+        "text": "Непрерывно отслеживая экраны сотрудников"
       }
     ],
     "correctOptionId": "B",
-    "explanation": "В тексте упоминается планирование «неформальных еженедельных видеозвонков и ежеквартальных личных ретритов»."
+    "explanation": "В тексте упоминается планирование «неформальных еженедельных видеозвонков и ежеквартальных очных командных встреч»."
   },
   {
     "id": "reading-b1-0019",
@@ -2707,19 +2707,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Unity and connection among members"
+        "text": "Единство и связь между членами"
       },
       {
         "id": "B",
-        "text": "Competition for promotions"
+        "text": "Конкуренция за повышения"
       },
       {
         "id": "C",
-        "text": "Financial profit margin"
+        "text": "Финансовая норма прибыли"
       },
       {
         "id": "D",
-        "text": "Speed of task execution"
+        "text": "Скорость выполнения задач"
       }
     ],
     "correctOptionId": "A",
@@ -2736,19 +2736,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Remote work will soon replace all traditional offices."
+        "text": "Удалённая работа скоро заменит все традиционные офисы."
       },
       {
         "id": "B",
-        "text": "Remote work offers flexibility but requires deliberate strategies to maintain team connection."
+        "text": "Удалённая работа даёт гибкость, но требует продуманных стратегий для поддержания связи в команде."
       },
       {
         "id": "C",
-        "text": "Employees dislike working from home due to isolation."
+        "text": "Сотрудникам не нравится работать из дома из-за изоляции."
       },
       {
         "id": "D",
-        "text": "Video calls are inefficient for business communication."
+        "text": "Видеозвонки неэффективны для деловой коммуникации."
       }
     ],
     "correctOptionId": "B",
@@ -2765,19 +2765,19 @@
     "options": [
       {
         "id": "A",
-        "text": "To offer luxury holidays at low prices"
+        "text": "Предлагать роскошный отдых по низким ценам"
       },
       {
         "id": "B",
-        "text": "To minimize negative environmental impacts of travel"
+        "text": "Минимизировать негативное воздействие путешествий на окружающую среду"
       },
       {
         "id": "C",
-        "text": "To build massive resorts in remote locations"
+        "text": "Строить огромные курорты в отдалённых местах"
       },
       {
         "id": "D",
-        "text": "To promote international airline transport"
+        "text": "Продвигать международные авиаперевозки"
       }
     ],
     "correctOptionId": "B",
@@ -2794,19 +2794,19 @@
     "options": [
       {
         "id": "A",
-        "text": "By employing only foreign workers"
+        "text": "Нанимая только иностранных работников"
       },
       {
         "id": "B",
-        "text": "By providing direct financial support to indigenous residents"
+        "text": "Оказывая прямую финансовую поддержку местным коренным общинам"
       },
       {
         "id": "C",
-        "text": "By buying property from locals"
+        "text": "Покупая недвижимость у местных жителей"
       },
       {
         "id": "D",
-        "text": "By building modern highways"
+        "text": "Строя современные шоссе"
       }
     ],
     "correctOptionId": "B",
@@ -2823,19 +2823,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Staying in large luxury chain hotels"
+        "text": "Проживание в крупных роскошных сетевых отелях"
       },
       {
         "id": "B",
-        "text": "Staying in eco-lodges powered by renewable energy"
+        "text": "Проживание в экологичных домиках, работающих на возобновляемой энергии"
       },
       {
         "id": "C",
-        "text": "Traveling by private jet"
+        "text": "Путешествие на частном самолёте"
       },
       {
         "id": "D",
-        "text": "Collecting wild plants as souvenirs"
+        "text": "Сбор дикорастущих растений в качестве сувениров"
       }
     ],
     "correctOptionId": "B",
@@ -2852,19 +2852,19 @@
     "options": [
       {
         "id": "A",
-        "text": "It will become too expensive for most tourists."
+        "text": "Это станет слишком дорогим для большинства туристов."
       },
       {
         "id": "B",
-        "text": "Overcrowding could damage fragile ecosystems."
+        "text": "Переполненность может нанести ущерб хрупким экосистемам."
       },
       {
         "id": "C",
-        "text": "Local communities will reject tourists."
+        "text": "Местные сообщества отвергнут туристов."
       },
       {
         "id": "D",
-        "text": "Renewable energy will become unavailable."
+        "text": "Возобновляемая энергия станет недоступной."
       }
     ],
     "correctOptionId": "B",
@@ -2881,19 +2881,19 @@
     "options": [
       {
         "id": "A",
-        "text": "To advertise a specific eco-friendly resort"
+        "text": "Рекламировать конкретный экологичный курорт"
       },
       {
         "id": "B",
-        "text": "To explain the principles and potential risks of ecotourism"
+        "text": "Объяснить принципы и потенциальные риски экотуризма"
       },
       {
         "id": "C",
-        "text": "To discourage people from traveling abroad"
+        "text": "Отговаривать людей от путешествий за границу"
       },
       {
         "id": "D",
-        "text": "To criticize traditional hotel chains"
+        "text": "Критиковать традиционные гостиничные сети"
       }
     ],
     "correctOptionId": "B",
@@ -2910,23 +2910,23 @@
     "options": [
       {
         "id": "A",
-        "text": "They are prohibitively expensive for most travelers."
+        "text": "Они непомерно дороги для большинства путешественников."
       },
       {
         "id": "B",
-        "text": "They reduce travel to a superficial checklist of sights rather than a meaningful experience."
+        "text": "Они сводят путешествие к поверхностному посещению достопримечательностей по списку, а не к осмысленному опыту."
       },
       {
         "id": "C",
-        "text": "They cause major disruptions to international flight schedules."
+        "text": "Они вызывают серьёзные сбои в расписании международных рейсов."
       },
       {
         "id": "D",
-        "text": "They prevent tourists from spending money at local businesses."
+        "text": "Они мешают туристам тратить деньги в местных предприятиях."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "В эссе прямо утверждается, что быстрое путешествие «сводит поездку к поверхностному контрольному списку достопримечательностей, а не к обогащению культурного опыта»."
+    "explanation": "В эссе прямо утверждается, что быстрое путешествие «сводит поездку к поверхностному посещению достопримечательностей по списку, а не к обогащающему культурному опыту»."
   },
   {
     "id": "reading-b2-0002",
@@ -2939,23 +2939,23 @@
     "options": [
       {
         "id": "A",
-        "text": "By pointing out that transport mode and total distance still impact sustainability."
+        "text": "Указывая на то, что вид транспорта и общее расстояние по-прежнему влияют на экологическую устойчивость."
       },
       {
         "id": "B",
-        "text": "By arguing that slow travelers consume more energy in hotels."
+        "text": "Утверждая, что медленные путешественники потребляют больше энергии в отелях."
       },
       {
         "id": "C",
-        "text": "By proving that train travel is worse than flying."
+        "text": "Доказывая, что путешествие поездом хуже перелёта."
       },
       {
         "id": "D",
-        "text": "By asserting that slow travel is only possible in winter."
+        "text": "Заявляя, что медленные путешествия возможны только зимой."
       }
     ],
     "correctOptionId": "A",
-    "explanation": "В тексте отмечается, что медленное путешествие не является автоматически устойчивым, поскольку «выбор транспорта и общее пройденное расстояние остаются критическими факторами окружающей среды»."
+    "explanation": "В тексте отмечается, что медленное путешествие не является автоматически устойчивым, поскольку «выбор транспорта и общее пройденное расстояние остаются ключевыми факторами экологической устойчивости»."
   },
   {
     "id": "reading-b2-0003",
@@ -2968,19 +2968,19 @@
     "options": [
       {
         "id": "A",
-        "text": "It lowers the prices of local goods."
+        "text": "Это снижает цены на местные товары."
       },
       {
         "id": "B",
-        "text": "It enables travelers to support small independent businesses."
+        "text": "Это позволяет путешественникам поддерживать малые независимые предприятия."
       },
       {
         "id": "C",
-        "text": "It forces large international hotel chains to close."
+        "text": "Это вынуждает крупные международные гостиничные сети закрываться."
       },
       {
         "id": "D",
-        "text": "It reduces local sales taxes."
+        "text": "Это снижает местные налоги с продаж."
       }
     ],
     "correctOptionId": "B",
@@ -2997,19 +2997,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Financial budget"
+        "text": "Финансовый бюджет"
       },
       {
         "id": "B",
-        "text": "Guiding belief or philosophy"
+        "text": "Руководящее убеждение или философия"
       },
       {
         "id": "C",
-        "text": "Physical luggage"
+        "text": "Физический багаж"
       },
       {
         "id": "D",
-        "text": "Travel schedule"
+        "text": "График путешествий"
       }
     ],
     "correctOptionId": "B",
@@ -3026,19 +3026,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Uncritical advocacy without reservations"
+        "text": "Некритичная поддержка без оговорок"
       },
       {
         "id": "B",
-        "text": "Measured endorsement while recognizing practical nuances"
+        "text": "Взвешенное одобрение при признании практических нюансов"
       },
       {
         "id": "C",
-        "text": "Total indifference to travel trends"
+        "text": "Полное безразличие к туристическим тенденциям"
       },
       {
         "id": "D",
-        "text": "Outright rejection of modern tourism"
+        "text": "Прямое неприятие современного туризма"
       }
     ],
     "correctOptionId": "B",
@@ -3055,19 +3055,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Inability to access digital tools"
+        "text": "Невозможность доступа к цифровым инструментам"
       },
       {
         "id": "B",
-        "text": "Greater difficulty forming informal professional connections"
+        "text": "Большие трудности с формированием неформальных профессиональных связей"
       },
       {
         "id": "C",
-        "text": "Strict enforcement of uniform dress codes"
+        "text": "Строгое соблюдение единого дресс-кода"
       },
       {
         "id": "D",
-        "text": "Lower overall compensation"
+        "text": "Более низкая общая оплата труда"
       }
     ],
     "correctOptionId": "B",
@@ -3084,19 +3084,19 @@
     "options": [
       {
         "id": "A",
-        "text": "To reduce heating and electricity bills in office buildings"
+        "text": "Чтобы снизить счета за отопление и электроэнергию в офисных зданиях"
       },
       {
         "id": "B",
-        "text": "To ensure in-person time serves purposeful collaborative needs rather than routine presence"
+        "text": "Чтобы время в офисе служило целенаправленным совместным задачам, а не рутинной явке"
       },
       {
         "id": "C",
-        "text": "To prevent employees from talking to one another"
+        "text": "Чтобы не давать сотрудникам разговаривать друг с другом"
       },
       {
         "id": "D",
-        "text": "To prepare staff for fully permanent remote work"
+        "text": "Чтобы подготовить персонал к полностью постоянной удалённой работе"
       }
     ],
     "correctOptionId": "B",
@@ -3113,19 +3113,19 @@
     "options": [
       {
         "id": "A",
-        "text": "File sharing is too slow."
+        "text": "Обмен файлами слишком медленный."
       },
       {
         "id": "B",
-        "text": "Complex collaborative discussions become mentally exhausting."
+        "text": "Сложные совместные обсуждения становятся умственно изнурительными."
       },
       {
         "id": "C",
-        "text": "Screen time damages eye health."
+        "text": "Время у экрана вредит здоровью глаз."
       },
       {
         "id": "D",
-        "text": "Meetings are frequently canceled."
+        "text": "Встречи часто отменяются."
       }
     ],
     "correctOptionId": "B",
@@ -3142,19 +3142,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Financial dependence"
+        "text": "Финансовая зависимость"
       },
       {
         "id": "B",
-        "text": "Personal independence and control"
+        "text": "Личная независимость и контроль"
       },
       {
         "id": "C",
-        "text": "Strict supervision"
+        "text": "Строгий надзор"
       },
       {
         "id": "D",
-        "text": "Automated software processing"
+        "text": "Автоматизированная обработка программным обеспечением"
       }
     ],
     "correctOptionId": "B",
@@ -3171,19 +3171,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Companies should mandate five days a week in the office."
+        "text": "Компании должны требовать пять дней в неделю в офисе."
       },
       {
         "id": "B",
-        "text": "Communication strategies should be designed around actual work requirements rather than legacy habits."
+        "text": "Стратегии коммуникации должны строиться вокруг фактических рабочих потребностей, а не унаследованных привычек."
       },
       {
         "id": "C",
-        "text": "Remote work should be restricted to senior managers."
+        "text": "Удалённую работу следует ограничить старшими менеджерами."
       },
       {
         "id": "D",
-        "text": "Physical offices are completely obsolete."
+        "text": "Физические офисы полностью устарели."
       }
     ],
     "correctOptionId": "B",
@@ -3200,19 +3200,19 @@
     "options": [
       {
         "id": "A",
-        "text": "By offering lower prices across all products"
+        "text": "Предлагая более низкие цены на все товары"
       },
       {
         "id": "B",
-        "text": "Through algorithms tracking browsing history for real-time targeted ads"
+        "text": "С помощью алгоритмов, отслеживающих историю просмотров для показа таргетированной рекламы в реальном времени"
       },
       {
         "id": "C",
-        "text": "By using human sales agents in live video chats"
+        "text": "Используя живых продавцов в видеозвонках"
       },
       {
         "id": "D",
-        "text": "By eliminating promotional offers entirely"
+        "text": "Полностью отказываясь от рекламных предложений"
       }
     ],
     "correctOptionId": "B",
@@ -3229,23 +3229,23 @@
     "options": [
       {
         "id": "A",
-        "text": "They provide thorough product research to buyers."
+        "text": "Они предоставляют покупателям тщательное исследование продукта."
       },
       {
         "id": "B",
-        "text": "They exploit cognitive shortcuts that bypass deliberate evaluation."
+        "text": "Они используют когнитивные упрощения, которые обходят обдуманную оценку."
       },
       {
         "id": "C",
-        "text": "They guarantee money-back returns."
+        "text": "Они гарантируют возврат денег."
       },
       {
         "id": "D",
-        "text": "They rely on physical scent cues."
+        "text": "Они полагаются на физические запаховые сигналы."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "В отрывке отмечается, что персональные подсказки используют когнитивные упрощения, побуждая потребителей совершать импульсные покупки."
+    "explanation": "В отрывке отмечается, что цифровые инструменты мягкого воздействия используют когнитивные упрощения, побуждая потребителей совершать импульсные покупки."
   },
   {
     "id": "reading-b2-0013",
@@ -3258,19 +3258,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Algorithmic recommendations"
+        "text": "Алгоритмические рекомендации"
       },
       {
         "id": "B",
-        "text": "Strategic layouts and subtle background scents"
+        "text": "Стратегические планировки и тонкие фоновые запахи"
       },
       {
         "id": "C",
-        "text": "Pop-up countdown timers"
+        "text": "Всплывающие таймеры обратного отсчёта"
       },
       {
         "id": "D",
-        "text": "Email newsletters"
+        "text": "Электронные рассылки"
       }
     ],
     "correctOptionId": "B",
@@ -3287,19 +3287,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Carefully planned over weeks"
+        "text": "Тщательно спланированные за несколько недель"
       },
       {
         "id": "B",
-        "text": "Unplanned and made suddenly"
+        "text": "Незапланированные и совершаемые внезапно"
       },
       {
         "id": "C",
-        "text": "Bought at wholesale cost"
+        "text": "Купленные по оптовой цене"
       },
       {
         "id": "D",
-        "text": "Essential for survival"
+        "text": "Необходимые для выживания"
       }
     ],
     "correctOptionId": "B",
@@ -3316,19 +3316,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Shoppers can earn higher cash-back rewards."
+        "text": "Покупатели могут получать более высокие вознаграждения кэшбэка."
       },
       {
         "id": "B",
-        "text": "Consumers regain conscious control and resist artificial buying pressure."
+        "text": "Потребители возвращают сознательный контроль и сопротивляются искусственному давлению при покупке."
       },
       {
         "id": "C",
-        "text": "Shoppers can design their own retail algorithms."
+        "text": "Покупатели могут создавать собственные розничные алгоритмы."
       },
       {
         "id": "D",
-        "text": "Online stores will stop displaying advertisements."
+        "text": "Интернет-магазины перестанут показывать рекламу."
       }
     ],
     "correctOptionId": "B",
@@ -3345,19 +3345,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Using fully synthetic building materials"
+        "text": "Использование полностью синтетических строительных материалов"
       },
       {
         "id": "B",
-        "text": "Integrating natural elements like gardens and natural light into structures"
+        "text": "Интеграция природных элементов, таких как вертикальные сады и естественное освещение, в строения"
       },
       {
         "id": "C",
-        "text": "Constructing taller skyscrapers to save land"
+        "text": "Строительство более высоких небоскрёбов для экономии земли"
       },
       {
         "id": "D",
-        "text": "Eliminating windows to reduce heat loss"
+        "text": "Устранение окон для снижения теплопотерь"
       }
     ],
     "correctOptionId": "B",
@@ -3374,19 +3374,19 @@
     "options": [
       {
         "id": "A",
-        "text": "It reduces urban heat island effects."
+        "text": "Это снижает эффект городского острова тепла."
       },
       {
         "id": "B",
-        "text": "It doubles property size."
+        "text": "Это удваивает размер недвижимости."
       },
       {
         "id": "C",
-        "text": "It completely eliminates noise pollution."
+        "text": "Это полностью устраняет шумовое загрязнение."
       },
       {
         "id": "D",
-        "text": "It generates solar electricity."
+        "text": "Это вырабатывает солнечную электроэнергию."
       }
     ],
     "correctOptionId": "A",
@@ -3403,19 +3403,19 @@
     "options": [
       {
         "id": "A",
-        "text": "It is too difficult to maintain during winter."
+        "text": "За ними слишком трудно ухаживать зимой."
       },
       {
         "id": "B",
-        "text": "Without affordable housing policies, eco-upgrades risk triggering local gentrification."
+        "text": "Без политики доступного жилья экологическое улучшение рискует вызвать местную джентрификацию."
       },
       {
         "id": "C",
-        "text": "Natural light damages indoor furniture."
+        "text": "Естественное освещение портит мебель в помещениях."
       },
       {
         "id": "D",
-        "text": "Rainwater collection causes structural building leaks."
+        "text": "Сбор дождевой воды вызывает структурные протечки зданий."
       }
     ],
     "correctOptionId": "B",
@@ -3432,19 +3432,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Measurable improvements in psychological well-being"
+        "text": "Измеримые улучшения психологического благополучия"
       },
       {
         "id": "B",
-        "text": "Faster internet connectivity"
+        "text": "Более быстрое интернет-соединение"
       },
       {
         "id": "C",
-        "text": "Higher income levels"
+        "text": "Более высокий уровень доходов"
       },
       {
         "id": "D",
-        "text": "Lower public transport usage"
+        "text": "Меньшее использование общественного транспорта"
       }
     ],
     "correctOptionId": "A",
@@ -3461,23 +3461,23 @@
     "options": [
       {
         "id": "A",
-        "text": "The rapid decay of public infrastructure"
+        "text": "Быстрый упадок общественной инфраструктуры"
       },
       {
         "id": "B",
-        "text": "The transformation of an area causing housing cost increases that displace lower-income residents"
+        "text": "Преобразование района, вызывающее рост стоимости жилья и вытеснение жителей с низкими доходами"
       },
       {
         "id": "C",
-        "text": "The expansion of industrial factories into residential zones"
+        "text": "Расширение промышленных фабрик в жилые зоны"
       },
       {
         "id": "D",
-        "text": "The conversion of roads into pedestrian parks"
+        "text": "Превращение дорог в пешеходные парки"
       }
     ],
     "correctOptionId": "B",
-    "explanation": "В городском планировании под джентрификацией понимают модернизацию кварталов, которая приводит к увеличению стоимости жизни и делает жилье недоступным для жителей с низкими доходами."
+    "explanation": "В городском планировании под джентрификацией понимают модернизацию кварталов, которая приводит к росту стоимости жизни и вытеснению прежних жителей с низкими доходами."
   },
   {
     "id": "reading-b2-0021",
@@ -3490,19 +3490,19 @@
     "options": [
       {
         "id": "A",
-        "text": "They view it as proof that overall literacy standards are declining."
+        "text": "Они видят в нём доказательство снижения общих стандартов грамотности."
       },
       {
         "id": "B",
-        "text": "They find digital words impossible to pronounce."
+        "text": "Они считают цифровые слова невозможными для произношения."
       },
       {
         "id": "C",
-        "text": "They believe slang makes books too long."
+        "text": "Они считают, что сленг делает книги слишком длинными."
       },
       {
         "id": "D",
-        "text": "They think slang slows down communication speed."
+        "text": "Они думают, что сленг замедляет скорость общения."
       }
     ],
     "correctOptionId": "A",
@@ -3519,19 +3519,19 @@
     "options": [
       {
         "id": "A",
-        "text": "As temporary mistakes that will soon vanish"
+        "text": "Как временные ошибки, которые скоро исчезнут"
       },
       {
         "id": "B",
-        "text": "As evidence of a healthy, dynamic language adapting to culture"
+        "text": "Как доказательство здорового, динамичного языка, адаптирующегося к культуре"
       },
       {
         "id": "C",
-        "text": "As a threat to foreign language learning"
+        "text": "Как угрозу изучению иностранных языков"
       },
       {
         "id": "D",
-        "text": "As proof that grammar rules are useless"
+        "text": "Как доказательство бесполезности грамматических правил"
       }
     ],
     "correctOptionId": "B",
@@ -3548,19 +3548,19 @@
     "options": [
       {
         "id": "A",
-        "text": "English has always remained completely unchanged."
+        "text": "Английский всегда оставался полностью неизменным."
       },
       {
         "id": "B",
-        "text": "English has continuously absorbed loanwords and simplified grammar over centuries."
+        "text": "Английский постоянно заимствовал слова и упрощал грамматику на протяжении веков."
       },
       {
         "id": "C",
-        "text": "Old English had more words than modern English."
+        "text": "В древнеанглийском было больше слов, чем в современном английском."
       },
       {
         "id": "D",
-        "text": "Dictionaries were created to stop language change."
+        "text": "Словари были созданы, чтобы остановить изменение языка."
       }
     ],
     "correctOptionId": "B",
@@ -3577,19 +3577,19 @@
     "options": [
       {
         "id": "A",
-        "text": "The historical development and change of vocabulary"
+        "text": "Историческое развитие и изменение словарного запаса"
       },
       {
         "id": "B",
-        "text": "The decline of handwriting quality"
+        "text": "Упадок качества почерка"
       },
       {
         "id": "C",
-        "text": "The creation of scientific dictionaries"
+        "text": "Создание научных словарей"
       },
       {
         "id": "D",
-        "text": "The study of speech organs"
+        "text": "Изучение речевых органов"
       }
     ],
     "correctOptionId": "A",
@@ -3606,19 +3606,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Dismissive and hostile"
+        "text": "Пренебрежительная и враждебная"
       },
       {
         "id": "B",
-        "text": "Accepting and viewing them as natural human adaptation"
+        "text": "Принимающая и рассматривающая их как естественную человеческую адаптацию"
       },
       {
         "id": "C",
-        "text": "Confused and uncertain"
+        "text": "Смущённая и неуверенная"
       },
       {
         "id": "D",
-        "text": "Regretful of past language purity"
+        "text": "Сожалеющая о прошлой языковой чистоте"
       }
     ],
     "correctOptionId": "B",
@@ -3635,19 +3635,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Metrics are too costly to track continuously."
+        "text": "Показатели слишком дорого отслеживать непрерывно."
       },
       {
         "id": "B",
-        "text": "They can incentivize behaviors that distort the essential work being evaluated."
+        "text": "Они могут стимулировать поведение, искажающее основную работу, которую оценивают."
       },
       {
         "id": "C",
-        "text": "Empirical data is inherently inaccurate in business settings."
+        "text": "Эмпирические данные по своей сути неточны в деловой среде."
       },
       {
         "id": "D",
-        "text": "Employees refuse to cooperate with tracking software."
+        "text": "Сотрудники отказываются сотрудничать с программным обеспечением для отслеживания."
       }
     ],
     "correctOptionId": "B",
@@ -3664,19 +3664,19 @@
     "options": [
       {
         "id": "A",
-        "text": "They are explicitly forbidden by administrative policies."
+        "text": "Они прямо запрещены административными правилами."
       },
       {
         "id": "B",
-        "text": "Their value is qualitative and less easily reduced to numerical counts."
+        "text": "Их ценность качественна, и её труднее свести к числовым показателям."
       },
       {
         "id": "C",
-        "text": "Junior employees prefer not to receive advice."
+        "text": "Младшие сотрудники предпочитают не получать советы."
       },
       {
         "id": "D",
-        "text": "Mentoring takes more physical energy than analytical work."
+        "text": "Наставничество требует больше физической энергии, чем аналитическая работа."
       }
     ],
     "correctOptionId": "B",
@@ -3693,19 +3693,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Abolishing all numerical metrics entirely"
+        "text": "Полностью отменить все числовые показатели"
       },
       {
         "id": "B",
-        "text": "Combining empirical quantitative data with nuanced professional judgment"
+        "text": "Сочетать эмпирические количественные данные с тонким профессиональным суждением"
       },
       {
         "id": "C",
-        "text": "Evaluating employees based solely on tenure and seniority"
+        "text": "Оценивать сотрудников исключительно по стажу и выслуге"
       },
       {
         "id": "D",
-        "text": "Allowing employees to write their own performance reviews"
+        "text": "Позволить сотрудникам самостоятельно составлять отзывы о своей работе"
       }
     ],
     "correctOptionId": "B",
@@ -3722,19 +3722,19 @@
     "options": [
       {
         "id": "A",
-        "text": "To fully represent or summarize"
+        "text": "Полностью представлять или обобщать"
       },
       {
         "id": "B",
-        "text": "To isolate from external influences"
+        "text": "Изолировать от внешних влияний"
       },
       {
         "id": "C",
-        "text": "To hide from public view"
+        "text": "Скрывать от общественного взгляда"
       },
       {
         "id": "D",
-        "text": "To speed up artificially"
+        "text": "Искусственно ускорять"
       }
     ],
     "correctOptionId": "A",
@@ -3751,19 +3751,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Quantitative measurement is inherently flawed and useless."
+        "text": "Количественное измерение по своей сути порочно и бесполезно."
       },
       {
         "id": "B",
-        "text": "Data analytics can reveal systemic issues, but should not be treated as complete truths."
+        "text": "Аналитика данных может выявлять системные проблемы, но её не следует воспринимать как полную истину."
       },
       {
         "id": "C",
-        "text": "Speed is the single most accurate indicator of employee dedication."
+        "text": "Скорость — единственный самый точный показатель преданности делу."
       },
       {
         "id": "D",
-        "text": "Subjective supervisor opinion is always superior to data."
+        "text": "Субъективное мнение руководителя всегда превосходит данные."
       }
     ],
     "correctOptionId": "B",
@@ -3780,19 +3780,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Between private property ownership and state planning"
+        "text": "Между частной собственностью и государственным планированием"
       },
       {
         "id": "B",
-        "text": "Between meaningful historical continuity and uncritical architectural nostalgia"
+        "text": "Между значимой исторической преемственностью и некритичной архитектурной ностальгией"
       },
       {
         "id": "C",
-        "text": "Between residential and commercial real estate pricing"
+        "text": "Между ценами на жилую и коммерческую недвижимость"
       },
       {
         "id": "D",
-        "text": "Between suburban sprawl and high-density inner cities"
+        "text": "Между пригородной застройкой и густонаселёнными центрами городов"
       }
     ],
     "correctOptionId": "B",
@@ -3809,19 +3809,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Residents are given decisive authority over architectural blueprints."
+        "text": "Жителям дают решающие полномочия над архитектурными проектами."
       },
       {
         "id": "B",
-        "text": "Consultations are conducted merely for appearance when major decisions have already been finalized."
+        "text": "Консультации проводятся лишь для видимости, когда ключевые решения уже приняты."
       },
       {
         "id": "C",
-        "text": "Public forums are too expensive to organize."
+        "text": "Общественные форумы слишком дорого организовывать."
       },
       {
         "id": "D",
-        "text": "Urban planners strictly follow public votes."
+        "text": "Градостроители строго следуют голосованию общественности."
       }
     ],
     "correctOptionId": "B",
@@ -3838,19 +3838,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Framing historical preservation and modern development as mutually exclusive opposites"
+        "text": "Представление исторического сохранения и современного развития как взаимоисключающих противоположностей"
       },
       {
         "id": "B",
-        "text": "Viewing public transport and highway construction as equally effective"
+        "text": "Рассмотрение общественного транспорта и строительства автомагистралей как одинаково эффективных"
       },
       {
         "id": "C",
-        "text": "Contrasting green parks with industrial zones"
+        "text": "Противопоставление зелёных парков промышленным зонам"
       },
       {
         "id": "D",
-        "text": "Comparing European and American architectural designs"
+        "text": "Сравнение европейского и американского архитектурных стилей"
       }
     ],
     "correctOptionId": "A",
@@ -3867,19 +3867,19 @@
     "options": [
       {
         "id": "A",
-        "text": "After construction has already commenced"
+        "text": "После начала строительства"
       },
       {
         "id": "B",
-        "text": "Early enough in the planning phase to exert actual leverage on proposals"
+        "text": "Достаточно рано на этапе планирования, чтобы оказывать реальное влияние на предложения"
       },
       {
         "id": "C",
-        "text": "Only when buildings are designated for demolition"
+        "text": "Только когда здания назначены под снос"
       },
       {
         "id": "D",
-        "text": "Exclusively during mayoral election cycles"
+        "text": "Исключительно в период мэрских выборов"
       }
     ],
     "correctOptionId": "B",
@@ -3896,19 +3896,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Geological rock layers"
+        "text": "Геологические слои горных пород"
       },
       {
         "id": "B",
-        "text": "Accumulated layers of history and culture over time"
+        "text": "Накопленные слои истории и культуры с течением времени"
       },
       {
         "id": "C",
-        "text": "Modern high-rise residential floors"
+        "text": "Этажи современных высотных жилых домов"
       },
       {
         "id": "D",
-        "text": "Strict legal regulations"
+        "text": "Строгие правовые нормы"
       }
     ],
     "correctOptionId": "B",
@@ -3925,19 +3925,19 @@
     "options": [
       {
         "id": "A",
-        "text": "The belief that algorithms process calculations too slowly"
+        "text": "Убеждение, что алгоритмы выполняют вычисления слишком медленно"
       },
       {
         "id": "B",
-        "text": "The notion that mathematical models are inherently objective and free from human bias"
+        "text": "Представление, что математические модели по своей сути объективны и свободны от человеческой предвзятости"
       },
       {
         "id": "C",
-        "text": "The idea that algorithms are too costly for judicial systems"
+        "text": "Идея, что алгоритмы слишком дороги для судебных систем"
       },
       {
         "id": "D",
-        "text": "The assumption that algorithms cannot analyze historical data"
+        "text": "Допущение, что алгоритмы не могут анализировать исторические данные"
       }
     ],
     "correctOptionId": "B",
@@ -3954,23 +3954,23 @@
     "options": [
       {
         "id": "A",
-        "text": "Because computer programmers deliberately write malicious code."
+        "text": "Потому что программисты намеренно пишут вредоносный код."
       },
       {
         "id": "B",
-        "text": "Because they are trained on datasets reflecting past societal prejudices."
+        "text": "Потому что они обучены на наборах данных, отражающих прошлые общественные предрассудки."
       },
       {
         "id": "C",
-        "text": "Because algorithms lack sufficient computational power."
+        "text": "Потому что алгоритмам не хватает вычислительной мощности."
       },
       {
         "id": "D",
-        "text": "Because historical data is completely random."
+        "text": "Потому что исторические данные совершенно случайны."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "В отрывке утверждается, что модели «тренируются на исторических данных, которые по своей сути пропитаны системными социальными предубеждениями», что усиливает неравенство в прошлом."
+    "explanation": "В отрывке утверждается, что модели «тренируются на исторических данных, которые по своей сути пропитаны системными социальными предубеждениями», что усиливает существовавшее ранее неравенство."
   },
   {
     "id": "reading-c1-0013",
@@ -3983,19 +3983,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Simply rewriting software code to run faster"
+        "text": "Просто переписать программный код, чтобы он работал быстрее"
       },
       {
         "id": "B",
-        "text": "A rigorous socio-technical critique of how data is defined and interpreted"
+        "text": "Строгая социотехническая критика того, как данные определяются и интерпретируются"
       },
       {
         "id": "C",
-        "text": "Replacing all computer programmers with judicial judges"
+        "text": "Заменить всех программистов судебными судьями"
       },
       {
         "id": "D",
-        "text": "Hiding training datasets from the public"
+        "text": "Скрыть обучающие наборы данных от общественности"
       }
     ],
     "correctOptionId": "B",
@@ -4012,19 +4012,19 @@
     "options": [
       {
         "id": "A",
-        "text": "An independent judge or decision-maker"
+        "text": "Независимый судья или лицо, принимающее решения"
       },
       {
         "id": "B",
-        "text": "A complex software language"
+        "text": "Сложный язык программирования"
       },
       {
         "id": "C",
-        "text": "A financial investor"
+        "text": "Финансовый инвестор"
       },
       {
         "id": "D",
-        "text": "A statistical error"
+        "text": "Статистическая ошибка"
       }
     ],
     "correctOptionId": "A",
@@ -4041,19 +4041,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Enthusiastic and admiring"
+        "text": "Восторженный и восхищённый"
       },
       {
         "id": "B",
-        "text": "Skeptical and analytical"
+        "text": "Скептический и аналитический"
       },
       {
         "id": "C",
-        "text": "Indifferent and passive"
+        "text": "Равнодушный и пассивный"
       },
       {
         "id": "D",
-        "text": "Dismissive of technology entirely"
+        "text": "Полностью отвергающий технологию"
       }
     ],
     "correctOptionId": "B",
@@ -4070,19 +4070,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Articles become too long to read."
+        "text": "Статьи становятся слишком длинными для чтения."
       },
       {
         "id": "B",
-        "text": "Tentative statistical correlations are transformed into definitive causal statements."
+        "text": "Предварительные статистические корреляции превращаются в категоричные причинно-следственные утверждения."
       },
       {
         "id": "C",
-        "text": "Scientists refuse to publish further papers."
+        "text": "Учёные отказываются публиковать дальнейшие работы."
       },
       {
         "id": "D",
-        "text": "Research funding is immediately cut."
+        "text": "Финансирование исследований немедленно сокращается."
       }
     ],
     "correctOptionId": "B",
@@ -4099,19 +4099,19 @@
     "options": [
       {
         "id": "A",
-        "text": "It fails to communicate real-world significance to the broader public effectively."
+        "text": "Она не позволяет эффективно доносить реальную значимость до широкой публики."
       },
       {
         "id": "B",
-        "text": "It causes scientific errors in lab experiments."
+        "text": "Он вызывает научные ошибки в лабораторных экспериментах."
       },
       {
         "id": "C",
-        "text": "It costs more money to publish in journals."
+        "text": "Публикация в журналах стоит дороже."
       },
       {
         "id": "D",
-        "text": "It encourages sensationalized news coverage."
+        "text": "Он поощряет сенсационное освещение в новостях."
       }
     ],
     "correctOptionId": "A",
@@ -4128,19 +4128,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Hiding negative experimental results while emphasizing positive ones"
+        "text": "Скрывать негативные экспериментальные результаты, подчёркивая позитивные"
       },
       {
         "id": "B",
-        "text": "Conveying empirical uncertainty without damaging public confidence in scientific methods"
+        "text": "Передавать эмпирическую неопределённость, не подрывая доверие публики к научным методам"
       },
       {
         "id": "C",
-        "text": "Writing exclusively for specialist academic journals"
+        "text": "Писать исключительно для специализированных научных журналов"
       },
       {
         "id": "D",
-        "text": "Allowing journalists to write headline titles without review"
+        "text": "Позволять журналистам писать заголовки без проверки"
       }
     ],
     "correctOptionId": "B",
@@ -4157,23 +4157,23 @@
     "options": [
       {
         "id": "A",
-        "text": "To increase their personal book sales"
+        "text": "Чтобы увеличить личные продажи своих книг"
       },
       {
         "id": "B",
-        "text": "To prevent their complex findings from being distorted by sensationalist media"
+        "text": "Чтобы не дать сенсационалистским СМИ исказить их сложные выводы"
       },
       {
         "id": "C",
-        "text": "To replace journalists in television studios"
+        "text": "Чтобы заменить журналистов в телестудиях"
       },
       {
         "id": "D",
-        "text": "To lobby governments for higher research salaries"
+        "text": "Чтобы лоббировать правительства ради повышения зарплат исследователей"
       }
     ],
     "correctOptionId": "B",
-    "explanation": "В последнем предложении подчеркивается, что ученые должны участвовать публично, «чтобы их тонкие выводы не были искажены сенсационными программами средств массовой информации»."
+    "explanation": "В последнем предложении подчёркивается, что учёные должны участвовать публично, «чтобы их тонкие выводы не были искажены сенсационной повесткой СМИ»."
   },
   {
     "id": "reading-c1-0020",
@@ -4186,19 +4186,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Accidental and unproven"
+        "text": "Случайный и недоказанный"
       },
       {
         "id": "B",
-        "text": "Relating to a direct cause-and-effect relationship"
+        "text": "Относящийся к прямой причинно-следственной связи"
       },
       {
         "id": "C",
-        "text": "Informal and relaxed"
+        "text": "Неформальный и непринуждённый"
       },
       {
         "id": "D",
-        "text": "Purely theoretical"
+        "text": "Чисто теоретический"
       }
     ],
     "correctOptionId": "B",
@@ -4215,19 +4215,19 @@
     "options": [
       {
         "id": "A",
-        "text": "The idea that brain structure remains permanently fixed after early adulthood"
+        "text": "Идея, что структура мозга навсегда остаётся фиксированной после раннего взросления"
       },
       {
         "id": "B",
-        "text": "The belief that language learning occurs in the brain"
+        "text": "Убеждение, что изучение языка происходит в мозге"
       },
       {
         "id": "C",
-        "text": "The concept that sleep improves memory retention"
+        "text": "Концепция, что сон улучшает сохранение памяти"
       },
       {
         "id": "D",
-        "text": "The notion that neurons use electrical signals"
+        "text": "Представление, что нейроны используют электрические сигналы"
       }
     ],
     "correctOptionId": "A",
@@ -4244,23 +4244,23 @@
     "options": [
       {
         "id": "A",
-        "text": "Watching documentary films and solving crosswords"
+        "text": "Просмотр документальных фильмов и решение кроссвордов"
       },
       {
         "id": "B",
-        "text": "Learning a foreign language or mastering a musical instrument"
+        "text": "Изучение иностранного языка или освоение музыкального инструмента"
       },
       {
         "id": "C",
-        "text": "Physical running and strength training"
+        "text": "Физический бег и силовые тренировки"
       },
       {
         "id": "D",
-        "text": "Meditating and following strict diets"
+        "text": "Медитация и соблюдение строгих диет"
       }
     ],
     "correctOptionId": "B",
-    "explanation": "В качестве примера в отрывке прямо упоминаются «овладение иностранным языком или владение музыкальным инструментом»."
+    "explanation": "В качестве примера в отрывке прямо упоминаются «изучение иностранного языка или освоение музыкального инструмента»."
   },
   {
     "id": "reading-c1-0023",
@@ -4273,19 +4273,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Intellectual stimulation can help buffer against age-related cognitive decline."
+        "text": "Интеллектуальная стимуляция может помогать защищать от возрастного когнитивного снижения."
       },
       {
         "id": "B",
-        "text": "Adults no longer require cognitive therapy after brain injuries."
+        "text": "Взрослым больше не требуется когнитивная терапия после травм мозга."
       },
       {
         "id": "C",
-        "text": "Brain aging can be completely eliminated."
+        "text": "Старение мозга можно полностью устранить."
       },
       {
         "id": "D",
-        "text": "Language learning becomes effortless for seniors."
+        "text": "Изучение языка становится лёгким для пожилых людей."
       }
     ],
     "correctOptionId": "A",
@@ -4302,19 +4302,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Flexible and changing"
+        "text": "Гибкий и изменяющийся"
       },
       {
         "id": "B",
-        "text": "Pre-determined, fixed, and unchangeable"
+        "text": "Предопределённый, фиксированный и неизменный"
       },
       {
         "id": "C",
-        "text": "Highly optimistic"
+        "text": "Весьма оптимистичный"
       },
       {
         "id": "D",
-        "text": "Scientific and proven"
+        "text": "Научный и доказанный"
       }
     ],
     "correctOptionId": "B",
@@ -4331,19 +4331,19 @@
     "options": [
       {
         "id": "A",
-        "text": "The history of musical education"
+        "text": "История музыкального образования"
       },
       {
         "id": "B",
-        "text": "The discovery of lifelong adult brain neuroplasticity and its implications"
+        "text": "Открытие пожизненной нейропластичности взрослого мозга и её последствия"
       },
       {
         "id": "C",
-        "text": "Comparing child and adult learning speeds"
+        "text": "Сравнение скорости обучения детей и взрослых"
       },
       {
         "id": "D",
-        "text": "Medical treatments for severe memory loss"
+        "text": "Медицинские методы лечения тяжёлой потери памяти"
       }
     ],
     "correctOptionId": "B",
@@ -4360,19 +4360,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Valid arguments derive force from precise analytical distinctions rather than assertive confidence."
+        "text": "Сила обоснованных аргументов проистекает из точных аналитических разграничений, а не из напористой самоуверенности."
       },
       {
         "id": "B",
-        "text": "Uncertainty indicates that a speaker lacks adequate factual evidence."
+        "text": "Неопределённость указывает на то, что у говорящего недостаточно фактических доказательств."
       },
       {
         "id": "C",
-        "text": "Public debate should prioritize emotional appeal over logical rigor."
+        "text": "В публичных дебатах следует отдавать приоритет эмоциональному воздействию, а не логической строгости."
       },
       {
         "id": "D",
-        "text": "Categorical statements are necessary for efficient political decision-making."
+        "text": "Категоричные утверждения необходимы для эффективного принятия политических решений."
       }
     ],
     "correctOptionId": "A",
@@ -4389,19 +4389,19 @@
     "options": [
       {
         "id": "A",
-        "text": "It avoids taking any identifiable intellectual position."
+        "text": "Он позволяет избежать занятия какой-либо определённой интеллектуальной позиции."
       },
       {
         "id": "B",
-        "text": "It accommodates complex real-world evidence without relying on the suppression of inconvenient facts."
+        "text": "Он учитывает сложные реальные свидетельства, не опираясь на подавление неудобных фактов."
       },
       {
         "id": "C",
-        "text": "It is easier to communicate to mass media audiences."
+        "text": "Его легче доносить до массовой медиааудитории."
       },
       {
         "id": "D",
-        "text": "It guarantees unanimous agreement among scholars."
+        "text": "Он гарантирует единодушное согласие среди учёных."
       }
     ],
     "correctOptionId": "B",
@@ -4418,19 +4418,19 @@
     "options": [
       {
         "id": "A",
-        "text": "False humility used as a manipulative debating tactic"
+        "text": "Ложная скромность, используемая как манипулятивный приём в дебатах"
       },
       {
         "id": "B",
-        "text": "An intellectual stance recognizing the limits and conditional nature of human knowledge"
+        "text": "Интеллектуальная позиция, признающая пределы и условный характер человеческого знания"
       },
       {
         "id": "C",
-        "text": "A total refusal to engage in academic publishing"
+        "text": "Полный отказ от участия в академических публикациях"
       },
       {
         "id": "D",
-        "text": "Ignorance of complex scientific theories"
+        "text": "Невежество в отношении сложных научных теорий"
       }
     ],
     "correctOptionId": "B",
@@ -4447,19 +4447,19 @@
     "options": [
       {
         "id": "A",
-        "text": "It requires too much financial capital to publish."
+        "text": "Для публикации требуется слишком много финансовых средств."
       },
       {
         "id": "B",
-        "text": "Nuanced qualification rarely spreads as rapidly as bold, uncalibrated certainty."
+        "text": "Утончённые оговорки и нюансы редко распространяются так же быстро, как смелая, непроверенная уверенность."
       },
       {
         "id": "C",
-        "text": "Scholars refuse to use precise terminology."
+        "text": "Учёные отказываются использовать точную терминологию."
       },
       {
         "id": "D",
-        "text": "It is banned by major media networks."
+        "text": "Она запрещена крупными медиасетями."
       }
     ],
     "correctOptionId": "B",
@@ -4476,19 +4476,19 @@
     "options": [
       {
         "id": "A",
-        "text": "With philosophical critique, regarding it as a preference for superficial certainty over analytical depth"
+        "text": "С философской критикой, рассматривая это как предпочтение поверхностной уверенности перед аналитической глубиной"
       },
       {
         "id": "B",
-        "text": "With enthusiastic approval as a sign of democratic clarity"
+        "text": "С восторженным одобрением как признака демократической ясности"
       },
       {
         "id": "C",
-        "text": "With complete indifference"
+        "text": "С полным безразличием"
       },
       {
         "id": "D",
-        "text": "With hope that intellectual restraint will soon disappear"
+        "text": "С надеждой, что интеллектуальная сдержанность вскоре исчезнет"
       }
     ],
     "correctOptionId": "A",
@@ -4505,19 +4505,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Archives provide a purely neutral, objective record of historical events."
+        "text": "Архивы представляют собой чисто нейтральную, объективную запись исторических событий."
       },
       {
         "id": "B",
-        "text": "Institutional memory is an actively constructed product of selective documentation and structural choices."
+        "text": "Институциональная память является активно сконструированным продуктом избирательного документирования и структурных решений."
       },
       {
         "id": "C",
-        "text": "Institutions should digitize all historical papers to eliminate bias."
+        "text": "Институты должны оцифровать все исторические документы, чтобы устранить предвзятость."
       },
       {
         "id": "D",
-        "text": "Historical records are mostly fabricated by modern archivists."
+        "text": "Исторические записи в основном фабрикуются современными архивистами."
       }
     ],
     "correctOptionId": "B",
@@ -4534,19 +4534,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Simply adding missing names to existing triumphalist stories"
+        "text": "Просто добавлять недостающие имена в существующие триумфалистские истории"
       },
       {
         "id": "B",
-        "text": "Critiquing the original taxonomies and categories through which evidence was curated"
+        "text": "Критически анализировать исходные таксономии и категории, с помощью которых отбирались свидетельства"
       },
       {
         "id": "C",
-        "text": "Closing historical archives to public researchers"
+        "text": "Закрывать исторические архивы для публичных исследователей"
       },
       {
         "id": "D",
-        "text": "Replacing all traditional archivists with automated AI algorithms"
+        "text": "Заменять всех традиционных архивистов автоматизированными алгоритмами ИИ"
       }
     ],
     "correctOptionId": "B",
@@ -4563,19 +4563,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Archivists suffering from clinical memory loss"
+        "text": "Архивисты, страдающие клинической потерей памяти"
       },
       {
         "id": "B",
-        "text": "The systemic exclusion or marginalization of specific historical events or voices from official records"
+        "text": "Системное исключение или маргинализация определённых исторических событий или голосов из официальных записей"
       },
       {
         "id": "C",
-        "text": "The accidental destruction of old paper documents"
+        "text": "Случайное уничтожение старых бумажных документов"
       },
       {
         "id": "D",
-        "text": "The public's refusal to read history books"
+        "text": "Отказ публики читать исторические книги"
       }
     ],
     "correctOptionId": "B",
@@ -4592,23 +4592,23 @@
     "options": [
       {
         "id": "A",
-        "text": "By presenting a completely flawless, seamless narrative of its past"
+        "text": "Представляя совершенно безупречный, гладкий нарратив своего прошлого"
       },
       {
         "id": "B",
-        "text": "By subjecting its processes of archival selection and omission to open scrutiny"
+        "text": "Подвергая свои процессы архивного отбора и исключения открытому критическому рассмотрению"
       },
       {
         "id": "C",
-        "text": "By destroying controversial historical documents"
+        "text": "Уничтожая спорные исторические документы"
       },
       {
         "id": "D",
-        "text": "By ignoring past history and focusing exclusively on future growth"
+        "text": "Игнорируя прошлую историю и сосредоточиваясь исключительно на будущем росте"
       }
     ],
     "correctOptionId": "B",
-    "explanation": "В последнем предложении делается вывод: «Зрелая организация не устраняет это напряжение; это делает процесс запоминания открытым для изучения»."
+    "explanation": "В последнем предложении говорится: зрелая организация не устраняет это напряжение, а открывает механизмы архивного отбора и исключения для постоянного критического анализа."
   },
   {
     "id": "reading-c2-0010",
@@ -4621,23 +4621,23 @@
     "options": [
       {
         "id": "A",
-        "text": "Missing parts, gaps, or absences in a record"
+        "text": "Пропуски, пробелы или отсутствующие сведения в исторических записях"
       },
       {
         "id": "B",
-        "text": "Official government decrees"
+        "text": "Официальные правительственные указы"
       },
       {
         "id": "C",
-        "text": "Detailed photographic illustrations"
+        "text": "Подробные фотографические иллюстрации"
       },
       {
         "id": "D",
-        "text": "Financial accounting ledgers"
+        "text": "Финансовые бухгалтерские книги"
       }
     ],
     "correctOptionId": "A",
-    "explanation": "«Лакуны» (множественное число от «лакуны») относятся к пробелам, пустым местам или недостающим частям в письменных или исторических записях."
+    "explanation": "Лакуны — это пропуски, пробелы или отсутствующие сведения в письменных или исторических записях."
   },
   {
     "id": "reading-c2-0011",
@@ -4650,19 +4650,19 @@
     "options": [
       {
         "id": "A",
-        "text": "It has increased the physical value of original oil paintings."
+        "text": "Она повысила физическую ценность оригинальных картин маслом."
       },
       {
         "id": "B",
-        "text": "It has dissolved the distinction between original and copy in an ecosystem of infinite replication."
+        "text": "Она растворила различие между оригиналом и копией в экосистеме бесконечного воспроизведения."
       },
       {
         "id": "C",
-        "text": "It has restored Walter Benjamin's traditional concept of 'aura'."
+        "text": "Она восстановила традиционное понятие «ауры» Уолтера Бенджамина."
       },
       {
         "id": "D",
-        "text": "It has forced artists to stop creating digital art."
+        "text": "Она заставила художников прекратить создавать цифровое искусство."
       }
     ],
     "correctOptionId": "B",
@@ -4679,19 +4679,19 @@
     "options": [
       {
         "id": "A",
-        "text": "From physical scarcity toward contextual curation and algorithmic visibility"
+        "text": "От физической редкости к контекстуальному кураторству и алгоритмической видимости"
       },
       {
         "id": "B",
-        "text": "From digital screens back to physical museum buildings"
+        "text": "От цифровых экранов обратно к физическим зданиям музеев"
       },
       {
         "id": "C",
-        "text": "From artistic skill to high subscription prices"
+        "text": "От художественного мастерства к высоким ценам на подписку"
       },
       {
         "id": "D",
-        "text": "From public galleries to private home collections"
+        "text": "От публичных галерей к частным домашним коллекциям"
       }
     ],
     "correctOptionId": "A",
@@ -4708,19 +4708,19 @@
     "options": [
       {
         "id": "A",
-        "text": "It makes art software too expensive for young artists."
+        "text": "Она делает художественное программное обеспечение слишком дорогим для молодых художников."
       },
       {
         "id": "B",
-        "text": "It threatens to flatten engagement into transactional consumption driven by perpetual distraction."
+        "text": "Она угрожает свести взаимодействие с искусством к транзакционному потреблению, движимому постоянной отвлекаемостью."
       },
       {
         "id": "C",
-        "text": "It prevents museums from acquiring new collections."
+        "text": "Она мешает музеям приобретать новые коллекции."
       },
       {
         "id": "D",
-        "text": "It eliminates color spectrums in digital displays."
+        "text": "Она устраняет цветовые спектры на цифровых дисплеях."
       }
     ],
     "correctOptionId": "B",
@@ -4737,19 +4737,19 @@
     "options": [
       {
         "id": "A",
-        "text": "The author of the essay"
+        "text": "Автор эссе"
       },
       {
         "id": "B",
-        "text": "Walter Benjamin"
+        "text": "Уолтер Бенджамин"
       },
       {
         "id": "C",
-        "text": "Contemporary digital curators"
+        "text": "Современные цифровые кураторы"
       },
       {
         "id": "D",
-        "text": "Linguistic purists"
+        "text": "Лингвистические пуристы"
       }
     ],
     "correctOptionId": "B",
@@ -4766,19 +4766,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Relating to the nature of being, existence, or reality"
+        "text": "Относящийся к природе бытия, существования или реальности"
       },
       {
         "id": "B",
-        "text": "Relating to economic cost structures"
+        "text": "Относящийся к структурам экономических издержек"
       },
       {
         "id": "C",
-        "text": "Relating to digital coding formats"
+        "text": "Относящийся к форматам цифрового кодирования"
       },
       {
         "id": "D",
-        "text": "Relating to ancient history"
+        "text": "Относящийся к древней истории"
       }
     ],
     "correctOptionId": "A",
@@ -4795,23 +4795,23 @@
     "options": [
       {
         "id": "A",
-        "text": "It fails to encourage individuals to pursue higher education."
+        "text": "Она не поощряет людей к получению высшего образования."
       },
       {
         "id": "B",
-        "text": "It disguises inherited structural advantage as personal moral desert and individual talent."
+        "text": "Она маскирует системные преимущества, воспроизводящие привилегированное положение элит, под личную моральную заслугу и индивидуальный талант."
       },
       {
         "id": "C",
-        "text": "It gives too much political power to uneducated populations."
+        "text": "Она даёт слишком много политической власти необразованным слоям населения."
       },
       {
         "id": "D",
-        "text": "It reduces taxes on high earners."
+        "text": "Она снижает налоги для высокооплачиваемых."
       }
     ],
     "correctOptionId": "B",
-    "explanation": "В тексте утверждается, что меритократия маскирует самовоспроизводящуюся природу элитных преимуществ, превращая структурные привилегии в видимость личной заслуги."
+    "explanation": "В тексте утверждается, что меритократия маскирует самовоспроизводящуюся природу элитных преимуществ, превращая системные привилегии в видимость личной заслуги."
   },
   {
     "id": "reading-c2-0017",
@@ -4824,19 +4824,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Elites view them as victims of bad economic luck deserving of charity."
+        "text": "Элиты видят в них жертв неудачного экономического стечения обстоятельств, достойных благотворительности."
       },
       {
         "id": "B",
-        "text": "Elites view them as individuals lacking personal capability or drive."
+        "text": "Элиты видят в них людей, лишённых личных способностей или мотивации."
       },
       {
         "id": "C",
-        "text": "Elites consider them essential political partners."
+        "text": "Элиты считают их незаменимыми политическими партнёрами."
       },
       {
         "id": "D",
-        "text": "Elites attribute their plight entirely to corporate corruption."
+        "text": "Элиты полностью приписывают их бедственное положение корпоративной коррупции."
       }
     ],
     "correctOptionId": "B",
@@ -4853,19 +4853,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Increased social mobility across all economic classes"
+        "text": "Рост социальной мобильности во всех экономических классах"
       },
       {
         "id": "B",
-        "text": "Deepened polarization, elite hubris, and resentment among the excluded"
+        "text": "Углубление поляризации, высокомерие элит и обида среди исключённых"
       },
       {
         "id": "C",
-        "text": "Elimination of political parties"
+        "text": "Устранение политических партий"
       },
       {
         "id": "D",
-        "text": "Rapid economic growth in agricultural sectors"
+        "text": "Быстрый экономический рост в сельскохозяйственных секторах"
       }
     ],
     "correctOptionId": "B",
@@ -4882,19 +4882,19 @@
     "options": [
       {
         "id": "A",
-        "text": "A dry, arid sandy landform"
+        "text": "Сухая, засушливая песчаная местность"
       },
       {
         "id": "B",
-        "text": "That which is deserved or merited through worth or effort"
+        "text": "То, что заслужено или полагается по достоинству или усилиям"
       },
       {
         "id": "C",
-        "text": "Abandoning one's duty"
+        "text": "Отказ от своего долга"
       },
       {
         "id": "D",
-        "text": "A sweet food served after meals"
+        "text": "Сладкое блюдо, подаваемое после еды"
       }
     ],
     "correctOptionId": "B",
@@ -4911,19 +4911,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Strongly critical of its hidden ideological biases and divisive social effects"
+        "text": "Резко критически относится к её скрытым идеологическим предубеждениям и разобщающим социальным последствиям"
       },
       {
         "id": "B",
-        "text": "Unconditionally supportive of its fairness"
+        "text": "Безусловно поддерживает её справедливость"
       },
       {
         "id": "C",
-        "text": "Neutral, describing it purely as an administrative model"
+        "text": "Нейтрально, описывая её исключительно как административную модель"
       },
       {
         "id": "D",
-        "text": "Optimistic about its ability to end poverty"
+        "text": "С оптимизмом оценивает её способность покончить с бедностью"
       }
     ],
     "correctOptionId": "A",
@@ -4940,19 +4940,19 @@
     "options": [
       {
         "id": "A",
-        "text": "It relies too heavily on written journals."
+        "text": "Она слишком сильно опирается на письменные дневники."
       },
       {
         "id": "B",
-        "text": "It imposes an artificial linearity and contrived narrative coherence onto fragmented human experience."
+        "text": "Она навязывает искусственную линейность и нарочитую нарративную связность фрагментарному человеческому опыту."
       },
       {
         "id": "C",
-        "text": "It ignores the role of childhood memories."
+        "text": "Она игнорирует роль детских воспоминаний."
       },
       {
         "id": "D",
-        "text": "It is applicable only to fiction writers."
+        "text": "Она применима только к писателям-беллетристам."
       }
     ],
     "correctOptionId": "B",
@@ -4969,19 +4969,19 @@
     "options": [
       {
         "id": "A",
-        "text": "It provides a perfectly accurate, chronological video recording of the past."
+        "text": "Она обеспечивает идеально точную, хронологическую видеозапись прошлого."
       },
       {
         "id": "B",
-        "text": "It is inherently fragmental and vulnerable to retroactive fabulation."
+        "text": "Она по своей природе фрагментарна и подвержена ретроактивной фабуляции."
       },
       {
         "id": "C",
-        "text": "It becomes fully fixed by age twenty."
+        "text": "Она полностью фиксируется к двадцати годам."
       },
       {
         "id": "D",
-        "text": "It operates independently of emotional states."
+        "text": "Она функционирует независимо от эмоциональных состояний."
       }
     ],
     "correctOptionId": "B",
@@ -4998,19 +4998,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Writing a detailed chronological autobiography"
+        "text": "Написание подробной хронологической автобиографии"
       },
       {
         "id": "B",
-        "text": "Accepting the non-linear, fragmented character of experience without demanding polished narrative resolution"
+        "text": "Принятие нелинейного, фрагментированного характера опыта без требования отшлифованного нарративного разрешения"
       },
       {
         "id": "C",
-        "text": "Suppressing painful memories from past experiences"
+        "text": "Подавление болезненных воспоминаний из прошлого опыта"
       },
       {
         "id": "D",
-        "text": "Consulting professional psychoanalysts for story interpretation"
+        "text": "Обращение к профессиональным психоаналитикам для интерпретации истории"
       }
     ],
     "correctOptionId": "B",
@@ -5027,19 +5027,19 @@
     "options": [
       {
         "id": "A",
-        "text": "Directed toward an ultimate end, purpose, or goal"
+        "text": "Направленный к конечной цели, смыслу или задаче"
       },
       {
         "id": "B",
-        "text": "Transmitted electronically over long distance"
+        "text": "Передаваемый электронно на большое расстояние"
       },
       {
         "id": "C",
-        "text": "Completely random and lacking structure"
+        "text": "Полностью случайный и лишённый структуры"
       },
       {
         "id": "D",
-        "text": "Based on mathematical equations"
+        "text": "Основанный на математических уравнениях"
       }
     ],
     "correctOptionId": "A",
@@ -5056,22 +5056,22 @@
     "options": [
       {
         "id": "A",
-        "text": "The subconscious construction or invention of stories to fit past memories into present self-concepts"
+        "text": "Подсознательное конструирование или изобретение историй, позволяющих вписать прошлые воспоминания в текущие представления о себе"
       },
       {
         "id": "B",
-        "text": "Literary writing techniques used in science fiction"
+        "text": "Литературные приёмы письма, используемые в научной фантастике"
       },
       {
         "id": "C",
-        "text": "Medical memory loss caused by trauma"
+        "text": "Медицинская потеря памяти, вызванная травмой"
       },
       {
         "id": "D",
-        "text": "Accurately translating historical texts into modern prose"
+        "text": "Точный перевод исторических текстов на современную прозу"
       }
     ],
     "correctOptionId": "A",
-    "explanation": "«Ретроактивная фантазия» означает переосмысление и изобретение деталей прошлых воспоминаний постфактум, чтобы они соответствовали аккуратной истории."
+    "explanation": "«Ретроактивное конструирование вымышленных воспоминаний» означает переосмысление и изобретение деталей прошлых воспоминаний постфактум, чтобы они соответствовали аккуратной истории."
   }
 ]

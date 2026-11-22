@@ -1,0 +1,254 @@
+[
+  {
+    "topic": "conditionals_1_2",
+    "question": "If you ___ (finish) your homework, we will watch a film.",
+    "options": ["finish", "will finish", "finished", "would finish"],
+    "correctAnswer": "finish",
+    "explanation": "First Conditional: после if используется Present Simple, а в главной части will."
+  },
+  {
+    "topic": "conditionals_1_2",
+    "question": "If I ___ (know) her phone number, I would call her.",
+    "options": ["know", "knew", "will know", "would know"],
+    "correctAnswer": "knew",
+    "explanation": "Second Conditional: в части с if используется Past Simple, в главной would + глагол."
+  },
+  {
+    "topic": "conditionals_1_2",
+    "question": "We will miss the bus if we ___ (not / leave) now.",
+    "options": ["don't leave", "won't leave", "didn't leave", "wouldn't leave"],
+    "correctAnswer": "don't leave",
+    "explanation": "В условии First Conditional не используется will: if we don't leave."
+  },
+  {
+    "topic": "conditionals_1_2",
+    "question": "If he ___ (have) more free time, he would learn Spanish.",
+    "options": ["has", "had", "will have", "would have"],
+    "correctAnswer": "had",
+    "explanation": "Second Conditional описывает воображаемую ситуацию: If + Past Simple, ... would + V."
+  },
+  {
+    "topic": "conditionals_1_2",
+    "question": "If you mix red and blue, you ___ (get) purple.",
+    "options": ["get", "will get", "got", "would get"],
+    "correctAnswer": "get",
+    "explanation": "Zero Conditional для факта: If + Present Simple, ... Present Simple."
+  },
+  {
+    "topic": "conditionals_1_2",
+    "question": "I would go to the party if I ___ (not / be) so tired.",
+    "options": ["weren't", "am not", "won't be", "wouldn't be"],
+    "correctAnswer": "weren't",
+    "explanation": "В гипотетических предложениях с глаголом be традиционно используется were для всех лиц. В разговорном английском встречается was, но стандартная форма здесь — weren't."
+  },
+  {
+    "topic": "conditionals_3_mixed",
+    "question": "If you ___ (call) me earlier, I would have picked you up.",
+    "options": ["called", "had called", "would call", "have called"],
+    "correctAnswer": "had called",
+    "explanation": "Third Conditional: в условии используется Past Perfect — had called."
+  },
+  {
+    "topic": "conditionals_3_mixed",
+    "question": "If I had seen the sign, I ___ (turn) left.",
+    "options": ["would turn", "would have turned", "had turned", "would have turn"],
+    "correctAnswer": "would have turned",
+    "explanation": "Результат Third Conditional: would have + V3, поэтому would have turned."
+  },
+  {
+    "topic": "conditionals_3_mixed",
+    "question": "If she ___ (not / forget) her keys, she would be inside now.",
+    "options": ["hadn't forgotten", "didn't forget", "hasn't forgotten", "wouldn't forget"],
+    "correctAnswer": "hadn't forgotten",
+    "explanation": "Mixed Conditional: условие в прошлом требует Past Perfect — hadn't forgotten."
+  },
+  {
+    "topic": "conditionals_3_mixed",
+    "question": "I ___ (be) at the beach now if I had taken the flight yesterday.",
+    "options": ["would be", "will be", "would have been", "am"],
+    "correctAnswer": "would be",
+    "explanation": "Следствие относится к настоящему (now), поэтому используется would + V: would be."
+  },
+  {
+    "topic": "conditionals_3_mixed",
+    "question": "If we ___ (book) tickets earlier, we wouldn't have paid so much.",
+    "options": ["booked", "had booked", "would book", "have booked"],
+    "correctAnswer": "had booked",
+    "explanation": "Third Conditional: условие в прошлом выражается через Past Perfect — had booked."
+  },
+  {
+    "topic": "conditionals_3_mixed",
+    "question": "If I hadn't missed the last bus, I ___ (not / be) at home now.",
+    "options": ["wouldn't be", "didn't be", "wouldn't have been", "hadn't been"],
+    "correctAnswer": "wouldn't be",
+    "explanation": "Условие в прошлом, результат в настоящем (now): would + V, то есть wouldn't be."
+  },
+  {
+    "topic": "gerunds_infinitives",
+    "question": "She enjoys ___ (paint) landscapes on weekends.",
+    "options": ["painting", "to paint", "paint", "painted"],
+    "correctAnswer": "painting",
+    "explanation": "После enjoy используется герундий: enjoy + V-ing."
+  },
+  {
+    "topic": "gerunds_infinitives",
+    "question": "He promised ___ (send) me the photos.",
+    "options": ["to send", "sending", "send", "sent"],
+    "correctAnswer": "to send",
+    "explanation": "После promise используется инфинитив: promise + to + V."
+  },
+  {
+    "topic": "gerunds_infinitives",
+    "question": "You should avoid ___ (drive) during rush hour.",
+    "options": ["driving", "to drive", "drive", "drove"],
+    "correctAnswer": "driving",
+    "explanation": "После avoid используется герундий: avoid + V-ing."
+  },
+  {
+    "topic": "gerunds_infinitives",
+    "question": "They decided ___ (not / attend) the meeting.",
+    "options": ["not to attend", "not attending", "not attend", "don't attend"],
+    "correctAnswer": "not to attend",
+    "explanation": "После decide используется to + инфинитив; отрицание ставится перед to."
+  },
+  {
+    "topic": "gerunds_infinitives",
+    "question": "He stopped ___ (smoke) last year and feels much better.",
+    "options": ["smoking", "to smoke", "smoke", "smoked"],
+    "correctAnswer": "smoking",
+    "explanation": "Stop + V-ing означает перестать делать: he stopped smoking — бросил курить."
+  },
+  {
+    "topic": "gerunds_infinitives",
+    "question": "I clearly remember ___ (meet) her at the conference.",
+    "options": ["meeting", "to meet", "meet", "met"],
+    "correctAnswer": "meeting",
+    "explanation": "Remember + V-ing означает помнить, что уже сделал: remember meeting."
+  },
+  {
+    "topic": "passive_voice",
+    "question": "The novel ___ (publish) in 1995.",
+    "options": ["was published", "published", "is published", "were published"],
+    "correctAnswer": "was published",
+    "explanation": "Past Simple Passive для единственного числа: was + V3."
+  },
+  {
+    "topic": "passive_voice",
+    "question": "Fresh vegetables ___ (sell) at this market every morning.",
+    "options": ["are sold", "sell", "is sold", "were sold"],
+    "correctAnswer": "are sold",
+    "explanation": "Present Simple Passive с множественным числом: are + V3."
+  },
+  {
+    "topic": "passive_voice",
+    "question": "The missing dog ___ (find) near the river yesterday.",
+    "options": ["was found", "found", "is found", "were found"],
+    "correctAnswer": "was found",
+    "explanation": "Past Simple Passive для единственного числа: was + V3."
+  },
+  {
+    "topic": "passive_voice",
+    "question": "French ___ (teach) at our school.",
+    "options": ["is taught", "teaches", "is teached", "are taught"],
+    "correctAnswer": "is taught",
+    "explanation": "Present Simple Passive: French is taught; V3 от teach — taught."
+  },
+  {
+    "topic": "passive_voice",
+    "question": "The cake ___ (eat) before the guests arrived.",
+    "options": ["was eaten", "ate", "is eaten", "were eaten"],
+    "correctAnswer": "was eaten",
+    "explanation": "Past Simple Passive для единственного числа: was + V3; V3 от eat — eaten."
+  },
+  {
+    "topic": "passive_voice",
+    "question": "These roads ___ (repair) last summer.",
+    "options": ["were repaired", "repaired", "was repaired", "are repaired"],
+    "correctAnswer": "were repaired",
+    "explanation": "Past Simple Passive с множественным числом: were + V3."
+  },
+  {
+    "topic": "relative_clauses",
+    "question": "The doctor ___ treated me was very kind.",
+    "options": ["who", "which", "whose", "where"],
+    "correctAnswer": "who",
+    "explanation": "Для человека в роли подлежащего используем who."
+  },
+  {
+    "topic": "relative_clauses",
+    "question": "The film, ___ we watched last night, was excellent.",
+    "options": ["which", "who", "whose", "where"],
+    "correctAnswer": "which",
+    "explanation": "Это non-defining clause (выделено запятыми). В таком случае используется which, а не that."
+  },
+  {
+    "topic": "relative_clauses",
+    "question": "I met a student ___ mother teaches at our university.",
+    "options": ["whose", "who", "which", "that"],
+    "correctAnswer": "whose",
+    "explanation": "Whose выражает принадлежность: student whose mother."
+  },
+  {
+    "topic": "relative_clauses",
+    "question": "This is the café ___ we first met.",
+    "options": ["where", "which", "who", "whose"],
+    "correctAnswer": "where",
+    "explanation": "Where используется для места: the café where we met."
+  },
+  {
+    "topic": "relative_clauses",
+    "question": "The painting, ___ was bought in Paris, is now in a museum.",
+    "options": ["which", "that", "who", "whose"],
+    "correctAnswer": "which",
+    "explanation": "В non-defining предложении с запятыми используется which, но не that."
+  },
+  {
+    "topic": "relative_clauses",
+    "question": "The man ___ stole my bike was caught.",
+    "options": ["who", "which", "whose", "where"],
+    "correctAnswer": "who",
+    "explanation": "Для человека используем who: the man who stole my bike."
+  },
+  {
+    "topic": "reported_speech",
+    "question": "\"I need more time,\" she said. → She said that she ___ more time.",
+    "options": ["needed", "needs", "has needed", "will need"],
+    "correctAnswer": "needed",
+    "explanation": "Present Simple сдвигается в Past Simple: need → needed."
+  },
+  {
+    "topic": "reported_speech",
+    "question": "\"I will send the report tomorrow,\" he said. → He said that he ___ the report the next day.",
+    "options": ["would send", "will send", "sent", "would have sent"],
+    "correctAnswer": "would send",
+    "explanation": "Will сдвигается в would: will send → would send."
+  },
+  {
+    "topic": "reported_speech",
+    "question": "\"We are waiting outside,\" they said. → They said that they ___ outside.",
+    "options": ["were waiting", "are waiting", "was waiting", "would wait"],
+    "correctAnswer": "were waiting",
+    "explanation": "Present Continuous сдвигается в Past Continuous: are waiting → were waiting."
+  },
+  {
+    "topic": "reported_speech",
+    "question": "Yesterday, she said: \"I saw the film last night.\" → She said that she ___ the film the night before.",
+    "options": ["had seen", "saw", "has seen", "would see"],
+    "correctAnswer": "had seen",
+    "explanation": "По правилу backshift Past Simple сдвигается в Past Perfect: saw → had seen."
+  },
+  {
+    "topic": "reported_speech",
+    "question": "\"You can borrow my umbrella,\" he said. → He said that I ___ borrow his umbrella.",
+    "options": ["could", "can", "will can", "was can"],
+    "correctAnswer": "could",
+    "explanation": "Can сдвигается в could: can borrow → could borrow."
+  },
+  {
+    "topic": "reported_speech",
+    "question": "She ___ me that the train was late.",
+    "options": ["told", "said", "spoke", "talked"],
+    "correctAnswer": "told",
+    "explanation": "Tell требует дополнения: tell somebody that...; say используется без него."
+  }
+]

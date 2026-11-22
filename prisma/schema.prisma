@@ -3,7 +3,7 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
@@ -14,6 +14,17 @@ model User {
   createdAt   DateTime     @default(now())
   testResults TestResult[]
   aiAnalyses  AiAnalysis[]
+  aiUsage     AiUsage[]
+  lessonProgress LessonProgress[]
+  progress       UserProgress[]
+  subscriptionTier      String    @default("FREE")
+  speakingDialogsUsed   Int       @default(0)
+  aiAnalysesUsed        Int       @default(0)
+  lastAiAnalysisDate    DateTime?
+  lastSpeakingDate      DateTime?
+  freeLessonTopic       String?
+  aiAnalysisRetryAfter  DateTime?
+  speakingDialogs       SpeakingDialog[]
 }
 
 model TestResult {
@@ -32,8 +43,28 @@ model TestResult {
   algorithmVersion String
   createdAt        DateTime      @default(now())
   mistakes         UserMistake[]
+  answers          TestAnswer[]
+  aiAnalyses       AiAnalysis[]
 
   @@index([userId, createdAt])
+}
+
+model TestAnswer {
+  id             String     @id @default(cuid())
+  resultId       String
+  result         TestResult @relation(fields: [resultId], references: [id], onDelete: Cascade)
+  skill          String
+  level          String
+  topic          String
+  question       String
+  correct        Boolean
+  selectedAnswer String
+  correctAnswer  String
+  passageId      String?
+  createdAt      DateTime   @default(now())
+
+  @@index([resultId])
+  @@index([resultId, skill])
 }
 
 model UserMistake {
@@ -46,22 +77,145 @@ model UserMistake {
   correctAnswer String
   selectedAnswer String
   explanation   String?
+  passageId     String?
   createdAt     DateTime   @default(now())
 
   @@index([resultId])
 }
 
 model AiAnalysis {
-  id           String   @id @default(cuid())
+  id           String     @id @default(cuid())
   userId       String
-  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  user         User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  testResultId String?
+  testResult   TestResult? @relation(fields: [testResultId], references: [id], onDelete: SetNull)
   type         String
   title        String
   level        String?
   score        Int?
   summary      String
   fullResponse String
-  createdAt    DateTime @default(now())
+  createdAt    DateTime   @default(now())
 
   @@index([userId, createdAt])
+  @@index([testResultId])
+}
+
+model AiUsage {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  type      String
+  success   Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  @@index([userId, type, createdAt])
+}
+
+model SpeakingDialog {
+  id         String   @id @default(cuid())
+  userId     String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  qa         String
+  rawResponse String?
+  status     String   @default("analyzing")
+  counted    Boolean  @default(true)
+  retryAfter DateTime?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([userId, status, createdAt])
+}
+
+model Lesson {
+  id        String     @id @default(cuid())
+  topic     String     @unique
+  title     String
+  level     String
+  category  String     @default("grammar_basics")
+  content   String
+  introText String?
+  outroText String?
+  order     Int        @default(0)
+  mapX      Float      @default(50)
+  mapY      Float      @default(50)
+  courseId  String?
+  course    Course?    @relation(fields: [courseId], references: [id], onDelete: SetNull)
+  moduleId  String?
+  module    Module?    @relation(fields: [moduleId], references: [id], onDelete: SetNull)
+  createdAt DateTime   @default(now())
+  questions Question[]
+  progress  LessonProgress[]
+  userProgress UserProgress[]
+
+  @@index([courseId, moduleId, order])
+}
+
+model LessonProgress {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lessonId    String
+  lesson      Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  completedAt DateTime @default(now())
+  source      String   @default("program")
+
+  @@unique([userId, lessonId])
+  @@index([userId, completedAt])
+  @@index([lessonId])
+}
+
+model UserProgress {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  courseId    String
+  course      Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  lessonId    String?
+  lesson      Lesson?  @relation(fields: [lessonId], references: [id], onDelete: SetNull)
+  currentStep Int      @default(0)
+  updatedAt   DateTime @updatedAt
+
+  @@unique([userId, courseId])
+  @@index([userId, updatedAt])
+  @@index([lessonId])
+}
+
+model Course {
+  id          String   @id @default(cuid())
+  title       String
+  description String
+  level       String
+  color       String
+  order       Int      @default(0)
+  createdAt   DateTime @default(now())
+  modules     Module[]
+  lessons     Lesson[]
+  progress    UserProgress[]
+}
+
+model Module {
+  id       String   @id @default(cuid())
+  courseId String
+  course   Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  title    String
+  order    Int      @default(0)
+  lessons  Lesson[]
+
+  @@unique([courseId, order])
+  @@index([courseId, order])
+}
+
+model Question {
+  id            String   @id @default(cuid())
+  lessonId      String
+  lesson        Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  prompt        String
+  options       String
+  correctAnswer String
+  explanation   String?
+  order         Int      @default(0)
+  createdAt     DateTime @default(now())
+
+  @@index([lessonId, order])
 }

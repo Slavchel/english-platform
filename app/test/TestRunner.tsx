@@ -9,7 +9,6 @@ import type {
   Item,
   ReadingPassage,
   Skill,
-  SkillStats,
   TestResult,
 } from "@/lib/cefr";
 import { CefrTestEngine } from "@/lib/cefr/engine";
@@ -18,11 +17,15 @@ import {
   isCefrTestAnalysis,
   type CefrTestAnalysis,
 } from "@/lib/cefr/test-analysis";
+import LessonRecommendations from "@/app/components/LessonRecommendations";
+import CefrAiAnalysisCard from "@/app/components/CefrAiAnalysisCard";
+import UpgradeLimitModal from "@/app/components/UpgradeLimitModal";
 import { saveTestResult } from "./actions";
 import {
   createTrialItemPool,
   trialBank,
 } from "@/lib/cefr/bank/trial-bank";
+import { PENDING_RESULT_KEY } from "@/lib/cefr/pending-result";
 import {
   CONFIDENCE_EXPLANATIONS,
   CONFIDENCE_NOTE,
@@ -67,7 +70,11 @@ function createSeed(): number {
   return Date.now() >>> 0;
 }
 
-export default function TestRunner() {
+export default function TestRunner({
+  isAuthenticated,
+}: {
+  isAuthenticated: boolean;
+}) {
   const [session, setSession] = useState<Session | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
   const [result, setResult] = useState<TestResult | null>(null);
@@ -121,8 +128,39 @@ export default function TestRunner() {
   };
 
   useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (
+      new URLSearchParams(window.location.search).get("restore") !== "1"
+    ) {
+      return;
+    }
+
+    const raw = window.sessionStorage.getItem(PENDING_RESULT_KEY);
+    if (!raw) return;
+
+    let restored: TestResult;
+    try {
+      restored = JSON.parse(raw) as TestResult;
+    } catch {
+      window.sessionStorage.removeItem(PENDING_RESULT_KEY);
+      return;
+    }
+
+    const timer = window.setTimeout(() => {
+      setResult(restored);
+    }, 0);
+
+    return () => window.clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
     if (!result || savedSeedRef.current === result.seed) return;
     savedSeedRef.current = result.seed;
+
+    if (!isAuthenticated) {
+      window.sessionStorage.setItem(PENDING_RESULT_KEY, JSON.stringify(result));
+      return;
+    }
 
     const score =
       result.stats.answered > 0
@@ -147,8 +185,28 @@ export default function TestRunner() {
           correctAnswer: correct?.text ?? "",
           selectedAnswer: selected?.text ?? "",
           explanation: entry.item.explanation ?? null,
+          passageId: entry.item.passageId ?? null,
         };
       });
+
+    const answers = result.review.map((entry) => {
+      const selected = entry.item.options.find(
+        (option) => option.id === entry.selectedOptionId,
+      );
+      const correct = entry.item.options.find(
+        (option) => option.id === entry.item.correctOptionId,
+      );
+      return {
+        skill: entry.item.skill,
+        level: entry.item.cefrLevel,
+        topic: entry.item.topic,
+        question: entry.item.stem,
+        correct: entry.correct,
+        selectedAnswer: selected?.text ?? "",
+        correctAnswer: correct?.text ?? "",
+        passageId: entry.item.passageId ?? null,
+      };
+    });
 
     void saveTestResult({
       level: result.overall.level,
@@ -162,10 +220,12 @@ export default function TestRunner() {
       seed: result.seed,
       algorithmVersion: result.algorithmVersion,
       mistakes,
+      answers,
     })
       .then((response) => {
         if ("id" in response) {
           setSavedResultId(response.id);
+          window.sessionStorage.removeItem(PENDING_RESULT_KEY);
         } else {
           setSaveError(response.error);
         }
@@ -173,7 +233,7 @@ export default function TestRunner() {
       .catch(() => {
         setSaveError("Не удалось сохранить результат.");
       });
-  }, [result]);
+  }, [isAuthenticated, result]);
 
   const saveEditedAnswer = () => {
     if (!session || viewIndex === null || !selected) return;
@@ -336,11 +396,12 @@ export default function TestRunner() {
         onRestart={startSession}
         savedResultId={savedResultId}
         saveError={saveError}
+        isAuthenticated={isAuthenticated}
       />
     );
   }
 
-  if (!session) {
+ if (!session) {
     return (
       <div className="rounded-2xl border border-white/10 bg-zinc-900/70 p-6 sm:p-8">
         <div className="mb-2 flex items-center justify-between text-xs text-zinc-400">
@@ -385,10 +446,55 @@ export default function TestRunner() {
         >
           Начать тест
         </button>
+             
+{/* --- PREMIUM GLASS BANNER --- */}
+<div className="group relative mt-8 isolate overflow-hidden rounded-2xl border border-white/[0.13] bg-gradient-to-br from-[#292126]/65 via-[#1c1b20]/55 to-[#11151a]/65 p-6 shadow-[0_12px_45px_rgba(0,0,0,0.22),inset_0_1px_1px_rgba(255,255,255,0.10)] backdrop-blur-2xl sm:p-8">
+
+  {/* Золотистое отражение стекла */}
+  <div className="pointer-events-none absolute -right-16 -top-24 h-72 w-72 rounded-full bg-[#c5a46d]/[0.12] blur-[100px]" />
+
+  {/* Глубокое бордовое свечение */}
+  <div className="pointer-events-none absolute -bottom-24 -left-16 h-64 w-64 rounded-full bg-[#713344]/[0.14] blur-[100px]" />
+
+  {/* Световой блик сверху */}
+  <div className="pointer-events-none absolute inset-x-8 top-0 h-px bg-gradient-to-r from-transparent via-[#e8d3ae]/40 to-transparent" />
+
+  {/* Внутреннее отражение */}
+  <div className="pointer-events-none absolute inset-0 rounded-2xl bg-gradient-to-br from-white/[0.045] via-transparent to-transparent" />
+
+  {/* Контент */}
+  <div className="relative z-10">
+
+    <h3 className="text-lg font-medium tracking-wide text-[#eee5d8]">
+      Твой персональный план обучения
+    </h3>
+
+    <p className="mt-3 max-w-3xl text-sm leading-[1.85] text-[#c0b9b8]">
+      Этот тест определит твой уровень и укажет на сильные и слабые стороны. На основе результатов ты получишь список тем для повторения. Все эти темы уже разобраны в наших интерактивных программах. После теста ты сможешь сразу перейти к их изучению.
+    </p>
+
+    <div className="mt-6">
+      <a
+        href="/learning"
+        className="group/btn inline-flex items-center justify-center gap-3 rounded-full border border-[#c5a46d]/40 bg-gradient-to-r from-[#c5a46d]/[0.16] to-[#c5a46d]/[0.07] px-6 py-3 text-sm font-medium tracking-wide text-[#e5d1ac] shadow-[inset_0_1px_0_rgba(255,255,255,0.10)] backdrop-blur-xl transition-all duration-300 hover:border-[#d6b982]/65 hover:from-[#c5a46d]/[0.24] hover:to-[#c5a46d]/[0.12] hover:shadow-[0_0_25px_rgba(197,164,109,0.12)]"
+      >
+        Посмотреть программы обучения
+        <span
+          aria-hidden="true"
+          className="transition-transform duration-300 group-hover/btn:translate-x-1"
+        >
+          →
+        </span>
+      </a>
+    </div>
+
+  </div>
+</div>
+{/* --- END PREMIUM GLASS BANNER --- */}
+
       </div>
     );
   }
-
   const total = session.engine.totalQuestions;
   const remaining = total - session.answered;
   const percent = progressPercent(session.answered, total);
@@ -701,235 +807,210 @@ function ConfidenceBadge({ confidence }: { confidence: Confidence }) {
   );
 }
 
-function confidenceCaveat(confidence: Confidence): string {
-  if (confidence === "high") {
-    return "Оценка опирается на последовательные ответы, но на границе уровня небольшие колебания возможны.";
-  }
-  if (confidence === "medium") {
-    return "Оценка вероятна, но часть ответов была неоднозначной — возможен соседний уровень.";
-  }
-  return "Рассматривайте результат как ориентир: данных или последовательности ответов недостаточно для точной оценки.";
-}
-
 function ResultScreen({
   result,
   onRestart,
   savedResultId,
   saveError,
+  isAuthenticated,
 }: {
   result: TestResult;
   onRestart: () => void;
   savedResultId: string | null;
   saveError: string | null;
+  isAuthenticated: boolean;
 }) {
   const overallMissing = result.overall.level === null;
   const overallGuide = result.overall.level
     ? getLevelGuide(result.overall.level)
     : null;
   const early = !result.completed;
-  const percent = early
-    ? progressPercent(result.answered, result.total)
-    : 100;
+  const correctPercent =
+    result.total > 0
+      ? Math.round((result.stats.correct / result.total) * 100)
+      : 0;
   const speakingHref = result.overall.level
     ? `/speaking?level=${encodeURIComponent(result.overall.level)}`
     : "/speaking";
+  const mistakeTopics = result.review
+    .filter((entry) => !entry.correct)
+    .map((entry) => entry.item.topic);
 
   return (
-    <div className="space-y-5">
-      <div className="rounded-2xl border border-white/10 bg-zinc-900/70 p-5 sm:p-6">
-        <div className="flex items-center justify-between text-xs text-zinc-400">
-          <span>{early ? "Тест завершён досрочно" : "Тест завершён"}</span>
-          <span>{Math.round(percent)}%</span>
-        </div>
-        <div
-          role="progressbar"
-          aria-label="Прогресс теста"
-          aria-valuemin={0}
-          aria-valuemax={result.total}
-          aria-valuenow={result.answered}
-          className="mt-2 h-2 w-full overflow-hidden rounded-full bg-white/10"
-        >
-          <div
-            className="h-full rounded-full bg-emerald-400 transition-[width] duration-500"
-            style={{ width: `${percent}%` }}
-          />
-        </div>
-        <div className="mt-2 flex items-center justify-between text-xs text-zinc-400">
-          <span>
-            Пройдено: {result.answered} из {result.total}
-          </span>
-          <span>Осталось: {result.unanswered}</span>
-        </div>
-      </div>
-
-      {savedResultId ? (
-        <Link
-          href={`/account/results/${savedResultId}`}
-          className="flex items-center justify-between gap-4 rounded-2xl border border-emerald-400/25 bg-emerald-400/10 px-5 py-4 text-sm text-emerald-100 transition-colors hover:border-emerald-300/40 hover:bg-emerald-400/15"
-        >
-          <span>Результат сохранён в личном кабинете</span>
-          <span aria-hidden="true">Открыть разбор →</span>
-        </Link>
-      ) : saveError ? (
-        <p className="rounded-2xl border border-amber-400/20 bg-amber-400/10 px-5 py-4 text-sm text-amber-100">
-          {saveError}
-        </p>
-      ) : null}
-
-      <div className="rounded-2xl border border-white/10 bg-zinc-900/70 p-6 sm:p-8">
-        <p className="text-xs font-medium tracking-[0.18em] text-zinc-500 uppercase">
-          Общий уровень
-        </p>
-        <div className="mt-3 flex flex-wrap items-end gap-4">
-          <span className="text-3xl font-semibold tracking-tight text-zinc-50 sm:text-5xl">
-            {overallMissing
-              ? "Пока не удалось определить"
-              : result.overall.level}
-          </span>
-          <ConfidenceBadge confidence={result.overall.confidence} />
-        </div>
-
-        <p className="mt-4 max-w-2xl text-sm leading-6 text-zinc-400">
-          {overallMissing
-            ? early
-              ? "Вы завершили тест досрочно. Для оценки общего уровня нужно ответить на большее число вопросов по всем трём навыкам. Это не оценка ваших способностей."
-              : "Пока не удалось определить уровень английского. Попробуйте пройти тест ещё раз — это не оценка ваших способностей."
-            : "Общий уровень рассчитан по трём навыкам. Это ориентировочная оценка, а не официальный экзамен."}
-        </p>
-
-        {overallGuide ? (
-          <div className="mt-5 grid gap-4 border-t border-white/10 pt-5 sm:grid-cols-2">
-            <div>
-              <p className="text-xs font-medium tracking-[0.12em] text-zinc-500 uppercase">
-                Что это значит
-              </p>
-              <p className="mt-2 text-sm leading-6 text-zinc-300">
-                {overallGuide.summary}
-              </p>
-              <p className="mt-3 text-sm leading-6 text-zinc-400">
-                <span className="font-medium text-zinc-300">
-                  Доступные задачи:{" "}
-                </span>
-                {overallGuide.tasks.join(" ")}
-              </p>
-            </div>
-            <div>
-              <p className="text-xs font-medium tracking-[0.12em] text-zinc-500 uppercase">
-                Что улучшить
-              </p>
-              <ul className="mt-2 list-disc space-y-1 pl-4 text-sm leading-6 text-zinc-400">
-                {overallGuide.improve.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-              <p className="mt-3 text-xs leading-5 text-zinc-500">
-                {confidenceCaveat(result.overall.confidence)}
-              </p>
-            </div>
+    <div className="cefr-result">
+      <div className="cefr-result-hero">
+        <div className="cefr-result-hero__main">
+          <p className="cefr-result-kicker">
+            {early ? "Тест завершён досрочно" : "Тест завершён"}
+          </p>
+          <h2
+            className={`cefr-result-level ${
+              overallMissing ? "cefr-result-level--missing" : ""
+            }`}
+          >
+            {overallMissing ? "Уровень пока не подтверждён" : result.overall.level}
+          </h2>
+          <div className="cefr-result-meta">
+            <ConfidenceBadge confidence={result.overall.confidence} />
+            {!isAuthenticated ? (
+              <Link
+                href={`/login?callbackUrl=${encodeURIComponent("/test?restore=1")}`}
+                className="cefr-result-link"
+              >
+                Войдите, чтобы сохранить результат →
+              </Link>
+            ) : savedResultId ? (
+              <Link
+                href={`/account/results/${savedResultId}`}
+                className="cefr-result-link"
+              >
+                Открыть разбор в ЛК →
+              </Link>
+            ) : saveError ? (
+              <span className="cefr-result-link cefr-result-link--error">
+                {saveError}
+              </span>
+            ) : null}
           </div>
-        ) : null}
-      </div>
-
-      <div className="speaking-result-cta">
-        <div>
-          <p className="speaking-result-cta__kicker">Speaking</p>
-          <h2>Хотите проверить свой разговорный английский?</h2>
-          <p>
-            Короткий демо-диалог из пяти вопросов. Без микрофона и без
-            настоящего ИИ — только текстовая практика.
+          <p className="cefr-result-note">
+            {overallMissing
+              ? early
+                ? "Для оценки общего уровня нужно ответить на большее число вопросов по всем трём навыкам. Это не оценка ваших способностей."
+                : "Не хватило последовательных ответов. Попробуйте пройти тест ещё раз — это не оценка ваших способностей."
+              : "Общий уровень рассчитан по трём навыкам. Это ориентировочная оценка, а не официальный экзамен."}
           </p>
         </div>
-        <Link href={speakingHref} className="button button--primary">
+
+        <div className="cefr-result-hero__aside">
+          <span className="cefr-result-percent">{correctPercent}%</span>
+          <div
+            role="progressbar"
+            aria-label="Процент правильных ответов"
+            aria-valuemin={0}
+            aria-valuemax={result.total}
+            aria-valuenow={result.stats.correct}
+            className="cefr-result-progress"
+          >
+            <div
+              className="cefr-result-progress__fill"
+              style={{ width: `${correctPercent}%` }}
+            />
+          </div>
+          <span className="cefr-result-progress__label">
+            Правильных ответов: {result.stats.correct} из {result.total}
+          </span>
+        </div>
+      </div>
+
+      {overallGuide ? (
+        <div className="cefr-result-guide">
+          <p>
+            <span>Что это значит</span>
+            {overallGuide.summary}
+          </p>
+          <p>
+            <span>Что улучшить</span>
+            {overallGuide.improve.slice(0, 2).join(" · ")}
+          </p>
+        </div>
+      ) : null}
+
+      <div className="cefr-result-scoreboard">
+        <div>
+          <span>Правильно</span>
+          <strong>{result.stats.correct}</strong>
+        </div>
+        <div>
+          <span>Неправильно</span>
+          <strong>{result.stats.incorrect}</strong>
+        </div>
+        <div>
+          <span>Отвечено</span>
+          <strong>{result.stats.answered}</strong>
+        </div>
+        <div>
+          <span>Без ответа</span>
+          <strong>{result.stats.unanswered}</strong>
+        </div>
+      </div>
+
+      <LessonRecommendations topics={mistakeTopics} />
+
+      <CefrAiAnalysis
+        result={result}
+        resultId={savedResultId}
+        isAuthenticated={isAuthenticated}
+      />
+
+      <section className="cefr-result-skills">
+        <h2 className="cefr-result-heading">Навыки</h2>
+        <div className="cefr-result-skills__grid">
+          {(["grammar", "vocabulary", "reading"] as Skill[]).map((skill) => {
+            const skillResult = result.skills[skill];
+            const stats = result.stats.bySkill[skill];
+            const guide = skillResult.level
+              ? getLevelGuide(skillResult.level)
+              : null;
+            const share =
+              stats.answered > 0
+                ? Math.round((stats.correct / stats.answered) * 100)
+                : 0;
+
+            return (
+              <article key={skill} className="cefr-skill-col">
+                <p className="cefr-skill-col__label">
+                  {SKILL_TITLES[skill]}
+                </p>
+                <p className="cefr-skill-col__level">
+                  {skillResult.level ?? "Не подтверждён"}
+                </p>
+                <div className="cefr-skill-col__meta">
+                  <ConfidenceBadge confidence={skillResult.confidence} />
+                  <span>
+                    Верно: {stats.correct} из {stats.answered}
+                  </span>
+                </div>
+                <div className="cefr-skill-bar">
+                  <div
+                    className="cefr-skill-bar__fill"
+                    style={{ width: `${share}%` }}
+                  />
+                </div>
+                <p className="cefr-skill-col__text">
+                  {guide
+                    ? guide[skill]
+                    : stats.answered === 0
+                      ? "Вы не отвечали на вопросы этого раздела."
+                      : "Не хватило последовательных ответов, чтобы подтвердить уровень."}
+                </p>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+
+      <ReviewSection result={result} />
+
+      <div className="speaking-result-cta speaking-result-cta--compact">
+        <div>
+          <p className="speaking-result-cta__kicker">Speaking</p>
+          <h2>Проверить разговорный английский</h2>
+        </div>
+        <Link href={speakingHref} className="speaking-result-cta__button">
           Проверить Speaking
         </Link>
       </div>
 
-      <CefrAiAnalysis result={result} />
-
-      <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-        <StatCard label="Правильно" value={result.stats.correct} />
-        <StatCard label="Неправильно" value={result.stats.incorrect} />
-        <StatCard label="Отвечено" value={result.stats.answered} />
-        <StatCard label="Без ответа" value={result.stats.unanswered} />
-      </div>
-
-      <div className="grid gap-4 sm:grid-cols-3">
-        {(["grammar", "vocabulary", "reading"] as Skill[]).map((skill) => {
-          const skillResult = result.skills[skill];
-          const stats = result.stats.bySkill[skill];
-          const skillGuide = skillResult.level
-            ? getLevelGuide(skillResult.level)
-            : null;
-
-          return (
-            <div
-              key={skill}
-              className="rounded-2xl border border-white/10 bg-zinc-900/70 p-5"
-            >
-              <p className="text-xs font-medium tracking-[0.15em] text-zinc-500 uppercase">
-                {SKILL_TITLES[skill]}
-              </p>
-              <p className="mt-2 text-2xl font-semibold text-zinc-50">
-                {skillResult.level ?? "Уровень пока не подтверждён"}
-              </p>
-              <div className="mt-3">
-                <ConfidenceBadge confidence={skillResult.confidence} />
-              </div>
-              <p className="mt-3 text-xs text-zinc-500">
-                Верно: {stats.correct} · Неверно: {stats.incorrect}
-              </p>
-              <p className="mt-1 text-xs text-zinc-500">
-                Отвечено: {stats.answered} из 10
-                {stats.unanswered > 0
-                  ? ` · Без ответа: ${stats.unanswered}`
-                  : ""}
-              </p>
-              {skillResult.level === null ? (
-                <p className="mt-2 text-xs leading-5 text-zinc-500">
-                  {stats.answered === 0
-                    ? "Вы не отвечали на вопросы этого раздела."
-                    : "Уровень пока не подтверждён: системе не хватило последовательных ответов в этом разделе."}
-                </p>
-              ) : null}
-              {skillGuide ? (
-                <div className="mt-3 border-t border-white/10 pt-3">
-                  <p className="text-xs leading-5 text-zinc-400">
-                    <span className="font-medium text-zinc-300">
-                      Ориентир уровня:{" "}
-                    </span>
-                    {skillGuide[skill]}
-                  </p>
-                  <p className="mt-2 text-xs leading-5 text-zinc-500">
-                    <span className="font-medium text-zinc-400">
-                      Что улучшить:{" "}
-                    </span>
-                    {skillGuide.improve[0]}
-                  </p>
-                </div>
-              ) : null}
-            </div>
-          );
-        })}
-      </div>
-
-      <ReviewSection result={result} />
-
-      <div className="rounded-xl border border-amber-400/20 bg-amber-400/5 p-4 text-xs leading-5 text-amber-100/80">
-        <span className="font-medium text-amber-100">Важно: </span>
-        тест даёт предварительную оценку: 30 вопросов не охватывают все
-        языковые навыки и не заменяют полную диагностику или официальный
-        экзамен.
-      </div>
-
-      <div className="rounded-2xl border border-white/10 bg-zinc-900/40 p-5">
-        <p className="text-xs leading-5 text-zinc-500">
-          Это пробная версия теста. Результат ориентировочный и не является
-          официальным экзаменом CEFR.
+      <div className="cefr-result-footer">
+        <p>
+          Тест даёт предварительную оценку: 30 вопросов не охватывают все
+          языковые навыки и не заменяют официальный экзамен. Это пробная версия,
+          результат ориентировочный.
         </p>
         <button
           type="button"
           onClick={onRestart}
-          className="mt-4 inline-flex h-11 items-center justify-center rounded-full bg-white px-6 text-sm font-semibold text-zinc-950 transition-colors hover:bg-zinc-200"
+          className="cefr-result-restart"
         >
           Пройти заново
         </button>
@@ -938,96 +1019,65 @@ function ResultScreen({
   );
 }
 
-function StatCard({ label, value }: { label: string; value: number }) {
-  return (
-    <div className="rounded-xl border border-white/10 bg-zinc-900/70 p-4">
-      <p className="text-2xl font-semibold text-zinc-50">{value}</p>
-      <p className="mt-1 text-xs text-zinc-500">{label}</p>
-    </div>
-  );
-}
-
 function ReviewSection({ result }: { result: TestResult }) {
-  if (result.review.length === 0) {
-    return (
-      <section className="rounded-2xl border border-white/10 bg-zinc-900/70 p-5">
-        <h2 className="text-lg font-semibold text-zinc-50">
-          Разбор ответов
-        </h2>
-        <p className="mt-2 text-sm text-zinc-400">
-          Вы не ответили ни на один вопрос, поэтому разбирать пока нечего.
-        </p>
-      </section>
-    );
-  }
-
   return (
-    <section className="rounded-2xl border border-white/10 bg-zinc-900/70 p-5 sm:p-6">
-      <h2 className="text-lg font-semibold text-zinc-50">
-        Разбор ответов
-      </h2>
-      <p className="mt-2 text-sm text-zinc-400">
-        Правильные ответы и объяснения доступны только после завершения
-        теста. Неотвеченные вопросы не считаются ошибками.
-      </p>
+    <section className="cefr-result-review">
+      <h2 className="cefr-result-heading">Разбор ответов</h2>
+      <div className="cefr-review-groups">
+        {(["grammar", "vocabulary", "reading"] as Skill[]).map((skill) => {
+          const errors = result.review.filter(
+            (entry) => entry.item.skill === skill && !entry.correct,
+          );
 
-      <div className="mt-4 space-y-3">
-        {(["grammar", "vocabulary", "reading"] as Skill[]).map(
-          (skill) => {
-            const entries = result.review.filter(
-              (entry) => entry.item.skill === skill,
-            );
-            const stats: SkillStats = result.stats.bySkill[skill];
-
-            return (
-              <details
-                key={skill}
-                className="group rounded-xl border border-white/10 bg-zinc-950/40"
-              >
-                <summary className="flex cursor-pointer list-none flex-wrap items-center justify-between gap-2 px-4 py-3 text-sm font-medium text-zinc-200 [&::-webkit-details-marker]:hidden">
-                  <span>{SKILL_TITLES[skill]}</span>
-                  <span className="flex items-center gap-2 text-xs font-normal text-zinc-500">
-                    <span>
-                      Верно: {stats.correct} · Неверно: {stats.incorrect}
-                      {stats.unanswered > 0
-                        ? ` · Без ответа: ${stats.unanswered}`
-                        : ""}
-                    </span>
-                    <svg
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                      className="h-4 w-4 shrink-0 transition-transform group-open:rotate-180"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="m6 9 6 6 6-6" />
-                    </svg>
+          return (
+            <details key={skill} className="cefr-review-group">
+              <summary className="cefr-review-group__head">
+                <span className="cefr-review-group__title">
+                  {SKILL_TITLES[skill]}
+                  <span className="cefr-review-group__count">
+                    {errors.length} ошибок
                   </span>
-                </summary>
-                <div className="space-y-4 border-t border-white/10 p-4">
-                  {entries.map((entry) => (
-                    <ReviewItem key={entry.item.id} entry={entry} />
-                  ))}
-                  {stats.unanswered > 0 ? (
-                    <p className="rounded-lg border border-white/10 bg-white/[0.02] p-3 text-xs leading-5 text-zinc-400">
-                      Ещё {stats.unanswered} вопрос(а) этого раздела остались
-                      без ответа. Они не засчитаны как ошибки.
-                    </p>
-                  ) : null}
-                </div>
-              </details>
-            );
-          },
-        )}
+                </span>
+                <svg
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  className="cefr-review-group__chevron"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </summary>
+
+              <div className="cefr-review-group__body">
+                {errors.length > 0 ? (
+                  <div
+                    className={`cefr-review-grid ${
+                      skill === "reading" ? "cefr-review-grid--single" : ""
+                    }`}
+                  >
+                    {errors.map((entry) => (
+                      <ReviewErrorCard key={entry.item.id} entry={entry} />
+                    ))}
+                  </div>
+                ) : (
+                  <p className="cefr-review-empty">
+                    В этом навыке нет ошибок.
+                  </p>
+                )}
+              </div>
+            </details>
+          );
+        })}
       </div>
     </section>
   );
 }
 
-function ReviewItem({ entry }: { entry: AnswerReview }) {
+function ReviewErrorCard({ entry }: { entry: AnswerReview }) {
   const selected = entry.item.options.find(
     (option) => option.id === entry.selectedOptionId,
   );
@@ -1039,57 +1089,26 @@ function ReviewItem({ entry }: { entry: AnswerReview }) {
     : undefined;
 
   return (
-    <article className="rounded-xl border border-white/10 bg-zinc-900/60 p-4">
-      <div className="flex flex-wrap items-center gap-2 text-xs">
-        <span
-          className={`rounded-full border px-2.5 py-1 font-medium ${
-            entry.correct
-              ? "border-emerald-400/30 bg-emerald-400/10 text-emerald-200"
-              : "border-red-400/30 bg-red-400/10 text-red-200"
-          }`}
-        >
-          {entry.correct ? "Верно" : "Неверно"}
-        </span>
-        <span className="text-zinc-500">Вопрос {entry.index}</span>
-        <span className="text-zinc-500">
-          {SKILL_TITLES[entry.item.skill]}
-        </span>
-      </div>
-
-      <p className="mt-3 text-sm font-medium leading-6 text-zinc-100">
+    <article className="cefr-review-card">
+      <p className="cefr-review-card__number">Вопрос {entry.index}</p>
+      <p className="cefr-review-card__question">
         {displayStem(entry.item)}
       </p>
-
       {passage ? (
-        <details className="mt-3 rounded-lg border border-white/10 bg-zinc-950/40 p-3">
-          <summary className="cursor-pointer text-xs font-medium text-zinc-400">
-            Показать текст «{passage.title}»
-          </summary>
-          <div className="mt-3 text-sm leading-7 text-zinc-300">
-            {passage.text}
-          </div>
+        <details className="cefr-review-card__passage">
+          <summary>Показать текст «{passage.title}»</summary>
+          <p>{passage.text}</p>
         </details>
       ) : null}
-
-      <dl className="mt-3 grid gap-2 text-sm sm:grid-cols-2">
-        <div>
-          <dt className="text-xs text-zinc-500">Ваш ответ</dt>
-          <dd
-            className={
-              entry.correct ? "text-emerald-200" : "text-red-200"
-            }
-          >
-            {selected?.text ?? "—"}
-          </dd>
-        </div>
-        <div>
-          <dt className="text-xs text-zinc-500">Правильный ответ</dt>
-          <dd className="text-emerald-200">{correct?.text ?? "—"}</dd>
-        </div>
-      </dl>
-
-      <p className="mt-3 text-sm leading-6 text-zinc-400">
-        <span className="font-medium text-zinc-300">Объяснение: </span>
+      <p className="cefr-review-card__answer cefr-review-card__answer--wrong">
+        <span>Ваш ответ</span>
+        {selected?.text ?? "—"}
+      </p>
+      <p className="cefr-review-card__answer cefr-review-card__answer--correct">
+        <span>Правильный ответ</span>
+        {correct?.text ?? "—"}
+      </p>
+      <p className="cefr-review-card__explanation">
         {entry.item.explanation ?? "Объяснение пока не добавлено."}
       </p>
     </article>
@@ -1097,10 +1116,22 @@ function ReviewItem({ entry }: { entry: AnswerReview }) {
 }
 
 
-function CefrAiAnalysis({ result }: { result: TestResult }) {
+function CefrAiAnalysis({
+  result,
+  resultId,
+  isAuthenticated,
+}: {
+  result: TestResult;
+  resultId: string | null;
+  isAuthenticated: boolean;
+}) {
   const [analysis, setAnalysis] = useState<CefrTestAnalysis | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [blocked, setBlocked] = useState(false);
+  const [showLimit, setShowLimit] = useState(false);
+  const [limitTier, setLimitTier] = useState<string | null>(null);
+  const [retryRemaining, setRetryRemaining] = useState(0);
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
 
   useEffect(() => {
@@ -1113,28 +1144,25 @@ function CefrAiAnalysis({ result }: { result: TestResult }) {
     return () => window.clearInterval(timer);
   }, [loading]);
 
+  useEffect(() => {
+    if (retryRemaining <= 0) return;
+
+    const timer = window.setInterval(() => {
+      setRetryRemaining((seconds) => Math.max(0, seconds - 1));
+    }, 1000);
+
+    return () => window.clearInterval(timer);
+  }, [retryRemaining]);
+
   const analyze = async () => {
-    if (loading) return;
+    if (loading || blocked) return;
 
-    const questions = result.review.map((entry) => {
-      const selected = entry.item.options.find(
-        (option) => option.id === entry.selectedOptionId,
-      );
-      const correct = entry.item.options.find(
-        (option) => option.id === entry.item.correctOptionId,
-      );
-      return {
-        id: entry.item.id,
-        skill: entry.item.skill,
-        level: entry.item.cefrLevel,
-        stem: entry.item.stem,
-        selected: selected?.text ?? "",
-        correct: correct?.text ?? "",
-        isCorrect: entry.correct,
-      };
-    });
+    if (!resultId) {
+      setError("Результат ещё сохраняется. Подождите пару секунд.");
+      return;
+    }
 
-    if (questions.length === 0) {
+    if (result.review.length === 0) {
       setError("Нет отвеченных вопросов для анализа.");
       return;
     }
@@ -1149,15 +1177,35 @@ function CefrAiAnalysis({ result }: { result: TestResult }) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           action: "analyze-test",
-          level: result.overall.level,
-          questions,
+          resultId,
         }),
       });
       const payload = (await response.json().catch(() => null)) as
-        | { analysis?: unknown; error?: string }
+        | {
+            analysis?: unknown;
+            error?: string;
+            code?: string;
+            tier?: string;
+            retryAfter?: number;
+          }
         | null;
 
       if (!response.ok) {
+        if (response.status === 429 && payload?.code === "LIMIT_REACHED") {
+          setLimitTier(payload.tier ?? null);
+          setShowLimit(true);
+          setBlocked(true);
+          return;
+        }
+        if (
+          typeof payload?.retryAfter === "number" &&
+          payload.retryAfter > 0
+        ) {
+          setRetryRemaining(payload.retryAfter);
+        }
+        if (response.status === 429 && payload?.code !== "COOLDOWN") {
+          setBlocked(true);
+        }
         throw new Error(
           payload?.error || "Не удалось получить AI-анализ. Попробуйте ещё раз.",
         );
@@ -1166,6 +1214,8 @@ function CefrAiAnalysis({ result }: { result: TestResult }) {
         throw new Error("Не удалось разобрать AI-анализ. Попробуйте ещё раз.");
       }
 
+      setBlocked(false);
+      setRetryRemaining(0);
       setAnalysis(payload.analysis);
     } catch (cause) {
       setError(
@@ -1178,158 +1228,178 @@ function CefrAiAnalysis({ result }: { result: TestResult }) {
     }
   };
 
-  if (analysis) {
-    return <CefrAiAnalysisPanel analysis={analysis} />;
-  }
-
-  if (error) {
+  if (!isAuthenticated) {
     return (
-      <section
-        className="cefr-ai-panel cefr-ai-error-panel"
-        role="alert"
-      >
-        <p className="cefr-ai-kicker">AI-анализ</p>
-        <h2>Не удалось получить разбор</h2>
-        <p className="cefr-ai-summary">{error}</p>
-        <div className="cefr-ai-error-actions">
-          <button
-            type="button"
-            className="button button--primary"
-            onClick={() => void analyze()}
-            disabled={loading || result.review.length === 0}
-          >
-            Попробовать снова
-          </button>
+      <section className="cefr-ai-cta">
+        <div>
+          <p className="cefr-ai-kicker">AI-анализ</p>
+          <h2>Войдите, чтобы получить разбор</h2>
+          <p>
+            Сохраните результат теста в аккаунте и получите персональный
+            AI-разбор ошибок и рекомендаций.
+          </p>
         </div>
+        <Link
+          href={`/login?callbackUrl=${encodeURIComponent("/test?restore=1")}`}
+          className="button button--primary"
+        >
+          Войти и сохранить результат
+        </Link>
       </section>
     );
   }
 
-  return (
-    <section className="cefr-ai-cta">
-      <div>
-        <p className="cefr-ai-kicker">AI-анализ</p>
-        <h2>Разобрать ответы по вопросам</h2>
-        <p>
-          Посмотрите, какие темы уже получаются, где теряются баллы и что
-          стоит повторить. Анализ опирается на все отвеченные вопросы.
-        </p>
-        {error ? (
-          <p className="cefr-ai-error" role="alert">
-            {error}
-          </p>
-        ) : null}
-        {result.review.length === 0 ? (
-          <p className="cefr-ai-note">
-            Для анализа нужно ответить хотя бы на один вопрос.
-          </p>
-        ) : null}
-      </div>
-      <button
-        type="button"
-        className="button button--primary"
-        onClick={() => void analyze()}
-        disabled={loading || result.review.length === 0}
-      >
-        {loading
-          ? `Анализируем результат… ${elapsedSeconds} с`
-          : error
-            ? "Повторить"
-            : "AI-анализ"}
-      </button>
-    </section>
-  );
-}
+  if (analysis) {
+    const mistakes = result.review
+      .filter(
+        (entry) =>
+          !entry.correct && entry.item.skill !== "reading",
+      )
+      .map((entry) => {
+        const selected = entry.item.options.find(
+          (option) => option.id === entry.selectedOptionId,
+        );
+        const correct = entry.item.options.find(
+          (option) => option.id === entry.item.correctOptionId,
+        );
+        return {
+          topic: entry.item.topic,
+          skill: entry.item.skill,
+          question: entry.item.stem,
+          selectedAnswer: selected?.text ?? "",
+          correctAnswer: correct?.text ?? "",
+          explanation: entry.item.explanation ?? null,
+        };
+      });
 
-function CefrAiAnalysisPanel({
-  analysis,
-}: {
-  analysis: CefrTestAnalysis;
-}) {
+    return (
+      <CefrAiAnalysisCard analysis={analysis} mistakes={mistakes} />
+    );
+  }
+
+  if (error) {
+    return (
+      <>
+        {showLimit ? (
+          <UpgradeLimitModal
+            title={
+              limitTier === "PRO"
+                ? "Дневной лимит AI-анализов исчерпан"
+                : "Лимит AI-анализов на сегодня исчерпан"
+            }
+            message={
+              limitTier === "PRO"
+                ? "На тарифе Pro доступно до 5 AI-разборов в день. Попробуйте снова завтра."
+                : "На тарифе Free доступен один AI-разбор в день. Оформите Pro, чтобы получать больше разборов."
+            }
+            kicker={limitTier === "PRO" ? "Лимит Pro" : "Лимит Free"}
+            upgradeLabel={
+              limitTier === "PRO" ? "Посмотреть Neuro-Tutor" : "Перейти на Pro"
+            }
+            onClose={() => setShowLimit(false)}
+          />
+        ) : null}
+        <section
+          className="cefr-ai-panel cefr-ai-error-panel"
+          role="alert"
+        >
+          <p className="cefr-ai-kicker">AI-анализ</p>
+          <h2>Не удалось получить разбор</h2>
+          <p className="cefr-ai-summary">{error}</p>
+          <div className="cefr-ai-error-actions">
+            <button
+              type="button"
+              className="button button--primary"
+              onClick={() => void analyze()}
+              disabled={
+                loading ||
+                blocked ||
+                retryRemaining > 0 ||
+                !resultId ||
+                result.review.length === 0
+              }
+            >
+              {retryRemaining > 0
+                ? `Повторить через ${Math.floor(retryRemaining / 60)}:${String(
+                    retryRemaining % 60,
+                  ).padStart(2, "0")}`
+                : blocked
+                  ? "Попробуйте позже"
+                  : "Попробовать снова"}
+            </button>
+          </div>
+        </section>
+      </>
+    );
+  }
+
   return (
-    <section className="cefr-ai-panel">
-      <div className="cefr-ai-panel__head">
+    <>
+      {showLimit ? (
+        <UpgradeLimitModal
+          title={
+            limitTier === "PRO"
+              ? "Дневной лимит AI-анализов исчерпан"
+              : "Лимит AI-анализов на сегодня исчерпан"
+          }
+          message={
+            limitTier === "PRO"
+              ? "На тарифе Pro доступно до 5 AI-разборов в день. Попробуйте снова завтра."
+              : "На тарифе Free доступен один AI-разбор в день. Оформите Pro, чтобы получать больше разборов."
+          }
+          kicker={limitTier === "PRO" ? "Лимит Pro" : "Лимит Free"}
+          upgradeLabel={
+            limitTier === "PRO" ? "Посмотреть Neuro-Tutor" : "Перейти на Pro"
+          }
+          onClose={() => setShowLimit(false)}
+        />
+      ) : null}
+      <section className="cefr-ai-cta">
         <div>
           <p className="cefr-ai-kicker">AI-анализ</p>
-          <h2>Разбор ответов</h2>
-          <p className="cefr-ai-summary">{analysis.summary}</p>
-        </div>
-        <div className="cefr-ai-level">
-          <span>AI-уровень</span>
-          <strong>{analysis.level}</strong>
-          <small>{analysis.answered} ответов</small>
-        </div>
-      </div>
-
-      <div className="cefr-ai-scores">
-        {(["grammar", "vocabulary", "reading"] as Skill[]).map((skill) => (
-          <div className="cefr-ai-score" key={skill}>
-            <div>
-              <span>{SKILL_TITLES[skill]}</span>
-              <strong>{analysis.scores[skill]}</strong>
-            </div>
-            <div className="cefr-ai-score__bar">
-              <span style={{ width: `${analysis.scores[skill]}%` }} />
-            </div>
-          </div>
-        ))}
-      </div>
-
-      <div className="cefr-ai-columns">
-        <section>
-          <h3>Сильные стороны</h3>
-          <ul>
-            {analysis.strengths.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
-        </section>
-        <section>
-          <h3>Рекомендации</h3>
-          <ul>
-            {analysis.recommendations.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
-        </section>
-      </div>
-
-      <section className="cefr-ai-mistakes">
-        <h3>Ошибки по вопросам</h3>
-        {analysis.mistakes.length > 0 ? (
-          <div className="cefr-ai-mistakes__list">
-            {analysis.mistakes.map((mistake, index) => (
-              <article
-                key={`${mistake.questionId}-${index}`}
-                className="cefr-ai-mistake"
-              >
-                <p className="cefr-ai-mistake__question">
-                  {mistake.question}
-                </p>
-                <p className="cefr-ai-mistake__line">
-                  <span>Ваш ответ</span>
-                  <del>{mistake.selected}</del>
-                </p>
-                <p className="cefr-ai-mistake__line">
-                  <span>Правильно</span>
-                  <ins>{mistake.correction}</ins>
-                </p>
-                <p className="cefr-ai-mistake__explanation">
-                  {mistake.explanation}
-                </p>
-              </article>
-            ))}
-          </div>
-        ) : (
-          <p className="cefr-ai-note">
-            Заметных ошибок в отвеченных вопросах не найдено.
+          <h2>Разобрать ответы по вопросам</h2>
+          <p>
+            Посмотрите, какие темы уже получаются, где теряются баллы и что
+            стоит повторить. Анализ опирается на все отвеченные вопросы.
           </p>
-        )}
+          {error ? (
+            <p className="cefr-ai-error" role="alert">
+              {error}
+            </p>
+          ) : null}
+          {!resultId ? (
+            <p className="cefr-ai-note">
+              Сохраняем результат — кнопка станет доступна через пару секунд.
+            </p>
+          ) : result.review.length === 0 ? (
+            <p className="cefr-ai-note">
+              Для анализа нужно ответить хотя бы на один вопрос.
+            </p>
+          ) : null}
+        </div>
+        <button
+          type="button"
+          className="button button--primary"
+          onClick={() => void analyze()}
+          disabled={
+            loading ||
+            blocked ||
+            retryRemaining > 0 ||
+            !resultId ||
+            result.review.length === 0
+          }
+        >
+          {loading
+            ? `Анализируем результат… ${elapsedSeconds} с`
+            : retryRemaining > 0
+              ? `Повторить через ${Math.floor(retryRemaining / 60)}:${String(
+                  retryRemaining % 60,
+                ).padStart(2, "0")}`
+              : error
+                ? "Повторить"
+                : "AI-анализ"}
+        </button>
       </section>
-
-      <p className="cefr-ai-note">
-        Предварительный разбор по ответам. Он не заменяет официальный экзамен.
-      </p>
-    </section>
+    </>
   );
 }

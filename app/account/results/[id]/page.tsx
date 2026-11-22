@@ -5,18 +5,15 @@ import { notFound, redirect } from "next/navigation";
 
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
+import LessonRecommendations from "@/app/components/LessonRecommendations";
+import MistakeCard from "@/app/components/MistakeCard";
+import { trialBank } from "@/lib/cefr/bank/trial-bank";
 
 const dateFormatter = new Intl.DateTimeFormat("ru-RU", {
   day: "numeric",
   month: "long",
   year: "numeric",
 });
-
-const skillLabels: Record<string, string> = {
-  grammar: "Grammar",
-  vocabulary: "Vocabulary",
-  reading: "Reading",
-};
 
 type ResultPageProps = {
   params: Promise<{ id: string }>;
@@ -82,16 +79,21 @@ async function ResultContent({ params }: ResultPageProps) {
       ? Math.round((result.answered / result.total) * 100)
       : null;
   const displayLevel = result.completed ? result.level : null;
+  const grammarVocabularyMistakes = result.mistakes.filter(
+    (mistake) => mistake.skill !== "reading",
+  );
+  const readingMistakes = result.mistakes.filter(
+    (mistake) => mistake.skill === "reading",
+  );
 
   return (
     <section className="page-shell auth-page">
       <div className="container auth-container account-result-page">
         <p className="eyebrow">English Platform · аккаунт</p>
-        <Link href="/account" className="account-back">
+        <h1 className="page-title">Разбор результата</h1>
+        <Link href="/account" className="account-back lesson-back">
           ← В личный кабинет
         </Link>
-
-        <h1 className="page-title">Разбор результата</h1>
         <p className="account-result-date">
           {dateFormatter.format(result.createdAt)}
         </p>
@@ -120,46 +122,67 @@ async function ResultContent({ params }: ResultPageProps) {
           <span>{result.answered} из {result.total} вопросов</span>
         </div>
 
+        <LessonRecommendations
+          topics={result.mistakes.map((mistake) => mistake.topic)}
+        />
+
         <div className="account-mistakes">
           <div className="account-mistakes__head">
             <p className="eyebrow">Ошибки</p>
             <span>{result.mistakes.length}</span>
           </div>
 
-          {result.mistakes.length === 0 ? (
+          {grammarVocabularyMistakes.length > 0 ? (
+            <div className="account-mistake-list">
+              {grammarVocabularyMistakes.map((mistake) => (
+                <MistakeCard
+                  key={mistake.id}
+                  mistake={{
+                    topic: mistake.topic,
+                    skill: mistake.skill,
+                    question: mistake.question,
+                    selectedAnswer: mistake.selectedAnswer,
+                    correctAnswer: mistake.correctAnswer,
+                    explanation: mistake.explanation,
+                  }}
+                />
+              ))}
+            </div>
+          ) : readingMistakes.length === 0 ? (
             <div className="account-empty">
               <p>В этом прохождении нет ошибок. Отличный результат.</p>
             </div>
-          ) : (
-            <div className="account-mistake-list">
-              {result.mistakes.map((mistake) => (
-                <article key={mistake.id} className="account-mistake-card">
-                  <div className="account-mistake-card__tags">
-                    <span>
-                      {skillLabels[mistake.skill] ?? mistake.skill}
-                    </span>
-                    <span>{mistake.topic}</span>
-                  </div>
-                  <h3>{mistake.question}</h3>
-                  <div className="account-mistake-card__answers">
-                    <p>
-                      <span>Ваш ответ</span>
-                      <del>{mistake.selectedAnswer}</del>
-                    </p>
-                    <p>
-                      <span>Правильно</span>
-                      <ins>{mistake.correctAnswer}</ins>
-                    </p>
-                  </div>
-                  {mistake.explanation ? (
-                    <p className="account-mistake-card__explanation">
-                      {mistake.explanation}
-                    </p>
-                  ) : null}
-                </article>
-              ))}
-            </div>
-          )}
+          ) : null}
+
+          {readingMistakes.length > 0 ? (
+            <details className="reading-mistakes">
+              <summary>
+                Ошибки Reading <span>{readingMistakes.length}</span>
+              </summary>
+              <div className="reading-mistakes__list">
+                {readingMistakes.map((mistake) => {
+                  const passage = mistake.passageId
+                    ? trialBank.passageById.get(mistake.passageId)
+                    : undefined;
+                  return (
+                    <MistakeCard
+                      key={mistake.id}
+                      mistake={{
+                        topic: mistake.topic,
+                        skill: mistake.skill,
+                        question: mistake.question,
+                        selectedAnswer: mistake.selectedAnswer,
+                        correctAnswer: mistake.correctAnswer,
+                        explanation: mistake.explanation,
+                        passageTitle: passage?.title,
+                        passageText: passage?.text,
+                      }}
+                    />
+                  );
+                })}
+              </div>
+            </details>
+          ) : null}
         </div>
       </div>
     </section>

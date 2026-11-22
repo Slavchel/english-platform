@@ -1,0 +1,118 @@
+{
+  "topic": "present_perfect_continuous",
+  "title": "Present Perfect Continuous (Настоящее совершенное длительное время)",
+  "level": "B1",
+  "content": "### Когда нужен Present Perfect Continuous?\n\nЭто время используется для действий, которые начались в прошлом и всё ещё продолжаются, либо для действий, которые только что закончились, но мы видим их результат. Также оно может описывать повторяющуюся или временную деятельность в последнее время.\n- I have been learning English for three years. - Я учу английский уже три года (начал в прошлом и всё ещё учу).\n- I've been going to the gym a lot lately. - В последнее время я часто хожу в зал (повторяющаяся деятельность).\n\n### Формула\n- **Утверждение:** Подлежащее + have/has been + глагол с -ing.\n- **Отрицание:** Подлежащее + have not (haven't) / has not (hasn't) been + глагол с -ing.\n- **Вопрос:** Have/Has + подлежащее + been + глагол с -ing?\n\n### Как выбрать Have или Has?\n\n- **I, you, we, they** → используем **have been** (I have been working).\n- **He, she, it** → используем **has been** (He has been working).\n\n### Чем отличается от Present Perfect?\n\n- **Present Perfect** (have/has + V3) фокусируется на **завершенных действиях, результате или количестве**. *I have painted the wall.* (Я покрасил стену — результат). *I have read three books.* (Я прочитал три книги — количество).\n- **Present Perfect Continuous** (have/has been + ing) фокусируется на **самом процессе, его длительности или временном характере**. *I have been painting the wall.* (Я красил стену — важен процесс).\n\n### ⚠️ Важное правило с глаголами состояния (Stative Verbs)\n\nГлаголы состояния (know, believe, want) обычно не используются в Continuous, даже в Present Perfect Continuous.\n- Неправильно: *I have been knowing him for years.*\n- Правильно: *I have known him for years.*\n*Однако некоторые глаголы могут использоваться в Continuous, если описывают деятельность, а не состояние: I've thought about this problem all morning.*\n\n### Слова-подсказки\n\nЭто время часто используется с:\n- **for** (в течение какого-то времени): for two hours.\n- **since** (с какого-то момента): since this morning, since 2020.\n- **all day** (весь день), **lately** (в последнее время).\n\n### Краткий вывод\n\nВыбирай Present Perfect Continuous, когда хочешь подчеркнуть, что действие длится уже какой-то период времени или только что завершилось, оставив видимый результат. Запомни формулу: **have/has been + V-ing**.\n\n### Порядок работы с временем\n\n1. Сначала длительность: I have been learning English for three years.\n2. Затем видимый результат: I have been running. That's why I'm tired.\n3. И только потом сравнение с Present Perfect.\n\nPresent Perfect Continuous подчеркивает процесс, но Present Perfect тоже может выражать длительное состояние: I have lived here for ten years. I have known her since 2019.\n",
+  "questions": [
+    {
+      "question": "I ___ (learn) English for three years.",
+      "options": [
+        "learn",
+        "am learning",
+        "have been learning",
+        "has been learning"
+      ],
+      "correctAnswer": "have been learning",
+      "explanation": "Действие началось в прошлом и продолжается до сих пор (for three years). С I используем have been + learning."
+    },
+    {
+      "question": "She has just come back from a run. She's exhausted. She ___ (run).",
+      "options": [
+        "runs",
+        "is running",
+        "has been running",
+        "have been running"
+      ],
+      "correctAnswer": "has been running",
+      "explanation": "Действие только что закончилось, но мы видим его результат (она истощена). С she используем has been + running."
+    },
+    {
+      "question": "How long ___ you ___ (wait) for me?",
+      "options": [
+        "do / wait",
+        "are / waiting",
+        "have / been waiting",
+        "has / been waiting"
+      ],
+      "correctAnswer": "have / been waiting",
+      "explanation": "Вопрос How long? к процессу, который начался в прошлом и длится до сих пор. С you используем have + been + waiting."
+    },
+    {
+      "question": "It ___ (rain) all day. The streets are wet.",
+      "options": [
+        "rains",
+        "is raining",
+        "has been raining",
+        "have been raining"
+      ],
+      "correctAnswer": "has been raining",
+      "explanation": "All day подчеркивает длительность процесса, а мокрые улицы — его результат. It — единственное число, поэтому has been + raining."
+    },
+    {
+      "question": "They ___ (not / play) football regularly since they moved to a new city, although they still enjoy the game.",
+      "options": [
+        "don't play",
+        "aren't playing",
+        "haven't been playing",
+        "hasn't been playing"
+      ],
+      "correctAnswer": "haven't been playing",
+      "explanation": "Since указывает на период времени, в течение которого деятельность не была регулярной. Отрицание с they: haven't been + playing."
+    },
+    {
+      "question": "I ___ (cook) since this morning. I need a break!",
+      "options": [
+        "cook",
+        "am cooking",
+        "have been cooking",
+        "has been cooking"
+      ],
+      "correctAnswer": "have been cooking",
+      "explanation": "Since this morning указывает на длительный процесс, который всё ещё продолжается. С I используем have been + cooking."
+    },
+    {
+      "question": "He ___ (work) extra hours recently because the company is very busy.",
+      "options": [
+        "works",
+        "is working",
+        "has been working",
+        "have been working"
+      ],
+      "correctAnswer": "has been working",
+      "explanation": "Recently и дополнительная информация подчёркивают временную деятельность в последнее время. С he используем has been + working."
+    },
+    {
+      "question": "Why are your hands so dirty? — I've just finished working on my car. I ___ (fix) it for three hours.",
+      "options": [
+        "fix",
+        "am fixing",
+        "have been fixing",
+        "has been fixing"
+      ],
+      "correctAnswer": "have been fixing",
+      "explanation": "Контекст указывает, что работа завершена, но важна длительность процесса (for three hours). С I используем have been + fixing."
+    },
+    {
+      "question": "I ___ (know) her for many years.",
+      "options": [
+        "have been knowing",
+        "has been knowing",
+        "have known",
+        "know"
+      ],
+      "correctAnswer": "have known",
+      "explanation": "Know — глагол состояния, он обычно не используется в Continuous. Поэтому используем обычный Present Perfect: have + known (3-я форма)."
+    },
+    {
+      "question": "The baby ___ (cry) for an hour. Can you check on him?",
+      "options": [
+        "cries",
+        "is crying",
+        "has been crying",
+        "have been crying"
+      ],
+      "correctAnswer": "has been crying",
+      "explanation": "For an hour подчеркивает длительность процесса. The baby — существительное в единственном числе (третье лицо), поэтому используем has been + crying."
+    }
+  ]
+}

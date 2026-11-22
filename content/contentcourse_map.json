@@ -1,0 +1,34 @@
+{
+  "nodes": {
+    "articles_a_an_the": { "mapX": 30, "mapY": 15 },
+    "some_any_no_every": { "mapX": 50, "mapY": 10 },
+    "much_many_a_lot_of_little_few": { "mapX": 70, "mapY": 15 },
+    "quantifiers_both_either_neither": { "mapX": 60, "mapY": 30 },
+
+    "prepositions_of_time_in_on_at": { "mapX": 20, "mapY": 50 },
+    "prepositions_of_place": { "mapX": 15, "mapY": 70 },
+    "conjunctions_basic": { "mapX": 35, "mapY": 60 },
+
+    "modal_verbs_must_have_to_should": { "mapX": 80, "mapY": 50 },
+    "modals_of_ability": { "mapX": 85, "mapY": 70 },
+    "modals_of_advice": { "mapX": 65, "mapY": 80 },
+    "modals_of_probability": { "mapX": 80, "mapY": 90 },
+
+    "demonstratives": { "mapX": 50, "mapY": 45 }
+  },
+  "connections": [
+    { "from": "articles_a_an_the", "to": "some_any_no_every" },
+    { "from": "some_any_no_every", "to": "much_many_a_lot_of_little_few" },
+    { "from": "much_many_a_lot_of_little_few", "to": "quantifiers_both_either_neither" },
+    { "from": "quantifiers_both_either_neither", "to": "demonstratives" },
+
+    { "from": "demonstratives", "to": "conjunctions_basic" },
+    { "from": "conjunctions_basic", "to": "prepositions_of_time_in_on_at" },
+    { "from": "prepositions_of_time_in_on_at", "to": "prepositions_of_place" },
+
+    { "from": "prepositions_of_place", "to": "modal_verbs_must_have_to_should" },
+    { "from": "modal_verbs_must_have_to_should", "to": "modals_of_ability" },
+    { "from": "modals_of_ability", "to": "modals_of_advice" },
+    { "from": "modals_of_advice", "to": "modals_of_probability" }
+  ]
+}

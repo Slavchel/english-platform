@@ -1,0 +1,80 @@
+{
+  "topic": "past_perfect",
+  "title": "Past Perfect (Предпрошедшее время)",
+  "level": "B1-B2",
+  "content": "### Что такое Past Perfect?\n\nPast Perfect нужен, когда мы говорим о действии, которое произошло **раньше другого действия в прошлом**. Это «прошлое до прошлого».\n\n- When I arrived, the film **had started**. — Когда я пришёл, фильм уже начался.\n- She **had finished** the report before the meeting began. — Она закончила отчёт до начала встречи.\n\n### Формула\n\n**had + V3** для всех лиц.\n\n- Утверждение: I / you / he / she / we / they **had worked**.\n- Отрицание: **hadn't worked**.\n- Вопрос: **Had** you worked?\n\n### Когда используем\n\n- Одно прошлое действие произошло раньше другого: The train had left when we arrived.\n- С маркерами **before, after, by the time, already, never, just**.\n- В косвенной речи: He told me he had seen the film.\n\n### Past Simple или Past Perfect?\n\nPast Simple называет действие в прошлом. Past Perfect подчёркивает, что оно завершилось **до другого момента в прошлом**.\n\n- I watched the film yesterday. — просто факт.\n- I had watched the film before we discussed it. — раньше другого действия.\n\n### ⚠️ Типичная ошибка\n\nНельзя заменять Past Perfect на Present Perfect, если речь идёт о прошлом:\n\n- Неправильно: *When I arrived, the film has started.*\n- Правильно: *When I arrived, the film had started.*",
+  "questions": [
+    {
+      "question": "By the time we arrived, the film ___ (already / start).",
+      "options": ["had already started", "already started", "has already started", "was already starting"],
+      "correctAnswer": "had already started",
+      "explanation": "Фильм начался раньше нашего прихода — Past Perfect: had already started."
+    },
+    {
+      "question": "She ___ (never / see) snow before she moved to Canada.",
+      "options": ["had never seen", "never saw", "has never seen", "was never seeing"],
+      "correctAnswer": "had never seen",
+      "explanation": "Речь о прошлом до другого прошлого события — had never seen."
+    },
+    {
+      "question": "By the time I called, he ___ (leave).",
+      "options": ["had left", "left", "has left", "was leaving"],
+      "correctAnswer": "had left",
+      "explanation": "Он ушёл раньше звонка: Past Perfect had left."
+    },
+    {
+      "question": "They ___ (finish) dinner before the guests arrived.",
+      "options": ["had finished", "finished", "have finished", "were finishing"],
+      "correctAnswer": "had finished",
+      "explanation": "Ужин завершился до прихода гостей — had finished."
+    },
+    {
+      "question": "I realized I ___ (forget) my keys.",
+      "options": ["had forgotten", "forgot", "have forgotten", "was forgetting"],
+      "correctAnswer": "had forgotten",
+      "explanation": "Забывание произошло раньше осознания — had forgotten."
+    },
+    {
+      "question": "By the time we got to the station, the train ___ (depart).",
+      "options": ["had departed", "departed", "has departed", "was departing"],
+      "correctAnswer": "had departed",
+      "explanation": "Поезд ушёл до нашего прибытия — Past Perfect had departed."
+    },
+    {
+      "question": "When I opened the fridge, I saw that someone ___ (eat) my lunch.",
+      "options": ["had eaten", "ate", "has eaten", "was eating"],
+      "correctAnswer": "had eaten",
+      "explanation": "Кто-то съел обед раньше, чем я открыл холодильник — had eaten."
+    },
+    {
+      "question": "He told me he ___ (not / eat) since morning.",
+      "options": ["hadn't eaten", "didn't eat", "hasn't eaten", "wasn't eating"],
+      "correctAnswer": "hadn't eaten",
+      "explanation": "В косвенной речи прошлое действие передаётся через Past Perfect: hadn't eaten."
+    },
+    {
+      "question": "By 2010, they ___ (build) three schools.",
+      "options": ["had built", "built", "have built", "were building"],
+      "correctAnswer": "had built",
+      "explanation": "К 2010 году школы уже были построены — had built."
+    },
+    {
+      "question": "I ___ (not / see) the film before we watched it together.",
+      "options": ["hadn't seen", "didn't see", "haven't seen", "wasn't seeing"],
+      "correctAnswer": "hadn't seen",
+      "explanation": "До совместного просмотра я не видел фильм — hadn't seen."
+    },
+    {
+      "question": "She was tired because she ___ (finish) all the reports.",
+      "options": ["had finished", "finished", "has finished", "was finishing"],
+      "correctAnswer": "had finished",
+      "explanation": "Усталость стала результатом завершённой ранее работы — had finished."
+    },
+    {
+      "question": "The shop ___ (close) by the time we arrived.",
+      "options": ["had closed", "closed", "has closed", "was closing"],
+      "correctAnswer": "had closed",
+      "explanation": "Магазин закрылся раньше нашего прихода — had closed."
+    }
+  ]
+}

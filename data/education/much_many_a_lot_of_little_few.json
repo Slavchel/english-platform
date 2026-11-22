@@ -1,0 +1,56 @@
+{
+  "topic": "much_many_a_lot_of_little_few",
+  "title": "Much / Many / A Lot of / Little / Few (Много, мало и немного)",
+  "level": "A2",
+  "content": "### В чем разница?\n\nСначала посмотри на существительное: его можно посчитать или нет?\n\n### Much - много чего-то, что нельзя посчитать поштучно\n\nИспользуем с неисчисляемыми существительными: water (вода), time (время), money (деньги), sugar (сахар), information (информация).\n\nЧаще всего **much** встречается в вопросах и отрицаниях:\n\nI don't have much time. - У меня не так много времени.\n\nHow much water do you need? - Сколько воды тебе нужно?\n\n### Many - много предметов, которые можно посчитать\n\nИспользуем с существительными во множественном числе: books (книги), friends (друзья), tickets (билеты), people (люди).\n\nThere aren't many seats. - Здесь не так много мест.\n\nHow many emails did you get? - Сколько писем ты получил?\n\n### A lot of - много\n\nПодходит и для исчисляемых, и для неисчисляемых существительных. В обычной разговорной речи часто звучит естественнее, чем much или many в утвердительных предложениях.\n\nWe have a lot of work today. - У нас сегодня много работы.\n\nShe has a lot of books. - У неё много книг.\n\n### Little и a little - мало / немного\n\nИспользуем с неисчисляемыми существительными.\n\n- **Little** = Почти нет, недостаточно.\n\nThere is little milk left. - Молока почти не осталось.\n\n- **A little** = Немного есть, этого может хватить.\n\nThere is a little milk left. - Немного молока осталось.\n\n### Few и a few - мало / несколько\n\nИспользуем с исчисляемыми существительными во множественном числе.\n\n- **Few** = Почти нет, недостаточно.\n\nFew people came to the meeting. - На встречу пришло мало людей.\n\n- **A few** = Несколько, хоть какое-то количество есть.\n\nI have a few questions. - У меня есть несколько вопросов.\n\n### Кратко\n\n- **Much** + Неисчисляемое: much time, much water.\n- **Many** + Множественное число: many books, many people.\n- **A lot of** + Оба типа: a lot of work, a lot of friends.\n- **Little / A little** + Неисчисляемое.\n- **Few / A few** + Исчисляемое во множественном числе.\n\n### ⚠️ Типичная ошибка\n\nНе путай little и a little, few и a few. Маленькое слово a меняет смысл!\n\nI have little time. - У меня почти нет времени.\n\nI have a little time. - У меня есть немного времени.\n\nТакже не говори much books или many water. Правильно: many books и much water. В утвердительной речи часто выбирай a lot of: I have a lot of friends.",
+  "questions": [
+    {
+      "question": "How ___ suitcases can we take on the plane?",
+      "options": ["much", "many", "little", "a little"],
+      "correctAnswer": "many",
+      "explanation": "Suitcases можно посчитать: один чемодан, два чемодана. Поэтому используем MANY."
+    },
+    {
+      "question": "How ___ time do we have before the meeting?",
+      "options": ["much", "many", "few", "a few"],
+      "correctAnswer": "much",
+      "explanation": "Time - неисчисляемое существительное. Вопрос о количестве времени строим с HOW MUCH."
+    },
+    {
+      "question": "We have ___ work today, so let's start early.",
+      "options": ["a lot of", "many", "few", "a few"],
+      "correctAnswer": "a lot of",
+      "explanation": "Work в значении «работа» - неисчисляемое существительное. A LOT OF подходит к неисчисляемым существительным и часто используется в утвердительных предложениях."
+    },
+    {
+      "question": "There is very ___ water in the bottle. We need to buy some.",
+      "options": ["little", "a little", "few", "a few"],
+      "correctAnswer": "little",
+      "explanation": "Water - неисчисляемое существительное. LITTLE означает, что воды почти нет, поэтому нужно купить ещё."
+    },
+    {
+      "question": "Add ___ salt to the soup. It needs just a small amount.",
+      "options": ["a little", "little", "a few", "few"],
+      "correctAnswer": "a little",
+      "explanation": "Salt - неисчисляемое существительное. A LITTLE означает «немного»: добавь небольшое количество соли."
+    },
+    {
+      "question": "Very ___ people watched the match because it started at 3 a.m.",
+      "options": ["few", "a few", "little", "a little"],
+      "correctAnswer": "few",
+      "explanation": "People можно посчитать, поэтому используем FEW. Very few подчёркивает, что людей было очень мало."
+    },
+    {
+      "question": "I know ___ good cafés near the station. I can show you one.",
+      "options": ["a few", "few", "a little", "little"],
+      "correctAnswer": "a few",
+      "explanation": "Cafés - исчисляемое существительное во множественном числе. A FEW означает «несколько»: такие кафе есть, и ты можешь выбрать одно."
+    },
+    {
+      "question": "There were too ___ mistakes in the report. We need to check it again.",
+      "options": ["many", "much", "little", "a little"],
+      "correctAnswer": "many",
+      "explanation": "Mistakes можно посчитать, поэтому используем MANY. Конструкция TOO MANY означает «слишком много»."
+    }
+  ]
+}

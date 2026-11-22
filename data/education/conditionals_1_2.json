@@ -1,0 +1,96 @@
+{
+  "topic": "conditionals_1_2",
+  "title": "First and Second Conditionals (Условные предложения 1 и 2 типа)",
+  "level": "B1",
+  "content": "### Когда они нужны?\n\nУсловные предложения (Conditionals) используются, когда мы говорим о возможных событиях и их последствиях (если..., то...).\n\n### First Conditional (Реальная возможность)\n\nИспользуем, когда говорим о реальной возможности в настоящем или будущем и её вероятном результате.\n- **Формула:** If + Present Simple, ... will + глагол.\n- If it **rains**, I **will stay** at home. - Если пойдет дождь, я останусь дома.\n\n### Second Conditional (Воображаемая или маловероятная ситуация)\n\nИспользуем, когда представляем воображаемую или маловероятную ситуацию в настоящем или будущем. Она может быть полностью невозможной или просто маловероятной.\n- **Формула:** If + Past Simple, ... would + глагол.\n- If I **had** a million dollars, I **would buy** a yacht. - Если бы у меня был миллион долларов, я бы купил яхту.\n\n### ⚠️ Типичная ошибка\n\nИспользовать will в части с if, или использовать would в части с if.\n- Неправильно: *If it will rain, I will stay.* / *If I would have money, I would buy.*\n- Правильно: *If it rains, I will stay.* / *If I had money, I would buy.*\n\n### Краткий вывод\n\nЕсли ситуация реальная (First) - в части с *if* используй Present Simple, а в главной части *will*. Если ситуация воображаемая (Second) - в части с *if* используй Past Simple, а в главной *would*.\n\n### Порядок отработки\n\nСначала отдельно First (реальное условие), затем отдельно Second (воображаемое), затем Zero (факт). Смешанные задания на различение идут только после практики каждого типа.\n",
+  "questions": [
+    {
+      "question": "If I ___ (have) time tomorrow, I will help you with the project.",
+      "options": [
+        "have",
+        "will have",
+        "had",
+        "would have"
+      ],
+      "correctAnswer": "have",
+      "explanation": "Это реальная ситуация в будущем (First Conditional). В части с if используем Present Simple (have)."
+    },
+    {
+      "question": "If I ___ (be) you, I would apologize to her.",
+      "options": [
+        "am",
+        "will be",
+        "were",
+        "would be"
+      ],
+      "correctAnswer": "were",
+      "explanation": "Это нереальная ситуация (совет от чужого лица, Second Conditional). В части с if используем Past Simple, для глагола be традиционно используем were."
+    },
+    {
+      "question": "We will go to the beach if the weather ___ (be) good.",
+      "options": [
+        "is",
+        "will be",
+        "was",
+        "would be"
+      ],
+      "correctAnswer": "is",
+      "explanation": "First Conditional (реальная ситуация). В части с if используем Present Simple (is)."
+    },
+    {
+      "question": "If she ___ (win) the lottery, she would travel around the world.",
+      "options": [
+        "wins",
+        "will win",
+        "won",
+        "would win"
+      ],
+      "correctAnswer": "won",
+      "explanation": "Second Conditional: мы представляем маловероятную ситуацию в будущем и её возможный результат. В части с if используем Past Simple (won)."
+    },
+    {
+      "question": "If you heat ice, it ___ (melt).",
+      "options": [
+        "melts",
+        "will melt",
+        "melted",
+        "would melt"
+      ],
+      "correctAnswer": "melts",
+      "explanation": "Это Zero Conditional: мы говорим об общей закономерности. В обеих частях используем Present Simple (heat, melts)."
+    },
+    {
+      "question": "I would buy that car if it ___ (not / be) so expensive.",
+      "options": [
+        "isn't",
+        "won't be",
+        "weren't",
+        "wouldn't be"
+      ],
+      "correctAnswer": "weren't",
+      "explanation": "Second Conditional (нереальная ситуация сейчас: машина дорогая). Отрицание в Past Simple для be: weren't."
+    },
+    {
+      "question": "If you ___ (not / hurry), you will miss the train.",
+      "options": [
+        "don't hurry",
+        "won't hurry",
+        "didn't hurry",
+        "wouldn't hurry"
+      ],
+      "correctAnswer": "don't hurry",
+      "explanation": "First Conditional (реальное предупреждение). В части с if используем Present Simple в отрицании: don't hurry."
+    },
+    {
+      "question": "What would you do if you ___ (see) a ghost?",
+      "options": [
+        "see",
+        "will see",
+        "saw",
+        "would see"
+      ],
+      "correctAnswer": "saw",
+      "explanation": "Second Conditional (воображаемая ситуация). В части с if используем Past Simple (saw)."
+    }
+  ]
+}

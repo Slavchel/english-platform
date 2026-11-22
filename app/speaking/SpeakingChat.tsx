@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 import type { CefrLevel } from "@/lib/cefr/levels";
 import {
@@ -17,6 +17,12 @@ import {
   pickTransition,
   type SpeakingSession,
 } from "@/lib/speaking/lesson";
+import {
+  getSpeakingAnswerError,
+  isSpeakingAnswerValid,
+} from "@/lib/speaking/validation";
+import UpgradeLimitModal from "@/app/components/UpgradeLimitModal";
+import type { SubscriptionTier } from "@/lib/subscription/plans";
 
 interface Message {
   id: number;
@@ -24,22 +30,47 @@ interface Message {
   text: string;
 }
 
+type SavedDialog = {
+  id: string;
+  qa: Array<{ question: string; answer: string }>;
+  retryAfter: string | null;
+};
+
 export default function SpeakingChat({
   level,
   isAuthenticated,
+  tier,
+  savedDialog: initialSavedDialog,
 }: {
   level: CefrLevel | null;
   isAuthenticated: boolean;
+  tier: SubscriptionTier;
+  savedDialog?: SavedDialog;
 }) {
+  const [savedDialog, setSavedDialog] = useState<SavedDialog | null>(
+    initialSavedDialog ?? null,
+  );
+  const [savedRetryAt, setSavedRetryAt] = useState<number | null>(() =>
+    initialSavedDialog?.retryAfter
+      ? new Date(initialSavedDialog.retryAfter).getTime()
+      : null,
+  );
   const [session, setSession] = useState<SpeakingSession | null>(null);
   const [messages, setMessages] = useState<Message[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [input, setInput] = useState("");
+  const [inputError, setInputError] = useState<string | null>(null);
   const [answers, setAnswers] = useState<string[]>([]);
   const [result, setResult] = useState<SpeakingEvaluation | null>(null);
   const [isTyping, setIsTyping] = useState(false);
   const [isEvaluating, setIsEvaluating] = useState(false);
   const [evaluationError, setEvaluationError] = useState<string | null>(null);
+  const [evaluationBlocked, setEvaluationBlocked] = useState(false);
+  const [evaluationRetryAt, setEvaluationRetryAt] = useState<number | null>(null);
+  const [evaluationDialogId, setEvaluationDialogId] = useState<string | null>(
+    null,
+  );
+  const [limitReached, setLimitReached] = useState(false);
   const [authPrompt, setAuthPrompt] = useState(false);
   const listRef = useRef<HTMLDivElement>(null);
   const timerRef = useRef<number | null>(null);
@@ -65,7 +96,9 @@ export default function SpeakingChat({
     [],
   );
 
-  const startSession = () => {
+  const startSession = useCallback(async () => {
+    setSavedDialog(null);
+    setSavedRetryAt(null);
     if (timerRef.current !== null) {
       window.clearTimeout(timerRef.current);
       timerRef.current = null;
@@ -73,6 +106,21 @@ export default function SpeakingChat({
     requestRef.current?.abort();
     requestRef.current = null;
 
+    if (isAuthenticated) {
+      try {
+        const response = await fetch("/api/subscription/speaking/start", {
+          method: "POST",
+        });
+        if (response.status === 429) {
+          setLimitReached(true);
+          return;
+        }
+      } catch {
+        // При сетевой ошибке не блокируем уже открытый тренажёр.
+      }
+    }
+
+    setLimitReached(false);
     const nextSession = pickSession(sessionIdRef.current);
     const intro = pickIntro(lastIntroRef.current);
     sessionIdRef.current = nextSession.id;
@@ -90,20 +138,25 @@ export default function SpeakingChat({
     ]);
     setCurrentIndex(0);
     setInput("");
+    setInputError(null);
     setAnswers([]);
     setResult(null);
     setIsTyping(false);
     setIsEvaluating(false);
     setEvaluationError(null);
-  };
+    setEvaluationBlocked(false);
+    setEvaluationRetryAt(null);
+    setEvaluationDialogId(null);
+  }, [isAuthenticated]);
 
   useEffect(() => {
+    if (savedDialog || result) return;
     const timer = window.setTimeout(() => {
-      startSession();
+      void startSession();
     }, 0);
 
     return () => window.clearTimeout(timer);
-  }, []);
+  }, [result, savedDialog, startSession]);
 
   const finished = session
     ? currentIndex >= session.questions.length
@@ -124,7 +177,7 @@ export default function SpeakingChat({
     }
     requestRef.current?.abort();
 
-    if (answers.length === 0) {
+    if (!savedDialog && answers.length === 0) {
       setEvaluationError("Ответьте хотя бы на один вопрос, чтобы получить оценку.");
       return;
     }
@@ -135,25 +188,47 @@ export default function SpeakingChat({
     requestRef.current = controller;
 
     try {
+      const qa = savedDialog
+        ? savedDialog.qa
+        : (session?.questions ?? [])
+            .slice(0, answers.length)
+            .map((question, index) => ({
+              question: question.text,
+              answer: answers[index] ?? "",
+            }))
+            .filter((pair) => pair.answer);
+
       const response = await fetch("/api/speaking", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           action: "evaluate",
-          answers,
           level,
-          messages: messages.map((message) => ({
-            role: message.role,
-            content: message.text,
-          })),
+          qa,
+          dialogId: evaluationDialogId ?? savedDialog?.id ?? null,
         }),
         signal: controller.signal,
       });
       const payload = (await response.json().catch(() => null)) as
-        | { evaluation?: unknown; error?: string }
+        | {
+            evaluation?: unknown;
+            error?: string;
+            code?: string;
+            retryAfter?: number;
+            dialogId?: string;
+          }
         | null;
 
       if (!response.ok) {
+        if (typeof payload?.retryAfter === "number") {
+          setEvaluationRetryAt(Date.now() + payload.retryAfter * 1000);
+        }
+        if (typeof payload?.dialogId === "string") {
+          setEvaluationDialogId(payload.dialogId);
+        }
+        if (response.status === 429 && payload?.code !== "COOLDOWN") {
+          setEvaluationBlocked(true);
+        }
         throw new Error(
           payload?.error || "Не удалось получить оценку. Попробуйте ещё раз.",
         );
@@ -163,6 +238,11 @@ export default function SpeakingChat({
         throw new Error("Не удалось разобрать оценку. Попробуйте ещё раз.");
       }
 
+      setEvaluationBlocked(false);
+      setEvaluationRetryAt(null);
+      setEvaluationDialogId(null);
+      setSavedDialog(null);
+      setSavedRetryAt(null);
       setResult(payload.evaluation);
     } catch (cause) {
       if (controller.signal.aborted) return;
@@ -187,6 +267,13 @@ export default function SpeakingChat({
 
     const answer = input.trim();
     if (!answer || !session || finished || isTyping) return;
+
+    const answerError = getSpeakingAnswerError(answer);
+    if (answerError) {
+      setInputError(answerError);
+      return;
+    }
+    setInputError(null);
 
     const nextQuestion = session.questions[currentIndex + 1];
     const userMessage: Message = {
@@ -234,6 +321,49 @@ export default function SpeakingChat({
     }, 450);
   };
 
+  if (limitReached) {
+    const isPro = tier === "PRO";
+    return (
+      <UpgradeLimitModal
+        title={
+          isPro
+            ? "Демо-режим Speaking исчерпан"
+            : "Бесплатный диалог на сегодня использован"
+        }
+        message={
+          isPro
+            ? "Демо-режим Speaking доступен до 3 диалогов в день. Полноценный Speaking Pro доступен только в тарифе Neuro-Tutor."
+            : "Лимит Free — один Speaking-диалог в день. Оформите Pro, чтобы продолжить практику без ограничений."
+        }
+        kicker={isPro ? "Лимит Pro" : "Лимит Free"}
+        upgradeLabel={isPro ? "Посмотреть Neuro-Tutor" : "Перейти на Pro"}
+      />
+    );
+  }
+
+  if (isEvaluating) {
+    return <SpeakingEvaluating />;
+  }
+
+  if (savedDialog && !session && !result) {
+    return (
+      <SpeakingEvaluationError
+        key={evaluationRetryAt ?? savedRetryAt ?? 0}
+        message="Не удалось получить анализ. Пожалуйста, попробуйте позже."
+        blocked={false}
+        retryAt={evaluationRetryAt ?? savedRetryAt}
+        saved
+        onRetry={() => void finish()}
+        onBack={() => {
+          setSavedDialog(null);
+          setSavedRetryAt(null);
+          void startSession();
+        }}
+        backLabel="Начать новый диалог"
+      />
+    );
+  }
+
   if (!session) {
     return (
       <div className="speaking-loading">
@@ -242,14 +372,14 @@ export default function SpeakingChat({
     );
   }
 
-  if (isEvaluating) {
-    return <SpeakingEvaluating />;
-  }
-
   if (evaluationError) {
     return (
       <SpeakingEvaluationError
+        key={evaluationRetryAt ?? 0}
         message={evaluationError}
+        blocked={evaluationBlocked}
+        retryAt={evaluationRetryAt}
+        saved={Boolean(evaluationDialogId)}
         onRetry={() => void finish()}
         onBack={() => setEvaluationError(null)}
       />
@@ -271,6 +401,9 @@ export default function SpeakingChat({
             <h2>Разговор с Emma</h2>
             <p className="speaking-teacher__role">
               Emma · преподаватель английского
+              <span className="speaking-teacher__status">
+                <span aria-hidden="true" /> AI online
+              </span>
             </p>
           </div>
         </div>
@@ -289,11 +422,11 @@ export default function SpeakingChat({
           <span>CEFR</span>
           <strong>{level ?? "не определён"}</strong>
         </div>
-        <div className="speaking-meta__item">
+        <div className="speaking-meta__item speaking-meta__item--topic">
           <span>Тема</span>
           <strong>{session.topic}</strong>
         </div>
-        <div className="speaking-meta__item">
+        <div className="speaking-meta__item speaking-meta__item--progress">
           <span>Прогресс</span>
           <strong>
             {progress} / {session.questions.length}
@@ -355,7 +488,10 @@ export default function SpeakingChat({
           <textarea
             id="speaking-input"
             value={input}
-            onChange={(event) => setInput(event.target.value)}
+            onChange={(event) => {
+              setInput(event.target.value);
+              if (inputError) setInputError(null);
+            }}
             onKeyDown={(event) => {
               if (event.key === "Enter" && !event.shiftKey) {
                 event.preventDefault();
@@ -367,22 +503,38 @@ export default function SpeakingChat({
                 ? "Разговор завершён"
                 : isTyping
                   ? "Emma готовит следующий вопрос..."
-                  : "Ответьте Emma на английском..."
+                  : "Ответьте Emma на английском: 2–3 предложения..."
             }
             rows={3}
             maxLength={1200}
             disabled={finished}
+            aria-invalid={Boolean(inputError)}
+            aria-describedby={inputError ? "speaking-input-error" : undefined}
             className="speaking-input"
           />
           <button
             type="button"
             onClick={() => void (finished ? finish() : send())}
-            disabled={finished ? false : !input.trim() || isTyping}
+            disabled={
+              finished
+                ? false
+                : !isSpeakingAnswerValid(input) || isTyping
+            }
             className="button button--primary speaking-send"
           >
             {finished ? "Показать результат" : "Ответить"}
           </button>
         </div>
+        {inputError ? (
+          <p id="speaking-input-error" className="speaking-composer__error">
+            {inputError}
+          </p>
+        ) : (
+          <p className="speaking-composer__hint">
+            Минимум 3 слова. Отвечайте на английском, чтобы Emma могла оценить
+            речь.
+          </p>
+        )}
       </div>
 
       <footer className="speaking-chat__footer">
@@ -561,24 +713,78 @@ function SpeakingEvaluating() {
 
 function SpeakingEvaluationError({
   message,
+  blocked,
+  retryAt,
   onRetry,
   onBack,
+  backLabel = "Вернуться к разговору",
+  saved = false,
 }: {
   message: string;
+  blocked: boolean;
+  retryAt: number | null;
   onRetry: () => void;
   onBack: () => void;
+  backLabel?: string;
+  saved?: boolean;
 }) {
+  const [remaining, setRemaining] = useState(() =>
+    retryAt ? Math.max(0, Math.ceil((retryAt - Date.now()) / 1000)) : 0,
+  );
+
+  useEffect(() => {
+    if (!retryAt) return;
+
+    const timer = window.setInterval(() => {
+      setRemaining(Math.max(0, Math.ceil((retryAt - Date.now()) / 1000)));
+    }, 1000);
+    return () => window.clearInterval(timer);
+  }, [retryAt]);
+
+  const disabled = blocked || remaining > 0;
+  const minutes = Math.floor(remaining / 60);
+  const seconds = String(remaining % 60).padStart(2, "0");
+  const backDisabled = remaining > 0;
+
   return (
     <section className="speaking-result speaking-assessment-state">
       <p className="speaking-kicker">Оценка Speaking</p>
       <h2>Не удалось получить оценку</h2>
+      {saved ? (
+        <div className="speaking-saved" role="status">
+          <span className="speaking-saved__check" aria-hidden="true">
+            ✓
+          </span>
+          <div>
+            <strong>Диалог сохранён</strong>
+            <p>
+              Все вопросы и ваши ответы уже в аккаунте. Начать новый диалог
+              можно будет после окончания кулдауна.
+            </p>
+          </div>
+        </div>
+      ) : null}
       <p className="speaking-result__summary">{message}</p>
       <div className="actions">
-        <button type="button" className="button button--primary" onClick={onRetry}>
-          Повторить
+        <button
+          type="button"
+          className="button button--primary"
+          onClick={onRetry}
+          disabled={disabled}
+        >
+          {remaining > 0
+            ? `Повторить через ${minutes}:${seconds}`
+            : blocked
+              ? "Попробуйте позже"
+              : "Повторить"}
         </button>
-        <button type="button" className="button button--ghost" onClick={onBack}>
-          Вернуться к разговору
+        <button
+          type="button"
+          className="button button--ghost"
+          onClick={onBack}
+          disabled={backDisabled}
+        >
+          {backLabel}
         </button>
       </div>
     </section>

@@ -1,0 +1,96 @@
+{
+  "topic": "reported_speech",
+  "title": "Reported Speech (Косвенная речь)",
+  "level": "B1",
+  "content": "### Что это такое?\n\nКогда мы передаем слова другого человека не дословно, а своими словами, мы используем косвенную речь (Reported Speech).\n\nПрямая речь: He said, \"I am tired.\"\nКосвенная речь: He said (that) he **was** tired.\n\n### Правило сдвига времен (Backshift)\n\nЕсли вводный глагол (said, told) стоит в прошедшем времени, мы обычно сдвигаем время назад (backshift):\n- Present Simple -> Past Simple (am -> was)\n- Present Continuous -> Past Continuous (are playing -> were playing)\n- Past Simple -> Past Perfect (went -> had gone)\n- will -> would, can -> could\n\n*Однако это не всегда обязательно. Если информация остается актуальной (He said he lives in London) или речь идет об общеизвестном факте (The teacher said that water boils at 100°C), сдвиг можно не делать.*\n\n### Местоимения и указатели времени\n\nТакже меняются местоимения и слова, указывающие на время, если изменилась точка отсчета:\n- I -> he/she\n- today -> that day, tomorrow -> the next day, here -> there\n\n### Say или Tell?\n\n- **Tell** в косвенной речи требует дополнения (кому сказали): He **told me** that he was busy.\n- **Say** не требует дополнения: He **said** that he was busy. / He said **to me** that he was busy.\n\n### ⚠️ Типичная ошибка\n\nЗабывать сдвигать время или использовать say с местоимением.\n- Неправильно: *He told that he is tired.* / *He said me that he was tired.*\n- Правильно: *He told me that he was tired.* / *He said that he was tired.*\n\n### Местоимения и обстоятельства времени\n\n- I -> he/she; my -> his/her; we -> they; our -> their.\n- today -> that day; tomorrow -> the next day; yesterday -> the day before; here -> there; this -> that.\n\nПример: \"I will call you tomorrow,\" said Tom. -> Tom said he would call me the next day.\n\n### Вопросы и приказы\n\n- Прямой вопрос: He asked me, \"Where do you live?\"\n- Косвенный вопрос: He asked me where I lived. — прямой порядок слов, без did.\n- Прямой приказ: He told me, \"Don't touch it.\"\n- Косвенный приказ: He told me not to touch it. — tell + somebody + not to + V.\n",
+  "questions": [
+    {
+      "question": "She said, \"I am very busy today.\" -> She said that she ___ very busy that day.",
+      "options": [
+        "is",
+        "was",
+        "were",
+        "has been"
+      ],
+      "correctAnswer": "was",
+      "explanation": "Глагол said в прошлом. Present Simple (am) сдвигается в Past Simple (was)."
+    },
+    {
+      "question": "He told me, \"I will call you tomorrow.\" -> He told me that he ___ me the next day.",
+      "options": [
+        "will call",
+        "would call",
+        "called",
+        "would called"
+      ],
+      "correctAnswer": "would call",
+      "explanation": "Глагол told в прошлом. Will сдвигается в would. После would глагол без to и окончаний: would call."
+    },
+    {
+      "question": "They said, \"We are going to the cinema.\" -> They said that they ___ to the cinema.",
+      "options": [
+        "are going",
+        "were going",
+        "was going",
+        "will go"
+      ],
+      "correctAnswer": "were going",
+      "explanation": "Глагол said в прошлом. Present Continuous (are going) сдвигается в Past Continuous (were going)."
+    },
+    {
+      "question": "My friend said, \"I bought a new car last week.\" -> My friend said that he ___ a new car the week before.",
+      "options": [
+        "bought",
+        "had bought",
+        "has bought",
+        "would buy"
+      ],
+      "correctAnswer": "had bought",
+      "explanation": "Глагол said в прошлом. Past Simple (bought) сдвигается в Past Perfect (had bought)."
+    },
+    {
+      "question": "The teacher told us, \"You can use a dictionary.\" -> The teacher told us that we ___ use a dictionary.",
+      "options": [
+        "can",
+        "could",
+        "will can",
+        "was can"
+      ],
+      "correctAnswer": "could",
+      "explanation": "Глагол told в прошлом. Can сдвигается в could."
+    },
+    {
+      "question": "He ___ me that he was going to be late.",
+      "options": [
+        "said",
+        "told",
+        "spoke",
+        "talked"
+      ],
+      "correctAnswer": "told",
+      "explanation": "После пропуска стоит местоимение me (кому?). Глагол tell требует дополнения (told me), say не требует (said to me)."
+    },
+    {
+      "question": "She said, \"I don't like coffee.\" -> She said that she ___ coffee.",
+      "options": [
+        "doesn't like",
+        "didn't like",
+        "don't like",
+        "hadn't liked"
+      ],
+      "correctAnswer": "didn't like",
+      "explanation": "Глагол said в прошлом. Present Simple в отрицании (don't like) сдвигается в Past Simple (didn't like)."
+    },
+    {
+      "question": "John said, \"I have finished my work today.\" -> John said that he ___ his work that day.",
+      "options": [
+        "finished",
+        "had finished",
+        "has finished",
+        "was finishing"
+      ],
+      "correctAnswer": "had finished",
+      "explanation": "Глагол said в прошлом. Present Perfect (have finished) сдвигается в Past Perfect (had finished)."
+    }
+  ]
+}

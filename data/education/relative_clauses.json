@@ -1,0 +1,96 @@
+{
+  "topic": "relative_clauses",
+  "title": "Relative Clauses (Придаточные предложения)",
+  "level": "B1-B2",
+  "content": "### Что это такое?\n\nRelative Clauses помогают нам соединить два предложения в одно и дать больше информации о человеке или предмете.\nВместо: I met a man. He lives next door.\nГоворим: I met a man **who** lives next door.\n\n### Которые, который, которая\n\n- **Who** обычно используется для людей. (The girl **who** is singing).\n- **Which** обычно используется для предметов и животных. (The book **which** is on the table).\n- **That** можно использовать вместо who или which в *defining* (ограничительных) предложениях. (The man **that** called you).\n- **Where** используется, когда говорим о месте действия. (The city **where** I was born). Можно также использовать which/that с предлогом в конце: The city **which** I was born **in**.\n- **Whose** - для принадлежности (чей). (The boy **whose** father is a doctor).\n\n### Defining vs Non-defining\n\n- **Defining (Ограничительные):** Содержит информацию, необходимую для определения конкретного человека или предмета. Без нее значение предложения меняется или становится менее точным. Запятые не ставятся. Можно использовать *that*.\n- **Non-defining (Выделительные):** Информация дополнительная, можно убрать без потери смысла. Выделяется запятыми. *That* использовать нельзя.\n  * My brother, **who** lives in London, is a doctor.\n\n### ⚠️ Типичная ошибка\n\nИспользовать which для людей или who для предметов.\n- Неправильно: *The man which called you.* / *The book who is on the table.*\n- Правильно: *The man who called you.* / *The book which is on the table.*\n\n### Можно ли опустить местоимение?\n\nВ defining relative clauses местоимение-дополнение можно опустить:\n\n- The book **(that)** I bought yesterday is excellent.\n- The woman **(who)** I met is my teacher.\n\nНельзя опускать местоимение, если оно является подлежащим: The book **that** is on the table is mine.\n",
+  "questions": [
+    {
+      "question": "The woman ___ lives next door is a famous artist.",
+      "options": [
+        "which",
+        "who",
+        "whose",
+        "where"
+      ],
+      "correctAnswer": "who",
+      "explanation": "Речь идет о человеке (the woman). Для людей используем who."
+    },
+    {
+      "question": "This book, ___ I told you about yesterday, is very interesting.",
+      "options": [
+        "who",
+        "whose",
+        "which",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "explanation": "Это Non-defining clause (выделено запятой). В таком случае нельзя использовать that, только which для предметов."
+    },
+    {
+      "question": "I have a friend ___ father is a pilot.",
+      "options": [
+        "who",
+        "which",
+        "whose",
+        "that"
+      ],
+      "correctAnswer": "whose",
+      "explanation": "Здесь выражается принадлежность (чей отец). Используем whose."
+    },
+    {
+      "question": "That is the house ___ we lived when we were children.",
+      "options": [
+        "which",
+        "who",
+        "where",
+        "whose"
+      ],
+      "correctAnswer": "where",
+      "explanation": "Речь идет о месте (the house), где мы жили. Используем where (также можно было бы сказать in which)."
+    },
+    {
+      "question": "The car, ___ was stolen last week, has been found by the police.",
+      "options": [
+        "that",
+        "which",
+        "who",
+        "whose"
+      ],
+      "correctAnswer": "which",
+      "explanation": "Это Non-defining clause (выделено запятыми). В таком случае нельзя использовать that, только which для предметов."
+    },
+    {
+      "question": "The police are looking for the man ___ robbed the bank.",
+      "options": [
+        "which",
+        "who",
+        "whose",
+        "where"
+      ],
+      "correctAnswer": "who",
+      "explanation": "Речь о человеке (the man). Используем who (или that, но здесь есть who)."
+    },
+    {
+      "question": "Do you know the girl ___ brother is a famous football player?",
+      "options": [
+        "which",
+        "who",
+        "whose",
+        "where"
+      ],
+      "correctAnswer": "whose",
+      "explanation": "Речь идет о принадлежности (чей брат). Используем whose."
+    },
+    {
+      "question": "Do you know the girl ___ is dancing with your brother?",
+      "options": [
+        "which",
+        "whose",
+        "who",
+        "where"
+      ],
+      "correctAnswer": "who",
+      "explanation": "Речь о человеке (the girl). Используем who."
+    }
+  ]
+}

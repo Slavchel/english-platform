@@ -1,0 +1,118 @@
+{
+  "topic": "past_continuous",
+  "title": "Past Continuous (Прошедшее длительное время)",
+  "level": "A2",
+  "content": "### Когда нужен Past Continuous?\n\nPast Continuous используют, когда говорят о процессе, который происходил в определенный момент в прошлом. Нам важен не факт, а само действие в его развитии.\n\n- At 5 PM yesterday, I was cooking dinner. - Вчера в 5 вечера я готовил ужин (я был в процессе).\n- They were playing football when it started to rain. - Они играли в футбол, когда пошел дождь.\n\n### Формула\n- **Утверждение:** Подлежащее + was/were + глагол с окончанием -ing.\n- **Отрицание:** Подлежащее + was not (wasn't) / were not (weren't) + глагол с -ing.\n- **Вопрос:** Was/Were + подлежащее + глагол с -ing?\n\n### Утверждения: какую форму выбрать?\n\nС местоимениями **I, he, she, it** используем **was**: I was working.\nС **we, you, they** используем **were**: They were working.\n\n### Отрицания и вопросы\n\nДля отрицания добавляем **not** к was/were:\n- I wasn't sleeping at 10 PM.\n- They weren't listening to music.\n\nДля вопроса ставим was/were на первое место:\n- Was she reading a book?\n- Were you working yesterday at 3?\n\n### Как связать Past Continuous и Past Simple\n\nPast Continuous показывает действие в процессе в определенный момент прошлого, а Past Simple — завершенное событие. Одно действие может быть процессом, а другое — событием, которое произошло в этот момент.\n- I was walking home when I saw a dog. - Я шел домой (процесс), когда увидел собаку (событие).\n\n*Слово While часто используется с Past Continuous, когда мы описываем действие, происходившее в определенный момент прошлого. Однако выбор времени всегда зависит от смысла.*\n\n### Важное примечание: Глаголы состояния (Stative Verbs)\n\nГлаголы состояния (know, like, want, believe) обычно не используются в Past Continuous, когда описывают состояние.\n- Правильно: I knew the answer.\n- Неправильно: I was knowing the answer.\n*Однако некоторые глаголы могут употребляться в Continuous в другом значении (например, I was thinking about you - я размышлял).*\n\n### Слова-подсказки\n\n- at 5 PM yesterday (вчера в 5 вечера)\n- while (в то время как)\n- all day yesterday (весь день вчера)\n\n### Краткий вывод\n\nPast Continuous нужен, чтобы нарисовать картинку процесса в прошлом. Используй was (для единственного числа) или were (для множественного) вместе с глаголом с окончанием -ing. Это время помогает показать, что происходило в определенный момент прошлого, не утверждая, что действие было долгим.",
+  "questions": [
+    {
+      "question": "At 8 PM yesterday, I was in the middle of watching TV. I ___ TV at that moment.",
+      "options": [
+        "watch",
+        "was watching",
+        "were watching",
+        "am watching"
+      ],
+      "correctAnswer": "was watching",
+      "explanation": "At 8 PM yesterday указывает на конкретный момент в прошлом (процесс). С I используем was + watching."
+    },
+    {
+      "question": "They ___ football when it started to rain.",
+      "options": [
+        "played",
+        "were playing",
+        "was playing",
+        "play"
+      ],
+      "correctAnswer": "were playing",
+      "explanation": "Игра уже происходила в момент, когда начался дождь. Фоновое действие выражаем через Past Continuous (were playing), а событие — через Past Simple (started)."
+    },
+    {
+      "question": "She ___ dinner when the phone rang.",
+      "options": [
+        "cooked",
+        "was cooking",
+        "were cooking",
+        "cooks"
+      ],
+      "correctAnswer": "was cooking",
+      "explanation": "Она была в процессе готовки (длительное действие), когда позвонили. С she используем was + cooking."
+    },
+    {
+      "question": "We ___ to music at 10 PM.",
+      "options": [
+        "didn't listen",
+        "weren't listening",
+        "wasn't listening",
+        "not listening"
+      ],
+      "correctAnswer": "weren't listening",
+      "explanation": "Отрицание в Past Continuous с we строится с помощью weren't + глагол с -ing."
+    },
+    {
+      "question": "___ you ___ when I called you?",
+      "options": [
+        "Did / sleep",
+        "Were / sleeping",
+        "Was / sleeping",
+        "Were / sleep"
+      ],
+      "correctAnswer": "Were / sleeping",
+      "explanation": "Вопрос в Past Continuous: Were + you + глагол с -ing. Спрашиваем, были ли они в процессе сна."
+    },
+    {
+      "question": "While I ___ my room, my brother was playing video games.",
+      "options": [
+        "cleaned",
+        "was cleaning",
+        "were cleaning",
+        "clean"
+      ],
+      "correctAnswer": "was cleaning",
+      "explanation": "В данном предложении два действия происходили одновременно. Past Continuous подчёркивает, что оба человека находились в процессе. С I используем was + cleaning."
+    },
+    {
+      "question": "Yesterday at 3 PM, he ___ a shower, so he didn't hear the phone.",
+      "options": [
+        "was taking",
+        "were taking",
+        "took",
+        "takes"
+      ],
+      "correctAnswer": "was taking",
+      "explanation": "Указано точное время (3 PM) и процесс (принимал душ), который стал причиной события. Используем Past Continuous."
+    },
+    {
+      "question": "What ___ they ___ at 7 AM?",
+      "options": [
+        "did / do",
+        "were / doing",
+        "was / doing",
+        "were / do"
+      ],
+      "correctAnswer": "were / doing",
+      "explanation": "Вопрос к процессу в прошлом. С they используем were + глагол с -ing (doing)."
+    },
+    {
+      "question": "When I arrived home, my parents ___ dinner.",
+      "options": [
+        "had",
+        "were having",
+        "was having",
+        "have"
+      ],
+      "correctAnswer": "were having",
+      "explanation": "Родители были в процессе ужина (фон), когда я пришел (событие). My parents - множественное число, используем were + having."
+    },
+    {
+      "question": "I ___ what he was talking about.",
+      "options": [
+        "was understanding",
+        "understood",
+        "were understanding",
+        "understand"
+      ],
+      "correctAnswer": "understood",
+      "explanation": "Understand - глагол состояния, он обычно не используется в Continuous в этом значении. Поэтому используем Past Simple: understood."
+    }
+  ]
+}

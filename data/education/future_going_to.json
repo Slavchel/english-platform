@@ -1,0 +1,118 @@
+{
+  "topic": "future_going_to",
+  "title": "Future: Going to (Планы и намерения)",
+  "level": "A2",
+  "content": "### Когда нужен Going to?\n\nКонструкцию **going to** используют в двух основных случаях:\n\n1. **Намерение:** решение уже принято до разговора. I am going to learn Italian. She is going to sell her car.\n2. **Прогноз по видимым признакам:** доказательство видно прямо сейчас. Look at those clouds! It is going to rain. Watch out! You are going to drop the glass.\n- I am going to visit my parents this weekend. - Я собираюсь навестить родителей (я решил это заранее).\n- Look at those clouds! It is going to rain. - Посмотри на тучи! Сейчас пойдет дождь (прогноз по признакам).\n\n*Примечание: для запланированных договоренностей с другими людьми также может использоваться Present Continuous.*\n\n### Формула\n- **Утверждение:** Подлежащее + am/is/are + going to + глагол.\n- **Отрицание:** Подлежащее + am/is/are not + going to + глагол.\n- **Вопрос:** Am/Is/Are + подлежащее + going to + глагол?\n\n### Утверждения: правило To Be\n\nВ этой конструкции глагол To Be (am/is/are) меняется по лицам:\n- I **am** going to work.\n- He / She / It **is** going to work.\n- We / You / They **are** going to work.\n\n### Отрицания и вопросы\n\nОтрицание: добавь **not** к am/is/are.\n- I am not (I'm not) going to buy it.\n- She isn't going to come.\n\nВопрос: вынеси am/is/are на первое место.\n- Are you going to study tonight?\n- Is he going to call us?\n\n### ⚠️ Типичная ошибка\n\nЗабывать про глагол To Be (am/is/are).\n- Неправильно: *I going to travel.* / *I will going to travel.*\n- Правильно: *I am going to travel.*\n\n### Краткий вывод\n\nИспользуй Going to, если намерение уже сформировано и подкреплено действиями, или если ты видишь доказательства того, что что-то произойдет. Не забывай менять глагол To Be (am/is/are).",
+  "questions": [
+    {
+      "question": "I ___ visit my grandparents this weekend. I bought the tickets.",
+      "options": [
+        "will",
+        "am going to",
+        "is going to",
+        "going to"
+      ],
+      "correctAnswer": "am going to",
+      "explanation": "Билеты куплены, значит, план принят заранее. С I используем am + going to + глагол."
+    },
+    {
+      "question": "Look at those dark clouds! It ___ rain.",
+      "options": [
+        "will",
+        "is going to",
+        "are going to",
+        "goes to"
+      ],
+      "correctAnswer": "is going to",
+      "explanation": "Прогноз основан на видимых доказательствах (темные тучи). С it используем is + going to."
+    },
+    {
+      "question": "They ___ move to a new house next month. They already sold their flat.",
+      "options": [
+        "will",
+        "is going to",
+        "are going to",
+        "going to"
+      ],
+      "correctAnswer": "are going to",
+      "explanation": "Квартира уже продана, это заранее спланированное действие. С they используем are + going to."
+    },
+    {
+      "question": "She has already applied to three medical universities. She ___ study medicine next year.",
+      "options": [
+        "will",
+        "is going to",
+        "are going to",
+        "going to"
+      ],
+      "correctAnswer": "is going to",
+      "explanation": "Подача заявлений подтверждает, что намерение уже сформировано и подкреплено конкретными действиями. С she используем is + going to."
+    },
+    {
+      "question": "We decided yesterday that we ___ not ___ go to the party tonight.",
+      "options": [
+        "will / to",
+        "are / going to",
+        "is / going to",
+        "do / going to"
+      ],
+      "correctAnswer": "are / going to",
+      "explanation": "Контекст показывает, что решение было принято заранее (вчера). Отрицание с going to: are not (aren't) going to."
+    },
+    {
+      "question": "___ you ___ watch the match tomorrow?",
+      "options": [
+        "Will / going",
+        "Are / going to",
+        "Do / going to",
+        "Is / going to"
+      ],
+      "correctAnswer": "Are / going to",
+      "explanation": "Вопрос о заранее принятом плане (смотреть матч). С you используем Are + going to."
+    },
+    {
+      "question": "I forgot my wallet! I ___ go back home.",
+      "options": [
+        "am going to",
+        "will",
+        "is going to",
+        "going to"
+      ],
+      "correctAnswer": "will",
+      "explanation": "Решение вернуться домой принято спонтанно, прямо сейчас. Используем will."
+    },
+    {
+      "question": "He has already decided to buy a new car next year. He is saving money for it. He ___ a new car next year.",
+      "options": [
+        "will",
+        "is going to",
+        "are going to",
+        "going to"
+      ],
+      "correctAnswer": "is going to",
+      "explanation": "Он уже принял решение и копит деньги, значит, у него есть заранее обдуманное намерение. С he используем is + going to."
+    },
+    {
+      "question": "My brother ___ not ___ come to the dinner. He has to work.",
+      "options": [
+        "is / going to",
+        "will / to",
+        "are / going to",
+        "do / going to"
+      ],
+      "correctAnswer": "is / going to",
+      "explanation": "Отрицательный план на будущее. My brother - это he, поэтому используем is not (isn't) going to."
+    },
+    {
+      "question": "Watch out! You ___ drop the glass!",
+      "options": [
+        "will",
+        "are going to",
+        "is going to",
+        "going to"
+      ],
+      "correctAnswer": "are going to",
+      "explanation": "Видимое доказательство (стакан уже выскальзывает из рук). Прогноз по ситуации. С you используем are + going to."
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "topic": "past_simple_vs_past_continuous",
+  "title": "Past Simple vs Past Continuous (Прошедшее простое и прошедшее длительное)",
+  "level": "A2",
+  "content": "### В чем разница?\n\nВ обоих временах речь идет о прошлом, но взгляд на ситуацию разный.\n- **Past Simple** говорит о завершенном действии. Нам важен сам факт, что это произошло (и часто мы знаем точное время).\n- **Past Continuous** говорит о процессе. Нам важно, что действие находилось в развитии, длилось в какой-то момент в прошлом.\n\nСравни:\n- I read a book yesterday. - Я прочитал книгу вчера. (Past Simple: факт, книга прочитана).\n- I was reading a book at 5 PM. - Я читал книгу в 5 вечера. (Past Continuous: я был в процессе чтения в это время).\n\n### Формулы\n- **Past Simple:** Подлежащее + глагол с -ed (или 2-я форма) / didn't + глагол / Did + подлежащее + глагол?\n- **Past Continuous:** Подлежащее + was/were + глагол с -ing / wasn't/weren't + глагол с -ing / Was/Were + подлежащее + глагол с -ing?\n\n### Как они работают вместе\n\nОчень часто эти два времени используются в одном предложении. **Past Continuous** создает фон (длительное действие), а **Past Simple** описывает короткое событие, которое этот фон прервало.\n- I **was walking** home when I **saw** a dog. - Я шел домой (процесс), когда увидел собаку (событие).\n\n### Слова-связки: While и When\n\n- **While (в то время как):** часто используется с Past Continuous, когда мы описываем действие, происходившее в определенный момент. *While I was cooking, the phone rang.*\n- **When (когда):** часто используется с Past Simple для обозначения события, произошедшего во время другого действия. *I was cooking when the phone rang.*\n*Важно: выбор времени всегда зависит от смысла предложения, а не только от наличия этих слов.*\n\n### ⚠️ Типичная ошибка\n\nИспользовать Past Simple для длительного фонового действия, когда мы хотим подчеркнуть процесс.\n- Неправильно (если важен процесс): *When I cooked, the phone rang.*\n- Правильно: *When I was cooking, the phone rang.* (Я был в процессе готовки).\n\n### Краткий вывод\n\nВыбирай Past Simple, если действие просто случилось и закончилось. Выбирай Past Continuous, если хочешь подчеркнуть длительность процесса в прошлом. А когда объединяешь их, помни логику: длинный фон (was/were + ing) прерывается коротким событием (Past Simple).",
+  "questions": [
+    {
+      "question": "I ___ a movie yesterday evening and finished it before 10 PM.",
+      "options": [
+        "watched",
+        "was watching",
+        "were watching",
+        "watch"
+      ],
+      "correctAnswer": "watched",
+      "explanation": "Контекст показывает завершенное действие с результатом (я досмотрел его до 10 вечера). Используем Past Simple."
+    },
+    {
+      "question": "At 8 PM yesterday, I ___ a movie.",
+      "options": [
+        "was watching",
+        "were watching",
+        "watch",
+        "am watching"
+      ],
+      "correctAnswer": "was watching",
+      "explanation": "At 8 PM yesterday указывает на конкретный момент в прошлом. В 8 вечера я находился в процессе просмотра фильма. Используем Past Continuous."
+    },
+    {
+      "question": "She ___ dinner when the phone ___.",
+      "options": [
+        "was cooking / rang",
+        "cooks / rings",
+        "were cooking / rang",
+        "cooked / rings"
+      ],
+      "correctAnswer": "was cooking / rang",
+      "explanation": "Готовка (was cooking) - это длительный фон. Звонок (rang) - короткое действие, которое его прервало."
+    },
+    {
+      "question": "While they ___ football, it started to rain.",
+      "options": [
+        "were playing",
+        "was playing",
+        "play",
+        "are playing"
+      ],
+      "correctAnswer": "were playing",
+      "explanation": "While указывает на фоновое действие в процессе. They - множественное число, поэтому используем were + playing (Past Continuous)."
+    },
+    {
+      "question": "We decided to stay at home yesterday, so we ___ to the park.",
+      "options": [
+        "didn't go",
+        "wasn't going",
+        "don't go",
+        "not go"
+      ],
+      "correctAnswer": "didn't go",
+      "explanation": "Здесь говорится о простом факте: мы приняли решение и не пошли в парк. Используем Past Simple."
+    },
+    {
+      "question": "I ___ my leg while I ___ down the stairs.",
+      "options": [
+        "broke / was walking",
+        "was breaking / walked",
+        "break / walk",
+        "were breaking / walking"
+      ],
+      "correctAnswer": "broke / was walking",
+      "explanation": "Я сломал ногу (само событие, Past Simple), находясь в процессе спуска по лестнице (длительное действие, Past Continuous)."
+    },
+    {
+      "question": "What ___ you ___ at 10 PM yesterday?",
+      "options": [
+        "were / doing",
+        "was / doing",
+        "did / doing",
+        "are / doing"
+      ],
+      "correctAnswer": "were / doing",
+      "explanation": "Вопрос о том, что человек делал (в процессе) в конкретный момент в прошлом. С you используем were + doing (Past Continuous)."
+    },
+    {
+      "question": "He ___ his car last weekend and finished before lunch.",
+      "options": [
+        "was washing",
+        "were washing",
+        "washed",
+        "wash"
+      ],
+      "correctAnswer": "washed",
+      "explanation": "Контекст показывает завершенность (он закончил до обеда). Используем Past Simple, так как важен результат."
+    },
+    {
+      "question": "They ___ TV when I ___ home.",
+      "options": [
+        "were watching / came",
+        "was watching / came",
+        "were watching / come",
+        "watch / came"
+      ],
+      "correctAnswer": "were watching / came",
+      "explanation": "Они были в процессе просмотра ТВ (were watching), когда я пришел домой (came - короткое событие). Правильный вариант: were watching / came."
+    },
+    {
+      "question": "I ___ the answer, so I ___ my hand.",
+      "options": [
+        "knew / raised",
+        "was knowing / raised",
+        "knew / was raising",
+        "was knowing / was raising"
+      ],
+      "correctAnswer": "knew / raised",
+      "explanation": "Know - глагол состояния, он обычно не используется в Continuous. Поэтому Past Simple (knew). Поднял руку - тоже короткое завершенное действие (raised)."
+    }
+  ]
+}

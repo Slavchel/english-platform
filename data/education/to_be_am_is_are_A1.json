@@ -1,0 +1,118 @@
+{
+  "topic": "to_be_am_is_are",
+  "title": "To be: am / is / are (Глагол «быть» в настоящем времени)",
+  "level": "A1",
+  "content": "### Когда нужен To be?\n\nВ русском языке мы часто говорим без глагола: «Я студент», «Он здесь». В английском в таких предложениях **обязательно** нужен глагол To be.\n\nМы используем To be, когда говорим:\n- **Кто мы / чем занимаемся:** I am a student. - Я студент.\n- **Какой предмет / человек:** She is beautiful. - Она красивая.\n- **Где находится:** They are at home. - Они дома.\n- **Сколько лет:** I am 18. - Мне 18 лет.\n\n**To be и глаголы действия:** I am a teacher — кто я. I work at school — что я делаю. Нельзя сказать I am work.\n\n### Формула\n\nВ Present Simple глагол To be меняется в зависимости от подлежащего:\n- **I** → **am** (I am / I'm)\n- **He, She, It** → **is** (He is / He's)\n- **We, You, They** → **are** (They are / They're)\n\n### Отрицания и Вопросы\n\nДля отрицания добавляем **not**:\n- I am not (I'm not) tired. She is not (isn't) here. They are not (aren't) ready.\n\nДля вопроса ставим am/is/are на первое место:\n- Are you a student? Is he at home?\n\n### Краткие ответы\n\nВ кратких утвердительных ответах используем полную форму (без сокращения):\n- Are you tired? — Yes, I **am**. (Нельзя сказать: Yes, I'm).\n- Is she a doctor? — Yes, she **is**.\n\n### ⚠️ Типичная ошибка\n\nНе используйте Do/Does с глаголом To be. Он сам справляется со своими вопросами и отрицаниями.\n- Неправильно: Do you are a student?\n- Правильно: Are you a student?\n\n### Краткий вывод\n\nГлагол To be — самый важный в английском. Он нужен для описания людей, предметов, местоположения и возраста. Запомни связку местоимений: I am, He/She/It is, We/You/They are. И не используй Do/Does в вопросах с этим глаголом.",
+  "questions": [
+    {
+      "question": "I ___ a student at the university.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "correctAnswer": "am",
+      "explanation": "Мы описываем, кто мы (студент). С местоимением I используем форму am."
+    },
+    {
+      "question": "My brother ___ 25 years old.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "have"
+      ],
+      "correctAnswer": "is",
+      "explanation": "Чтобы сказать возраст, используем To be. My brother - это he, поэтому используем is."
+    },
+    {
+      "question": "The children ___ in the garden. They are playing outside.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "correctAnswer": "are",
+      "explanation": "Мы говорим, где находятся дети. The children - множественное число, поэтому используем are."
+    },
+    {
+      "question": "___ you ready for the test?",
+      "options": [
+        "Do",
+        "Are",
+        "Is",
+        "Am"
+      ],
+      "correctAnswer": "Are",
+      "explanation": "Вопрос строится путем выноса To be вперед. С you используем Are. Do/Does здесь не нужны."
+    },
+    {
+      "question": "It ___ very cold outside today.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "correctAnswer": "is",
+      "explanation": "Говорим о погоде. Местоимение it требует формы is."
+    },
+    {
+      "question": "We ___ not at home right now.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "do"
+      ],
+      "correctAnswer": "are",
+      "explanation": "Отрицание с To be. С we используем are + not (aren't)."
+    },
+    {
+      "question": "Are you tired? — Yes, I ___.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "do"
+      ],
+      "correctAnswer": "am",
+      "explanation": "В кратком утвердительном ответе используем полную форму без сокращения. С I — am."
+    },
+    {
+      "question": "She ___ a doctor. She is a teacher.",
+      "options": [
+        "am not",
+        "is not",
+        "are not",
+        "do not"
+      ],
+      "correctAnswer": "is not",
+      "explanation": "Отрицание с To be для she: is not (isn't)."
+    },
+    {
+      "question": "___ he from Spain?",
+      "options": [
+        "Do",
+        "Is",
+        "Are",
+        "Am"
+      ],
+      "correctAnswer": "Is",
+      "explanation": "Вопрос к he строится через Is. Do здесь использовать нельзя."
+    },
+    {
+      "question": "I ___ 20 years old. I am 22.",
+      "options": [
+        "am not",
+        "is not",
+        "are not",
+        "not am"
+      ],
+      "correctAnswer": "am not",
+      "explanation": "Отрицание возраста. С I используем am not."
+    }
+  ]
+}

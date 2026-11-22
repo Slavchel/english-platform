@@ -1,0 +1,96 @@
+{
+  "topic": "passive_voice",
+  "title": "Passive Voice: Present, Past and Future (Пассивный залог)",
+  "level": "B1-B2",
+  "content": "### Что такое пассивный залог?\n\nВ активном залоге мы говорим, **кто** совершает действие (I write a letter). В пассивном залоге мы говорим, **что** происходит с предметом, а кто это делает, часто неважно или неизвестно (The letter is written).\n\n### Когда используем?\n\n1. Когда не знаем, кто совершил действие: My bike **was stolen**. (Мой велосипед украли).\n2. Когда нам важнее само действие, а не тот, кто его совершил: The road **is being repaired**. (Дорогу ремонтируют).\n\n### Формула\n\nОсновная модель пассивного залога: **be + глагол в 3-й форме (V3)**. Форма глагола *be* зависит от времени. (Также в некоторых конструкциях используется get + V3: He got injured).\n\n- **Present Simple Passive:** am / is / are + V3\n  * English **is spoken** all over the world.\n\n- **Past Simple Passive:** was / were + V3\n  * The house **was built** in 1990.\n\n- **Present Continuous Passive:** am / is / are being + V3\n  * The road **is being repaired** at the moment.\n\n- **Future Simple Passive:** will be + V3\n  * The letters **will be sent** tomorrow.\n\n### Как сделать предложение пассивным?\n\nНужно поменять местами подлежащее и дополнение, а глагол поставить в нужную форму.\n- Актив: They **built** this house in 1990.\n- Пассив: This house **was built** in 1990.\n\n### ⚠️ Типичная ошибка\n\nЗабывать глагол to be, оставляя только причастие.\n- Неправильно: *The book written by him.*\n- Правильно: *The book **was** written by him.*\n\n### Зачем нужен пассив?\n\nСравни:\n- Someone stole my car. — актив: важен тот, кто украл.\n- My car was stolen. — пассив: важен объект и факт кражи, а исполнитель неизвестен или неважен.\n\nПассив выбирают, когда исполнитель неизвестен, очевиден из контекста или не важен для сообщения.\n",
+  "questions": [
+    {
+      "question": "This book ___ (write) by a famous author in 2010.",
+      "options": [
+        "wrote",
+        "was written",
+        "is written",
+        "were written"
+      ],
+      "correctAnswer": "was written",
+      "explanation": "Книга написана (действие над ней). Время Past Simple (in 2010). Пассив: was + written."
+    },
+    {
+      "question": "Many cars ___ (make) in Japan every year.",
+      "options": [
+        "make",
+        "are made",
+        "is made",
+        "were made"
+      ],
+      "correctAnswer": "are made",
+      "explanation": "Машины производят (действие над ними). Время Present Simple (every year). Many cars (мн.ч.) -> are + made."
+    },
+    {
+      "question": "The thief ___ (catch) by the police yesterday.",
+      "options": [
+        "caught",
+        "was caught",
+        "is caught",
+        "were caught"
+      ],
+      "correctAnswer": "was caught",
+      "explanation": "Вора поймали (действие над ним). Время Past Simple (yesterday). The thief (ед.ч.) -> was + caught."
+    },
+    {
+      "question": "English ___ (speak) in many countries around the world.",
+      "options": [
+        "speaks",
+        "is spoken",
+        "was spoken",
+        "are spoken"
+      ],
+      "correctAnswer": "is spoken",
+      "explanation": "На английском говорят. Это факт, Present Simple. English (ед.ч.) -> is + spoken."
+    },
+    {
+      "question": "The window ___ (break) by the children playing football.",
+      "options": [
+        "broke",
+        "was broken",
+        "is broken",
+        "were broken"
+      ],
+      "correctAnswer": "was broken",
+      "explanation": "Окно разбили. Действие в прошлом. The window (ед.ч.) -> was + broken."
+    },
+    {
+      "question": "These houses ___ (build) in the 19th century.",
+      "options": [
+        "built",
+        "was built",
+        "were built",
+        "are built"
+      ],
+      "correctAnswer": "were built",
+      "explanation": "Дома были построены. Прошлое. These houses (мн.ч.) -> were + built."
+    },
+    {
+      "question": "The letters ___ (send) to the clients tomorrow morning.",
+      "options": [
+        "send",
+        "will be sent",
+        "are sent",
+        "were sent"
+      ],
+      "correctAnswer": "will be sent",
+      "explanation": "Письма отправят. Будущее время (tomorrow). В будущем пассив строится через will be + sent."
+    },
+    {
+      "question": "I can't use my computer right now. It ___ (fix) at the moment.",
+      "options": [
+        "fixes",
+        "is being fixed",
+        "is fixed",
+        "was fixed"
+      ],
+      "correctAnswer": "is being fixed",
+      "explanation": "Компьютер чинят прямо сейчас (at the moment). Это Present Continuous Passive: is being + fixed."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "topic": "some_any_no_every",
+  "title": "Some / Any / No / Every (Неопределённые слова)",
+  "level": "A2",
+  "content": "### В чем разница?\n\nЭти слова помогают сказать: немного, какой-нибудь, ни одного или каждый. Выбор зависит от смысла предложения.\n\n### Some - немного, несколько, какие-то\n\nОбычно используем в утвердительных предложениях.\n\nI bought some apples. - Я купил несколько яблок.\n\nThere is some milk in the fridge. - В холодильнике есть немного молока.\n\nНо **some** часто встречается и в вопросах, когда мы что-то предлагаем или вежливо просим:\n\n- Would you like some tea? — Хочешь чаю? (предложение)\n- Can I have some water? — Можно мне воды? (просьба)\n\nСравни с обычным вопросом о наличии: **Do you have any tea?** — У тебя есть чай? Здесь нужен any.\n\n### Any - какой-нибудь, сколько-нибудь\n\nОбычно используем в вопросах и отрицаниях.\n\nDo you have any questions? - У тебя есть вопросы?\n\nI don't have any free time today. - У меня сегодня совсем нет свободного времени.\n\nВ утвердительном предложении **any** может значить «любой», без разницы какой:\n\nYou can choose any seat. - Можешь выбрать любое место.\n\n### No - ни одного, никакого\n\n**No** ставим перед существительным. По смыслу это уже отрицание, поэтому дополнительное not не нужно.\n\nThere is no coffee left. - Кофе совсем не осталось.\n\nWe have no tickets. - У нас нет билетов.\n\nМожно сказать то же самое с any и отрицанием:\n\nThere isn't any coffee left. = There is no coffee left.\n\nWe don't have any tickets. = We have no tickets.\n\n### Every - каждый, все без исключения\n\n**Every** ставим перед существительным в единственном числе. Глагол тоже обычно ставим в единственном числе: is, has, works.\n\nEvery student has an ID card. - У каждого студента есть пропуск.\n\nI go running every morning. - Я бегаю каждое утро.\n\n### Производные слова\n\nСлова something, anything, nothing и everything образуются по той же логике:\n\n- **Something / Someone / Somewhere** - Что-то / Кто-то / Где-то. Обычно в утверждениях.\n- **Anything / Anyone / Anywhere** - Что-нибудь / Кто-нибудь / Где-нибудь. Обычно в вопросах и отрицаниях.\n- **Nothing / No one / Nowhere** - Ничего / Никто / Нигде. Уже содержат отрицание.\n- **Everything / Everyone / Everywhere** - Всё / Каждый, все / Везде.\n\n### Примеры\n\nSomeone is calling you. - Кто-то тебе звонит.\n\nDid you buy anything? - Ты что-нибудь купил?\n\nI didn't see anyone at the station. - Я никого не увидел на станции.\n\nThere is nothing in my bag. - В моей сумке ничего нет.\n\nEveryone is ready for the meeting. - Все готовы к встрече.\n\n### Кратко\n\n- **Some** - Обычно утверждение, а также предложение или просьба.\n- **Any** - Обычно вопрос или отрицание; в утверждении может значить «любой».\n- **No** - Отрицание уже внутри слова, поэтому не добавляй not.\n- **Every** - Каждый, все без исключения; после every существительное в единственном числе.\n\n### ⚠️ Типичные ошибки\n\nНеправильно: I don't have no money.\n\nПравильно: I don't have any money. / I have no money.\n\nВ стандартном английском не используем два отрицания в одной такой конструкции.\n\nНеправильно: Everyone are happy.\n\nПравильно: Everyone is happy.\n\nEveryone означает «все», но грамматически согласуется с глаголом в единственном числе.\n\nВопрос \"Do you want any coffee?\" не является грамматически неправильным. Но в предложении обычно звучит естественнее: Would you like some coffee?\n\nВ предложениях и вежливых просьбах обычно используем some.",
+  "questions": [
+    {
+      "question": "There are ___ sandwiches in the fridge. Help yourself!",
+      "options": [
+        "some",
+        "any",
+        "no",
+        "every"
+      ],
+      "correctAnswer": "some",
+      "explanation": "Это утвердительное предложение: в холодильнике есть несколько сэндвичей. Обычно в таких предложениях используем SOME."
+    },
+    {
+      "question": "Are there ___ seats left on the train?",
+      "options": [
+        "some",
+        "any",
+        "no",
+        "every"
+      ],
+      "correctAnswer": "any",
+      "explanation": "Это обычный вопрос о наличии мест. В таких вопросах обычно используем ANY."
+    },
+    {
+      "question": "We have ___ time before the film starts. It has already started, so let's go in.",
+      "options": [
+        "some",
+        "any",
+        "no",
+        "every"
+      ],
+      "correctAnswer": "no",
+      "explanation": "По смыслу времени совсем нет, поэтому подходит NO: We have no time. Дополнительное don't здесь не нужно."
+    },
+    {
+      "question": "Would you like ___ water before we leave?",
+      "options": [
+        "some",
+        "any",
+        "no",
+        "every"
+      ],
+      "correctAnswer": "some",
+      "explanation": "Это предложение: мы предлагаем человеку воды. В таких вопросах обычно используем SOME, а не ANY."
+    },
+    {
+      "question": "You can choose ___ colour you like for the team T-shirt.",
+      "options": [
+        "some",
+        "any",
+        "no",
+        "every"
+      ],
+      "correctAnswer": "any",
+      "explanation": "В утвердительном предложении ANY означает «любой»: выбирай любой цвет, какой нравится."
+    },
+    {
+      "question": "I looked for my headphones, but I couldn't find them ___.",
+      "options": [
+        "somewhere",
+        "anywhere",
+        "nowhere",
+        "everywhere"
+      ],
+      "correctAnswer": "anywhere",
+      "explanation": "После отрицания couldn't обычно используем ANYWHERE: я нигде не смог их найти. Вариант NOWHERE создал бы двойное отрицание в этой конструкции."
+    },
+    {
+      "question": "I opened the box, but there was ___ inside.",
+      "options": [
+        "something",
+        "anything",
+        "nothing",
+        "everything"
+      ],
+      "correctAnswer": "nothing",
+      "explanation": "По смыслу коробка была пустой. NOTHING значит «ничего» и уже содержит отрицание, поэтому was стоит в утвердительной форме."
+    },
+    {
+      "question": "___ employee gets a name badge on their first day.",
+      "options": [
+        "Some",
+        "Any",
+        "No",
+        "Every"
+      ],
+      "correctAnswer": "Every",
+      "explanation": "Речь о каждом сотруднике без исключения. Используем EVERY + существительное в единственном числе: Every employee gets."
+    }
+  ]
+}

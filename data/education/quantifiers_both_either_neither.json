@@ -1,0 +1,85 @@
+{
+  "topic": "quantifiers_both_either_neither",
+  "title": "Quantifiers: Both, Either, Neither (Оба, любой из двух, ни один из двух)",
+  "level": "B1",
+  "content": "### Когда они нужны?\n\n**Both**, **either** и **neither** обычно используются, когда мы говорим о двух людях, предметах или вариантах.\n\n### Both (Оба)\n\nИспользуем, когда говорим о двух предметах вместе (и первый, и второй).\n- **Both** options are good. - Оба варианта хороши.\n- I like **both** of them. - Мне нравятся они оба.\n- *Примечание:* перед существительным в единственном числе both не ставим. Только с множественным (both options) или через of (both of the options).\n\n### Either (Любой из двух)\n\nИспользуем, когда нам не важно, какой именно из двух вариантов выбрать (один или другой).\n- You can choose **either** colour. - Ты можешь выбрать любой цвет (из двух).\n- **Either** of these books is interesting. - Любая из этих книг интересна.\n\n### Neither (Ни один из двух)\n\nИспользуем, когда не подходит ни первый, ни второй вариант (отрицание для двух).\n- **Neither** answer is correct. - Ни один из ответов не правильный.\n- **Neither** of them came to the party. - Ни один из них не пришел на вечеринку.\n- *Важно:* после neither мы не используем дополнительное отрицание not. Neither уже означает «ни один».\n\n### Neither и глагол\n\n- **Neither answer is correct.** — Ни один ответ не правильный.\n- **Neither of the answers is correct.** — Ни один из ответов не правильный.\n\n### ⚠️ Типичная ошибка\n\nИспользовать эти слова для трех и более предметов (для этого есть all / any / none), а также двойное отрицание.\n- Неправильно: *I don't like neither of them.*\n- Правильно: *I like neither of them.* / *I don't like either of them.*",
+  "questions": [
+    {
+      "question": "I have two sisters. ___ of them are doctors.",
+      "options": [
+        "Both",
+        "Either",
+        "Neither",
+        "All"
+      ],
+      "correctAnswer": "Both",
+      "explanation": "Речь о двух сестрах, и обе работают врачами. Используем Both of them."
+    },
+    {
+      "question": "There are two doors. You can use ___ door to enter.",
+      "options": [
+        "both",
+        "either",
+        "neither",
+        "all"
+      ],
+      "correctAnswer": "either",
+      "explanation": "Ты можешь использовать любую из двух дверей (неважно какую). Используем either + существительное в единственном числе."
+    },
+    {
+      "question": "Unfortunately, ___ of the two answers is correct. Try again.",
+      "options": [
+        "both",
+        "either",
+        "neither",
+        "all"
+      ],
+      "correctAnswer": "neither",
+      "explanation": "Ни один из двух ответов не правильный (there are two). Используем neither."
+    },
+    {
+      "question": "___ of my parents speak English, they only speak Russian.",
+      "options": [
+        "Both",
+        "Either",
+        "Neither",
+        "All"
+      ],
+      "correctAnswer": "Neither",
+      "explanation": "Ни один из родителей (два человека) не говорит по-английски. Используем Neither."
+    },
+    {
+      "question": "I can't decide between these two shirts. ___ look good on me.",
+      "options": [
+        "Both",
+        "Either",
+        "Neither",
+        "All"
+      ],
+      "correctAnswer": "Both",
+      "explanation": "Обе рубашки (две) смотрятся хорошо. Используем Both (с формой множественного числа look)."
+    },
+    {
+      "question": "I have money in ___ my left pocket nor my right pocket.",
+      "options": [
+        "both",
+        "either",
+        "neither",
+        "all"
+      ],
+      "correctAnswer": "neither",
+      "explanation": "Конструкция neither ... nor означает 'ни ... ни'. Денег нет ни в одном из двух карманов."
+    },
+    {
+      "question": "Would you like tea or coffee? — I don't mind, ___ is fine.",
+      "options": [
+        "both",
+        "either",
+        "neither",
+        "all"
+      ],
+      "correctAnswer": "either",
+      "explanation": "Неважно, чай или кофе — подойдет любой из двух вариантов. Используем either."
+    }
+  ]
+}
