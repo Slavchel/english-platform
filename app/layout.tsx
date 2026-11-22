@@ -12,6 +12,10 @@ import "./speaking-redesign.css";
 import "./learning-enhance.css";
 import "./pricing.css";
 import AuthLink from "./components/AuthLink";
+import GoogleAnalytics, {
+  GA_MEASUREMENT_ID,
+} from "./components/GoogleAnalytics";
+import GoogleAnalyticsPageView from "./components/GoogleAnalyticsPageView";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -38,6 +42,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       className={`${inter.variable} ${cormorant.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
+        <GoogleAnalytics />
+        <Suspense fallback={null}>
+          <GoogleAnalyticsPageView measurementId={GA_MEASUREMENT_ID} />
+        </Suspense>
         <header className="site-header">
           <div className="container site-header__inner">
             <Link href="/" className="brand">
