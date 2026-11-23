@@ -1,14 +1,13 @@
 "use client";
 
-import { useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
 import { useState } from "react";
 
 import { PENDING_RESULT_KEY } from "@/lib/cefr/pending-result";
 
 export default function LoginForm() {
-  const router = useRouter();
   const [email, setEmail] = useState("");
+  const [sentEmail, setSentEmail] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [pending, setPending] = useState(false);
 
@@ -31,25 +30,50 @@ export default function LoginForm() {
         : "/account";
 
     try {
-      const result = await signIn("credentials", {
+      const result = await signIn("nodemailer", {
         email: normalized,
         redirect: false,
         callbackUrl,
       });
 
       if (result?.error) {
-        setError("Тестовый режим: этот email не имеет доступа.");
+        setError(
+          "Не удалось отправить ссылку. Проверьте email и попробуйте позже.",
+        );
         return;
       }
 
-      router.push(callbackUrl);
-      router.refresh();
+      setSentEmail(normalized);
     } catch {
-      setError("Не удалось войти. Попробуйте ещё раз.");
+      setError("Не удалось отправить ссылку. Попробуйте ещё раз.");
     } finally {
       setPending(false);
     }
   };
+
+  if (sentEmail) {
+    return (
+      <div className="auth-form">
+        <p className="auth-message">
+          Ссылка для входа отправлена на <strong>{sentEmail}</strong>.
+        </p>
+        <p className="auth-message">
+          Проверьте почту и перейдите по ссылке из письма. Ссылка действует 24
+          часа.
+        </p>
+        <button
+          type="button"
+          className="button button--ghost"
+          onClick={() => {
+            setSentEmail(null);
+            setError(null);
+          }}
+        >
+          Отправить на другой email
+        </button>
+      </div>
+    );
+  }
 
   return (
     <form onSubmit={submit} className="auth-form">
@@ -76,7 +100,7 @@ export default function LoginForm() {
         className="button button--primary"
         disabled={pending}
       >
-        {pending ? "Входим…" : "Войти"}
+        {pending ? "Отправляем ссылку…" : "Отправить ссылку для входа"}
       </button>
     </form>
   );

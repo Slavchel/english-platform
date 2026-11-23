@@ -16,12 +16,14 @@
     "seed": "npm run seed:lessons && npm run seed:courses"
   },
   "dependencies": {
+    "@auth/prisma-adapter": "^2.11.3",
     "@prisma/client": "^6.19.3",
     "@supabase/ssr": "^0.12.7",
     "@supabase/supabase-js": "^2.119.0",
     "framer-motion": "^14.14.0",
     "next": "16.4.4",
     "next-auth": "^5.0.0-beta.32",
+    "nodemailer": "^8.0.11",
     "openai": "^7.53.0",
     "react": "19.3.0",
     "react-dom": "19.3.0",
