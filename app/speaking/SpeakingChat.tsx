@@ -40,11 +40,13 @@ export default function SpeakingChat({
   level,
   isAuthenticated,
   tier,
+  quotaExceeded = false,
   savedDialog: initialSavedDialog,
 }: {
   level: CefrLevel | null;
   isAuthenticated: boolean;
   tier: SubscriptionTier;
+  quotaExceeded?: boolean;
   savedDialog?: SavedDialog;
 }) {
   const [savedDialog, setSavedDialog] = useState<SavedDialog | null>(
@@ -70,7 +72,7 @@ export default function SpeakingChat({
   const [evaluationDialogId, setEvaluationDialogId] = useState<string | null>(
     null,
   );
-  const [limitReached, setLimitReached] = useState(false);
+  const [limitReached, setLimitReached] = useState(quotaExceeded);
   const [authPrompt, setAuthPrompt] = useState(false);
   const listRef = useRef<HTMLDivElement>(null);
   const timerRef = useRef<number | null>(null);
@@ -106,20 +108,6 @@ export default function SpeakingChat({
     requestRef.current?.abort();
     requestRef.current = null;
 
-    if (isAuthenticated) {
-      try {
-        const response = await fetch("/api/subscription/speaking/start", {
-          method: "POST",
-        });
-        if (response.status === 429) {
-          setLimitReached(true);
-          return;
-        }
-      } catch {
-        // При сетевой ошибке не блокируем уже открытый тренажёр.
-      }
-    }
-
     setLimitReached(false);
     const nextSession = pickSession(sessionIdRef.current);
     const intro = pickIntro(lastIntroRef.current);
@@ -147,16 +135,16 @@ export default function SpeakingChat({
     setEvaluationBlocked(false);
     setEvaluationRetryAt(null);
     setEvaluationDialogId(null);
-  }, [isAuthenticated]);
+  }, []);
 
   useEffect(() => {
-    if (savedDialog || result) return;
+    if (savedDialog || result || quotaExceeded) return;
     const timer = window.setTimeout(() => {
       void startSession();
     }, 0);
 
     return () => window.clearTimeout(timer);
-  }, [result, savedDialog, startSession]);
+  }, [quotaExceeded, result, savedDialog, startSession]);
 
   const finished = session
     ? currentIndex >= session.questions.length

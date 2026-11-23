@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import IntroPreview from "./IntroPreview";
 
 export const metadata: Metadata = {
-  title: "Предпросмотр Intro — English Platform",
+  title: "Предпросмотр Intro — NeoLeng",
   description: "Пять вариантов первого экрана интерактивного урока.",
 };
 

@@ -17,6 +17,7 @@ import {
 import {
   checkAiAnalysisAllowance,
   chargeSuccessfulSpeakingRetry,
+  consumeSpeakingDialog,
   markAiAnalysisFailed,
   recordAiAnalysis,
   refundSpeakingUsage,
@@ -718,6 +719,7 @@ async function evaluateSpeaking(
   apiKey: string,
   body: unknown,
   userEmail: string | null,
+  isAdmin: boolean,
 ): Promise<Response> {
   const user = userEmail
     ? await prisma.user.findUnique({
@@ -786,6 +788,24 @@ async function evaluateSpeaking(
   }
 
   if (!dialog || dialog.status === "completed") {
+    const allowance = await consumeSpeakingDialog(userEmail, isAdmin);
+    if (!allowance.allowed) {
+      return Response.json(
+        {
+          error: allowance.message,
+          code: "LIMIT_REACHED",
+          feature: "speaking",
+          tier: allowance.tier,
+          retryAfter: allowance.retryAfter,
+          upgradeUrl: "/pricing",
+        },
+        {
+          status: 429,
+          headers: { "Retry-After": String(allowance.retryAfter) },
+        },
+      );
+    }
+
     dialog = await prisma.speakingDialog.create({
       data: {
         userId: user.id,
@@ -1111,6 +1131,7 @@ export async function POST(request: Request): Promise<Response> {
       apiKey,
       body,
       session.user.email ?? null,
+      Boolean(session.user.isAdmin),
     );
   }
 

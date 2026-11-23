@@ -5,7 +5,7 @@ import { auth } from "@/auth";
 import TestRunner from "./TestRunner";
 
 export const metadata: Metadata = {
-  title: "Тест на уровень английского — English Platform",
+  title: "Тест на уровень английского — NeoLeng",
   description:
     "Пробный адаптивный тест по английскому: Grammar, Vocabulary и Reading.",
 };

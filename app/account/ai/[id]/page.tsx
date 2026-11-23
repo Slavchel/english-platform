@@ -92,7 +92,7 @@ export default function AiAnalysisPage({ params }: AiPageProps) {
       fallback={
         <section className="page-shell auth-page">
           <div className="container auth-container account-result-page">
-            <p className="eyebrow">English Platform · AI-разбор</p>
+            <p className="eyebrow">NeoLeng · AI-разбор</p>
             <h1 className="page-title">Загружаем разбор…</h1>
           </div>
         </section>
@@ -154,7 +154,7 @@ async function AiAnalysisContent({ params }: AiPageProps) {
     return (
       <section className="page-shell auth-page">
         <div className="container auth-container account-result-page">
-          <p className="eyebrow">English Platform · AI-разбор</p>
+          <p className="eyebrow">NeoLeng · AI-разбор</p>
           <Link href="/account" className="account-back">
             ← В личный кабинет
           </Link>
@@ -214,7 +214,7 @@ async function AiAnalysisContent({ params }: AiPageProps) {
   return (
     <section className="page-shell auth-page">
       <div className="container auth-container account-result-page">
-        <p className="eyebrow">English Platform · AI-разбор</p>
+        <p className="eyebrow">NeoLeng · AI-разбор</p>
         <h1 className="page-title">{analysis.title}</h1>
         <p className="account-result-date">
           {typeLabels[analysis.type] ?? analysis.type} ·{" "}

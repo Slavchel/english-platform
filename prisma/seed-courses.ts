@@ -233,13 +233,17 @@ async function main() {
       },
     });
 
-    await prisma.module.deleteMany({ where: { courseId: course.id } });
-
     let totalLessons = 0;
 
     for (const [moduleIndex, moduleSeed] of courseSeed.modules.entries()) {
-      const courseModule = await prisma.module.create({
-        data: {
+      const courseModule = await prisma.module.upsert({
+        where: { id: moduleSeed.id },
+        update: {
+          courseId: course.id,
+          title: moduleSeed.title,
+          order: moduleIndex + 1,
+        },
+        create: {
           id: moduleSeed.id,
           courseId: course.id,
           title: moduleSeed.title,

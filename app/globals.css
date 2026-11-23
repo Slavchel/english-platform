@@ -233,6 +233,21 @@ select {
   vertical-align: 2px;
 }
 
+.brand--logo {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  line-height: 0;
+}
+
+.brand__logo {
+  display: block;
+  width: auto;
+  height: 40px;
+  max-width: 220px;
+  object-fit: contain;
+}
+
 .site-nav {
   display: flex;
   align-items: center;
@@ -3388,9 +3403,14 @@ select {
     font-size: 1.05rem;
   }
 
+  .brand__logo {
+    height: 24px;
+    max-width: 120px;
+  }
+
   .site-nav {
-    gap: 9px;
-    font-size: 0.66rem;
+    gap: 7px;
+    font-size: 0.6rem;
   }
 
   .site-nav li:first-child {
@@ -3652,9 +3672,14 @@ select {
     font-size: 0.96rem;
   }
 
+  .brand__logo {
+    height: 22px;
+    max-width: 110px;
+  }
+
   .site-nav {
-    gap: 7px;
-    font-size: 0.6rem;
+    gap: 6px;
+    font-size: 0.58rem;
   }
 
   .auth-card {
@@ -3684,5 +3709,27 @@ select {
 
   .display-title {
     font-size: clamp(2.8rem, 13vw, 3.5rem);
+  }
+}
+
+@media (max-width: 520px) {
+  .site-header__inner {
+    min-height: 0;
+    flex-wrap: wrap;
+    row-gap: 7px;
+    padding-block: 8px;
+  }
+
+  .brand__logo {
+    height: 28px;
+    max-width: 140px;
+  }
+
+  .site-nav {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 6px;
+    font-size: 0.62rem;
   }
 }

@@ -213,17 +213,29 @@ async function main() {
         },
       });
 
-      await tx.question.deleteMany({ where: { lessonId: saved.id } });
-      await tx.question.createMany({
-        data: lesson.questions.map((question, index) => ({
+      for (const [index, question] of lesson.questions.entries()) {
+        const questionData = {
           lessonId: saved.id,
           prompt: question.question,
           options: JSON.stringify(question.options),
           correctAnswer: question.correctAnswer,
           explanation: question.explanation ?? null,
           order: index,
-        })),
-      });
+        };
+        const existing = await tx.question.findFirst({
+          where: { lessonId: saved.id, order: index },
+          select: { id: true },
+        });
+
+        if (existing) {
+          await tx.question.update({
+            where: { id: existing.id },
+            data: questionData,
+          });
+        } else {
+          await tx.question.create({ data: questionData });
+        }
+      }
     });
 
     console.log(

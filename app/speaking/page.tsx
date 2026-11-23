@@ -5,11 +5,12 @@ import { connection } from "next/server";
 import { auth } from "@/auth";
 import { isCefrLevel } from "@/lib/cefr/levels";
 import { prisma } from "@/lib/prisma";
+import { PLAN_LIMITS, isSameUtcDay } from "@/lib/subscription/plans";
 import { getSubscriptionByEmail } from "@/lib/subscription/server";
 import SpeakingChat from "./SpeakingChat";
 
 export const metadata: Metadata = {
-  title: "Speaking — English Platform",
+  title: "Speaking — NeoLeng",
   description:
     "Практика разговорного английского с Emma: живой диалог и пять вопросов.",
 };
@@ -26,7 +27,7 @@ export default function SpeakingPage({
       <div className="container speaking-page__container">
         <header className="speaking-hero">
           <div className="speaking-hero__copy">
-            <p className="eyebrow">English Platform · AI Speaking</p>
+            <p className="eyebrow">NeoLeng · AI Speaking</p>
             <h1 className="speaking-title">Speaking Practice</h1>
             <p className="speaking-subtitle">
               Живой диалог с Emma: пять вопросов, разбор речи и рекомендации
@@ -205,12 +206,24 @@ async function SpeakingContent({
     }
   }
 
+  const tier = subscription?.tier ?? "FREE";
+  const speakingUsed =
+    subscription && isSameUtcDay(subscription.lastSpeakingDate)
+      ? subscription.speakingDialogsUsed
+      : 0;
+  const quotaExceeded =
+    Boolean(session?.user) &&
+    !session?.user?.isAdmin &&
+    !savedDialog &&
+    speakingUsed >= PLAN_LIMITS[tier].speakingDialogsPerDay;
+
   return (
     <div className="speaking-shell">
       <SpeakingChat
         level={level}
         isAuthenticated={Boolean(session?.user)}
-        tier={subscription?.tier ?? "FREE"}
+        tier={tier}
+        quotaExceeded={quotaExceeded}
         savedDialog={savedDialog}
       />
     </div>

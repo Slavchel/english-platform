@@ -167,7 +167,7 @@ export default function AccountDashboard({
         <h1 className="sr-only">Личный кабинет</h1>
         <div className="account-dashboard__profile gap-6">
           <div className="account-profile p-8">
-            <p className="eyebrow">English Platform · аккаунт</p>
+            <p className="eyebrow">NeoLeng · аккаунт</p>
             <p className="account-profile__email">{email}</p>
             <p className="account-profile__hint">
               История, результаты и персональные разборы в одном месте.

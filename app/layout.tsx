@@ -1,6 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Suspense, type ReactNode } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 import "./home-refresh.css";
@@ -11,6 +12,7 @@ import "./test-buttons.css";
 import "./speaking-redesign.css";
 import "./learning-enhance.css";
 import "./pricing.css";
+import logo from "./neoleng-logo.png";
 import AuthLink from "./components/AuthLink";
 import GoogleAnalytics, {
   GA_MEASUREMENT_ID,
@@ -29,9 +31,14 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "English Platform — диагностика английского",
+  title: "NeoLeng — диагностика английского",
   description:
     "Адаптивная CEFR-диагностика английского: Grammar, Vocabulary и Reading.",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
@@ -48,9 +55,17 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         </Suspense>
         <header className="site-header">
           <div className="container site-header__inner">
-            <Link href="/" className="brand">
-              <span className="brand__mark" aria-hidden="true" />
-              English Platform
+            <Link
+              href="/"
+              className="brand brand--logo"
+              aria-label="NeoLeng — на главную"
+            >
+              <Image
+                src={logo}
+                alt="NeoLeng"
+                className="brand__logo"
+                priority
+              />
             </Link>
 
             <nav aria-label="Основная навигация">
@@ -101,7 +116,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <footer className="site-footer">
           <div className="container site-footer__inner">
             <p>
-              © English Platform. Тест разработан с опорой на методические
+              © NeoLeng. Тест разработан с опорой на методические
               материалы и рекомендации Кембриджа. Не является официальной
               сертификацией или одобрением Cambridge.
             </p>

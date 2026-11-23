@@ -94,7 +94,7 @@ export default function IntroPreview() {
       <div className="container py-10 sm:py-14">
         <div className="mx-auto max-w-5xl">
           <p className="text-[0.62rem] tracking-[0.16em] text-[#c2a66d] uppercase">
-            English Platform · дизайн-предпросмотр
+            NeoLeng · дизайн-предпросмотр
           </p>
           <h1 className="mt-3 [font-family:var(--font-display)] text-3xl text-[#f0efe9] sm:text-4xl">
             Варианты первого экрана

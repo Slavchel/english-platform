@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { LEVEL_GUIDES } from "@/lib/cefr/level-guide";
 
 export const metadata: Metadata = {
-  title: "Уровни CEFR — English Platform",
+  title: "Уровни CEFR — NeoLeng",
   description:
     "Ориентиры Pre-A1–C2: понимание, чтение, лексика, грамматика, общение и практические задачи.",
 };
@@ -12,7 +12,7 @@ export default function CefrPage() {
   return (
     <section className="page-shell">
       <div className="container">
-        <p className="eyebrow">English Platform · CEFR</p>
+        <p className="eyebrow">NeoLeng · CEFR</p>
         <h1 className="page-title">Уровни CEFR</h1>
         <p className="lead">
           CEFR — общеевропейская шкала владения языком. Ниже — краткие

@@ -14,7 +14,7 @@ export default function AdminPage() {
       fallback={
         <section className="page-shell auth-page">
           <div className="container auth-container">
-            <p className="eyebrow">English Platform · админка</p>
+            <p className="eyebrow">NeoLeng · админка</p>
             <h1 className="page-title">Уроки</h1>
             <p className="lead">Загружаем список…</p>
           </div>
@@ -45,7 +45,7 @@ async function AdminContent() {
   return (
     <section className="page-shell auth-page">
       <div className="container auth-container">
-        <p className="eyebrow">English Platform · админка</p>
+        <p className="eyebrow">NeoLeng · админка</p>
         <h1 className="page-title">Уроки</h1>
         <p className="lead">
           Все загруженные обучающие карточки. Открывайте теоретические карточки:

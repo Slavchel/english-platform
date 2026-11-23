@@ -8,7 +8,7 @@ import { canUseProTestActivation } from "@/lib/subscription/test-access";
 import PricingCards from "./PricingCards";
 
 export const metadata: Metadata = {
-  title: "Тарифы — English Platform",
+  title: "Тарифы — NeoLeng",
   description: "Free, Pro и Neuro-Tutor: выберите подходящий формат обучения.",
 };
 
@@ -24,7 +24,7 @@ export default async function PricingPage() {
     <section className="page-shell pricing-page">
       <div className="container pricing-container">
         <header className="pricing-hero">
-          <p className="eyebrow">English Platform · тарифы</p>
+          <p className="eyebrow">NeoLeng · тарифы</p>
           <h1 className="pricing-title">Выберите свой темп</h1>
           <p className="pricing-lead">
             Начните бесплатно, откройте все уроки и больше практики с Pro.

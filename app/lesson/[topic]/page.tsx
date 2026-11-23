@@ -32,7 +32,7 @@ export default function LessonPage({ params, searchParams }: LessonPageProps) {
       fallback={
         <section className="page-shell lesson-page">
           <div className="container lesson-container">
-            <p className="eyebrow">English Platform · урок</p>
+            <p className="eyebrow">NeoLeng · урок</p>
             <h1 className="page-title">Загружаем урок…</h1>
           </div>
         </section>
@@ -107,7 +107,7 @@ async function LessonContent({ params, searchParams }: LessonPageProps) {
       return (
         <section className="page-shell lesson-page">
           <div className="container lesson-container">
-            <p className="eyebrow">English Platform · урок</p>
+            <p className="eyebrow">NeoLeng · урок</p>
             <h1 className="page-title">{lesson.title}</h1>
             <UpgradeLimitModal
               title="Бесплатный доступ к уроку использован"

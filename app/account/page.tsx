@@ -10,8 +10,8 @@ import { canResetTestAccount } from "@/lib/subscription/test-access";
 import AccountDashboard from "./AccountDashboard";
 
 export const metadata: Metadata = {
-  title: "Личный кабинет — English Platform",
-  description: "Личный кабинет English Platform.",
+  title: "Личный кабинет — NeoLeng",
+  description: "Личный кабинет NeoLeng.",
 };
 
 const dateFormatter = new Intl.DateTimeFormat("ru-RU", {
@@ -26,7 +26,7 @@ export default function AccountPage() {
       fallback={
         <section className="page-shell account-dashboard-page">
           <div className="container account-dashboard">
-            <p className="eyebrow">English Platform · аккаунт</p>
+            <p className="eyebrow">NeoLeng · аккаунт</p>
             <h1 className="account-dashboard-title">Личный кабинет</h1>
             <p className="account-profile__hint">Загружаем данные…</p>
           </div>

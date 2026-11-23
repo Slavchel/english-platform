@@ -15,7 +15,7 @@ import KnowledgeMap, {
 } from "./KnowledgeMap";
 
 export const metadata: Metadata = {
-  title: "Обучение — English Platform",
+  title: "Обучение — NeoLeng",
   description:
     "Короткие уроки английского с теорией, практикой и шпаргалкой.",
 };
@@ -143,7 +143,7 @@ export default function LearningPage({ searchParams }: LearningPageProps) {
       fallback={
         <section className="page-shell">
           <div className="container py-14">
-            <p className="eyebrow">English Platform · обучение</p>
+            <p className="eyebrow">NeoLeng · обучение</p>
             <h1 className="learning-title">Обучение</h1>
             <p className="lead">Загружаем уроки…</p>
           </div>
@@ -307,7 +307,7 @@ async function LearningContent({ searchParams }: LearningPageProps) {
             </svg>
           </div>
           <div className="learning-hero__content">
-            <p className="eyebrow">English Platform · обучение</p>
+            <p className="eyebrow">NeoLeng · обучение</p>
             <h1 className="learning-title">Обучение</h1>
             <p className="learning-lead">
               Хочешь системный подход? Выбери готовую программу. Или изучай

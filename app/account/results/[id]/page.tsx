@@ -25,7 +25,7 @@ export default function ResultPage({ params }: ResultPageProps) {
       fallback={
         <section className="page-shell auth-page">
           <div className="container auth-container account-result-page">
-            <p className="eyebrow">English Platform · результат</p>
+            <p className="eyebrow">NeoLeng · результат</p>
             <h1 className="page-title">Разбор результата</h1>
             <p className="lead">Загружаем результат…</p>
           </div>
@@ -89,7 +89,7 @@ async function ResultContent({ params }: ResultPageProps) {
   return (
     <section className="page-shell auth-page">
       <div className="container auth-container account-result-page">
-        <p className="eyebrow">English Platform · аккаунт</p>
+        <p className="eyebrow">NeoLeng · аккаунт</p>
         <h1 className="page-title">Разбор результата</h1>
         <Link href="/account" className="account-back lesson-back">
           ← В личный кабинет

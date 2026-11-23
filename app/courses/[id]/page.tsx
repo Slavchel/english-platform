@@ -94,7 +94,7 @@ export async function generateMetadata({
   });
 
   return {
-    title: course ? `${course.title} — English Platform` : "Программа",
+    title: course ? `${course.title} — NeoLeng` : "Программа",
     description: course?.description,
   };
 }
