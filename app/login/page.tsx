@@ -8,6 +8,10 @@ export const metadata: Metadata = {
 };
 
 export default function LoginPage() {
+  const emailEnabled = Boolean(
+    process.env.RESEND_API_KEY && process.env.EMAIL_FROM,
+  );
+
   return (
     <section className="page-shell auth-page">
       <div className="container auth-container">
@@ -17,8 +21,15 @@ export default function LoginPage() {
           Введите email — отправим ссылку для входа. Пароль не нужен.
         </p>
 
+        {!emailEnabled ? (
+          <p className="auth-message auth-message--error" role="status">
+            Отправка ссылок временно недоступна: на сервере не настроен
+            email-провайдер.
+          </p>
+        ) : null}
+
         <div className="auth-card">
-          <LoginForm />
+          <LoginForm emailEnabled={emailEnabled} />
         </div>
       </div>
     </section>

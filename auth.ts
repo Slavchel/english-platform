@@ -1,6 +1,7 @@
 import NextAuth from "next-auth";
 import Credentials from "next-auth/providers/credentials";
-import Nodemailer from "next-auth/providers/nodemailer";
+import Resend from "next-auth/providers/resend";
+import Yandex from "next-auth/providers/yandex";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 
 import { prisma } from "@/lib/prisma";
@@ -76,11 +77,19 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     },
   },
   providers: [
-    ...(process.env.EMAIL_SERVER
+    ...(process.env.RESEND_API_KEY
       ? [
-          Nodemailer({
-            server: process.env.EMAIL_SERVER,
-            from: process.env.EMAIL_FROM,
+          Resend({
+            apiKey: process.env.RESEND_API_KEY,
+            from: process.env.EMAIL_FROM ?? "NeoLeng <no-reply@neoleng.ru>",
+          }),
+        ]
+      : []),
+    ...(process.env.AUTH_YANDEX_ID && process.env.AUTH_YANDEX_SECRET
+      ? [
+          Yandex({
+            clientId: process.env.AUTH_YANDEX_ID,
+            clientSecret: process.env.AUTH_YANDEX_SECRET,
           }),
         ]
       : []),
