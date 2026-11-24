@@ -8,11 +8,7 @@ import { PENDING_RESULT_KEY } from "@/lib/cefr/pending-result";
 
 const ADMIN_TEST_EMAIL = "test01@example.com";
 
-export default function LoginForm({
-  emailEnabled,
-}: {
-  emailEnabled: boolean;
-}) {
+export default function LoginForm() {
   const router = useRouter();
   const [email, setEmail] = useState("");
   const [sentEmail, setSentEmail] = useState<string | null>(null);
@@ -60,14 +56,6 @@ export default function LoginForm({
       } finally {
         setPending(false);
       }
-      return;
-    }
-
-    if (!emailEnabled) {
-      setError(
-        "Отправка ссылок временно недоступна: на сервере не настроен email-провайдер.",
-      );
-      setPending(false);
       return;
     }
 
