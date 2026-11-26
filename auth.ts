@@ -92,6 +92,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
             clientSecret: process.env.AUTH_YANDEX_SECRET,
             authorization:
               "https://oauth.yandex.ru/authorize?scope=login:info+login:email",
+            allowDangerousEmailAccountLinking: true,
           }),
         ]
       : []),
