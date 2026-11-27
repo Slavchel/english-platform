@@ -14,10 +14,14 @@ import "./learning-enhance.css";
 import "./pricing.css";
 import logo from "./neoleng-logo.png";
 import AuthLink from "./components/AuthLink";
+import AnalyticsConsent from "./components/AnalyticsConsent";
+import AnalyticsPrivacy from "./components/AnalyticsPrivacy";
 import GoogleAnalytics, {
   GA_MEASUREMENT_ID,
 } from "./components/GoogleAnalytics";
 import GoogleAnalyticsPageView from "./components/GoogleAnalyticsPageView";
+import YandexMetrica from "./components/YandexMetrica";
+import Footer from "@/components/Footer";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -52,6 +56,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <GoogleAnalytics />
         <Suspense fallback={null}>
           <GoogleAnalyticsPageView measurementId={GA_MEASUREMENT_ID} />
+        </Suspense>
+        <Suspense fallback={null}>
+          <YandexMetrica />
         </Suspense>
         <header className="site-header">
           <div className="container site-header__inner">
@@ -112,17 +119,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         </header>
 
         <main className="flex flex-1 flex-col">{children}</main>
+        <Suspense fallback={null}>
+          <AnalyticsPrivacy />
+        </Suspense>
 
-        <footer className="site-footer">
-          <div className="container site-footer__inner">
-            <p>
-              © NeoLeng. Тест разработан с опорой на методические
-              материалы и рекомендации Кембриджа. Не является официальной
-              сертификацией или одобрением Cambridge.
-            </p>
-            <p>Пробная версия · результат ориентировочный</p>
-          </div>
-        </footer>
+        <Footer />
+        <AnalyticsConsent />
       </body>
     </html>
   );

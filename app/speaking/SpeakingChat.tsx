@@ -498,7 +498,7 @@ export default function SpeakingChat({
             disabled={finished}
             aria-invalid={Boolean(inputError)}
             aria-describedby={inputError ? "speaking-input-error" : undefined}
-            className="speaking-input"
+            className="speaking-input ym-disable-keys"
           />
           <button
             type="button"

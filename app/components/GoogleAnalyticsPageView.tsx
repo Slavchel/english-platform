@@ -1,7 +1,12 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
+
+import {
+  ANALYTICS_CONSENT_EVENT,
+  readAnalyticsConsent,
+} from "@/lib/analytics-consent";
 
 type GtagWindow = Window & {
   gtag?: (...args: unknown[]) => void;
@@ -16,8 +21,20 @@ export default function GoogleAnalyticsPageView({
   const searchParams = useSearchParams();
   const search = searchParams.toString();
   const lastPageRef = useRef<string | null>(null);
+  const [enabled, setEnabled] = useState(false);
 
   useEffect(() => {
+    const sync = () => setEnabled(readAnalyticsConsent() === "accepted");
+
+    sync();
+    window.addEventListener(ANALYTICS_CONSENT_EVENT, sync);
+
+    return () => window.removeEventListener(ANALYTICS_CONSENT_EVENT, sync);
+  }, []);
+
+  useEffect(() => {
+    if (!enabled) return;
+
     const pagePath = search ? `${pathname}?${search}` : pathname;
     if (lastPageRef.current === pagePath) return;
     lastPageRef.current = pagePath;
@@ -31,7 +48,7 @@ export default function GoogleAnalyticsPageView({
       page_title: document.title,
       send_to: measurementId,
     });
-  }, [measurementId, pathname, search]);
+  }, [enabled, measurementId, pathname, search]);
 
   return null;
 }

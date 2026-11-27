@@ -137,7 +137,7 @@ export default function LoginForm() {
   }
 
   return (
-    <form onSubmit={submit} className="auth-form">
+    <form onSubmit={submit} className="auth-form ym-disable-submit">
       <label htmlFor="email">Email</label>
       <input
         id="email"
@@ -149,7 +149,7 @@ export default function LoginForm() {
         value={email}
         onChange={(event) => setEmail(event.target.value)}
         placeholder="name@example.com"
-        className="auth-input"
+        className="auth-input ym-disable-keys"
       />
       {error ? (
         <p className="auth-message auth-message--error" role="alert">
