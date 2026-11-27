@@ -34,6 +34,7 @@
 }
 
 html {
+  font-size: 115%;
   scroll-behavior: smooth;
   background: var(--background);
 }
@@ -47,7 +48,7 @@ body {
     linear-gradient(180deg, #080807 0%, #0b0a08 45%, #080807 100%);
   color: var(--foreground);
   font-family: var(--font-body);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
 }
@@ -115,24 +116,49 @@ select {
   position: relative;
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
-  align-items: center;
+  grid-template-rows: auto auto auto;
+  align-items: start;
   gap: 24px;
 }
 
 .home-hero__content {
-  position: relative;
-  z-index: 2;
-  min-width: 0;
+  display: contents;
+}
+
+.home-hero__eyebrow {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: end;
+}
+
+.home-hero__intro {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.home-hero__intro .display-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.home-hero__actions {
+  grid-column: 1;
+  grid-row: 3;
 }
 
 .home-hero .display-title {
-  max-width: 100%;
+  max-width: 14ch;
+  font-size: clamp(2.5rem, 4.4vw, 4.6rem);
 }
 
 .home-hero__media {
   position: relative;
   z-index: 1;
-  min-height: 660px;
+  grid-column: 2;
+  grid-row: 2;
+  align-self: stretch;
+  height: 100%;
+  min-height: 0;
   margin: 0;
   background:
     radial-gradient(ellipse at 62% 44%, rgba(184, 154, 101, 0.14), transparent 64%),
@@ -2303,22 +2329,25 @@ select {
 }
 
 .auth-container {
-  max-width: 620px;
+  max-width: 520px;
 }
 
 .auth-card {
-  margin-top: 28px;
-  padding: 26px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
+  margin-top: 24px;
+  padding: clamp(20px, 4vw, 32px);
+  border: 1px solid rgba(184, 154, 101, 0.2);
+  border-radius: 24px;
   background:
-    radial-gradient(circle at 0% 0%, rgba(184, 154, 101, 0.1), transparent 22rem),
-    rgba(20, 18, 15, 0.8);
+    radial-gradient(circle at 12% 0%, rgba(184, 154, 101, 0.12), transparent 24rem),
+    linear-gradient(145deg, rgba(28, 24, 18, 0.96), rgba(15, 14, 11, 0.96));
+  box-shadow:
+    0 26px 70px rgba(0, 0, 0, 0.36),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045);
 }
 
 .auth-form {
   display: grid;
-  gap: 10px;
+  gap: 12px;
 }
 
 .auth-form label {
@@ -2332,14 +2361,15 @@ select {
 
 .auth-input {
   width: 100%;
-  padding: 13px 14px;
+  min-height: 50px;
+  padding: 13px 16px;
   border: 1px solid rgba(237, 232, 220, 0.14);
-  border-radius: 9px;
+  border-radius: 12px;
   outline: none;
-  background: rgba(8, 8, 7, 0.45);
+  background: rgba(8, 8, 7, 0.55);
   color: var(--foreground);
   font-family: var(--font-ui);
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   transition: border-color 160ms ease, box-shadow 160ms ease;
 }
 
@@ -2349,7 +2379,118 @@ select {
 }
 
 .auth-form .button {
-  margin-top: 4px;
+  width: 100%;
+  min-height: 48px;
+  margin-top: 2px;
+  border-radius: 12px;
+}
+
+.auth-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 10px 0 2px;
+  color: var(--subtle);
+  font-family: var(--font-ui);
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: rgba(237, 232, 220, 0.12);
+}
+
+.auth-provider-stack {
+  display: grid;
+  gap: 10px;
+}
+
+.vkid-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding-top: 2px;
+}
+
+.vkid-login__widget {
+  display: flex;
+  width: 100%;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto;
+}
+
+.vkid-login .auth-message {
+  margin: 4px 0 0;
+  text-align: center;
+}
+
+.yandex-login-button {
+  display: flex;
+  width: 100%;
+  height: 48px;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 16px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 12px;
+  background: #000;
+  color: #fff;
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    background 160ms ease,
+    border-color 160ms ease,
+    opacity 160ms ease;
+}
+
+.yandex-login-button:hover:not(:disabled) {
+  border-color: rgba(255, 255, 255, 0.3);
+  background: #151515;
+}
+
+.yandex-login-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.yandex-login-button__logo {
+  width: 24px;
+  height: 24px;
+  flex: 0 0 24px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+@media (max-width: 640px) {
+  .auth-container {
+    max-width: 100%;
+  }
+
+  .auth-card {
+    margin-top: 20px;
+    padding: 20px 18px;
+    border-radius: 18px;
+  }
+
+  .auth-form {
+    gap: 11px;
+  }
+
+  .vkid-login__widget {
+    justify-content: flex-start;
+  }
 }
 
 .auth-message {
@@ -3731,5 +3872,38 @@ select {
     flex-wrap: wrap;
     gap: 6px;
     font-size: 0.62rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .home-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .home-hero__content {
+    display: block;
+    position: relative;
+    z-index: 2;
+  }
+
+  .home-hero__eyebrow,
+  .home-hero__intro,
+  .home-hero__actions,
+  .home-hero__media {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .home-hero__media {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    margin-top: 28px;
+  }
+
+  .home-hero__intro .display-title {
+    font-size: clamp(2.5rem, 10vw, 3.6rem);
   }
 }

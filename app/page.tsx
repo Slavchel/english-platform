@@ -48,24 +48,26 @@ export default function Home() {
       <div className="container">
         <div className="home-hero">
           <div className="home-hero__content">
-            <p className="eyebrow">CEFR-диагностика</p>
+            <p className="eyebrow home-hero__eyebrow">CEFR-диагностика</p>
 
-            <h1 className="display-title">
-              Узнайте свой уровень английского за{" "}
-              <span className="display-number">10</span> минут!
-            </h1>
+            <div className="home-hero__intro">
+              <h1 className="display-title">
+                Узнайте свой уровень английского за{" "}
+                <span className="display-number">10</span> минут!
+              </h1>
 
-            <p className="lead">
-              Умная диагностика английского - получите ваш профиль знаний за
-              несколько минут.
-            </p>
-            <p className="lead">
-              Тест разработан с опорой на методические материалы и рекомендации
-              Кембриджа. Адаптивный алгоритм подстраивает сложность заданий под
-              ваши ответы в процессе прохождения.
-            </p>
+              <p className="lead">
+                Умная диагностика английского - получите ваш профиль знаний за
+                несколько минут.
+              </p>
+              <p className="lead">
+                Тест разработан с опорой на методические материалы и рекомендации
+                Кембриджа. Адаптивный алгоритм подстраивает сложность заданий под
+                ваши ответы в процессе прохождения.
+              </p>
+            </div>
 
-            <div className="actions">
+            <div className="actions home-hero__actions">
               <Link href="/test" className="button button--primary">
                 Пройти тест
               </Link>

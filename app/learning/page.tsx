@@ -30,6 +30,20 @@ const levelOrder: Record<string, number> = {
   C2: 6,
 };
 
+function pluralizeRu(
+  count: number,
+  one: string,
+  few: string,
+  many: string,
+): string {
+  const mod100 = count % 100;
+  const mod10 = count % 10;
+  if (mod100 >= 11 && mod100 <= 14) return many;
+  if (mod10 === 1) return one;
+  if (mod10 >= 2 && mod10 <= 4) return few;
+  return many;
+}
+
 interface CategoryConfig {
   id: string;
   title: string;
@@ -390,14 +404,26 @@ async function LearningContent({ searchParams }: LearningPageProps) {
                   <div className="program-card__top">
                     <span className="program-card__level">{course.level}</span>
                     <span className="program-card__count">
-                      {course._count.modules} модулей
+                      {course._count.modules}{" "}
+                      {pluralizeRu(
+                        course._count.modules,
+                        "модуль",
+                        "модуля",
+                        "модулей",
+                      )}
                     </span>
                   </div>
                   <h3>{course.title}</h3>
                   <p>{course.description}</p>
                   <div className="program-card__footer">
                     <span>
-                      {course._count.lessons} уроков
+                      {course._count.lessons}{" "}
+                      {pluralizeRu(
+                        course._count.lessons,
+                        "урок",
+                        "урока",
+                        "уроков",
+                      )}
                     </span>
                     <span className="program-card__cta">
                       Открыть программу <span aria-hidden="true">→</span>
@@ -460,7 +486,13 @@ async function LearningContent({ searchParams }: LearningPageProps) {
                       </p>
                     </div>
                     <span className="learning-section__count">
-                      {categoryLessons.length} тем
+                      {categoryLessons.length}{" "}
+                      {pluralizeRu(
+                        categoryLessons.length,
+                        "тема",
+                        "темы",
+                        "тем",
+                      )}
                     </span>
                   </div>
 

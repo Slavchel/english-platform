@@ -1,10 +1,12 @@
 "use client";
 
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { PENDING_RESULT_KEY } from "@/lib/cefr/pending-result";
+import VKIDLogin from "./VKIDLogin";
 
 const ADMIN_TEST_EMAIL = "test01@example.com";
 
@@ -14,6 +16,23 @@ export default function LoginForm() {
   const [sentEmail, setSentEmail] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [pending, setPending] = useState(false);
+  const [vkCallbackUrl, setVkCallbackUrl] = useState<string | null>(null);
+
+  useEffect(() => {
+    const requestedCallback = new URLSearchParams(
+      window.location.search,
+    ).get("callbackUrl");
+    const pendingResult = window.sessionStorage.getItem(PENDING_RESULT_KEY);
+
+    setVkCallbackUrl(
+      pendingResult
+        ? "/test?restore=1"
+        : requestedCallback?.startsWith("/") &&
+            !requestedCallback.startsWith("//")
+          ? requestedCallback
+          : "/account",
+    );
+  }, []);
 
   const getCallbackUrl = () => {
     const requestedCallback = new URLSearchParams(
@@ -144,14 +163,34 @@ export default function LoginForm() {
       >
         {pending ? "Отправляем ссылку…" : "Отправить ссылку для входа"}
       </button>
-      <button
-        type="button"
-        className="button button--ghost"
-        onClick={() => void handleYandexSignIn()}
-        disabled={pending}
-      >
-        Войти через Яндекс
-      </button>
+      <div className="auth-divider" aria-hidden="true">
+        или продолжите с
+      </div>
+      <div className="auth-provider-stack">
+        <button
+          type="button"
+          className="yandex-login-button"
+          onClick={() => void handleYandexSignIn()}
+          disabled={pending}
+          aria-label="Войти с Яндекс ID"
+        >
+          <Image
+            src="/yandex-id-logo.svg"
+            alt=""
+            width={24}
+            height={24}
+            className="yandex-login-button__logo"
+            aria-hidden="true"
+          />
+          <span>Войти с Яндекс ID</span>
+        </button>
+        {vkCallbackUrl ? (
+          <VKIDLogin
+            callbackUrl={vkCallbackUrl}
+            onError={setError}
+          />
+        ) : null}
+      </div>
     </form>
   );
 }

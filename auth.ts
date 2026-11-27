@@ -4,6 +4,7 @@ import Resend from "next-auth/providers/resend";
 import Yandex from "next-auth/providers/yandex";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 
+import { exchangeVkIdCode } from "@/lib/auth/vk-id";
 import { prisma } from "@/lib/prisma";
 
 const TEST_EMAILS = Array.from(
@@ -53,6 +54,49 @@ const credentialsProvider = Credentials({
   },
 });
 
+const vkIdProvider = Credentials({
+  id: "vk",
+  name: "VK ID",
+  credentials: {
+    code: { type: "text" },
+    deviceId: { type: "text" },
+    codeVerifier: { type: "text" },
+    state: { type: "text" },
+  },
+  async authorize(credentials) {
+    const code = String(credentials?.code ?? "");
+    const deviceId = String(credentials?.deviceId ?? "");
+    const codeVerifier = String(credentials?.codeVerifier ?? "");
+    const state = String(credentials?.state ?? "");
+
+    if (!code || !deviceId || !codeVerifier || !state) {
+      return null;
+    }
+
+    try {
+      const user = await exchangeVkIdCode({
+        code,
+        deviceId,
+        codeVerifier,
+        state,
+      });
+
+      return {
+        id: user.id,
+        email: user.email,
+        name: user.name,
+        image: user.image,
+      };
+    } catch (error) {
+      console.error(
+        "[auth] VK ID sign-in failed",
+        error instanceof Error ? error.message : "unknown error",
+      );
+      return null;
+    }
+  },
+});
+
 export const { handlers, auth, signIn, signOut } = NextAuth({
   trustHost: true,
   secret: process.env.AUTH_SECRET,
@@ -96,6 +140,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
           }),
         ]
       : []),
+    vkIdProvider,
     credentialsProvider,
   ],
 });
