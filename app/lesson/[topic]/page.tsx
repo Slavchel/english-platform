@@ -6,7 +6,7 @@ import { notFound, redirect } from "next/navigation";
 
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
-import { normalizeTier } from "@/lib/subscription/plans";
+import { canOpenLesson } from "@/lib/subscription/server";
 import { getLessonCourse } from "@/lib/lessons/course";
 import UpgradeLimitModal from "@/app/components/UpgradeLimitModal";
 import LessonExperience, {
@@ -85,38 +85,29 @@ async function LessonContent({ params, searchParams }: LessonPageProps) {
         where: { email: session.user.email },
         select: {
           id: true,
-          subscriptionTier: true,
-          freeLessonTopic: true,
         },
       })
     : null;
-  const subscriptionTier = normalizeTier(accessUser?.subscriptionTier);
 
-  if (
-    accessUser &&
-    !session.user.isAdmin &&
-    subscriptionTier === "FREE" &&
-    accessUser.freeLessonTopic !== lesson.topic
-  ) {
-    if (!accessUser.freeLessonTopic) {
-      await prisma.user.update({
-        where: { id: accessUser.id },
-        data: { freeLessonTopic: lesson.topic },
-      });
-    } else {
-      return (
-        <section className="page-shell lesson-page">
-          <div className="container lesson-container">
-            <p className="eyebrow">NeoLeng · урок</p>
-            <h1 className="page-title">{lesson.title}</h1>
-            <UpgradeLimitModal
-              title="Бесплатный доступ к уроку использован"
-              message="Вы уже использовали бесплатный доступ к уроку. Оформите Pro, чтобы получить доступ ко всем урокам из библиотеки и программам."
-            />
-          </div>
-        </section>
-      );
-    }
+  const lessonAccess = await canOpenLesson(
+    session.user.email ?? null,
+    lesson.topic,
+    Boolean(session.user.isAdmin),
+  );
+
+  if (!lessonAccess.allowed) {
+    return (
+      <section className="page-shell lesson-page">
+        <div className="container lesson-container">
+          <p className="eyebrow">NeoLeng · урок</p>
+          <h1 className="page-title">{lesson.title}</h1>
+          <UpgradeLimitModal
+            title="Доступ к уроку ограничен"
+            message="Этот урок пока недоступен. Попробуйте открыть его позже."
+          />
+        </div>
+      </section>
+    );
   }
 
   if (view === "guide") {

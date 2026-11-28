@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 
+import { isSmtpConfigured, sendSmtpMail } from "@/lib/email/smtp";
+
 const TOPICS = [
   "Проблема с оплатой",
   "Технический сбой",
@@ -90,9 +92,9 @@ export async function POST(request: Request) {
     );
   }
 
-  const apiKey = process.env.RESEND_API_KEY;
-  if (!apiKey) {
-    console.error("[support] RESEND_API_KEY is not configured");
+  const smtpConfigured = isSmtpConfigured();
+  if (!smtpConfigured) {
+    console.error("[support] SMTP is not configured");
     return NextResponse.json(
       { error: "Отправка временно недоступна." },
       { status: 503 },
@@ -123,36 +125,18 @@ export async function POST(request: Request) {
   `;
 
   try {
-    const response = await fetch("https://api.resend.com/emails", {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-        "Content-Type": "application/json",
-        "User-Agent": "NeoLeng/1.0",
-      },
-      body: JSON.stringify({
-        from,
-        to: [to],
-        reply_to: email,
-        subject: `[NeoLeng Support] ${topic}`,
-        text: safeText,
-        html: safeHtml,
-      }),
-      cache: "no-store",
+    await sendSmtpMail({
+      to,
+      from,
+      replyTo: email,
+      subject: `[NeoLeng Support] ${topic}`,
+      text: safeText,
+      html: safeHtml,
     });
-
-    if (!response.ok) {
-      console.error("[support] Resend rejected the message", response.status);
-      return NextResponse.json(
-        { error: "Не удалось отправить обращение. Попробуйте позже." },
-        { status: 502 },
-      );
-    }
-
     return NextResponse.json({ ok: true });
   } catch (error) {
     console.error(
-      "[support] Resend request failed",
+      "[support] Email delivery failed",
       error instanceof Error ? error.name : "unknown",
     );
     return NextResponse.json(

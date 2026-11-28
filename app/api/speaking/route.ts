@@ -797,8 +797,7 @@ async function evaluateSpeaking(
           feature: "speaking",
           tier: allowance.tier,
           retryAfter: allowance.retryAfter,
-          upgradeUrl: "/pricing",
-        },
+          },
         {
           status: 429,
           headers: { "Retry-After": String(allowance.retryAfter) },
@@ -991,7 +990,6 @@ async function analyzeTest(
         feature: "ai",
         tier: allowance.tier,
         retryAfter: allowance.retryAfter,
-        upgradeUrl: "/pricing",
       },
       {
         status: 429,

@@ -2,6 +2,56 @@ export type SubscriptionTier = "FREE" | "PRO" | "NEURO_TUTOR";
 
 export const PRO_PRICE_RUB = 199;
 
+/**
+ * Temporary launch mode: every authenticated user gets the Free tier and
+ * full access to educational content. Limits stay on the Free plan.
+ * Set to false when paid plans officially launch.
+ */
+export const TEMPORARY_FREE_ACCESS = true;
+
+/**
+ * Users created before this date keep full content access forever as
+ * legacy_access. Override with MONETIZATION_LAUNCH_AT when paid plans launch.
+ */
+const DEFAULT_MONETIZATION_LAUNCH_AT = "2027-01-01T00:00:00.000Z";
+const configuredLaunchAt = process.env.MONETIZATION_LAUNCH_AT;
+const parsedLaunchAt = Date.parse(
+  configuredLaunchAt || DEFAULT_MONETIZATION_LAUNCH_AT,
+);
+
+export const MONETIZATION_LAUNCH_AT = new Date(
+  Number.isNaN(parsedLaunchAt)
+    ? DEFAULT_MONETIZATION_LAUNCH_AT
+    : parsedLaunchAt,
+);
+
+export function isLegacyAccess(createdAt: Date | null | undefined): boolean {
+  return Boolean(createdAt && createdAt < MONETIZATION_LAUNCH_AT);
+}
+
+export function effectiveTierFor(
+  tier: SubscriptionTier,
+): SubscriptionTier {
+  return TEMPORARY_FREE_ACCESS ? "FREE" : tier;
+}
+
+export function hasFullContentAccess({
+  tier,
+  legacyAccess,
+  isAdmin,
+}: {
+  tier: SubscriptionTier;
+  legacyAccess: boolean;
+  isAdmin: boolean;
+}): boolean {
+  return (
+    isAdmin ||
+    TEMPORARY_FREE_ACCESS ||
+    legacyAccess ||
+    isPaidTier(tier)
+  );
+}
+
 export const PLAN_LIMITS: Record<
   SubscriptionTier,
   { aiAnalysesPerDay: number; speakingDialogsPerDay: number; lessons: number }

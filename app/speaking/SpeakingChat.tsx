@@ -22,6 +22,7 @@ import {
   isSpeakingAnswerValid,
 } from "@/lib/speaking/validation";
 import UpgradeLimitModal from "@/app/components/UpgradeLimitModal";
+import AIDataNotice from "@/app/components/AIDataNotice";
 import type { SubscriptionTier } from "@/lib/subscription/plans";
 
 interface Message {
@@ -310,21 +311,11 @@ export default function SpeakingChat({
   };
 
   if (limitReached) {
-    const isPro = tier === "PRO";
     return (
       <UpgradeLimitModal
-        title={
-          isPro
-            ? "Демо-режим Speaking исчерпан"
-            : "Бесплатный диалог на сегодня использован"
-        }
-        message={
-          isPro
-            ? "Демо-режим Speaking доступен до 3 диалогов в день. Полноценный Speaking Pro доступен только в тарифе Neuro-Tutor."
-            : "Лимит Free — один Speaking-диалог в день. Оформите Pro, чтобы продолжить практику без ограничений."
-        }
-        kicker={isPro ? "Лимит Pro" : "Лимит Free"}
-        upgradeLabel={isPro ? "Посмотреть Neuro-Tutor" : "Перейти на Pro"}
+        title="Лимит Speaking на сегодня исчерпан"
+        message="Доступен один Speaking-диалог в день. Следующий диалог будет доступен завтра."
+        kicker="Дневной лимит"
       />
     );
   }
@@ -380,6 +371,7 @@ export default function SpeakingChat({
 
   return (
     <section className="speaking-chat" aria-label="Разговор с преподавателем">
+      <AIDataNotice feature="speaking" />
       <header className="speaking-chat__header">
         <div className="speaking-teacher">
           <span className="speaking-teacher__mark" aria-hidden="true">

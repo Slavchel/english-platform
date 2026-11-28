@@ -12,6 +12,42 @@ export async function signOutAction(): Promise<void> {
   redirect("/");
 }
 
+export async function deleteAccount(): Promise<void> {
+  const session = await auth();
+  const email = session?.user?.email;
+
+  if (!email) {
+    redirect("/login");
+  }
+
+  const user = await prisma.user.findUnique({
+    where: { email },
+    select: { id: true },
+  });
+
+  if (!user) {
+    await signOut({ redirectTo: "/" });
+    redirect("/");
+  }
+
+  const hold = await prisma.retentionHold.findFirst({
+    where: {
+      userId: user.id,
+      releasedAt: null,
+      OR: [{ endsAt: null }, { endsAt: { gt: new Date() } }],
+    },
+    select: { id: true },
+  });
+
+  if (hold) {
+    redirect("/account?retentionHold=1");
+  }
+
+  await prisma.user.delete({ where: { id: user.id } });
+  await signOut({ redirectTo: "/" });
+  redirect("/");
+}
+
 export async function resetTestAccount(): Promise<void> {
   const session = await auth();
   const email = session?.user?.email;

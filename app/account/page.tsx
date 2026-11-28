@@ -5,7 +5,7 @@ import { redirect } from "next/navigation";
 
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
-import { normalizeTier } from "@/lib/subscription/plans";
+import { getAccessByEmail } from "@/lib/subscription/access";
 import { canResetTestAccount } from "@/lib/subscription/test-access";
 import AccountDashboard from "./AccountDashboard";
 
@@ -20,7 +20,11 @@ const dateFormatter = new Intl.DateTimeFormat("ru-RU", {
   year: "numeric",
 });
 
-export default function AccountPage() {
+export default function AccountPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ retentionHold?: string | string[] }>;
+}) {
   return (
     <Suspense
       fallback={
@@ -33,13 +37,19 @@ export default function AccountPage() {
         </section>
       }
     >
-      <AccountContent />
+      <AccountContent searchParams={searchParams} />
     </Suspense>
   );
 }
 
-async function AccountContent() {
+async function AccountContent({
+  searchParams,
+}: {
+  searchParams: Promise<{ retentionHold?: string | string[] }>;
+}) {
   await connection();
+  const params = await searchParams;
+  const retentionHold = params.retentionHold === "1";
   const session = await auth();
 
   if (!session?.user) {
@@ -128,12 +138,17 @@ async function AccountContent() {
     (result) => result.completed && result.level,
   );
   const latestResult = results[0];
+  const access = await getAccessByEmail(
+    email,
+    Boolean(session.user.isAdmin),
+  );
 
   return (
     <AccountDashboard
       email={email}
-      tier={normalizeTier(user?.subscriptionTier)}
+      tier={access.tier}
       canReset={canResetTestAccount(email)}
+      retentionHold={retentionHold}
       level={latestCompleted?.level ?? "—"}
       lastTestDate={
         latestResult ? dateFormatter.format(latestResult.createdAt) : ""

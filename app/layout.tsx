@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
+import "./analytics-consent.css";
 import "./home-refresh.css";
 import "./premium.css";
 import "./lesson-reentry.css";
@@ -16,10 +17,6 @@ import logo from "./neoleng-logo.png";
 import AuthLink from "./components/AuthLink";
 import AnalyticsConsent from "./components/AnalyticsConsent";
 import AnalyticsPrivacy from "./components/AnalyticsPrivacy";
-import GoogleAnalytics, {
-  GA_MEASUREMENT_ID,
-} from "./components/GoogleAnalytics";
-import GoogleAnalyticsPageView from "./components/GoogleAnalyticsPageView";
 import YandexMetrica from "./components/YandexMetrica";
 import Footer from "@/components/Footer";
 
@@ -53,10 +50,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       className={`${inter.variable} ${cormorant.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
-        <GoogleAnalytics />
-        <Suspense fallback={null}>
-          <GoogleAnalyticsPageView measurementId={GA_MEASUREMENT_ID} />
-        </Suspense>
         <Suspense fallback={null}>
           <YandexMetrica />
         </Suspense>

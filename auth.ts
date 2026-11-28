@@ -1,11 +1,25 @@
 import NextAuth from "next-auth";
 import Credentials from "next-auth/providers/credentials";
-import Resend from "next-auth/providers/resend";
+import Nodemailer from "next-auth/providers/nodemailer";
 import Yandex from "next-auth/providers/yandex";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 
 import { exchangeVkIdCode } from "@/lib/auth/vk-id";
+import { commitPendingConsents } from "@/lib/consent/commit";
+import { getEmailFrom, getSmtpConfig } from "@/lib/email/smtp";
 import { prisma } from "@/lib/prisma";
+
+const smtpConfig = getSmtpConfig();
+const smtpProvider = smtpConfig
+  ? {
+      ...Nodemailer({
+        server: smtpConfig,
+        from: getEmailFrom(),
+      }),
+      id: "email",
+      name: "Email",
+    }
+  : null;
 
 const TEST_EMAILS = Array.from(
   { length: 10 },
@@ -120,15 +134,22 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       return session;
     },
   },
+  events: {
+    async signIn({ user }) {
+      if (!user.id || !user.email) return;
+
+      try {
+        await commitPendingConsents(user.id, user.email);
+      } catch (error) {
+        console.error(
+          "[consent] Failed to commit pending consents",
+          error instanceof Error ? error.message : "unknown error",
+        );
+      }
+    },
+  },
   providers: [
-    ...(process.env.RESEND_API_KEY
-      ? [
-          Resend({
-            apiKey: process.env.RESEND_API_KEY,
-            from: process.env.EMAIL_FROM ?? "NeoLeng <no-reply@neoleng.ru>",
-          }),
-        ]
-      : []),
+    ...(smtpProvider ? [smtpProvider] : []),
     ...(process.env.AUTH_YANDEX_ID && process.env.AUTH_YANDEX_SECRET
       ? [
           Yandex({

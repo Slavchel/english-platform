@@ -32,9 +32,11 @@ function randomString(length: number) {
 export default function VKIDLogin({
   callbackUrl,
   onError,
+  disabled = false,
 }: {
   callbackUrl: string;
   onError: (message: string) => void;
+  disabled?: boolean;
 }) {
   const router = useRouter();
   const containerRef = useRef<HTMLDivElement>(null);
@@ -116,6 +118,11 @@ export default function VKIDLogin({
                 return;
               }
 
+              if (disabled) {
+                fail("Сначала отметьте оба согласия.");
+                return;
+              }
+
               setStatus("authorizing");
               const result = await signIn("vk", {
                 code: payload.code,
@@ -153,11 +160,19 @@ export default function VKIDLogin({
       cancelled = true;
       closeWidget?.();
     };
-  }, [callbackUrl, onError]);
+  }, [callbackUrl, disabled, onError]);
 
   return (
-    <div className="vkid-login">
+    <div className={`vkid-login ${disabled ? "vkid-login--disabled" : ""}`}>
       <div ref={containerRef} className="vkid-login__widget" />
+      {disabled ? (
+        <button
+          type="button"
+          className="vkid-login__blocker"
+          aria-label="Сначала отметьте оба согласия"
+          onClick={() => onError("Сначала отметьте оба согласия.")}
+        />
+      ) : null}
       {status === "loading" ? (
         <p className="auth-message">Загружаем VK ID…</p>
       ) : null}

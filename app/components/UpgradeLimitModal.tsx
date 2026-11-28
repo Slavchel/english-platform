@@ -1,13 +1,10 @@
 "use client";
 
-import Link from "next/link";
-
 export default function UpgradeLimitModal({
   title,
   message,
   onClose,
-  upgradeLabel = "Перейти на Pro",
-  kicker = "Лимит Free",
+  kicker = "Дневной лимит",
 }: {
   title: string;
   message: string;
@@ -27,18 +24,19 @@ export default function UpgradeLimitModal({
         <h2 id="upgrade-limit-title">{title}</h2>
         <p>{message}</p>
         <div className="upgrade-limit__actions">
-          <Link href="/pricing" className="button button--primary">
-            {upgradeLabel}
-          </Link>
           {onClose ? (
             <button
               type="button"
-              className="button button--ghost"
+              className="button button--primary"
               onClick={onClose}
             >
-              Позже
+              Понятно
             </button>
-          ) : null}
+          ) : (
+            <a href="/learning" className="button button--primary">
+              К обучению
+            </a>
+          )}
         </div>
       </div>
     </div>

@@ -19,6 +19,7 @@ import {
 } from "@/lib/cefr/test-analysis";
 import LessonRecommendations from "@/app/components/LessonRecommendations";
 import CefrAiAnalysisCard from "@/app/components/CefrAiAnalysisCard";
+import AIDataNotice from "@/app/components/AIDataNotice";
 import UpgradeLimitModal from "@/app/components/UpgradeLimitModal";
 import { saveTestResult } from "./actions";
 import {
@@ -1130,7 +1131,6 @@ function CefrAiAnalysis({
   const [error, setError] = useState<string | null>(null);
   const [blocked, setBlocked] = useState(false);
   const [showLimit, setShowLimit] = useState(false);
-  const [limitTier, setLimitTier] = useState<string | null>(null);
   const [retryRemaining, setRetryRemaining] = useState(0);
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
 
@@ -1192,7 +1192,6 @@ function CefrAiAnalysis({
 
       if (!response.ok) {
         if (response.status === 429 && payload?.code === "LIMIT_REACHED") {
-          setLimitTier(payload.tier ?? null);
           setShowLimit(true);
           setBlocked(true);
           return;
@@ -1273,29 +1272,22 @@ function CefrAiAnalysis({
       });
 
     return (
-      <CefrAiAnalysisCard analysis={analysis} mistakes={mistakes} />
+      <>
+        <AIDataNotice feature="test" />
+        <CefrAiAnalysisCard analysis={analysis} mistakes={mistakes} />
+      </>
     );
   }
 
   if (error) {
     return (
       <>
+        <AIDataNotice feature="test" />
         {showLimit ? (
           <UpgradeLimitModal
-            title={
-              limitTier === "PRO"
-                ? "Дневной лимит AI-анализов исчерпан"
-                : "Лимит AI-анализов на сегодня исчерпан"
-            }
-            message={
-              limitTier === "PRO"
-                ? "На тарифе Pro доступно до 5 AI-разборов в день. Попробуйте снова завтра."
-                : "На тарифе Free доступен один AI-разбор в день. Оформите Pro, чтобы получать больше разборов."
-            }
-            kicker={limitTier === "PRO" ? "Лимит Pro" : "Лимит Free"}
-            upgradeLabel={
-              limitTier === "PRO" ? "Посмотреть Neuro-Tutor" : "Перейти на Pro"
-            }
+            title="Лимит AI-разборов на сегодня исчерпан"
+            message="Доступен один AI-разбор в день. Следующий разбор будет доступен завтра."
+            kicker="Дневной лимит"
             onClose={() => setShowLimit(false)}
           />
         ) : null}
@@ -1335,22 +1327,12 @@ function CefrAiAnalysis({
 
   return (
     <>
+      <AIDataNotice feature="test" />
       {showLimit ? (
         <UpgradeLimitModal
-          title={
-            limitTier === "PRO"
-              ? "Дневной лимит AI-анализов исчерпан"
-              : "Лимит AI-анализов на сегодня исчерпан"
-          }
-          message={
-            limitTier === "PRO"
-              ? "На тарифе Pro доступно до 5 AI-разборов в день. Попробуйте снова завтра."
-              : "На тарифе Free доступен один AI-разбор в день. Оформите Pro, чтобы получать больше разборов."
-          }
-          kicker={limitTier === "PRO" ? "Лимит Pro" : "Лимит Free"}
-          upgradeLabel={
-            limitTier === "PRO" ? "Посмотреть Neuro-Tutor" : "Перейти на Pro"
-          }
+          title="Лимит AI-разборов на сегодня исчерпан"
+          message="Доступен один AI-разбор в день. Следующий разбор будет доступен завтра."
+          kicker="Дневной лимит"
           onClose={() => setShowLimit(false)}
         />
       ) : null}

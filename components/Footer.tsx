@@ -17,7 +17,7 @@ const HELP_LINKS = [
 const LEGAL_LINKS = [
   { href: "/privacy", label: "Политика конфиденциальности" },
   { href: "/terms", label: "Пользовательское соглашение" },
-  { href: "/refund", label: "Оплата и возврат" },
+  { href: "/personal-data", label: "Обработка персональных данных" },
 ];
 
 export default function Footer() {
@@ -74,6 +74,21 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
+          </nav>
+
+          <nav
+            className="site-footer__column site-footer__column--projects"
+            aria-label="Наши проекты"
+          >
+            <h2 className="site-footer__title">
+              <Link href="/projects">
+                Наши проекты <span aria-hidden="true">↗</span>
+              </Link>
+            </h2>
+            <Link className="site-footer__projects-teaser" href="/projects">
+              Работы и проекты наших друзей и партнёров.{" "}
+              <span aria-hidden="true">↗</span>
+            </Link>
           </nav>
         </div>
 

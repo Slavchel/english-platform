@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
 import { useEffect, useState } from "react";
@@ -9,6 +10,14 @@ import { PENDING_RESULT_KEY } from "@/lib/cefr/pending-result";
 import VKIDLogin from "./VKIDLogin";
 
 const ADMIN_TEST_EMAIL = "test01@example.com";
+const TEST_ACCOUNT_PATTERN = /^test\d{2}@example\.com$/;
+
+function isLocalHost(): boolean {
+  return (
+    typeof window !== "undefined" &&
+    ["localhost", "127.0.0.1"].includes(window.location.hostname)
+  );
+}
 
 export default function LoginForm() {
   const router = useRouter();
@@ -17,6 +26,28 @@ export default function LoginForm() {
   const [error, setError] = useState<string | null>(null);
   const [pending, setPending] = useState(false);
   const [vkCallbackUrl, setVkCallbackUrl] = useState<string | null>(null);
+  const [policyAccepted, setPolicyAccepted] = useState(false);
+  const [dataConsent, setDataConsent] = useState(false);
+  const canUseLogin = policyAccepted && dataConsent;
+
+  useEffect(() => {
+    const controller = new AbortController();
+
+    void fetch("/api/consent/intent", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        privacy: policyAccepted,
+        personalData: dataConsent,
+      }),
+      signal: controller.signal,
+    }).catch(() => {
+      // Sign-in remains available; the server commits consent only when
+      // a valid signed intent cookie is present.
+    });
+
+    return () => controller.abort();
+  }, [policyAccepted, dataConsent]);
 
   useEffect(() => {
     const requestedCallback = new URLSearchParams(
@@ -50,28 +81,51 @@ export default function LoginForm() {
 
   const submit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+
+    if (!canUseLogin) {
+      setError(
+        "Подтвердите ознакомление с Политикой и согласие на обработку персональных данных.",
+      );
+      return;
+    }
+
     const normalized = email.trim().toLowerCase();
 
     setPending(true);
     setError(null);
 
-    if (normalized === ADMIN_TEST_EMAIL) {
+    const useLocalTestCredentials =
+      normalized === ADMIN_TEST_EMAIL ||
+      (isLocalHost() && TEST_ACCOUNT_PATTERN.test(normalized));
+
+    if (useLocalTestCredentials) {
+      const callbackUrl =
+        normalized === ADMIN_TEST_EMAIL ? "/admin" : getCallbackUrl();
+
       try {
         const result = await signIn("credentials", {
           email: normalized,
           redirect: false,
-          callbackUrl: "/admin",
+          callbackUrl,
         });
 
         if (result?.error) {
-          setError("Не удалось войти в административный аккаунт.");
+          setError(
+            normalized === ADMIN_TEST_EMAIL
+              ? "Не удалось войти в административный аккаунт."
+              : "Не удалось войти в тестовый аккаунт.",
+          );
           return;
         }
 
-        router.push("/admin");
+        router.push(callbackUrl);
         router.refresh();
       } catch {
-        setError("Не удалось войти в административный аккаунт.");
+        setError(
+          normalized === ADMIN_TEST_EMAIL
+            ? "Не удалось войти в административный аккаунт."
+            : "Не удалось войти в тестовый аккаунт.",
+        );
       } finally {
         setPending(false);
       }
@@ -79,7 +133,7 @@ export default function LoginForm() {
     }
 
     try {
-      const result = await signIn("resend", {
+      const result = await signIn("email", {
         email: normalized,
         redirect: false,
         callbackUrl: getCallbackUrl(),
@@ -101,6 +155,13 @@ export default function LoginForm() {
   };
 
   const handleYandexSignIn = async () => {
+    if (!canUseLogin) {
+      setError(
+        "Подтвердите ознакомление с Политикой и согласие на обработку персональных данных.",
+      );
+      return;
+    }
+
     setPending(true);
     setError(null);
 
@@ -151,6 +212,34 @@ export default function LoginForm() {
         placeholder="name@example.com"
         className="auth-input ym-disable-keys"
       />
+      <div className="auth-consents">
+        <label className="auth-consent">
+          <input
+            type="checkbox"
+            checked={policyAccepted}
+            onChange={(event) => setPolicyAccepted(event.target.checked)}
+            disabled={pending}
+          />
+          <span className="auth-consent__check" aria-hidden="true" />
+          <span>
+            Я ознакомлен(а) с{" "}
+            <Link href="/privacy">Политикой конфиденциальности</Link>
+          </span>
+        </label>
+        <label className="auth-consent">
+          <input
+            type="checkbox"
+            checked={dataConsent}
+            onChange={(event) => setDataConsent(event.target.checked)}
+            disabled={pending}
+          />
+          <span className="auth-consent__check" aria-hidden="true" />
+          <span>
+            Я даю отдельное согласие на{" "}
+            <Link href="/personal-data">обработку персональных данных</Link>
+          </span>
+        </label>
+      </div>
       {error ? (
         <p className="auth-message auth-message--error" role="alert">
           {error}
@@ -158,8 +247,8 @@ export default function LoginForm() {
       ) : null}
       <button
         type="submit"
-        className="button button--primary"
-        disabled={pending}
+        className="button button--primary auth-email-submit"
+        disabled={pending || !canUseLogin}
       >
         {pending ? "Отправляем ссылку…" : "Отправить ссылку для входа"}
       </button>
@@ -171,7 +260,7 @@ export default function LoginForm() {
           type="button"
           className="yandex-login-button"
           onClick={() => void handleYandexSignIn()}
-          disabled={pending}
+          disabled={pending || !canUseLogin}
           aria-label="Войти с Яндекс ID"
         >
           <Image
@@ -188,6 +277,7 @@ export default function LoginForm() {
           <VKIDLogin
             callbackUrl={vkCallbackUrl}
             onError={setError}
+            disabled={!canUseLogin}
           />
         ) : null}
       </div>

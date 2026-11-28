@@ -60,7 +60,6 @@ export async function POST() {
         feature: "speaking",
         tier: allowance.tier,
         retryAfter: allowance.retryAfter,
-        upgradeUrl: "/pricing",
       },
       {
         status: 429,

@@ -29,6 +29,71 @@ model User {
   freeLessonTopic       String?
   aiAnalysisRetryAfter  DateTime?
   speakingDialogs       SpeakingDialog[]
+  consents              UserConsent[]
+  retentionHolds        RetentionHold[]
+}
+
+enum RetentionScope {
+  ACCOUNT
+  TEST_RESULTS
+  SPEAKING
+  AI_ANALYSES
+  SUPPORT
+  CONSENT
+  OTHER
+}
+
+model RetentionHold {
+  id          String          @id @default(cuid())
+  userId      String?
+  user        User?           @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  scope       RetentionScope
+  reason      String
+
+  startsAt    DateTime        @default(now())
+  endsAt      DateTime?
+  releasedAt  DateTime?
+  createdAt   DateTime        @default(now())
+
+  @@index([userId, scope, releasedAt])
+  @@index([endsAt])
+}
+
+enum ConsentType {
+  PRIVACY_POLICY
+  PERSONAL_DATA
+}
+
+enum ConsentAction {
+  GRANTED
+  REVOKED
+}
+
+model UserConsent {
+  id               String        @id @default(cuid())
+
+  userId           String?
+  user             User?         @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  type             ConsentType
+  documentVersion  String
+  action           ConsentAction @default(GRANTED)
+
+  occurredAt       DateTime      @default(now())
+  retainUntil      DateTime
+
+  ipAddress        String?
+  userAgent        String?       @db.VarChar(255)
+
+  subjectRef       String?
+  revokesConsentId String?
+  revocationReason String?
+
+  @@index([userId, type, occurredAt])
+  @@index([subjectRef, type])
+  @@index([type, documentVersion])
+  @@index([retainUntil])
 }
 
 model Account {

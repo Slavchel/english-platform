@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useState, type CSSProperties, type ReactNode } from "react";
 
 import { signOutAction, resetTestAccount } from "./actions";
+import DeleteAccountButton from "./DeleteAccountButton";
+import RevokeConsentButton from "./RevokeConsentButton";
 import type { SubscriptionTier } from "@/lib/subscription/plans";
 
 type AccountResult = {
@@ -40,6 +42,7 @@ interface AccountDashboardProps {
   email: string;
   tier: SubscriptionTier;
   canReset: boolean;
+  retentionHold?: boolean;
   level: string;
   lastTestDate: string;
   results: AccountResult[];
@@ -150,6 +153,7 @@ export default function AccountDashboard({
   email,
   tier,
   canReset,
+  retentionHold = false,
   level,
   lastTestDate,
   results,
@@ -172,6 +176,12 @@ export default function AccountDashboard({
             <p className="account-profile__hint">
               История, результаты и персональные разборы в одном месте.
             </p>
+            {retentionHold ? (
+              <p className="account-profile__hold" role="alert">
+                Удаление аккаунта временно приостановлено: действует
+                требование о сохранении данных. Обратитесь в поддержку.
+              </p>
+            ) : null}
             <form action={signOutAction}>
               <button type="submit" className="account-profile__logout">
                 Выйти
@@ -217,15 +227,11 @@ export default function AccountDashboard({
                   ? "Neuro-Tutor"
                   : "Free"}
             </strong>
-            .
+            . Все уроки и программы открыты.
           </p>
-          {tier === "PRO" ? (
-            <Link href="/pricing">Тарифы</Link>
-          ) : tier === "NEURO_TUTOR" ? (
-            <p>Персональный AI-репетитор уже в вашем распоряжении.</p>
-          ) : (
-            <Link href="/pricing">Улучшить до Pro за 199 руб/мес</Link>
-          )}
+          <p>
+            Speaking и AI-разборы доступны по одному разу в день.
+          </p>
         </div>
 
         <div
@@ -444,6 +450,12 @@ export default function AccountDashboard({
               )}
             </div>
           ) : null}
+        </div>
+
+        <div className="account-danger-zone">
+          <p className="account-danger-zone__label">Управление аккаунтом</p>
+          <RevokeConsentButton />
+          <DeleteAccountButton />
         </div>
       </div>
     </section>

@@ -1,7 +1,9 @@
 import { prisma } from "@/lib/prisma";
+import { getAccessByEmail } from "./access";
 import {
   PLAN_LIMITS,
-  isPaidTier,
+  effectiveTierFor,
+  isLegacyAccess,
   isSameUtcDay,
   normalizeTier,
   type SubscriptionTier,
@@ -16,6 +18,7 @@ export interface SubscriptionSnapshot {
   lastAiAnalysisDate: Date | null;
   freeLessonTopic: string | null;
   aiAnalysisRetryAfter: Date | null;
+  legacyAccess: boolean;
 }
 
 export interface DailyAllowance {
@@ -35,6 +38,7 @@ export async function getSubscriptionByEmail(
     where: { email },
     select: {
       id: true,
+      createdAt: true,
       subscriptionTier: true,
       speakingDialogsUsed: true,
       aiAnalysesUsed: true,
@@ -47,13 +51,14 @@ export async function getSubscriptionByEmail(
   if (!user) return null;
   return {
     id: user.id,
-    tier: normalizeTier(user.subscriptionTier),
+    tier: effectiveTierFor(normalizeTier(user.subscriptionTier)),
     speakingDialogsUsed: user.speakingDialogsUsed,
     aiAnalysesUsed: user.aiAnalysesUsed,
     lastSpeakingDate: user.lastSpeakingDate,
     lastAiAnalysisDate: user.lastAiAnalysisDate,
     freeLessonTopic: user.freeLessonTopic,
     aiAnalysisRetryAfter: user.aiAnalysisRetryAfter,
+    legacyAccess: isLegacyAccess(user.createdAt),
   };
 }
 
@@ -114,8 +119,8 @@ export async function checkAiAnalysisAllowance(
       retryAfter: 24 * 60 * 60,
       message:
         user.tier === "PRO"
-          ? "Дневной лимит AI-анализов исчерпан"
-          : "Лимит AI-анализов на сегодня исчерпан. Оформите Pro, чтобы получить больше разборов.",
+          ? "Дневной лимит AI-разборов исчерпан"
+          : "Лимит AI-анализов на сегодня исчерпан. Следующий разбор будет доступен завтра.",
     };
   }
 
@@ -242,8 +247,8 @@ export async function consumeSpeakingDialog(
       retryAfter: 24 * 60 * 60,
       message:
         user.tier === "PRO"
-          ? "Дневной лимит демо-режима Speaking исчерпан. Полноценный Speaking Pro доступен в тарифе Neuro-Tutor."
-          : "Лимит Speaking-диалогов на сегодня исчерпан. Оформите Pro, чтобы продолжить практику.",
+          ? "Дневной лимит Speaking исчерпан. Следующий диалог будет доступен завтра."
+          : "Лимит Speaking-диалогов на сегодня исчерпан. Следующий диалог будет доступен завтра.",
     };
   }
 
@@ -269,24 +274,41 @@ export async function canOpenLesson(
   email: string | null,
   topic: string,
   isAdmin: boolean,
-): Promise<{ allowed: boolean; freeLessonTopic: string | null; tier: SubscriptionTier }> {
+): Promise<{
+  allowed: boolean;
+  freeLessonTopic: string | null;
+  tier: SubscriptionTier;
+}> {
+  const access = await getAccessByEmail(email, isAdmin);
+  if (!access.authenticated) {
+    return { allowed: false, freeLessonTopic: null, tier: "FREE" };
+  }
+
   const user = await getSubscriptionByEmail(email);
   if (!user) {
     return { allowed: false, freeLessonTopic: null, tier: "FREE" };
   }
-  if (isAdmin || isPaidTier(user.tier)) {
-    return { allowed: true, freeLessonTopic: user.freeLessonTopic, tier: user.tier };
+
+  if (access.fullContentAccess) {
+    return {
+      allowed: true,
+      freeLessonTopic: user.freeLessonTopic,
+      tier: access.tier,
+    };
   }
+
+  // Future monetization fallback: Free users may open one library lesson.
   if (!user.freeLessonTopic) {
     await prisma.user.update({
       where: { id: user.id },
       data: { freeLessonTopic: topic },
     });
-    return { allowed: true, freeLessonTopic: topic, tier: user.tier };
+    return { allowed: true, freeLessonTopic: topic, tier: access.tier };
   }
+
   return {
     allowed: user.freeLessonTopic === topic,
     freeLessonTopic: user.freeLessonTopic,
-    tier: user.tier,
+    tier: access.tier,
   };
 }
